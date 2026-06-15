@@ -2,11 +2,11 @@
 const tabs = document.querySelectorAll(".tab");
 const panels = document.querySelectorAll(".panel");
 
-function activate(id) {
+function activate(id, keepHash) {
   tabs.forEach((t) => t.classList.toggle("is-active", t.dataset.tab === id));
   panels.forEach((p) => p.classList.toggle("is-active", p.id === id));
-  if (location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  if (!keepHash && location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
+  if (!keepHash) window.scrollTo({ top: 0, behavior: "smooth" });
   if (id === "announcements") loadAnnouncements();
   if (id === "updates") loadRoadmap();
   if (id === "blogs") loadBlogs();
@@ -51,14 +51,18 @@ function fmtDate(iso) {
     : d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
 }
 
-// ----- Announcements -----
+// ----- Announcements (date-indexed: card grid + per-date detail pages) -----
 let annData = null;
 let annCat = "all";
 
 // Stable color class per category, in declared order.
 function catClass(cat, cats) {
   const i = Math.max(0, (cats || []).indexOf(cat));
-  return "cc-" + ((i % 7) + 1);
+  return "cc-" + ((i % 9) + 1);
+}
+
+function annById(id) {
+  return (annData && annData.items || []).find((i) => i.id === id);
 }
 
 function renderAnnouncements() {
@@ -67,8 +71,11 @@ function renderAnnouncements() {
   const cats = annData.categories || [];
   const q = (document.getElementById("annSearch").value || "").toLowerCase().trim();
   const items = (annData.items || []).filter((i) => {
+    const hay = (i.title + " " + (i.summary || "") + " " + (i.category || "") + " " +
+      (i.tags || []).join(" ") + " " +
+      (i.details || []).map((d) => d.heading + " " + (d.points || []).join(" ")).join(" ")).toLowerCase();
     const okCat = annCat === "all" || i.category === annCat;
-    const okQ = !q || (i.title + " " + i.summary + " " + (i.category || "")).toLowerCase().includes(q);
+    const okQ = !q || hay.includes(q);
     return okCat && okQ;
   });
 
@@ -79,32 +86,73 @@ function renderAnnouncements() {
 
   list.innerHTML = items
     .map((i) => {
-      const meta = [];
-      if (i.date) meta.push(`<span class="m">${esc(fmtDate(i.date))}</span>`);
-      if (i.source) meta.push(`<span class="m">${esc(i.source)}</span>`);
-      const titleHtml = i.link
-        ? `<a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>`
-        : esc(i.title);
-      return `<article class="ann-card">
-        <div class="ann-date">${esc(fmtDate(i.date))}</div>
-        <div class="ann-body">
-          <div class="rm-head">
-            <h3 class="rm-title">${titleHtml}</h3>
-            <span class="ann-cat ${catClass(i.category, cats)}">${esc(i.category || "Update")}</span>
-          </div>
-          <p class="rm-desc">${esc(i.summary)}</p>
-          <div class="rm-meta">${meta.join("")}</div>
+      const n = (i.details || []).length;
+      const count = n ? `<span class="ann-count">${n} update${n === 1 ? "" : "s"}</span>` : "";
+      return `<a class="card ann-tile" href="#a/${esc(i.id)}">
+        <div class="ann-tile-top">
+          <span class="ann-cat ${catClass(i.category, cats)}">${esc(i.category || "Update")}</span>
+          <span class="ann-tile-date">${esc(i.dateLabel || fmtDate(i.date))}</span>
         </div>
-      </article>`;
+        <h3>${esc(i.title)}</h3>
+        <p>${esc(i.summary || "")}</p>
+        <div class="ann-tile-foot">${count}<span class="card-open">Open &rarr;</span></div>
+      </a>`;
     })
     .join("");
 }
 
+function renderAnnDetail(id) {
+  const wrap = document.getElementById("annDetail");
+  const i = annById(id);
+  if (!i) {
+    wrap.innerHTML = '<div class="rm-empty">Announcement not found. <a href="#announcements">Back to all announcements</a>.</div>';
+    return;
+  }
+  const cats = annData.categories || [];
+  const tags = (i.tags || []).map((t) => `<span class="tag-pill">${esc(t)}</span>`).join("");
+  const details = (i.details || [])
+    .map((d) => {
+      const pts = (d.points || []).map((p) => `<li>${esc(p)}</li>`).join("");
+      const status = d.status ? `<span class="det-status">${esc(d.status)}</span>` : "";
+      return `<article class="det-card">
+        <div class="det-head"><h3>${esc(d.heading)}</h3>${status}</div>
+        ${pts ? `<ul class="det-points">${pts}</ul>` : ""}
+      </article>`;
+    })
+    .join("");
+  const links = (i.links || [])
+    .map((l) => `<a class="link-card" href="${esc(l.url)}" target="_blank" rel="noopener"><strong>${esc(l.label)}</strong><span>${esc(l.sub || "Open")}</span></a>`)
+    .join("");
+
+  wrap.innerHTML = `
+    <header class="det-hero">
+      <span class="ann-cat ${catClass(i.category, cats)}">${esc(i.category || "Update")}</span>
+      <span class="det-date">${esc(i.dateLabel || fmtDate(i.date))}</span>
+      <h1>${esc(i.title)}</h1>
+      ${i.summary ? `<p class="lead">${esc(i.summary)}</p>` : ""}
+      ${tags ? `<div class="tag-row">${tags}</div>` : ""}
+    </header>
+    <div class="det-grid">${details || '<div class="rm-empty">No further detail captured for this date.</div>'}</div>
+    ${links ? `<h2 class="section-title">Related links</h2><div class="link-grid">${links}</div>` : ""}
+  `;
+}
+
+function showAnnList() {
+  document.getElementById("annDetailView").hidden = true;
+  document.getElementById("annListView").hidden = false;
+}
+function showAnnDetail(id) {
+  renderAnnDetail(id);
+  document.getElementById("annListView").hidden = true;
+  document.getElementById("annDetailView").hidden = false;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
 function buildAnnFilters() {
   const wrap = document.getElementById("annFilter");
-  const cats = annData.categories || [];
-  // Keep the "All" chip, append one per category.
-  cats.forEach((c) => {
+  // Only include categories that actually appear, in declared order.
+  const present = new Set((annData.items || []).map((i) => i.category));
+  (annData.categories || []).filter((c) => present.has(c)).forEach((c) => {
     const b = document.createElement("button");
     b.className = "chip";
     b.dataset.cat = c;
@@ -123,7 +171,7 @@ function buildAnnFilters() {
 
 let annLoading = null;
 async function loadAnnouncements() {
-  if (annData) { renderAnnouncements(); return; }
+  if (annData) { renderAnnouncements(); routeAnnouncements(); return; }
   if (annLoading) return annLoading;
   const list = document.getElementById("annList");
   list.innerHTML = '<div class="rm-empty">Loading announcements&hellip;</div>';
@@ -132,14 +180,18 @@ async function loadAnnouncements() {
       const data = await fetchJson("data/announcements.json");
       if (!data || !Array.isArray(data.items)) throw new Error("unexpected data shape");
       annData = data;
+      const n = annData.items.length;
+      const dets = annData.items.reduce((a, i) => a + (i.details || []).length, 0);
       document.getElementById("annMeta").innerHTML =
-        `<span class="count-badge"><i class="dot-launch"></i>${annData.items.length} announcements</span>`;
+        `<span class="count-badge"><i class="dot-launch"></i>${n} announcements</span>` +
+        `<span class="count-badge"><i class="dot-dev"></i>${dets} detailed updates</span>`;
       const d = annData.generatedAt ? new Date(annData.generatedAt) : null;
       document.getElementById("annUpdated").textContent = d
-        ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" })
+        ? "From the Copilot Announcements deck"
         : "";
       buildAnnFilters();
       renderAnnouncements();
+      routeAnnouncements();
     } catch (e) {
       list.innerHTML = "";
       list.appendChild(errorBox("Couldn't load announcements.", loadAnnouncements));
@@ -150,7 +202,27 @@ async function loadAnnouncements() {
   return annLoading;
 }
 
+// Hash routing for announcement detail pages: #a/<id>
+// Toggles the announcements tab inline (does NOT call activate/loadAnnouncements,
+// to avoid re-entrancy/recursion).
+function routeAnnouncements() {
+  if (!annData) return;
+  const m = (location.hash || "").match(/^#a\/(.+)$/);
+  if (m) {
+    tabs.forEach((t) => t.classList.toggle("is-active", t.dataset.tab === "announcements"));
+    panels.forEach((p) => p.classList.toggle("is-active", p.id === "announcements"));
+    showAnnDetail(decodeURIComponent(m[1]));
+  } else {
+    showAnnList();
+  }
+}
+
 document.getElementById("annSearch").addEventListener("input", renderAnnouncements);
+document.getElementById("annBack").addEventListener("click", () => {
+  history.pushState(null, "", "#announcements");
+  showAnnList();
+});
+window.addEventListener("hashchange", routeAnnouncements);
 
 // ----- Roadmap (Updates) -----
 let roadmapData = null;
@@ -296,8 +368,9 @@ async function loadBlogs() {
 document.getElementById("blogSearch").addEventListener("input", renderBlogs);
 
 // Open the tab from the URL hash on load (after all state + handlers are defined)
-const initial = (location.hash || "#announcements").slice(1);
-if (document.getElementById(initial)) activate(initial);
+const rawHash = location.hash || "#announcements";
+const initial = rawHash.startsWith("#a/") ? "announcements" : rawHash.slice(1);
+if (document.getElementById(initial)) activate(initial, rawHash.startsWith("#a/"));
 
 // Preload all data in the background so tab content is ready instantly.
 window.addEventListener("load", () => {

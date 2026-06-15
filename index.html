@@ -36,41 +36,52 @@
 
     <!-- ============ ANNOUNCEMENTS ============ -->
     <section class="panel is-active" id="announcements" role="tabpanel">
-      <div class="hero">
-        <div class="hero-copy">
-          <span class="kicker">What&rsquo;s new</span>
-          <h1>Microsoft 365 Copilot Announcements</h1>
-          <p class="lead">A running, easy-to-scan feed of the big Copilot announcements &mdash; agents, platform, finance, and Frontier. Search it, filter by area, and jump straight to the official source.</p>
-          <div class="hero-actions">
-            <button class="btn btn-primary" data-jump="updates">See the live roadmap</button>
-            <button class="btn btn-ghost" data-jump="blogs">Read the latest blogs</button>
+
+      <!-- LIST VIEW: hero + cards -->
+      <div id="annListView">
+        <div class="hero">
+          <div class="hero-copy">
+            <span class="kicker">What&rsquo;s new</span>
+            <h1>Microsoft 365 Copilot Announcements</h1>
+            <p class="lead">Every announcement, organized by date. Pick a date to open a full page with all the details &mdash; or search and filter the timeline below.</p>
+            <div class="hero-actions">
+              <button class="btn btn-primary" data-jump="updates">See the live roadmap</button>
+              <button class="btn btn-ghost" data-jump="blogs">Read the latest blogs</button>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="orb orb-a"></div>
+            <div class="orb orb-b"></div>
+            <div class="orb orb-c"></div>
+            <svg class="hero-glyph" viewBox="0 0 100 100"><defs><linearGradient id="hg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12B8A6"/><stop offset=".4" stop-color="#2F6BFF"/><stop offset=".7" stop-color="#7C5CFC"/><stop offset="1" stop-color="#E3458E"/></linearGradient></defs><path fill="url(#hg)" d="M50 8C28 8 12 24 12 46c0 8 2 13 5 18-3 5-4 9-4 14 0 0 9-3 14-6 6 4 14 6 23 6 22 0 38-16 38-38C88 24 72 8 50 8zm0 14a7 7 0 110 14 7 7 0 010-14zM34 50a5 5 0 015-5h22a5 5 0 015 5c0 8-7 15-16 15s-16-7-16-15z"/></svg>
           </div>
         </div>
-        <div class="hero-art" aria-hidden="true">
-          <div class="orb orb-a"></div>
-          <div class="orb orb-b"></div>
-          <div class="orb orb-c"></div>
-          <svg class="hero-glyph" viewBox="0 0 100 100"><defs><linearGradient id="hg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12B8A6"/><stop offset=".4" stop-color="#2F6BFF"/><stop offset=".7" stop-color="#7C5CFC"/><stop offset="1" stop-color="#E3458E"/></linearGradient></defs><path fill="url(#hg)" d="M50 8C28 8 12 24 12 46c0 8 2 13 5 18-3 5-4 9-4 14 0 0 9-3 14-6 6 4 14 6 23 6 22 0 38-16 38-38C88 24 72 8 50 8zm0 14a7 7 0 110 14 7 7 0 010-14zM34 50a5 5 0 015-5h22a5 5 0 015 5c0 8-7 15-16 15s-16-7-16-15z"/></svg>
+
+        <div class="updates-meta" style="margin-top:1.6rem">
+          <div class="meta-counts" id="annMeta"></div>
+          <div class="meta-updated" id="annUpdated"></div>
         </div>
-      </div>
 
-      <div class="updates-meta" style="margin-top:1.6rem">
-        <div class="meta-counts" id="annMeta"></div>
-        <div class="meta-updated" id="annUpdated"></div>
-      </div>
-
-      <div class="updates-controls">
-        <input type="search" id="annSearch" placeholder="Search announcements&hellip;" aria-label="Search announcements" />
-        <div class="filter-chips" id="annFilter">
-          <button class="chip is-active" data-cat="all">All</button>
+        <div class="updates-controls">
+          <input type="search" id="annSearch" placeholder="Search announcements&hellip;" aria-label="Search announcements" />
+          <div class="filter-chips" id="annFilter">
+            <button class="chip is-active" data-cat="all">All</button>
+          </div>
         </div>
+
+        <div class="card-grid ann-grid" id="annList">
+          <div class="rm-empty">Loading announcements&hellip;</div>
+        </div>
+
+        <p class="source-note">Each date opens a dedicated page with the full detail from the source deck. For more, see the Resources tab.</p>
       </div>
 
-      <div class="ann-list" id="annList">
-        <div class="rm-empty">Loading announcements&hellip;</div>
+      <!-- DETAIL VIEW: one date -->
+      <div id="annDetailView" hidden>
+        <button class="back-btn" id="annBack">&larr; All announcements</button>
+        <div id="annDetail"></div>
       </div>
 
-      <p class="source-note">Announcement summaries are curated for quick scanning. For full detail, follow the source link on each card or see the Resources tab.</p>
     </section>
 
     <!-- ============ ROADMAP (Updates) ============ -->

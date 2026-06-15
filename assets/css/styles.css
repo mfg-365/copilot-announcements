@@ -255,21 +255,57 @@ a.driver-card:hover{text-decoration:none}
   font-size:.82rem;font-weight:600;color:var(--purple);padding:.4rem .9rem;border-radius:8px;margin-left:.5rem}
 .retry-btn:hover{background:var(--light)}
 
-/* Announcements */
-.ann-list{display:grid;gap:.9rem}
-.ann-card{display:grid;grid-template-columns:120px 1fr;gap:1rem;background:#fff;border:1px solid var(--hair);
-  border-radius:12px;padding:1.1rem 1.2rem;box-shadow:var(--shadow);border-left:5px solid var(--purple)}
-.ann-date{font-size:.8rem;font-weight:700;color:var(--muted);padding-top:.15rem;white-space:nowrap}
-.ann-body{min-width:0}
-.ann-card .rm-head{margin-bottom:.35rem}
-.ann-card .rm-title{font-size:1.05rem}
-.ann-cat{flex:0 0 auto;font-size:.7rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
-  padding:.25rem .6rem;border-radius:20px;white-space:nowrap;color:#fff}
+/* Announcements — card grid + detail pages */
+.ann-grid{grid-template-columns:repeat(3,1fr)}
+.ann-tile{display:flex;flex-direction:column;gap:.5rem;text-decoration:none;color:inherit;border-left:5px solid var(--purple)}
+.ann-tile:hover{text-decoration:none}
+.ann-tile-top{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+.ann-tile-date{font-size:.78rem;font-weight:700;color:var(--muted);white-space:nowrap}
+.ann-tile h3{color:var(--ink);font-size:1.05rem;margin:0}
+.ann-tile p{font-size:.88rem;color:var(--body);flex:1}
+.ann-tile-foot{display:flex;align-items:center;justify-content:space-between;margin-top:.3rem}
+.ann-count{font-size:.74rem;font-weight:700;color:var(--muted);background:var(--light);border-radius:20px;padding:.2rem .6rem}
+.ann-tile .card-open{font-size:.82rem;font-weight:700;color:var(--purple)}
+.ann-tile:hover .card-open{text-decoration:underline}
+
+.ann-cat{flex:0 0 auto;font-size:.68rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+  padding:.22rem .55rem;border-radius:20px;white-space:nowrap;color:#fff}
 .cc-1{background:var(--teal)}.cc-2{background:var(--blue)}.cc-3{background:var(--purple)}
-.cc-4{background:var(--pink)}.cc-5{background:#F4B740}.cc-6{background:#0C7E72}.cc-7{background:#A9791A}
+.cc-4{background:var(--pink)}.cc-5{background:#F4B740}.cc-6{background:#0C7E72}
+.cc-7{background:#A9791A}.cc-8{background:#C2407A}.cc-9{background:#5A4BC4}
+
+/* Back button */
+.back-btn{appearance:none;border:1px solid var(--hair);background:#fff;cursor:pointer;font-family:inherit;
+  font-size:.85rem;font-weight:600;color:var(--purple);padding:.5rem 1rem;border-radius:9px;margin-bottom:1.2rem}
+.back-btn:hover{background:var(--light)}
+
+/* Detail hero */
+.det-hero{background:var(--navy);border-radius:var(--radius);padding:clamp(1.6rem,4vw,2.4rem);color:#fff;margin-bottom:1.4rem}
+.det-hero .ann-cat{margin-bottom:.7rem}
+.det-date{display:inline-block;margin-left:.5rem;font-size:.82rem;font-weight:700;color:var(--teal);vertical-align:middle}
+.det-hero h1{color:#fff;margin:.5rem 0 .4rem}
+.det-hero .lead{color:#C9D2F0;margin-bottom:.6rem}
+.tag-row{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.6rem}
+.tag-pill{font-size:.72rem;font-weight:700;letter-spacing:.04em;color:#CFE;border:1px solid rgba(255,255,255,.25);
+  border-radius:20px;padding:.2rem .6rem}
+
+/* Detail cards grid */
+.det-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
+.det-card{background:#fff;border:1px solid var(--hair);border-radius:12px;padding:1.2rem 1.3rem;
+  box-shadow:var(--shadow);border-top:4px solid transparent;border-image:var(--grad) 1}
+.det-head{display:flex;align-items:flex-start;justify-content:space-between;gap:.6rem;margin-bottom:.5rem}
+.det-head h3{color:var(--ink);font-size:1.05rem;line-height:1.3}
+.det-status{flex:0 0 auto;font-size:.68rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
+  padding:.2rem .55rem;border-radius:20px;background:rgba(124,92,252,.12);color:var(--purple);white-space:nowrap}
+.det-points{margin:0 0 0 1.1rem;color:var(--body);font-size:.9rem}
+.det-points li{margin-bottom:.35rem}
+
+@media(max-width:900px){
+  .ann-grid{grid-template-columns:repeat(2,1fr)}
+  .det-grid{grid-template-columns:1fr}
+}
 @media(max-width:640px){
-  .ann-card{grid-template-columns:1fr;gap:.4rem}
-  .ann-date{padding-top:0}
+  .ann-grid{grid-template-columns:1fr}
 }
 
 /* Footer */

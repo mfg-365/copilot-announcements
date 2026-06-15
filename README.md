@@ -12,27 +12,40 @@ static site for **GitHub Pages**.
 - **Resources** – official Microsoft links and a link to the source deck.
 
 ## Updating announcements (the part you maintain)
+Announcements are **organized by date**. The main page shows a card per date; clicking a
+card opens a dedicated detail page (URL `#a/<id>`) with all the details for that date.
+
 When there's a big announcement, add an entry to the top of the `items` array in
 [`data/announcements.json`](data/announcements.json) and commit. Each entry:
 
 ```json
 {
-  "id": "short-unique-slug",
-  "date": "2026-06-15",
-  "title": "Announcement title",
-  "category": "Agents",
-  "summary": "One or two sentences for quick scanning.",
-  "link": "https://aka.ms/official-source",
-  "source": "Build 2026"
+  "id": "2026-06-02-build-2026-announcements",
+  "date": "2026-06-02",
+  "dateLabel": "June 2, 2026",
+  "title": "Build 2026 Announcements",
+  "category": "Platform & SDK",
+  "summary": "One or two sentences for the card.",
+  "tags": ["Build", "Agents"],
+  "details": [
+    {
+      "heading": "Feature or sub-topic name",
+      "status": "Generally available",
+      "points": ["Concise bullet.", "Another bullet."]
+    }
+  ]
 }
 ```
 
-- **category** must be one of the values in the `categories` array (used for the
+- **id** must be unique and URL-safe (used as the page address `#a/<id>`). Convention: `YYYY-MM-DD-slug`.
+- **category** must be one of the values in the top-level `categories` array (drives the
   filter chips and the colored badge). Add a new category there if you need one.
-- Newest items first. The site shows items in file order.
+- **details[]** is the body of the date's page — one block per feature/sub-topic, each with a
+  `heading`, optional `status` pill, and a `points` array. Add as many blocks as the date needs.
+- **tags** and **status** are optional. Newest items first.
 
-> The summaries and dates in this initial set were drafted from the deck's slide
-> titles for quick migration — review and refine them to match your source deck.
+> This initial set was generated from the source PowerPoint deck (24 dated announcements,
+> 116 detailed updates). Review and refine wording as needed.
 
 ## Automated daily refresh
 A GitHub Action keeps the live feeds current with **zero effort**:
