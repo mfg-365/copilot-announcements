@@ -1,0 +1,305 @@
+// ----- Tab switching -----
+const tabs = document.querySelectorAll(".tab");
+const panels = document.querySelectorAll(".panel");
+
+function activate(id) {
+  tabs.forEach((t) => t.classList.toggle("is-active", t.dataset.tab === id));
+  panels.forEach((p) => p.classList.toggle("is-active", p.id === id));
+  if (location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+  if (id === "announcements") loadAnnouncements();
+  if (id === "updates") loadRoadmap();
+  if (id === "blogs") loadBlogs();
+}
+
+tabs.forEach((t) => t.addEventListener("click", () => activate(t.dataset.tab)));
+document.querySelectorAll("[data-jump]").forEach((b) =>
+  b.addEventListener("click", () => activate(b.dataset.jump))
+);
+
+// ----- Robust JSON fetch: cache-busting + timeout -----
+async function fetchJson(path) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 12000);
+  try {
+    const url = path + (path.includes("?") ? "&" : "?") + "t=" + Date.now();
+    const res = await fetch(url, { cache: "no-store", signal: ctrl.signal });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return await res.json();
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function esc(s) {
+  return (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+}
+
+function errorBox(msg, retryFn) {
+  const span = document.createElement("div");
+  span.className = "rm-empty";
+  span.innerHTML = esc(msg) + ' <button class="retry-btn">Retry</button>';
+  span.querySelector(".retry-btn").addEventListener("click", retryFn);
+  return span;
+}
+
+function fmtDate(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  return isNaN(d)
+    ? ""
+    : d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" });
+}
+
+// ----- Announcements -----
+let annData = null;
+let annCat = "all";
+
+// Stable color class per category, in declared order.
+function catClass(cat, cats) {
+  const i = Math.max(0, (cats || []).indexOf(cat));
+  return "cc-" + ((i % 7) + 1);
+}
+
+function renderAnnouncements() {
+  const list = document.getElementById("annList");
+  if (!annData) return;
+  const cats = annData.categories || [];
+  const q = (document.getElementById("annSearch").value || "").toLowerCase().trim();
+  const items = (annData.items || []).filter((i) => {
+    const okCat = annCat === "all" || i.category === annCat;
+    const okQ = !q || (i.title + " " + i.summary + " " + (i.category || "")).toLowerCase().includes(q);
+    return okCat && okQ;
+  });
+
+  if (!items.length) {
+    list.innerHTML = '<div class="rm-empty">No matching announcements. Try a different search or filter.</div>';
+    return;
+  }
+
+  list.innerHTML = items
+    .map((i) => {
+      const meta = [];
+      if (i.date) meta.push(`<span class="m">${esc(fmtDate(i.date))}</span>`);
+      if (i.source) meta.push(`<span class="m">${esc(i.source)}</span>`);
+      const titleHtml = i.link
+        ? `<a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a>`
+        : esc(i.title);
+      return `<article class="ann-card">
+        <div class="ann-date">${esc(fmtDate(i.date))}</div>
+        <div class="ann-body">
+          <div class="rm-head">
+            <h3 class="rm-title">${titleHtml}</h3>
+            <span class="ann-cat ${catClass(i.category, cats)}">${esc(i.category || "Update")}</span>
+          </div>
+          <p class="rm-desc">${esc(i.summary)}</p>
+          <div class="rm-meta">${meta.join("")}</div>
+        </div>
+      </article>`;
+    })
+    .join("");
+}
+
+function buildAnnFilters() {
+  const wrap = document.getElementById("annFilter");
+  const cats = annData.categories || [];
+  // Keep the "All" chip, append one per category.
+  cats.forEach((c) => {
+    const b = document.createElement("button");
+    b.className = "chip";
+    b.dataset.cat = c;
+    b.textContent = c;
+    wrap.appendChild(b);
+  });
+  wrap.querySelectorAll(".chip").forEach((chip) =>
+    chip.addEventListener("click", () => {
+      wrap.querySelectorAll(".chip").forEach((c) => c.classList.remove("is-active"));
+      chip.classList.add("is-active");
+      annCat = chip.dataset.cat;
+      renderAnnouncements();
+    })
+  );
+}
+
+let annLoading = null;
+async function loadAnnouncements() {
+  if (annData) { renderAnnouncements(); return; }
+  if (annLoading) return annLoading;
+  const list = document.getElementById("annList");
+  list.innerHTML = '<div class="rm-empty">Loading announcements&hellip;</div>';
+  annLoading = (async () => {
+    try {
+      const data = await fetchJson("data/announcements.json");
+      if (!data || !Array.isArray(data.items)) throw new Error("unexpected data shape");
+      annData = data;
+      document.getElementById("annMeta").innerHTML =
+        `<span class="count-badge"><i class="dot-launch"></i>${annData.items.length} announcements</span>`;
+      const d = annData.generatedAt ? new Date(annData.generatedAt) : null;
+      document.getElementById("annUpdated").textContent = d
+        ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" })
+        : "";
+      buildAnnFilters();
+      renderAnnouncements();
+    } catch (e) {
+      list.innerHTML = "";
+      list.appendChild(errorBox("Couldn't load announcements.", loadAnnouncements));
+    } finally {
+      annLoading = null;
+    }
+  })();
+  return annLoading;
+}
+
+document.getElementById("annSearch").addEventListener("input", renderAnnouncements);
+
+// ----- Roadmap (Updates) -----
+let roadmapData = null;
+let activeStatus = "all";
+
+function statusClass(s) {
+  return s === "In development" ? "s-dev" : s === "Rolling out" ? "s-roll" : "s-launch";
+}
+
+function renderRoadmap() {
+  const list = document.getElementById("roadmapList");
+  if (!roadmapData) return;
+  const q = (document.getElementById("roadmapSearch").value || "").toLowerCase().trim();
+  const items = (roadmapData.items || []).filter((i) => {
+    const okStatus = activeStatus === "all" || i.status === activeStatus;
+    const okQ = !q || (i.title + " " + i.description).toLowerCase().includes(q);
+    return okStatus && okQ;
+  });
+
+  if (!items.length) {
+    list.innerHTML = '<div class="rm-empty">No matching features. Try a different search or filter.</div>';
+    return;
+  }
+
+  list.innerHTML = items
+    .map((i) => {
+      const title = i.title.replace(/^Microsoft Copilot \(Microsoft 365\):\s*/i, "");
+      const meta = [];
+      if (i.availability) meta.push(`<span class="m">GA: ${esc(i.availability)}</span>`);
+      if (i.preview) meta.push(`<span class="m">Preview: ${esc(i.preview)}</span>`);
+      (i.platforms || []).slice(0, 4).forEach((p) => meta.push(`<span class="m">${esc(p)}</span>`));
+      return `<article class="rm-card" data-s="${esc(i.status)}">
+        <div class="rm-head">
+          <h3 class="rm-title"><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(title)}</a></h3>
+          <span class="rm-status ${statusClass(i.status)}">${esc(i.status)}</span>
+        </div>
+        <p class="rm-desc">${esc(i.description)}</p>
+        <div class="rm-meta">${meta.join("")}</div>
+      </article>`;
+    })
+    .join("");
+}
+
+let roadmapLoading = null;
+async function loadRoadmap() {
+  if (roadmapData) { renderRoadmap(); return; }
+  if (roadmapLoading) return roadmapLoading;
+  const list = document.getElementById("roadmapList");
+  list.innerHTML = '<div class="rm-empty">Loading the latest Copilot roadmap&hellip;</div>';
+  roadmapLoading = (async () => {
+    try {
+      const data = await fetchJson("data/roadmap.json");
+      if (!data || !Array.isArray(data.items)) throw new Error("unexpected data shape");
+      roadmapData = data;
+      const c = roadmapData.counts || {};
+      document.getElementById("metaCounts").innerHTML =
+        `<span class="count-badge"><i class="dot-dev"></i>${c.inDevelopment || 0} in development</span>` +
+        `<span class="count-badge"><i class="dot-roll"></i>${c.rollingOut || 0} rolling out</span>` +
+        `<span class="count-badge"><i class="dot-launch"></i>${c.launched || 0} launched</span>`;
+      const d = roadmapData.generatedAt ? new Date(roadmapData.generatedAt) : null;
+      document.getElementById("metaUpdated").textContent = d
+        ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
+        : "";
+      renderRoadmap();
+    } catch (e) {
+      list.innerHTML = "";
+      list.appendChild(errorBox("Couldn't load roadmap data.", loadRoadmap));
+    } finally {
+      roadmapLoading = null;
+    }
+  })();
+  return roadmapLoading;
+}
+
+document.getElementById("roadmapSearch").addEventListener("input", renderRoadmap);
+document.querySelectorAll("#statusFilter .chip").forEach((chip) =>
+  chip.addEventListener("click", () => {
+    document.querySelectorAll("#statusFilter .chip").forEach((c) => c.classList.remove("is-active"));
+    chip.classList.add("is-active");
+    activeStatus = chip.dataset.status;
+    renderRoadmap();
+  })
+);
+
+// ----- Blogs -----
+let blogData = null;
+
+function renderBlogs() {
+  const list = document.getElementById("blogList");
+  if (!blogData) return;
+  const q = (document.getElementById("blogSearch").value || "").toLowerCase().trim();
+  const items = (blogData.items || []).filter(
+    (i) => !q || (i.title + " " + i.description).toLowerCase().includes(q)
+  );
+  if (!items.length) {
+    list.innerHTML = '<div class="rm-empty">No matching posts. Try a different search.</div>';
+    return;
+  }
+  list.innerHTML = items
+    .map((i) => {
+      const meta = [];
+      if (i.date) meta.push(`<span class="m">${esc(fmtDate(i.date))}</span>`);
+      if (i.source) meta.push(`<span class="m">${esc(i.source)}</span>`);
+      return `<article class="rm-card blog-card">
+        <div class="rm-head">
+          <h3 class="rm-title"><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
+        </div>
+        ${i.description ? `<p class="rm-desc">${esc(i.description)}&hellip;</p>` : ""}
+        <div class="rm-meta">${meta.join("")}</div>
+      </article>`;
+    })
+    .join("");
+}
+
+let blogLoading = null;
+async function loadBlogs() {
+  if (blogData) { renderBlogs(); return; }
+  if (blogLoading) return blogLoading;
+  const list = document.getElementById("blogList");
+  list.innerHTML = '<div class="rm-empty">Loading the latest Copilot blog posts&hellip;</div>';
+  blogLoading = (async () => {
+    try {
+      const data = await fetchJson("data/blogs.json");
+      if (!data || !Array.isArray(data.items)) throw new Error("unexpected data shape");
+      blogData = data;
+      document.getElementById("blogMeta").innerHTML =
+        `<span class="count-badge"><i class="dot-launch"></i>${blogData.count || 0} recent posts</span>`;
+      const d = blogData.generatedAt ? new Date(blogData.generatedAt) : null;
+      document.getElementById("blogUpdated").textContent = d
+        ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
+        : "";
+      renderBlogs();
+    } catch (e) {
+      list.innerHTML = "";
+      list.appendChild(errorBox("Couldn't load blog data.", loadBlogs));
+    } finally {
+      blogLoading = null;
+    }
+  })();
+  return blogLoading;
+}
+
+document.getElementById("blogSearch").addEventListener("input", renderBlogs);
+
+// Open the tab from the URL hash on load (after all state + handlers are defined)
+const initial = (location.hash || "#announcements").slice(1);
+if (document.getElementById(initial)) activate(initial);
+
+// Preload all data in the background so tab content is ready instantly.
+window.addEventListener("load", () => {
+  setTimeout(() => { loadAnnouncements(); loadRoadmap(); loadBlogs(); }, 150);
+});

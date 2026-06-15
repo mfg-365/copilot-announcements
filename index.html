@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Microsoft 365 Copilot Announcements</title>
+  <meta name="description" content="A running feed of Microsoft 365 Copilot announcements, plus the live Copilot roadmap and the latest official Copilot blog posts — refreshed daily." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=1" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2312B8A6'/%3E%3Cstop offset='.4' stop-color='%232F6BFF'/%3E%3Cstop offset='.7' stop-color='%237C5CFC'/%3E%3Cstop offset='1' stop-color='%23E3458E'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath fill='url(%23g)' d='M50 8C28 8 12 24 12 46c0 8 2 13 5 18-3 5-4 9-4 14 0 0 9-3 14-6 6 4 14 6 23 6 22 0 38-16 38-38C88 24 72 8 50 8zm0 14a7 7 0 110 14 7 7 0 010-14zM34 50a5 5 0 015-5h22a5 5 0 015 5c0 8-7 15-16 15s-16-7-16-15z'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="ribbon"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-glyph" aria-hidden="true">
+        <svg viewBox="0 0 100 100" width="34" height="34"><defs><linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12B8A6"/><stop offset=".4" stop-color="#2F6BFF"/><stop offset=".7" stop-color="#7C5CFC"/><stop offset="1" stop-color="#E3458E"/></linearGradient></defs><path fill="url(#bg1)" d="M50 8C28 8 12 24 12 46c0 8 2 13 5 18-3 5-4 9-4 14 0 0 9-3 14-6 6 4 14 6 23 6 22 0 38-16 38-38C88 24 72 8 50 8zm0 14a7 7 0 110 14 7 7 0 010-14zM34 50a5 5 0 015-5h22a5 5 0 015 5c0 8-7 15-16 15s-16-7-16-15z"/></svg>
+      </span>
+      <div class="brand-text">
+        <strong>Microsoft 365 Copilot</strong>
+        <span>Announcements, Roadmap &amp; Blogs</span>
+      </div>
+    </div>
+    <a class="header-cta" href="https://www.microsoft.com/en-us/microsoft-365-copilot/" target="_blank" rel="noopener">Explore Microsoft 365 Copilot &rarr;</a>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button class="tab is-active" role="tab" data-tab="announcements">Announcements</button>
+    <button class="tab" role="tab" data-tab="updates">Roadmap</button>
+    <button class="tab" role="tab" data-tab="blogs">Copilot Blogs</button>
+    <button class="tab" role="tab" data-tab="resources">Resources</button>
+  </nav>
+
+  <main class="container">
+
+    <!-- ============ ANNOUNCEMENTS ============ -->
+    <section class="panel is-active" id="announcements" role="tabpanel">
+      <div class="hero">
+        <div class="hero-copy">
+          <span class="kicker">What&rsquo;s new</span>
+          <h1>Microsoft 365 Copilot Announcements</h1>
+          <p class="lead">A running, easy-to-scan feed of the big Copilot announcements &mdash; agents, platform, finance, and Frontier. Search it, filter by area, and jump straight to the official source.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" data-jump="updates">See the live roadmap</button>
+            <button class="btn btn-ghost" data-jump="blogs">Read the latest blogs</button>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+          <div class="orb orb-c"></div>
+          <svg class="hero-glyph" viewBox="0 0 100 100"><defs><linearGradient id="hg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12B8A6"/><stop offset=".4" stop-color="#2F6BFF"/><stop offset=".7" stop-color="#7C5CFC"/><stop offset="1" stop-color="#E3458E"/></linearGradient></defs><path fill="url(#hg)" d="M50 8C28 8 12 24 12 46c0 8 2 13 5 18-3 5-4 9-4 14 0 0 9-3 14-6 6 4 14 6 23 6 22 0 38-16 38-38C88 24 72 8 50 8zm0 14a7 7 0 110 14 7 7 0 010-14zM34 50a5 5 0 015-5h22a5 5 0 015 5c0 8-7 15-16 15s-16-7-16-15z"/></svg>
+        </div>
+      </div>
+
+      <div class="updates-meta" style="margin-top:1.6rem">
+        <div class="meta-counts" id="annMeta"></div>
+        <div class="meta-updated" id="annUpdated"></div>
+      </div>
+
+      <div class="updates-controls">
+        <input type="search" id="annSearch" placeholder="Search announcements&hellip;" aria-label="Search announcements" />
+        <div class="filter-chips" id="annFilter">
+          <button class="chip is-active" data-cat="all">All</button>
+        </div>
+      </div>
+
+      <div class="ann-list" id="annList">
+        <div class="rm-empty">Loading announcements&hellip;</div>
+      </div>
+
+      <p class="source-note">Announcement summaries are curated for quick scanning. For full detail, follow the source link on each card or see the Resources tab.</p>
+    </section>
+
+    <!-- ============ ROADMAP (Updates) ============ -->
+    <section class="panel" id="updates" role="tabpanel">
+      <span class="kicker">Live feed</span>
+      <h1 class="compact">Microsoft 365 Copilot Roadmap</h1>
+      <p class="lead">Copilot features from the public Microsoft 365 Roadmap &mdash; in development, rolling out, and recently launched. Refreshed automatically every day.</p>
+
+      <div class="updates-meta">
+        <div class="meta-counts" id="metaCounts"></div>
+        <div class="meta-updated" id="metaUpdated"></div>
+      </div>
+
+      <div class="updates-controls">
+        <input type="search" id="roadmapSearch" placeholder="Search roadmap features&hellip;" aria-label="Search roadmap" />
+        <div class="filter-chips" id="statusFilter">
+          <button class="chip is-active" data-status="all">All</button>
+          <button class="chip" data-status="In development">In development</button>
+          <button class="chip" data-status="Rolling out">Rolling out</button>
+          <button class="chip" data-status="Launched">Launched</button>
+        </div>
+      </div>
+
+      <div class="roadmap-list" id="roadmapList"><div class="rm-empty">Loading&hellip;</div></div>
+      <p class="source-note">Source: public <a href="https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot" target="_blank" rel="noopener">Microsoft 365 Roadmap</a>. Auto-updated daily.</p>
+    </section>
+
+    <!-- ============ BLOGS ============ -->
+    <section class="panel" id="blogs" role="tabpanel">
+      <span class="kicker">Latest reading</span>
+      <h1 class="compact">Copilot Blogs</h1>
+      <p class="lead">Recent posts about Microsoft 365 Copilot and agents from official Microsoft blogs. Refreshed automatically every day.</p>
+
+      <div class="updates-meta">
+        <div class="meta-counts" id="blogMeta"></div>
+        <div class="meta-updated" id="blogUpdated"></div>
+      </div>
+
+      <div class="updates-controls">
+        <input type="search" id="blogSearch" placeholder="Search blog posts&hellip;" aria-label="Search blogs" />
+      </div>
+
+      <div class="roadmap-list" id="blogList"><div class="rm-empty">Loading&hellip;</div></div>
+      <p class="source-note">Sources: Microsoft 365 Blog and the Microsoft 365 Copilot Blog (Tech Community). Auto-updated daily.</p>
+    </section>
+
+    <!-- ============ RESOURCES ============ -->
+    <section class="panel" id="resources" role="tabpanel">
+      <span class="kicker">Go deeper</span>
+      <h1 class="compact">Resources</h1>
+      <p class="lead">Official Microsoft 365 Copilot links and the source announcements deck.</p>
+
+      <h2 class="section-title">Official links</h2>
+      <div class="link-grid">
+        <a class="link-card" href="https://www.microsoft.com/en-us/microsoft-365-copilot/" target="_blank" rel="noopener"><strong>Microsoft 365 Copilot</strong><span>Product home</span></a>
+        <a class="link-card" href="https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program" target="_blank" rel="noopener"><strong>Frontier Program</strong><span>Early access to new Copilot capabilities</span></a>
+        <a class="link-card" href="https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot" target="_blank" rel="noopener"><strong>Microsoft 365 Roadmap</strong><span>Public Copilot roadmap</span></a>
+        <a class="link-card" href="https://www.microsoft.com/en-us/microsoft-365/blog/" target="_blank" rel="noopener"><strong>Microsoft 365 Blog</strong><span>Official announcements</span></a>
+        <a class="link-card" href="https://techcommunity.microsoft.com/category/microsoft365copilot/blog/microsoft365copilotblog" target="_blank" rel="noopener"><strong>Copilot Blog (Tech Community)</strong><span>Deep dives from the product team</span></a>
+        <a class="link-card" href="https://adoption.microsoft.com/en-us/copilot/" target="_blank" rel="noopener"><strong>Copilot Adoption Hub</strong><span>Enablement &amp; rollout resources</span></a>
+      </div>
+
+      <h2 class="section-title">Source deck</h2>
+      <div class="link-grid">
+        <div class="deck-card" data-deck="announcements">
+          <strong>Copilot Announcements (PowerPoint)</strong>
+          <span>The internal source deck this site is built from.</span>
+        </div>
+      </div>
+      <p class="source-note" id="decksNote">The announcements deck is an internal asset. Add its SharePoint URL in <code>assets/js/decks.config.js</code> to make this card clickable.</p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Microsoft, Microsoft 365, and Copilot are trademarks of the Microsoft group of companies. Announcement summaries reference public Microsoft sources and are provided for informational purposes only. Roadmap and blog feeds are sourced from public Microsoft endpoints and refreshed daily.</p>
+  </footer>
+
+  <script src="assets/js/decks.config.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

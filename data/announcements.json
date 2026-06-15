@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-06-15T00:00:00.000Z",
+  "note": "Curated Microsoft 365 Copilot announcements. Edit this file to add or refine entries. Newest first. Fields: id, date (ISO yyyy-mm-dd), title, category, summary, link, source.",
+  "categories": ["Agents", "Platform & SDK", "Admin & Cost", "Finance", "Cowork", "Frontier", "Industry"],
+  "items": [
+    {
+      "id": "legal-agent-word",
+      "date": "2026-06-03",
+      "title": "Legal Agent for Word",
+      "category": "Industry",
+      "summary": "A specialized agent in Microsoft Word that helps legal teams draft, review, and red-line contracts \u2014 surfacing risky clauses, suggesting standard language, and comparing against playbooks, all grounded in your organization's documents.",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/",
+      "source": "Build 2026"
+    },
+    {
+      "id": "copilot-cowork-innovations",
+      "date": "2026-06-03",
+      "title": "Copilot Cowork innovations",
+      "category": "Cowork",
+      "summary": "New Cowork capabilities that let Copilot take on longer, multi-step work autonomously \u2014 planning a task, executing across apps, and checking in with you at key moments rather than turn-by-turn prompting.",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/",
+      "source": "Build 2026"
+    },
+    {
+      "id": "copilot-cowork",
+      "date": "2026-06-02",
+      "title": "Copilot Cowork",
+      "category": "Cowork",
+      "summary": "Copilot Cowork shifts Copilot from an assistant you prompt to a teammate that works alongside you \u2014 handling end-to-end tasks, coordinating multiple agents, and producing finished deliverables with you in the loop.",
+      "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/",
+      "source": "Build 2026"
+    },
+    {
+      "id": "home-finance-chat",
+      "date": "2026-06-02",
+      "title": "Home and Finance chat",
+      "category": "Finance",
+      "summary": "A focused chat surface that brings finance context \u2014 reports, data, and the Finance Agent \u2014 into a single home, so finance professionals can ask questions and drive tasks without leaving the flow of work.",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/",
+      "source": "Build 2026"
+    },
+    {
+      "id": "finance-agent",
+      "date": "2026-06-02",
+      "title": "Finance Agent in Microsoft 365 Copilot",
+      "category": "Finance",
+      "summary": "A purpose-built agent for finance teams that automates common activities \u2014 variance analysis, reconciliation, reporting, and data gathering \u2014 grounded in your financial systems and the Microsoft 365 work graph.",
+      "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/",
+      "source": "Build 2026"
+    },
+    {
+      "id": "agentic-finance",
+      "date": "2026-06-02",
+      "title": "Agentic AI transforms finance activities & responsibilities",
+      "category": "Finance",
+      "summary": "A view of how agentic AI reshapes the finance function \u2014 moving routine close, reporting, and analysis work to agents so finance professionals focus on judgment, strategy, and exceptions.",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/",
+      "source": "Build 2026"
+    },
+    {
+      "id": "agent-365-local",
+      "date": "2026-06-02",
+      "title": "Agent 365 extends coverage to local agents",
+      "category": "Agents",
+      "summary": "Agent 365 governance now reaches agents running locally \u2014 bringing the same registry, identity, security, and management controls to agents beyond the cloud so IT keeps a complete, governed inventory.",
+      "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/",
+      "source": "Build 2026"
+    },
+    {
+      "id": "agent-365-sdk",
+      "date": "2026-06-02",
+      "title": "Agent 365 SDK",
+      "category": "Platform & SDK",
+      "summary": "A developer SDK for building agents that plug into Agent 365 \u2014 inheriting enterprise identity, security, observability, and lifecycle management from the control plane so custom agents are governed by default.",
+      "link": "https://learn.microsoft.com/en-us/microsoft-365-copilot/",
+      "source": "Build 2026"
+    },
+    {
+      "id": "third-party-agents-teams",
+      "date": "2026-06-02",
+      "title": "3rd Party Agents for Microsoft Teams",
+      "category": "Agents",
+      "summary": "Third-party and partner-built agents can now be brought into Microsoft Teams, letting organizations extend Copilot with specialized agents in the collaboration surface where work already happens.",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/",
+      "source": "Build 2026"
+    },
+    {
+      "id": "teams-sdk",
+      "date": "2026-06-02",
+      "title": "Microsoft Teams SDK",
+      "category": "Platform & SDK",
+      "summary": "An updated SDK for building agents and apps that run natively in Microsoft Teams \u2014 making Teams a first-class surface for Copilot experiences and custom agents.",
+      "link": "https://learn.microsoft.com/en-us/microsoftteams/platform/",
+      "source": "Build 2026"
+    },
+    {
+      "id": "frontier-tuning",
+      "date": "2026-06-02",
+      "title": "Frontier Tuning",
+      "category": "Frontier",
+      "summary": "A Frontier program capability that lets organizations tune Copilot to their own data and tasks \u2014 improving relevance and quality for domain-specific work while early-access customers shape the roadmap.",
+      "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/frontier-program",
+      "source": "Frontier Program"
+    },
+    {
+      "id": "build-announcements",
+      "date": "2026-06-02",
+      "title": "What we are announcing at Build",
+      "category": "Platform & SDK",
+      "summary": "A roundup of the Microsoft 365 Copilot news at the annual developer conference \u2014 spanning Agent 365, new SDKs, the Work IQ API, and agentic experiences across the Microsoft Cloud.",
+      "link": "https://build.microsoft.com/",
+      "source": "Build 2026"
+    },
+    {
+      "id": "microsoft-scout",
+      "date": "2026-05-19",
+      "title": "Microsoft Scout",
+      "category": "Agents",
+      "summary": "Microsoft Scout is an agent that proactively researches and gathers information on your behalf \u2014 navigating sources, synthesizing findings, and returning a structured answer so you start from insight instead of a blank page.",
+      "link": "https://www.microsoft.com/en-us/microsoft-365-copilot/",
+      "source": "Announcement"
+    },
+    {
+      "id": "cost-management-admin",
+      "date": "2026-05-19",
+      "title": "Cost management in the M365 admin center",
+      "category": "Admin & Cost",
+      "summary": "New admin-center controls give IT visibility into Copilot and agent consumption \u2014 tracking usage and message-based costs, setting limits, and managing spend as agentic workloads scale across the organization.",
+      "link": "https://admin.microsoft.com/",
+      "source": "Announcement"
+    },
+    {
+      "id": "work-iq-api",
+      "date": "2026-05-19",
+      "title": "Work IQ API",
+      "category": "Platform & SDK",
+      "summary": "Work IQ is the reasoning layer over the Microsoft 365 work graph \u2014 your people, content, and activity. The Work IQ API lets developers and agents build on that shared, permission-trimmed understanding of how work gets done.",
+      "link": "https://learn.microsoft.com/en-us/microsoft-365-copilot/",
+      "source": "Announcement"
+    },
+    {
+      "id": "dev-conference",
+      "date": "2026-05-18",
+      "title": "Annual developer conference \u2014 June 2\u20133, San Francisco & online",
+      "category": "Platform & SDK",
+      "summary": "Save the date for Microsoft's annual developer conference \u2014 two days in San Francisco and online focused on building with Copilot, agents, and the Microsoft Cloud.",
+      "link": "https://build.microsoft.com/",
+      "source": "Event"
+    }
+  ]
+}
