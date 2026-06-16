@@ -278,6 +278,7 @@ a.driver-card:hover{text-decoration:none}
 .back-btn{appearance:none;border:1px solid var(--hair);background:#fff;cursor:pointer;font-family:inherit;
   font-size:.85rem;font-weight:600;color:var(--purple);padding:.5rem 1rem;border-radius:9px;margin-bottom:1.2rem}
 .back-btn:hover{background:var(--light)}
+.back-btn-bottom{margin-top:1.4rem;margin-bottom:0}
 
 /* Detail hero */
 .det-hero{background:var(--navy);border-radius:var(--radius);padding:clamp(1.6rem,4vw,2.4rem);color:#fff;margin-bottom:1.4rem}

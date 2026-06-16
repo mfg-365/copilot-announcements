@@ -151,7 +151,12 @@ function renderAnnDetail(id) {
       ${linksBlock}
     </header>
     <div class="det-grid">${details || '<div class="rm-empty">No further detail captured for this date.</div>'}</div>
+    <button class="back-btn back-btn-bottom" id="annBackBottom">&larr; All announcements</button>
   `;
+
+  // Wire the bottom back button (re-rendered each time, so bind here).
+  const bottom = document.getElementById("annBackBottom");
+  if (bottom) bottom.addEventListener("click", goBackToList);
 }
 
 function hostOf(url) {
@@ -239,10 +244,12 @@ function routeAnnouncements() {
 }
 
 document.getElementById("annSearch").addEventListener("input", renderAnnouncements);
-document.getElementById("annBack").addEventListener("click", () => {
+function goBackToList() {
   history.pushState(null, "", "#announcements");
   showAnnList();
-});
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+document.getElementById("annBack").addEventListener("click", goBackToList);
 window.addEventListener("hashchange", routeAnnouncements);
 
 // ----- Timeline (horizontal, newest on right, lazy thumbnails) -----
