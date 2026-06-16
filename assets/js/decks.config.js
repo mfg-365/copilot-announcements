@@ -2,7 +2,7 @@
 // Paste the internal SharePoint URL of the Copilot Announcements deck below.
 // Leave it empty to keep the card as a non-clickable label.
 window.DECK_LINKS = {
-  announcements: "https://livesend.microsoft.com/i/QA50DnJHqqsstg2J6mhGcltXSOtXZ6OxxwO___N5Y3weTo8dlaLuQwHa8p0FNMxL67m9G3IBWy9g___Nlu___Icwou9n7r0HmDPobPZxgsI0xk8M3rqoRDkoaQePKwOel0phH4"
+  announcements: "https://livesend.microsoft.com/i/QA50DnJHqqsstg2J6mhGcltXSOtXZ6OxxwO___N5Y3weThCb+AR44OQ3MU0RZYDOIPcPdjIjUBVYk+fJ3ac1XhRRkmaCG+me2hDrozGBGrIxAn+tNqzj0BjWXgH0dzEkWz"
 };
 
 // Wire the deck card (runs after the DOM, since this script is at the end of <body>).
