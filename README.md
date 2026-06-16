@@ -17,8 +17,12 @@ static site for **GitHub Pages**.
 - Screenshots were extracted and optimized from the source deck into `assets/media/`
   (150 images, ~20 MB; longest side ≤1100 px). Each detail block references its images via
   an `images` array in `data/announcements.json`.
-- Blog/article hyperlinks were extracted from the deck and attached to each announcement's
-  `links` array; they render in the dark header of each detail page under "Blogs & articles".
+- Blog/article hyperlinks were extracted from the deck and split into two tiers:
+  - **Header links** (`headerLinks` on an item) come from a section's title/overview slide
+    and render under that date's header as "Blogs & articles".
+  - **Inline links** (`links` on a detail block) come from a specific feature slide and render
+    as active linked bullets within that feature.
+  Each link has a short, compelling title (sourced from the destination page's real title).
 - Videos from the deck are intentionally **not** included (they exceed GitHub's file-size
   limits — several are >100 MB).
 

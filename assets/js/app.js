@@ -112,9 +112,9 @@ function renderAnnDetail(id) {
   const cats = annData.categories || [];
   const tags = (i.tags || []).map((t) => `<span class="tag-pill">${esc(t)}</span>`).join("");
 
-  // Header links (blogs / articles / section-title links)
-  const headerLinks = (i.links || [])
-    .map((l) => `<a class="det-link" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.text)}<span class="det-link-host">${esc(hostOf(l.url))}</span></a>`)
+  // Header links (from the section/title slide) — shown directly under the header.
+  const headerLinks = (i.headerLinks || [])
+    .map((l) => `<a class="det-link" href="${esc(l.url)}" target="_blank" rel="noopener"><span class="det-link-title">${esc(l.title)}</span><span class="det-link-host">${esc(hostOf(l.url))}</span></a>`)
     .join("");
   const linksBlock = headerLinks
     ? `<div class="det-links"><span class="det-links-label">Blogs &amp; articles</span><div class="det-links-grid">${headerLinks}</div></div>`
@@ -123,6 +123,11 @@ function renderAnnDetail(id) {
   const details = (i.details || [])
     .map((d) => {
       const pts = (d.points || []).map((p) => `<li>${esc(p)}</li>`).join("");
+      // Inline links from this feature's slide — rendered as active linked bullets.
+      const linkPts = (d.links || [])
+        .map((l) => `<li class="det-point-link"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a> <span class="det-point-host">${esc(hostOf(l.url))}</span></li>`)
+        .join("");
+      const allPts = pts + linkPts;
       const status = d.status ? `<span class="det-status">${esc(d.status)}</span>` : "";
       const imgs = (d.images || [])
         .map((im) => `<a class="det-shot" href="${esc(im.file)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(im.file)}" alt="${esc(d.heading)} screenshot" /></a>`)
@@ -130,7 +135,7 @@ function renderAnnDetail(id) {
       const gallery = imgs ? `<div class="det-shots">${imgs}</div>` : "";
       return `<article class="det-card">
         <div class="det-head"><h3>${esc(d.heading)}</h3>${status}</div>
-        ${pts ? `<ul class="det-points">${pts}</ul>` : ""}
+        ${allPts ? `<ul class="det-points">${allPts}</ul>` : ""}
         ${gallery}
       </article>`;
     })

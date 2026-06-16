@@ -39,6 +39,12 @@
      ],
      "slides": [
       18
+     ],
+     "links": [
+      {
+       "title": "Anthropic models in Microsoft Online Services",
+       "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
+      }
      ]
     },
     {
@@ -60,25 +66,21 @@
        "w": 1100,
        "h": 733
       }
+     ],
+     "links": [
+      {
+       "title": "Copilot Cowork: A new way of getting work done",
+       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/"
+      },
+      {
+       "title": "Available today: Anthropic Claude Opus 4.7 in Microsoft 365 Copilot",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-opus-4-7-in-microsoft-365-copilot/4511666"
+      },
+      {
+       "title": "(Co)work in Progress",
+       "url": "https://aka.ms/CoworkInProgress"
+      }
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Anthropic as a subprocessor for Microsoft Online Services | Microsoft Learn",
-     "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
-    },
-    {
-     "text": "Copilot Cowork available in Frontier",
-     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/"
-    },
-    {
-     "text": "Model choice - Anthropic and OpenAI models available within Cowork",
-     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-opus-4-7-in-microsoft-365-copilot/4511666"
-    },
-    {
-     "text": "Create & manage your personal skills Custom, partner, and Microsoft native plug-ins",
-     "url": "https://aka.ms/CoworkInProgress"
     }
    ]
   },
@@ -225,6 +227,12 @@
        "w": 1100,
        "h": 409
       }
+     ],
+     "links": [
+      {
+       "title": "Welcome | Teams SDK",
+       "url": "https://microsoft.github.io/teams-sdk/welcome/"
+      }
      ]
     },
     {
@@ -245,6 +253,12 @@
        "w": 1100,
        "h": 655
       }
+     ],
+     "links": [
+      {
+       "title": "Microsoft Marketplace: apps & agents for Teams",
+       "url": "https://marketplace.microsoft.com/en-us/marketplace/apps?product=teams"
+      }
      ]
     },
     {
@@ -264,6 +278,12 @@
        "file": "assets/media/slide12-1.jpg",
        "w": 667,
        "h": 433
+      }
+     ],
+     "links": [
+      {
+       "title": "Microsoft Agent 365 SDK and CLI",
+       "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/developer/"
       }
      ]
     },
@@ -288,58 +308,42 @@
      ]
     }
    ],
-   "links": [
+   "headerLinks": [
     {
-     "text": "Microsoft Build 2026: Be yourself at work",
+     "title": "Microsoft Build 2026: Be yourself at work",
      "url": "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/"
     },
     {
-     "text": "Announcing the new Work IQ APIs",
+     "title": "Announcing the new Work IQ APIs",
      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/"
     },
     {
-     "text": "Work IQ GA | Microsoft Licensing Resources",
+     "title": "Work IQ GA | Microsoft Licensing Resources",
      "url": "https://www.microsoft.com/en-us/licensing/news/work-iq-general-availability"
     },
     {
-     "text": "Work IQ: Production-ready intelligence for every agent",
+     "title": "Work IQ: Production-ready intelligence for every agent",
      "url": "https://devblogs.microsoft.com/microsoft365dev/work-iq-production-ready-intelligence-for-every-agent/"
     },
     {
-     "text": "Introducing Microsoft Scout: Your always-on personal agent",
+     "title": "Introducing Microsoft Scout: Your always-on personal agent",
      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/"
     },
     {
-     "text": "Microsoft Scout documentation",
+     "title": "Microsoft Scout documentation",
      "url": "https://learn.microsoft.com/en-us/microsoft-scout/"
     },
     {
-     "text": "Download Microsoft Scout (Frontier)",
+     "title": "Download Microsoft Scout (Frontier)",
      "url": "https://www.microsoft.com/en-us/download/details.aspx?id=108685"
     },
     {
-     "text": "Frontier Tuning: Teaching AI to work the way you do - Microsoft 365 Developer Blog",
+     "title": "Frontier Tuning: Teaching AI to work the way you do",
      "url": "https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-teaching-ai-to-work-the-way-you-do/"
     },
     {
-     "text": "Learning Agent now generally available",
+     "title": "Learning Agent now generally available — personalized AI upskilling for every employee",
      "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/learning-agent-now-generally-available-%E2%80%94-personalized-ai-upskilling-for-every-em/4524571"
-    },
-    {
-     "text": "Build_2026_Product 1-sliders.pptx",
-     "url": "https://microsoft.sharepoint.com/:p:/t/CopilotPMMTeam246/cQoKjhOXm09UQa8ocCBuakzzEgUCkLgoWppJDhaNWsrLHD7mdg?isSPOFile=1&amp;xsdata=MDV8MDJ8fGRlYTdhYzJkYWQ3ODQzMWU0NDBiMDhkZWJiM2YzZTE5fDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDB8MHw2MzkxNTQwNzc0MzIzNjYwOTF8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDJOb1lYUnpMekU1T2pWbU1UTmlNemN6TFdZek9UVXROR1EwTmkwNU5qaG1MVFJqT0RsbE56QXhZamRoTVY5aVpHTmlOV0poWkMxbFpXTTNMVFExWm1RdE9XTTBOQzB5T1RabE5UWTNNMlE1WkROQWRXNXhMbWRpYkM1emNHRmpaWE12YldWemMyRm5aWE12TVRjM09UZ3hNRGswTVRVNE13PT18YjJjNDA0ZWZmNDE2NDE3Y2ZhNmYwOGRlYmIzZjNlMTh8ZWRiMDg3NzdjNzI3NGMzOTlmMmIwMzhkYjZmOGE4NTU%3D&amp;sdata=V3J1dFBBQzVoQnFKVXkxd0VrOEF1cUtaUGFzOCtNQjdQdTRCT2dLV2RKQT0%3D&amp;ovuser=72f988bf-86f1-41af-91ab-2d7cd011db47%2Cascarberry%40microsoft.com"
-    },
-    {
-     "text": "Welcome | Teams SDK",
-     "url": "https://microsoft.github.io/teams-sdk/welcome/"
-    },
-    {
-     "text": "Microsoft Marketplace",
-     "url": "https://marketplace.microsoft.com/en-us/marketplace/apps?product=teams"
-    },
-    {
-     "text": "Generally available",
-     "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/developer/"
     }
    ]
   },
@@ -418,8 +422,7 @@
       }
      ]
     }
-   ],
-   "links": []
+   ]
   },
   {
    "id": "2026-05-05-work-trend-index-2026",
@@ -445,17 +448,17 @@
      ],
      "slides": [
       17
+     ],
+     "links": [
+      {
+       "title": "2026 Work Trend Index: Agents & human agency",
+       "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization"
+      },
+      {
+       "title": "Microsoft WorkLab research & insights",
+       "url": "https://aka.ms/worklab"
+      }
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Full Report: Agents, human agency, and the opportunity for organizations",
-     "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization"
-    },
-    {
-     "text": "https://aka.ms/worklab",
-     "url": "https://aka.ms/worklab"
     }
    ]
   },
@@ -493,8 +496,7 @@
       }
      ]
     }
-   ],
-   "links": []
+   ]
   },
   {
    "id": "2026-03-30-cowork-and-researcher-updates",
@@ -519,6 +521,16 @@
      ],
      "slides": [
       21
+     ],
+     "links": [
+      {
+       "title": "Copilot Cowork: Now available in Frontier",
+       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/"
+      },
+      {
+       "title": "Introducing multi-model intelligence in Researcher",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-multi-model-intelligence-in-researcher/4506011"
+      }
      ]
     },
     {
@@ -540,6 +552,12 @@
        "w": 1100,
        "h": 619
       }
+     ],
+     "links": [
+      {
+       "title": "Anthropic models in Microsoft Online Services",
+       "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
+      }
      ]
     },
     {
@@ -559,6 +577,12 @@
        "file": "assets/media/slide23-1.jpg",
        "w": 1100,
        "h": 619
+      }
+     ],
+     "links": [
+      {
+       "title": "Anthropic models in Microsoft Online Services",
+       "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
       }
      ]
     },
@@ -580,21 +604,13 @@
        "w": 1100,
        "h": 619
       }
+     ],
+     "links": [
+      {
+       "title": "Anthropic models in Microsoft Online Services",
+       "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
+      }
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Copilot Cowork : Now available in Frontier | Microsoft 365 Blog",
-     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/"
-    },
-    {
-     "text": "Introducing multi-model intelligence in Researcher | Microsoft Community Hub",
-     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-multi-model-intelligence-in-researcher/4506011"
-    },
-    {
-     "text": "Anthropic as a subprocessor for Microsoft Online Services | Microsoft Learn",
-     "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
     }
    ]
   },
@@ -673,6 +689,12 @@
        "file": "assets/media/slide31-3.png",
        "w": 878,
        "h": 859
+      }
+     ],
+     "links": [
+      {
+       "title": "A closer look at Work IQ",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/a-closer-look-at-work-iq/4499789"
       }
      ]
     },
@@ -778,6 +800,12 @@
        "file": "assets/media/slide40-1.jpg",
        "w": 1100,
        "h": 635
+      }
+     ],
+     "links": [
+      {
+       "title": "Anthropic models in Microsoft Online Services",
+       "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
       }
      ]
     },
@@ -965,42 +993,34 @@
      ]
     }
    ],
-   "links": [
+   "headerLinks": [
     {
-     "text": "Introducing the First Frontier Suite built on Intelligence + Trust",
+     "title": "Introducing the First Frontier Suite built on Intelligence + Trust",
      "url": "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/"
     },
     {
-     "text": "Secure agentic AI for your Frontier Transformation",
+     "title": "Secure agentic AI for your Frontier Transformation",
      "url": "https://www.microsoft.com/en-us/security/blog/2026/03/09/secure-agentic-ai-for-your-frontier-transformation/"
     },
     {
-     "text": "Powering Frontier Transformation with Copilot and agents",
+     "title": "Powering Frontier Transformation with Copilot and agents",
      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/"
     },
     {
-     "text": "Copilot Cowork : A new way of getting work done",
+     "title": "Copilot Cowork: A new way of getting work done",
      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/"
     },
     {
-     "text": "From draft to done: agentic Copilot in Excel, Word, and PowerPoint",
+     "title": "From draft to done: agentic Copilot in Excel, Word, and PowerPoint",
      "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/from-draft-to-done-agentic-copilot-in-excel-word-and-powerpoint/4500196"
     },
     {
-     "text": "Copilot in Outlook: New agentic experiences for email and calendar",
+     "title": "Copilot in Outlook: New agentic experiences for email and calendar",
      "url": "https://techcommunity.microsoft.com/blog/outlook/copilot-in-outlook-new-agentic-experiences-for-email-and-calendar/4499798"
     },
     {
-     "text": "Enable agents to bring apps into the flow of work—while keeping IT in control",
+     "title": "Enable agents to bring apps into the flow of work—while keeping IT in control",
      "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/enable-agents-to-bring-apps-into-the-flow-of-work%E2%80%94while-keeping-it-in-control/4499464"
-    },
-    {
-     "text": "Blog: A closer look at Work IQ | Microsoft Community Hub",
-     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/a-closer-look-at-work-iq/4499789"
-    },
-    {
-     "text": "Anthropic as a subprocessor for Microsoft Online Services",
-     "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
     }
    ]
   },
@@ -1040,13 +1060,13 @@
        "w": 1100,
        "h": 640
       }
+     ],
+     "links": [
+      {
+       "title": "Available today: GPT-5.4 Thinking in Microsoft 365 Copilot",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-4-thinking-in-microsoft-365-copilot/4499746"
+      }
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Available today: GPT-5.4 Thinking in Microsoft 365 Copilot",
-     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-4-thinking-in-microsoft-365-copilot/4499746"
     }
    ]
   },
@@ -1081,13 +1101,13 @@
        "w": 1100,
        "h": 640
       }
+     ],
+     "links": [
+      {
+       "title": "Available today: GPT-5.3 Instant in Microsoft 365 Copilot",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-3-instant-in-microsoft-365-copilot/4496567"
+      }
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Available today: GPT-5.3 Instant in Microsoft 365 Copilot",
-     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-3-instant-in-microsoft-365-copilot/4496567"
     }
    ]
   },
@@ -1117,8 +1137,7 @@
       65
      ]
     }
-   ],
-   "links": []
+   ]
   },
   {
    "id": "2025-11-18-microsoft-ignite-2025",
@@ -1212,6 +1231,12 @@
        "file": "assets/media/slide69-2.png",
        "w": 513,
        "h": 520
+      }
+     ],
+     "links": [
+      {
+       "title": "Standard versus priority access to features in Microsoft 365 Copilot Chat",
+       "url": "https://support.microsoft.com/en-us/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f"
       }
      ]
     },
@@ -1718,6 +1743,12 @@
      ],
      "slides": [
       101
+     ],
+     "links": [
+      {
+       "title": "Microsoft 365 Copilot Tuning admin guide (early access preview)",
+       "url": "https://aka.ms/CopilotTuningEAP"
+      }
      ]
     },
     {
@@ -1862,6 +1893,16 @@
        "w": 1100,
        "h": 620
       }
+     ],
+     "links": [
+      {
+       "title": "Windows 365 AI Cloud PC interest form",
+       "url": "http://www.aka.ms/W365AInterestForm"
+      },
+      {
+       "title": "Evolving Windows: new Copilot and AI experiences at Ignite 2025",
+       "url": "https://aka.ms/Windows/Ignite2025AIBlog"
+      }
      ]
     },
     {
@@ -1896,24 +1937,6 @@
      "slides": [
       120
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Standard access",
-     "url": "https://support.microsoft.com/en-us/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f"
-    },
-    {
-     "text": "aka.ms/ CopilotTuningEAP",
-     "url": "https://aka.ms/CopilotTuningEAP"
-    },
-    {
-     "text": "waitlist here",
-     "url": "http://www.aka.ms/W365AInterestForm"
-    },
-    {
-     "text": "aka.ms/Windows/Ignite2025AIBlog",
-     "url": "https://aka.ms/Windows/Ignite2025AIBlog"
     }
    ]
   },
@@ -1953,13 +1976,13 @@
        "w": 476,
        "h": 946
       }
+     ],
+     "links": [
+      {
+       "title": "Introducing voice in Microsoft 365 Copilot: a more productive way to work on the go.",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-voice-in-microsoft-365-copilot-a-more-productive-way-to-work-on-the-/4466034"
+      }
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Blog - Introducing voice in Microsoft 365 Copilot: a more productive way to work on the go",
-     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-voice-in-microsoft-365-copilot-a-more-productive-way-to-work-on-the-/4466034"
     }
    ]
   },
@@ -1996,8 +2019,7 @@
       }
      ]
     }
-   ],
-   "links": []
+   ]
   },
   {
    "id": "2025-10-28-app-builder-agent-workflow-agent",
@@ -2064,8 +2086,7 @@
       129
      ]
     }
-   ],
-   "links": []
+   ]
   },
   {
    "id": "2025-10-28-p3-copilot-credits",
@@ -2093,6 +2114,12 @@
      ],
      "slides": [
       131
+     ],
+     "links": [
+      {
+       "title": "Scale your agent rollout with confidence: Introducing Copilot Credit Pre-Purchase Plan…",
+       "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/scale-your-agent-rollout-with-confidence-introducing-copilot-credit-pre-purchase-plan/?msockid=2165056c548a63c10741131b5536624f"
+      }
      ]
     },
     {
@@ -2119,12 +2146,6 @@
      "slides": [
       133
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Blog Post - Scale your agent rollout with confidence: Introducing Copilot Credit Pre-Purchase Plan",
-     "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/scale-your-agent-rollout-with-confidence-introducing-copilot-credit-pre-purchase-plan/?msockid=2165056c548a63c10741131b5536624f"
     }
    ]
   },
@@ -2164,13 +2185,13 @@
        "w": 1100,
        "h": 649
       }
+     ],
+     "links": [
+      {
+       "title": "Introducing Teams Mode for Microsoft 365 Copilot",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-teams-mode-for-microsoft-365-copilot/4463259"
+      }
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Blog - Introducing Teams Mode for Microsoft 365 Copilot",
-     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-teams-mode-for-microsoft-365-copilot/4463259"
     }
    ]
   },
@@ -2205,6 +2226,12 @@
        "w": 709,
        "h": 406
       }
+     ],
+     "links": [
+      {
+       "title": "Vibe working: Introducing Agent Mode and Office Agent in Microsoft 365 Copilot",
+       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/"
+      }
      ]
     },
     {
@@ -2223,6 +2250,12 @@
        "file": "assets/media/slide137-1.jpg",
        "w": 1100,
        "h": 622
+      }
+     ],
+     "links": [
+      {
+       "title": "Edit with Copilot in Word",
+       "url": "https://support.microsoft.com/en-us/office/agent-mode-in-word-647d5d14-eaec-4e8a-a574-7cefffa7f8f0"
       }
      ]
     },
@@ -2244,25 +2277,17 @@
        "w": 1100,
        "h": 622
       }
+     ],
+     "links": [
+      {
+       "title": "Office Agent – \"Taste driven\" multi-agent system for Microsoft 365 Copilot",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/office-agent-%E2%80%93-%E2%80%9Ctaste-driven%E2%80%9D-multi-agent-system-for-microsoft-365-copilot/4457397"
+      },
+      {
+       "title": "Get started editing with Copilot in Office",
+       "url": "https://support.microsoft.com/en-us/topic/getting-started-with-office-agent-6d043333-6eeb-49d8-a80c-681d29ab7c04"
+      }
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Vibe working: Introducing Agent Mode and Office Agent in Microsoft 365 Copilot",
-     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/"
-    },
-    {
-     "text": "Agent Mode in Word - Microsoft Support",
-     "url": "https://support.microsoft.com/en-us/office/agent-mode-in-word-647d5d14-eaec-4e8a-a574-7cefffa7f8f0"
-    },
-    {
-     "text": "Office Agent – “Taste driven” multi-agent system for Microsoft 365 Copilot | Microsoft Community Hub",
-     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/office-agent-%E2%80%93-%E2%80%9Ctaste-driven%E2%80%9D-multi-agent-system-for-microsoft-365-copilot/4457397"
-    },
-    {
-     "text": "Getting started with Office Agent - Microsoft Support",
-     "url": "https://support.microsoft.com/en-us/topic/getting-started-with-office-agent-6d043333-6eeb-49d8-a80c-681d29ab7c04"
     }
    ]
   },
@@ -2353,8 +2378,7 @@
       }
      ]
     }
-   ],
-   "links": []
+   ]
   },
   {
    "id": "2025-09-24-model-choice",
@@ -2379,6 +2403,12 @@
      ],
      "slides": [
       142
+     ],
+     "links": [
+      {
+       "title": "Expanding model choice in Microsoft 365 Copilot",
+       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/24/expanding-model-choice-in-microsoft-365-copilot/"
+      }
      ]
     },
     {
@@ -2396,6 +2426,12 @@
        "file": "assets/media/slide143-1.jpg",
        "w": 1100,
        "h": 622
+      }
+     ],
+     "links": [
+      {
+       "title": "Connect to xAI's models",
+       "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-models"
       }
      ]
     },
@@ -2416,33 +2452,25 @@
        "w": 1100,
        "h": 825
       }
+     ],
+     "links": [
+      {
+       "title": "Choose an external model as the primary AI model",
+       "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-select-external-response-model"
+      },
+      {
+       "title": "Allow external language models for generative responses",
+       "url": "https://learn.microsoft.com/en-us/power-platform/admin/allow-llm-generative-responses"
+      },
+      {
+       "title": "Anthropic joins the multi-model lineup in Microsoft Copilot Studio | Microsoft Copilot…",
+       "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/anthropic-joins-the-multi-model-lineup-in-microsoft-copilot-studio/"
+      },
+      {
+       "title": "Early release cycle environments",
+       "url": "https://learn.microsoft.com/en-us/power-platform/admin/early-release"
+      }
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Expanding model choice in Microsoft 365 Copilot | Microsoft 365 Blog",
-     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/24/expanding-model-choice-in-microsoft-365-copilot/"
-    },
-    {
-     "text": "Admin: Connect to Anthropic's AI models | Microsoft Learn",
-     "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-models"
-    },
-    {
-     "text": "Choose an external model as the primary AI model - Microsoft Copilot Studio",
-     "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-select-external-response-model"
-    },
-    {
-     "text": "Allow external large language models (LLMs) for generative responses - Power Platform",
-     "url": "https://learn.microsoft.com/en-us/power-platform/admin/allow-llm-generative-responses"
-    },
-    {
-     "text": "Anthropic joins the multi-model lineup in Microsoft Copilot Studio",
-     "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/anthropic-joins-the-multi-model-lineup-in-microsoft-copilot-studio/"
-    },
-    {
-     "text": "early release cycle environments",
-     "url": "https://learn.microsoft.com/en-us/power-platform/admin/early-release"
     }
    ]
   },
@@ -2489,6 +2517,12 @@
        "w": 1100,
        "h": 622
       }
+     ],
+     "links": [
+      {
+       "title": "Power up project management in Teams with the Project Manager Agent",
+       "url": "https://techcommunity.microsoft.com/blog/plannerblog/power-up-project-management-in-teams-with-the-project-manager-agent/4454813"
+      }
      ]
     },
     {
@@ -2526,6 +2560,12 @@
        "w": 1100,
        "h": 623
       }
+     ],
+     "links": [
+      {
+       "title": "AI and Microsoft Teams: A New Era of Collaboration",
+       "url": "https://techcommunity.microsoft.com/blog/microsoftteamsblog/ai-and-microsoft-teams-a-new-era-of-collaboration/4454152"
+      }
      ]
     },
     {
@@ -2545,6 +2585,12 @@
        "w": 1100,
        "h": 869
       }
+     ],
+     "links": [
+      {
+       "title": "Introducing agents in Viva Engage communities: Your AI-powered community expert",
+       "url": "https://techcommunity.microsoft.com/blog/viva_engage_blog/introducing-agents-in-viva-engage-communities-your-ai-powered-community-expert/4454146"
+      }
      ]
     },
     {
@@ -2563,6 +2609,12 @@
        "file": "assets/media/slide150-1.png",
        "w": 1100,
        "h": 618
+      }
+     ],
+     "links": [
+      {
+       "title": "Introducing Knowledge Agent in SharePoint",
+       "url": "https://techcommunity.microsoft.com/blog/spblog/introducing-knowledge-agent-in-sharepoint/4454154"
       }
      ]
     },
@@ -2596,49 +2648,33 @@
      ]
     }
    ],
-   "links": [
+   "headerLinks": [
     {
-     "text": "Power up project management in Teams with the Project Manager Agent | Microsoft Community Hub",
-     "url": "https://techcommunity.microsoft.com/blog/plannerblog/power-up-project-management-in-teams-with-the-project-manager-agent/4454813"
-    },
-    {
-     "text": "AI and Microsoft Teams: A New Era of Collaboration | Microsoft Community Hub",
-     "url": "https://techcommunity.microsoft.com/blog/microsoftteamsblog/ai-and-microsoft-teams-a-new-era-of-collaboration/4454152"
-    },
-    {
-     "text": "Introducing agents in Viva Engage communities: Your AI-powered community expert | Microsoft Community Hub",
-     "url": "https://techcommunity.microsoft.com/blog/viva_engage_blog/introducing-agents-in-viva-engage-communities-your-ai-powered-community-expert/4454146"
-    },
-    {
-     "text": "Introducing Knowledge Agent in SharePoint | Microsoft Community Hub",
-     "url": "https://techcommunity.microsoft.com/blog/spblog/introducing-knowledge-agent-in-sharepoint/4454154"
-    },
-    {
-     "text": "Coming to Frontier September 2025",
+     "title": "Announcing People Skills general availability and new Skills agent",
      "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/announcing-people-skills-general-availability-and-new-skills-agent/4406364"
     },
     {
-     "text": "Frontier program",
+     "title": "Shipped! Surveys Agent now live for customers in Microsoft 365 Copilot (Frontier program)",
      "url": "https://techcommunity.microsoft.com/blog/microsoftformsblog/shipped-surveys-agent-now-live-for-customers-in-microsoft-365-copilot-frontier-p/4444421"
     },
     {
-     "text": "Generally available",
+     "title": "Analyst agent in Microsoft 365 Copilot",
      "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/analyst-agent-in-microsoft-365-copilot/4397191"
     },
     {
-     "text": "Generally available",
+     "title": "Researcher agent in Microsoft 365 Copilot",
      "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/researcher-agent-in-microsoft-365-copilot/4397186"
     },
     {
-     "text": "Generally available",
+     "title": "Introducing new agents in Microsoft 365",
      "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-new-agents-in-microsoft-365/4296918"
     },
     {
-     "text": "Public preview",
+     "title": "Unleashing the power of agents in Microsoft Planner",
      "url": "https://techcommunity.microsoft.com/blog/plannerblog/unleashing-the-power-of-agents-in-microsoft-planner/4304794"
     },
     {
-     "text": "AI agents – Microsoft Adoption",
+     "title": "AI agents - Microsoft Adoption",
      "url": "https://adoption.microsoft.com/en-us/customer-hub/ai-agents/"
     }
    ]
@@ -2699,8 +2735,7 @@
       154
      ]
     }
-   ],
-   "links": []
+   ]
   },
   {
    "id": "2025-09-10-copilot-studio-entitlements",
@@ -2726,6 +2761,12 @@
      ],
      "slides": [
       155
+     ],
+     "links": [
+      {
+       "title": "Choose between Agent Builder in Microsoft 365 Copilot and Copilot Studio to build your…",
+       "url": "https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-experience?branch=pr-en-us-1114"
+      }
      ]
     },
     {
@@ -2738,17 +2779,13 @@
      ],
      "slides": [
       156
+     ],
+     "links": [
+      {
+       "title": "Standard versus priority access to features in Microsoft 365 Copilot Chat",
+       "url": "https://support.microsoft.com/en-us/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f"
+      }
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Choose the Right Copilot Studio Experience for Building Your Agent | Microsoft Learn",
-     "url": "https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-experience?branch=pr-en-us-1114"
-    },
-    {
-     "text": "standard and priority access",
-     "url": "https://support.microsoft.com/en-us/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f"
     }
    ]
   },
@@ -2783,6 +2820,12 @@
        "file": "assets/media/slide157-1.jpg",
        "w": 1100,
        "h": 733
+      }
+     ],
+     "links": [
+      {
+       "title": "Moving sales, service, and finance to the Frontier with Microsoft 365 Copilot",
+       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/10/moving-sales-service-and-finance-to-the-frontier-with-microsoft-365-copilot/"
       }
      ]
     },
@@ -2964,12 +3007,6 @@
       }
      ]
     }
-   ],
-   "links": [
-    {
-     "text": "Moving sales, service, and finance to the Frontier with Microsoft 365 Copilot",
-     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/10/moving-sales-service-and-finance-to-the-frontier-with-microsoft-365-copilot/"
-    }
    ]
   },
   {
@@ -3022,6 +3059,12 @@
      ],
      "slides": [
       177
+     ],
+     "links": [
+      {
+       "title": "Standard versus priority access to features in Microsoft 365 Copilot Chat",
+       "url": "https://aka.ms/StandardVsPriorityAccess"
+      }
      ]
     },
     {
@@ -3036,12 +3079,6 @@
      "slides": [
       178
      ]
-    }
-   ],
-   "links": [
-    {
-     "text": "Learn more on Microsoft Support",
-     "url": "https://aka.ms/StandardVsPriorityAccess"
     }
    ]
   }
