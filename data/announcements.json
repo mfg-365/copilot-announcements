@@ -1,1917 +1,3049 @@
 {
-  "generatedAt": "2026-06-15T21:39:29.422865+00:00",
-  "categories": [
-    "Models & Chat",
-    "Agents",
-    "Platform & SDK",
-    "Admin & Cost",
-    "Finance",
-    "Sales & Service",
-    "Cowork & Research",
-    "Frontier",
-    "Industry & Events"
-  ],
-  "items": [
+ "generatedAt": "2026-06-15T21:39:29.422865+00:00",
+ "categories": [
+  "Models & Chat",
+  "Agents",
+  "Platform & SDK",
+  "Admin & Cost",
+  "Finance",
+  "Sales & Service",
+  "Cowork & Research",
+  "Frontier",
+  "Industry & Events"
+ ],
+ "items": [
+  {
+   "id": "2026-06-16-copilot-cowork-general-availability",
+   "date": "2026-06-16",
+   "dateLabel": "June 16, 2026",
+   "title": "Copilot Cowork General Availability",
+   "category": "Cowork & Research",
+   "summary": "Copilot Cowork reaches general availability with native and third-party connectors, partner plugins, and mobile, expanding delegated multi-step work across Microsoft 365.",
+   "tags": [
+    "Cowork",
+    "Connectors",
+    "Plugins",
+    "GA"
+   ],
+   "details": [
     {
-      "id": "2026-06-16-copilot-cowork-general-availability",
-      "date": "2026-06-16",
-      "dateLabel": "June 16, 2026",
-      "title": "Copilot Cowork General Availability",
-      "category": "Cowork & Research",
-      "summary": "Copilot Cowork reaches general availability with native and third-party connectors, partner plugins, and mobile, expanding delegated multi-step work across Microsoft 365.",
-      "tags": [
-        "Cowork",
-        "Connectors",
-        "Plugins",
-        "GA"
-      ],
-      "details": [
-        {
-          "heading": "Copilot Cowork connectors and plugins",
-          "status": "",
-          "points": [
-            "Bridge your knowledge sources with native and third-party connectors and plugins.",
-            "Microsoft native plugins and connectors such as Power BI and Fabric (Fabric IQ).",
-            "Partner integrations with Miro, monday.com, London Stock Exchange Group (LSEG), and S&P Global Energy, with more on the way.",
-            "Add, create, and manage your own custom plugins and personal skills.",
-            "Example: a finance manager has Cowork review a contract, pulling Dynamics 365 Finance, LSEG, and S&P Global Energy data plus a custom Compliance Checker skill.",
-            "Partner plugins coming late May; Anthropic models currently excluded from the EU Data Boundary."
-          ],
-          "slides": [
-            18
-          ]
-        },
-        {
-          "heading": "Copilot Cowork innovations",
-          "status": "",
-          "points": [
-            "Since the March introduction, Cowork became available in Frontier.",
-            "Model choice: Anthropic and OpenAI models available within Cowork.",
-            "Available on iOS and Android mobile.",
-            "Integrated into Agent 365.",
-            "Create and manage your personal skills, plus custom, partner, and Microsoft native plug-ins."
-          ],
-          "slides": [
-            19
-          ]
-        }
-      ]
+     "heading": "Copilot Cowork connectors and plugins",
+     "status": "",
+     "points": [
+      "Bridge your knowledge sources with native and third-party connectors and plugins.",
+      "Microsoft native plugins and connectors such as Power BI and Fabric (Fabric IQ).",
+      "Partner integrations with Miro, monday.com, London Stock Exchange Group (LSEG), and S&P Global Energy, with more on the way.",
+      "Add, create, and manage your own custom plugins and personal skills.",
+      "Example: a finance manager has Cowork review a contract, pulling Dynamics 365 Finance, LSEG, and S&P Global Energy data plus a custom Compliance Checker skill.",
+      "Partner plugins coming late May; Anthropic models currently excluded from the EU Data Boundary."
+     ],
+     "slides": [
+      18
+     ]
     },
     {
-      "id": "2026-06-02-build-2026-announcements",
-      "date": "2026-06-02",
-      "dateLabel": "June 2, 2026",
-      "title": "Build 2026 Announcements",
-      "category": "Platform & SDK",
-      "summary": "Microsoft Build 2026 spotlights the Work IQ API GA, Microsoft Scout, Frontier Tuning, the Teams and Agent 365 SDKs, and expanded agent governance for developers.",
-      "tags": [
-        "Build",
-        "Work IQ API",
-        "Scout",
-        "Agent 365"
-      ],
-      "details": [
-        {
-          "heading": "Microsoft Build 2026 overview",
-          "status": "",
-          "points": [
-            "Annual developer conference, June 2-3, San Francisco and online.",
-            "Theme: Microsoft Build 2026 - Be yourself at work.",
-            "Headline blogs cover the new Work IQ APIs, Microsoft Scout, Frontier Tuning, and Learning Agent general availability."
-          ],
-          "slides": [
-            4
-          ]
-        },
-        {
-          "heading": "Work IQ API",
-          "status": "Generally available mid-June worldwide",
-          "points": [
-            "Bring live, permission-trimmed work context into any agent via A2A, MCP, or REST.",
-            "Powered by four components: Chat, Context, Tools, and Workspaces.",
-            "Engineered for agentic workloads with faster responses, lower cost to build and run, and high-volume scale.",
-            "Governance by design: every response is permission-trimmed and operates on enterprise data in place.",
-            "Accessible via low-code (Copilot Studio) or pro-code (GitHub, Visual Studio) with consumption billing through the MAC."
-          ],
-          "slides": [
-            5
-          ]
-        },
-        {
-          "heading": "Cost management in the Microsoft 365 admin center",
-          "status": "Rollout to GA begins mid-June",
-          "points": [
-            "Manage Copilot credit spend and usage with a centralized dashboard across users and groups.",
-            "Control and configure spend with granular, cascading limits and overage policies at tenant, group, or user level.",
-            "Prevent cost overruns with monthly budgets, alerts, and forecasts.",
-            "Supports Work IQ API consumption billing; choose prepaid credits or pay-as-you-go."
-          ],
-          "slides": [
-            6
-          ]
-        },
-        {
-          "heading": "Microsoft Scout",
-          "status": "Frontier / Private Preview",
-          "points": [
-            "First autopilot agent: a new class of autonomous, always-on agents that turn signals into action.",
-            "Built on OpenClaw, it proactively takes on work across email, calendar, meetings, chat, and docs.",
-            "Flags issues before you ask (calendar conflicts, stalled decisions), proposes fixes, and learns your priorities.",
-            "Operates with its own identity, storage, and mailbox, connected to Teams, Outlook, SharePoint, and OneDrive.",
-            "Build: cloud experience in Private Preview plus a local desktop app in Frontier (WW, English); requires GitHub Copilot license, admin opt-in, and Intune enablement."
-          ],
-          "slides": [
-            7,
-            8
-          ]
-        },
-        {
-          "heading": "Frontier Tuning",
-          "status": "Private Preview (Forward Deployed Engineer)",
-          "points": [
-            "Tunes any agent on customer data, processes, and conventions using the latest Microsoft AI frontier models.",
-            "Understands your IP, governed by your existing compliance and access controls.",
-            "A reinforcement learning environment used for both training and inference that never stops learning.",
-            "Produces tuned embedding and orchestration models plus skills and tools, fully tenant-resident.",
-            "Built via a step-by-step Agent Builder workflow so subject matter experts can build agents without data scientists."
-          ],
-          "slides": [
-            9
-          ]
-        },
-        {
-          "heading": "Microsoft Teams SDK",
-          "status": "Generally available",
-          "points": [
-            "Unified toolset bringing chat messaging, Tabs, Microsoft Graph, and message extensions into one platform.",
-            "Removes boilerplate and complex conversational logic, reducing code by up to 90%.",
-            "Advanced orchestration with MCP and agent-to-agent (A2A) communication plus rich collaboration features.",
-            "Generally available in JavaScript, C#, and Python."
-          ],
-          "slides": [
-            10
-          ]
-        },
-        {
-          "heading": "Third-party agents for Microsoft Teams",
-          "status": "",
-          "points": [
-            "@mention 3P agents like Linear in Teams to file bugs, assign work, and act without leaving the thread.",
-            "Update tasks and pull project status into Teams, connecting to your broader toolchain like GitHub Copilot.",
-            "Connect agents to channels to automatically share project updates.",
-            "Recent additions include Linear, Atlassian Rovo, and Cursor via Microsoft Marketplace."
-          ],
-          "slides": [
-            11
-          ]
-        },
-        {
-          "heading": "Agent 365 SDK",
-          "status": "Generally available",
-          "points": [
-            "Integrate any agent with Agent 365, where it automatically appears in the agent registry, ready for enterprise use.",
-            "Built-in secure Entra-backed Agent ID and standardized OpenTelemetry (OTEL) tracing out of the box.",
-            "Immediately subject to granular Agent 365 governance controls.",
-            "Manage Microsoft and custom MCP servers while supporting AI teammates or user-delegated agents."
-          ],
-          "slides": [
-            12
-          ]
-        },
-        {
-          "heading": "Agent 365 extends coverage to local agents",
-          "status": "Public Preview",
-          "points": [
-            "Automatically discover 20+ AI agents running locally on managed endpoints, mapped to devices and users.",
-            "Runtime protection for Claude Code and GitHub Copilot CLI (June 2), then OpenClaw and OpenAI Codex (~June 17).",
-            "Block unsanctioned agents and enforce endpoint policies with Intune.",
-            "Real-time visibility, detection, and blocking with Microsoft Defender; prevent data leaks with Purview."
-          ],
-          "slides": [
-            13
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-05-27-finance-agents-gartner-cfo-symposium",
-      "date": "2026-05-27",
-      "dateLabel": "May 27, 2026",
-      "title": "Finance Agents (Gartner CFO Symposium)",
-      "category": "Finance",
-      "summary": "Agentic AI purpose-built for finance, with a Finance Agent in Microsoft 365 Copilot and a finance-savvy chat workspace grounded in Work IQ.",
-      "tags": [
-        "Finance Agent",
-        "Work IQ",
-        "ERP"
-      ],
-      "details": [
-        {
-          "heading": "Agentic AI transforms common finance activities",
-          "status": "",
-          "points": [
-            "Quickly find and validate data across systems.",
-            "Use simple prompts to access financial insight, including annotations and supporting data.",
-            "Explore risks and outliers to drive clarity and bring in relevant stakeholders with a click.",
-            "Turn raw data and analysis into presentation-ready visualizations and whitepapers.",
-            "Expedite financial processes with intelligent automation."
-          ],
-          "slides": [
-            14
-          ]
-        },
-        {
-          "heading": "Finance Agent in Microsoft 365 Copilot",
-          "status": "Included in the Microsoft 365 Copilot license",
-          "points": [
-            "AI assistant purpose-built for finance to help in the flow of work, bringing trusted ERP data into your workflow.",
-            "Skills span financial risk assessments, reconciliation, data preparation, and variance analysis.",
-            "Targets 50-80% less time on manual finance tasks.",
-            "Detect risks early with real-time, cross-system insights.",
-            "Shift capacity to planning and decision-making."
-          ],
-          "slides": [
-            15
-          ]
-        },
-        {
-          "heading": "Home and Finance chat",
-          "status": "",
-          "points": [
-            "Finance-savvy workspace within Microsoft 365 Copilot.",
-            "Ask finance questions in natural language from one centralized hub for chat, insight, and decisions.",
-            "Enterprise-grade security and governance based on role-level access.",
-            "Work IQ connects financial data to organizational intelligence so the agent understands how decisions get made."
-          ],
-          "slides": [
-            16
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-05-05-work-trend-index-2026",
-      "date": "2026-05-05",
-      "dateLabel": "May 5, 2026",
-      "title": "Work Trend Index 2026",
-      "category": "Industry & Events",
-      "summary": "The 2026 Work Trend Index explores how, as agents take on more execution, human agency expands across employees, leaders, and organizations.",
-      "tags": [
-        "Work Trend Index",
-        "Research",
-        "Agents"
-      ],
-      "details": [
-        {
-          "heading": "Agents, human agency, and the opportunity for every organization",
-          "status": "",
-          "points": [
-            "2026 Annual Report: Agents, human agency, and the opportunity for organizations.",
-            "Central question: as agents take on more execution, what does that unlock for employees, leaders, and organizations?",
-            "Finding: when AI and agents do more, human agency actually expands.",
-            "More research and insights available at aka.ms/worklab."
-          ],
-          "slides": [
-            17
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-04-30-legal-agent-for-word",
-      "date": "2026-04-30",
-      "dateLabel": "April 30, 2026",
-      "title": "Legal Agent for Word",
-      "category": "Agents",
-      "summary": "A purpose-built, first-party agent in Word for contract review, redlining, and clause analysis with a deterministic redlining engine.",
-      "tags": [
-        "Legal Agent",
-        "Word",
-        "Contracts"
-      ],
-      "details": [
-        {
-          "heading": "Legal Agent for Word",
-          "status": "Frontier program",
-          "points": [
-            "Analyzes contracts: understand agreements, compare versions, and cite risks directly to source language.",
-            "Drafts clean, negotiation-ready redlines with track changes.",
-            "Maintains history by separating prior revisions from new proposals.",
-            "Flags non-compliant clauses and recommends approved language from internal playbooks.",
-            "Secure by design as a first-party Microsoft agent within the Microsoft 365 trust boundary, using a purpose-built OOXML redlining engine."
-          ],
-          "slides": [
-            20
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-03-30-cowork-and-researcher-updates",
-      "date": "2026-03-30",
-      "dateLabel": "March 30, 2026",
-      "title": "Cowork and Researcher Updates",
-      "category": "Cowork & Research",
-      "summary": "Copilot Cowork arrives in Frontier and Researcher gains multi-model Critique and Council, pairing GPT and Claude for higher-quality deep research.",
-      "tags": [
-        "Cowork",
-        "Researcher",
-        "Critique",
-        "Council"
-      ],
-      "details": [
-        {
-          "heading": "Cowork and Researcher updates overview",
-          "status": "",
-          "points": [
-            "March 30 announcement blogs: Copilot Cowork now available in Frontier.",
-            "Introducing multi-model intelligence in Researcher."
-          ],
-          "slides": [
-            21
-          ]
-        },
-        {
-          "heading": "Copilot Cowork now available to Frontier",
-          "status": "Rollout start to Frontier Program",
-          "points": [
-            "Delegate real work, not prompts: Cowork plans tasks, reasons across tools and files, and keeps work moving over time.",
-            "Observable and controllable, with transparent actions and guardrails to guide or stop execution.",
-            "Grounded in Work IQ so it understands your work directly rather than stitching context from connectors.",
-            "Enterprise-ready within Microsoft security, identity, and governance.",
-            "Built in partnership with Anthropic; Anthropic models currently excluded from the EU Data Boundary."
-          ],
-          "slides": [
-            22
-          ]
-        },
-        {
-          "heading": "Critique in Researcher",
-          "status": "Frontier program",
-          "points": [
-            "GPT drafts an initial response and Claude reviews it for accuracy, completeness, and citation integrity before delivery.",
-            "Measurably outperforms leading competitors on the DRACO deep-research benchmark.",
-            "Natively built in Microsoft 365 Copilot and leverages Work IQ work signals.",
-            "Adheres to privacy and permission settings; Anthropic models disabled by default for EU Data Boundary and UK customers."
-          ],
-          "slides": [
-            23
-          ]
-        },
-        {
-          "heading": "Council in Researcher",
-          "status": "Frontier program",
-          "points": [
-            "Simultaneously run a prompt across multiple AI models right within Researcher.",
-            "Summarizes where models agree, disagree, and what each uniquely adds.",
-            "Designed for exploration, comparison, and pressure-testing decisions.",
-            "Natively built in Microsoft 365 Copilot with Work IQ; Anthropic models disabled by default for EU Data Boundary and UK customers."
-          ],
-          "slides": [
-            24
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-03-09-frontier-moment-with-e7-and-copilot-wave-3",
-      "date": "2026-03-09",
-      "dateLabel": "March 9, 2026",
-      "title": "Frontier Moment with E7 and Copilot Wave 3",
-      "category": "Frontier",
-      "summary": "The Frontier Suite debuts Microsoft 365 E7, deepens Work IQ, expands agentic Office and multi-model choice, and introduces Agent 365 as the control plane for agents.",
-      "tags": [
-        "E7",
-        "Work IQ",
-        "Agent 365",
-        "Multi-model"
-      ],
-      "details": [
-        {
-          "heading": "Introducing the Frontier Suite built on Intelligence + Trust",
-          "status": "",
-          "points": [
-            "Secure agentic AI for Frontier Transformation, powering work with Copilot and agents.",
-            "Frontier firms combine intelligence that understands how work gets done with trust designed in from the start.",
-            "Spans Copilot Cowork, agentic Copilot in Excel/Word/PowerPoint, agentic Outlook, and apps in the flow of work."
-          ],
-          "slides": [
-            26
-          ]
-        },
-        {
-          "heading": "Microsoft 365 E7 - The Frontier Suite",
-          "status": "General availability May 1, 2026",
-          "points": [
-            "Brings together Microsoft 365 Copilot, Microsoft Agent 365, and Work IQ on the Microsoft 365 E5 + Entra Suite foundation.",
-            "Productivity suite for a human-led, agent-operated enterprise that turns human intent into action.",
-            "Adds a unified governance layer for AI agents via Agent 365.",
-            "Available with or without Teams; general availability May 1, 2026."
-          ],
-          "slides": [
-            27
-          ]
-        },
-        {
-          "heading": "Work IQ: closing the context gap",
-          "status": "",
-          "points": [
-            "Most AI works from snapshots, but work happens in context across files, chats, email, meetings, and people.",
-            "Work IQ is the intelligence layer with three parts: Data, Context, and Skills and Tools.",
-            "Builds a semantic graph and persistent memory of how you work over time.",
-            "Combines M365 signals with LOB data to give Copilot real-time understanding and predictive next steps."
-          ],
-          "slides": [
-            30,
-            31,
-            32
-          ]
-        },
-        {
-          "heading": "Work IQ memory and personalization",
-          "status": "Public Preview June 2026",
-          "points": [
-            "Copilot uses custom instructions, saved memories, work profile, and chat history to tailor responses.",
-            "Soon it will also use M365 activity signals such as emails, meetings, and chats to determine relevance.",
-            "Users can view, manage, and control how memory and preferences are applied."
-          ],
-          "slides": [
-            33
-          ]
-        },
-        {
-          "heading": "Work IQ APIs",
-          "status": "Public Preview Mar 2026",
-          "points": [
-            "Extends Copilot's intelligence beyond first-party experiences to wherever work happens.",
-            "Exposes Copilot intelligence through a natural-language interface for developers building grounded agents.",
-            "Inherits Microsoft enterprise-grade identity, security, permissions, and compliance."
-          ],
-          "slides": [
-            34
-          ]
-        },
-        {
-          "heading": "Dataverse in Work IQ",
-          "status": "Public Preview",
-          "points": [
-            "Copilot Chat can access Dataverse data, incorporating structured info from Power Apps and Dynamics 365.",
-            "Grounds responses in the organization's full business context including customer, account, and operational data.",
-            "Copilot in Power Apps, Dynamics 365 Sales, and Customer Service can combine business data across the app ecosystem.",
-            "Public preview for Copilot Chat (June 2026) and Dynamics/Power Apps (April 2026), with model-driven Power Apps GA in May 2026."
-          ],
-          "slides": [
-            35,
-            36
-          ]
-        },
-        {
-          "heading": "Work IQ Skills and Tools",
-          "status": "",
-          "points": [
-            "Skills provide pre-defined, specialized instructions so Copilot and agents perform tasks accurately.",
-            "Tools execute against skill intent for trustworthy, repeatable outcomes over structured and unstructured data.",
-            "Toolset spans MCP server tools, Power Platform connectors, Power Automate and agent flows, API plugins, and connected agents.",
-            "Customers can add their own skills and tools that operate with Work IQ orchestration."
-          ],
-          "slides": [
-            37,
-            38
-          ]
-        },
-        {
-          "heading": "Cowork",
-          "status": "Q1 2026 Frontier",
-          "points": [
-            "Brings long-running, multi-step work into Microsoft 365 Copilot, built in partnership with Anthropic.",
-            "Delegate real work, not prompts; Cowork plans tasks and reasons across tools and files.",
-            "Observable and controllable with transparent actions and guardrails.",
-            "Grounded in Work IQ and enterprise-ready within Microsoft security, identity, and governance."
-          ],
-          "slides": [
-            40
-          ]
-        },
-        {
-          "heading": "Word, Excel, and PowerPoint Agents",
-          "status": "Public | Mar 2026",
-          "points": [
-            "Turn ideas into polished documents, spreadsheets, and presentations directly in chat.",
-            "Clarify requests through targeted questions about focus, theme, audience, and file length.",
-            "Draw from both web and work sources to research, analyze, and create high-quality content.",
-            "Refine results in chat or open in the Word, Excel, or PowerPoint apps to edit and collaborate."
-          ],
-          "slides": [
-            45
-          ]
-        },
-        {
-          "heading": "Scheduling and email composition from Chat",
-          "status": "",
-          "points": [
-            "Schedule meetings end-to-end in Copilot Chat: find times, visualize fit, create agendas, reserve rooms, and send invites.",
-            "Move from draft to sent email in Copilot Chat without switching apps.",
-            "Scheduling from chat is generally available in English across M365 Copilot and Outlook endpoints.",
-            "Emailing from chat rollout to Frontier begins March 9 for M365 Copilot web and desktop."
-          ],
-          "slides": [
-            46
-          ]
-        },
-        {
-          "heading": "Multi-model choice and Claude in Copilot Chat",
-          "status": "March 2026",
-          "points": [
-            "Choose the best model for each task without leaving Copilot; Chat now includes Anthropic Claude alongside OpenAI models.",
-            "Speed to value with the latest models, the right model for the job, and lower maintenance.",
-            "Claude excels at deep reasoning, long-form analysis, and structured writing.",
-            "Claude not available in EU/UK or US Gov and sovereign clouds; disabled by default in the EU Data Boundary."
-          ],
-          "slides": [
-            47,
-            48,
-            49
-          ]
-        },
-        {
-          "heading": "Latest GPT-5.3 Instant and GPT-5.4 Thinking models",
-          "status": "Public | Mar 2026",
-          "points": [
-            "GPT-5.3 Instant and GPT-5.4 Thinking available in Copilot Chat and Copilot Studio.",
-            "GPT-5.3 Instant improves refusal handling, search-grounded reasoning, and tone.",
-            "GPT-5.4 Thinking supports complex problems and strategic insights, connecting to Work IQ.",
-            "Accessible in the model selector across both Copilot Chat and Copilot Studio."
-          ],
-          "slides": [
-            50
-          ]
-        },
-        {
-          "heading": "Apps in Agents",
-          "status": "Public | Mar 2026 (Public Preview)",
-          "points": [
-            "Review information and take action across apps without leaving Chat.",
-            "Bring apps you already use like Outlook, Dynamics 365, Adobe, Figma, and Power Apps directly into Copilot Chat.",
-            "Real-time viewing, editing, and action turn Chat into a workspace.",
-            "Inherits Microsoft 365 Copilot security, privacy, and compliance controls."
-          ],
-          "slides": [
-            52
-          ]
-        },
-        {
-          "heading": "Building and improving agents in Copilot Studio",
-          "status": "Rolling Q1-Q2 2026",
-          "points": [
-            "More proactive Describe and Configure panes guide makers through agent creation in real time.",
-            "Agent automation adds recurrent prompts and event-based triggers; submit agents for admin approval.",
-            "Richer knowledge sources including OneDrive files and Outlook skills.",
-            "Improved tool selection and SharePoint grounding raise agent answer quality."
-          ],
-          "slides": [
-            53,
-            55
-          ]
-        },
-        {
-          "heading": "Managing agents and safeguarding prompts",
-          "status": "Public | Mar 2026",
-          "points": [
-            "Copilot Studio PII masking lets admins mask personal information in prompts and responses.",
-            "Agent Message Usage Estimator forecasts an agent's monthly message volume.",
-            "Microsoft Purview DLP prevents Copilot from responding, grounding, or web searching when prompts contain sensitive data.",
-            "DLP extends to Copilot Chat, Microsoft 365 Copilot, and Copilot Studio agents published to the Microsoft 365 channel."
-          ],
-          "slides": [
-            56,
-            57
-          ]
-        },
-        {
-          "heading": "Microsoft Agent 365 - the control plane for agents",
-          "status": "Available May 1",
-          "points": [
-            "The control plane for agents, available May 1, enabling scaled adoption with oversight and guardrails.",
-            "Registry gives a complete view of all agents including agent ID, self-registered, and shadow agents.",
-            "Access control limits agents to needed resources with risk-based conditional access.",
-            "Visualization, interoperability via Work IQ, and security integrate with Entra, Purview, and Defender.",
-            "Roadmap spans Observe, Govern, and Secure with the Agent 365 SDK and Viva Insights dashboards."
-          ],
-          "slides": [
-            58,
-            59,
-            60,
-            61
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-03-06-chat-gpt-5-4-thinking",
-      "date": "2026-03-06",
-      "dateLabel": "March 6, 2026",
-      "title": "Chat GPT-5.4 Thinking",
-      "category": "Models & Chat",
-      "summary": "GPT-5.4 Thinking arrives in Copilot Chat and Copilot Studio for complex problem solving and strategic insights, grounded in Work IQ.",
-      "tags": [
-        "GPT-5.4",
-        "Reasoning",
-        "Copilot Chat"
-      ],
-      "details": [
-        {
-          "heading": "GPT-5.4 Thinking",
-          "status": "Public | Mar 2026",
-          "points": [
-            "Try the latest model directly in Copilot Chat.",
-            "GPT-5.4 Thinking supports complex problems and strategic insights, with advances in reasoning, coding, and agentic workflows.",
-            "Connects to Work IQ to reason across meetings, emails, and documents for insights and strategic planning.",
-            "Accessible in the model selector in both Copilot Chat and Copilot Studio, available within 30 days of release."
-          ],
-          "slides": [
-            62
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2026-03-03-chat-gpt-5-3-instant",
-      "date": "2026-03-03",
-      "dateLabel": "March 3, 2026",
-      "title": "Chat GPT-5.3 Instant",
-      "category": "Models & Chat",
-      "summary": "GPT-5.3 Instant comes to Copilot Chat and Copilot Studio, improving refusal handling, search-grounded reasoning, and tone.",
-      "tags": [
-        "GPT-5.3",
-        "Instant",
-        "Copilot Chat"
-      ],
-      "details": [
-        {
-          "heading": "GPT-5.3 Instant",
-          "status": "Public | Mar 2026",
-          "points": [
-            "Try the latest model directly in Copilot Chat.",
-            "Builds on GPT-5.2 Instant to improve refusal handling, search-grounded reasoning, and tone for more consistent results.",
-            "Connects to Work IQ to unlock insights, market research, and strategic planning.",
-            "Accessible in the model selector in both Copilot Chat and Copilot Studio."
-          ],
-          "slides": [
-            63
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-12-11-chat-gpt-5-2",
-      "date": "2025-12-11",
-      "dateLabel": "December 11, 2025",
-      "title": "Chat GPT-5.2",
-      "category": "Models & Chat",
-      "summary": "GPT-5.2 brings Thinking and Instant models to Copilot Chat, connected to Work IQ for insights, research, and strategic planning.",
-      "tags": [
-        "GPT-5.2",
-        "Thinking",
-        "Instant"
-      ],
-      "details": [
-        {
-          "heading": "Chat GPT-5.2 model",
-          "status": "Available now",
-          "points": [
-            "GPT-5.2 brings together two advanced models, available now.",
-            "GPT-5.2 Thinking is the best model yet for complex problems and strategic insights.",
-            "GPT-5.2 Instant is an efficient model for everyday writing, translation, and skill-building.",
-            "Connects to Work IQ for insights, market research, and strategic planning; available in Copilot Studio Early Release Environments."
-          ],
-          "slides": [
-            65
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-11-18-microsoft-ignite-2025",
-      "date": "2025-11-18",
-      "dateLabel": "November 18, 2025",
-      "title": "Microsoft Ignite 2025",
-      "category": "Industry & Events",
-      "summary": "Ignite delivers a sweeping Copilot wave: Work IQ, agentic Office and Outlook, new agents, Microsoft Agent 365, Windows 365 for Agents, and enterprise admin and security controls.",
-      "tags": [
-        "Ignite",
-        "Work IQ",
-        "Agent 365",
-        "Agents"
-      ],
-      "details": [
-        {
-          "heading": "AI built for work with Work IQ",
-          "status": "",
-          "points": [
-            "Copilot is AI built for work, connected to the web and your work data and integrated in the flow of work.",
-            "Work IQ knows your work through Data, Memory, and Inference.",
-            "Memory adds implicit, conversational memory of your style, habits, and preferences.",
-            "Inference understands organizational relationships and enables predictive actions."
-          ],
-          "slides": [
-            66,
-            67
-          ]
-        },
-        {
-          "heading": "New Copilot Chat value",
-          "status": "Public Preview Q1 2026",
-          "points": [
-            "Copilot Chat in Outlook will understand your entire inbox, calendar, and meetings.",
-            "Agent Mode in Word, Excel, and PowerPoint uses web data and referenced files to create and refine content.",
-            "Word, Excel, and PowerPoint Agents create high-quality documents, spreadsheets, and presentations in chat.",
-            "Available for Copilot Chat users with a Microsoft 365 license; rollout to Public Preview in Q1 2026."
-          ],
-          "slides": [
-            68
-          ]
-        },
-        {
-          "heading": "Agent Mode in Word, Excel, and PowerPoint",
-          "status": "Rollout start Frontier Sept 2025",
-          "points": [
-            "Copilot orchestrates multi-step tasks to deliver Office documents, spreadsheets, and presentations.",
-            "Works with real Word styles, Excel formulas and tables, and PowerPoint layouts.",
-            "Grounded in your files, emails, and meetings via Work IQ plus web grounding; Excel offers OpenAI or Anthropic model choice.",
-            "Excel and Word to worldwide Q4 2025; PowerPoint to Frontier Nov 2025; Public Preview for Chat users Q1 CY26."
-          ],
-          "slides": [
-            69
-          ]
-        },
-        {
-          "heading": "Word, Excel, and PowerPoint Agents",
-          "status": "Rollout start to Frontier Program Nov 2025",
-          "points": [
-            "Turn ideas into polished documents, spreadsheets, and presentations directly in chat.",
-            "Each agent draws from web and Work IQ sources to research, analyze, and create.",
-            "Clarifies requests through targeted questions about focus, theme, audience, and length.",
-            "Refine in chat or open in the apps; Excel Agent currently uses web sources only."
-          ],
-          "slides": [
-            70
-          ]
-        },
-        {
-          "heading": "Copilot Chat in Microsoft 365 apps",
-          "status": "",
-          "points": [
-            "Secure chat with web and Work IQ that reasons over open files with advanced app skills.",
-            "Built-in access to agents and advanced reasoning AI like Researcher and Analyst.",
-            "Includes in-app editing, work data prompts, and work data access across select Microsoft 365 apps."
-          ],
-          "slides": [
-            71
-          ]
-        },
-        {
-          "heading": "Microsoft 365 Copilot app navigation updates",
-          "status": "",
-          "points": [
-            "Streamlined navigation pane to start chats, access agents, open recent notebooks, and explore Frontier experiences.",
-            "Expanded Chat history with infinite scroll and Chat search in the navigation pane.",
-            "New Library experience centralizes Copilot-generated images and Pages and content shared with you.",
-            "Rollout to Frontier Nov 2025, worldwide Dec 2025; Library from Oct 2025."
-          ],
-          "slides": [
-            72
-          ]
-        },
-        {
-          "heading": "Tools and Sources in the Copilot app",
-          "status": "Available now",
-          "points": [
-            "Get more relevant responses by selecting tools and specifying which data Copilot draws from.",
-            "Tools surface skills and agents including Designer, Researcher, and Analyst.",
-            "Sources specify whether Copilot taps web content, Microsoft 365 work content, or connected business data.",
-            "Available now."
-          ],
-          "slides": [
-            73
-          ]
-        },
-        {
-          "heading": "Video recap in Copilot Chat",
-          "status": "Rollout to GA Nov 2025",
-          "points": [
-            "Transforms recorded meeting summaries into narrated videos highlighting key takeaways.",
-            "Uses the meeting transcript to identify key topics and add voice-over.",
-            "Creates narrated highlights with short clips of important moments.",
-            "Available for recorded meetings in Copilot Chat, coming soon to the Recap page in Teams."
-          ],
-          "slides": [
-            74
-          ]
-        },
-        {
-          "heading": "Chat experience in Copilot Search",
-          "status": "Rollout to Public Preview Dec 2025",
-          "points": [
-            "Brings powerful search and conversational chat into a single experience.",
-            "Ask, refine, and act in one streamlined conversational process.",
-            "Select documents from search results to guide chat responses and improve precision.",
-            "Public Preview Dec 2025; worldwide March 2026."
-          ],
-          "slides": [
-            75
-          ]
-        },
-        {
-          "heading": "Outlook mobile enhancements",
-          "status": "Rollout start to Frontier Program Nov 2025",
-          "points": [
-            "Triage emails with voice: get summaries and ask questions about recent unread emails.",
-            "Take quick actions like flagging, pinning, archiving, deleting, and drafting replies.",
-            "Context-aware one-tap prompts based on what you are working on.",
-            "Available in Outlook iOS and Android; rollout to Frontier Nov 2025."
-          ],
-          "slides": [
-            76
-          ]
-        },
-        {
-          "heading": "Advanced scheduling and time management in Outlook",
-          "status": "Rollout start Nov-Dec 2025",
-          "points": [
-            "Triage meeting requests, negotiate conflicts, and schedule using natural language.",
-            "Copilot triages requests on your custom instructions and surfaces ones needing attention.",
-            "Mark 1:1s and personal events as flexible so Copilot can reschedule around conflicts.",
-            "Tell Copilot to schedule, update, or cancel meetings; it finds times, drafts agendas, and books rooms."
-          ],
-          "slides": [
-            77
-          ]
-        },
-        {
-          "heading": "Agent Mode in PowerPoint",
-          "status": "Rollout start to Frontier Program Nov 2025",
-          "points": [
-            "Copilot edits, updates, and polishes your presentation in this early preview.",
-            "Rewrite slides, polish layouts, and format text while respecting your branded template.",
-            "Grounded in web and Work IQ sources to keep presentations accurate and current.",
-            "Edits are reviewable and preserve formatting, structure, and branding."
-          ],
-          "slides": [
-            78
-          ]
-        },
-        {
-          "heading": "Notebooks enhancements",
-          "status": "Rollout start in Frontier program Oct-Nov 2025",
-          "points": [
-            "Share Notebooks so teams can co-author and build on each other's work.",
-            "Overview Page shows summary content with proactive suggestions for references, topics, and prompts.",
-            "Generate narrated video overviews of Notebook content.",
-            "Rollout to Frontier program Oct-Nov 2025."
-          ],
-          "slides": [
-            79
-          ]
-        },
-        {
-          "heading": "Copilot Pages enhancements",
-          "status": "Rollout start to GA Nov 2025",
-          "points": [
-            "Convert a Copilot Page into a polished PowerPoint with a single click.",
-            "Create Pages automatically through Chat and refine them side-by-side with Copilot.",
-            "Write, test, and run code in Pages, then deploy as an app in App Builder.",
-            "Rollout to general availability Nov 2025."
-          ],
-          "slides": [
-            80
-          ]
-        },
-        {
-          "heading": "Microsoft Edge for Business: the secure enterprise AI browser",
-          "status": "Rollout start to Public Preview Feb 2026",
-          "points": [
-            "Get insights across up to 30 open tabs and find sites you have closed using chat.",
-            "Access Copilot every new tab to chat, search the web, and get tailored work recommendations.",
-            "Complete multi-step workflows across websites with Agent Mode.",
-            "Rollout to Public Preview Feb 2026."
-          ],
-          "slides": [
-            81
-          ]
-        },
-        {
-          "heading": "New Microsoft 365 Copilot agents: Workforce Insights, People, Learning",
-          "status": "Rollout start to Frontier Program Nov 2025",
-          "points": [
-            "Workforce Insights Agent helps leaders understand team composition, skills, and generate data-driven reports.",
-            "People Agent finds colleagues by skills and roles, surfaces recent context, and helps prep for meetings.",
-            "Learning Agent gives Copilot and AI tips, live role-play, and access to Viva Learning and LinkedIn Learning courses.",
-            "All rolling out to the Frontier Program Nov 2025."
-          ],
-          "slides": [
-            82,
-            83,
-            84
-          ]
-        },
-        {
-          "heading": "Sora 2 in Create",
-          "status": "Rollout start to Frontier Program Nov 2025",
-          "points": [
-            "OpenAI's latest video model turns prompts into short video clips inside the Copilot app.",
-            "Replace media with a generated clip and adjust voiceover, music, and transcripts in the integrated editor.",
-            "Leverages Microsoft enterprise-grade permissions.",
-            "Rollout to Frontier Program Nov 2025."
-          ],
-          "slides": [
-            85
-          ]
-        },
-        {
-          "heading": "Agent usage report",
-          "status": "Rollout to Public Preview Nov 2025",
-          "points": [
-            "Measure agent usage across Microsoft 365 Copilot and Copilot Chat users.",
-            "View results segmented by publisher type: user-created, Microsoft-built, and partner-built.",
-            "Manage deployment with granular details on users, agents, and user-agent pairs in the Microsoft 365 admin center.",
-            "Available in Public Preview Nov 2025."
-          ],
-          "slides": [
-            86
-          ]
-        },
-        {
-          "heading": "Baseline security mode",
-          "status": "Rollout start Nov 2025",
-          "points": [
-            "Enforce Microsoft-recommended security settings across Office, Teams, Entra, and more in a few clicks.",
-            "Identify baseline gaps, simulate changes, and deploy protections with a guided experience.",
-            "Addresses up to 60% of Microsoft Security Response cases from the past two decades.",
-            "Opt-in and free for all commercial customers; rollout Nov 2025."
-          ],
-          "slides": [
-            87
-          ]
-        },
-        {
-          "heading": "Local processing for prompts and responses",
-          "status": "Rollout start Dec 2025",
-          "points": [
-            "Process Microsoft 365 Copilot interactions in-country to keep data local.",
-            "Helps regulated industries and governments meet legal and privacy requirements.",
-            "Available by end of 2025 in Australia, UK, Japan, India, and UAE.",
-            "Expands to 11 more countries throughout 2026; rollout Dec 2025."
-          ],
-          "slides": [
-            88
-          ]
-        },
-        {
-          "heading": "Microsoft Purview DLP to safeguard prompts",
-          "status": "Rollout start to Public Preview Nov 2025",
-          "points": [
-            "Prevents Copilot from responding, grounding, or web searching when a prompt contains sensitive data.",
-            "Extends to Copilot Chat, Microsoft 365 Copilot, and Copilot Studio agents published to the Microsoft 365 channel.",
-            "Reduces data leakage and oversharing risk in real time.",
-            "Rollout to Public Preview Nov 2025; requires a configured Purview DLP policy."
-          ],
-          "slides": [
-            89
-          ]
-        },
-        {
-          "heading": "Agent Dashboard and Copilot Chat reports",
-          "status": "Public Preview / GA Nov 2025 - Feb 2026",
-          "points": [
-            "Agent Dashboard measures adoption and impact of custom, Microsoft, and third-party agents in Viva Insights.",
-            "Understand agent adoption trends and identify the most popular agents.",
-            "Copilot Chat reports analyze adoption in the Copilot Dashboard with usage, intensity, and retention.",
-            "Available for customers with 50+ Microsoft 365 Copilot licenses; Agent Dashboard preview Jan-Feb 2026."
-          ],
-          "slides": [
-            90,
-            91
-          ]
-        },
-        {
-          "heading": "Admin agents for Teams and SharePoint",
-          "status": "Rollout start Nov 2025",
-          "points": [
-            "Teams Admin Center agents delegate tasks like meeting monitoring and remediate issues proactively.",
-            "SharePoint Admin Agent detects and remediates inactive, overshared, or ownerless sites and applies policies.",
-            "Agents accomplish tasks autonomously and securely while admins stay in control.",
-            "Rollout to Teams Admin Center and SharePoint Public Preview Nov 2025."
-          ],
-          "slides": [
-            92,
-            93
-          ]
-        },
-        {
-          "heading": "Agents in Microsoft Teams Channels with MCP",
-          "status": "Public Preview",
-          "points": [
-            "Each channel has an AI teammate that turns intent into action and drives projects forward.",
-            "Channel Agent captures and tracks tasks and sends status reports.",
-            "MCP orchestration connects channel agents with apps like Asana, Atlassian, and GitHub.",
-            "Agents in Teams Channels in Public Preview since Sept 2025; MCP orchestration preview Nov 2025."
-          ],
-          "slides": [
-            94
-          ]
-        },
-        {
-          "heading": "SharePoint in Copilot: pages, lists, and metadata",
-          "status": "Rollout start Nov 2025",
-          "points": [
-            "Create SharePoint lists and pages from a Copilot conversation by @mentioning the SharePoint list or page agent.",
-            "Copilot reasons over the full richness of SharePoint, now including metadata understanding.",
-            "Understand document tags for more accurate, context-aware responses and auto-enrich documents with Knowledge Agent.",
-            "Metadata understanding GA for agents Oct 2025 and for Copilot Nov 2025."
-          ],
-          "slides": [
-            95,
-            96
-          ]
-        },
-        {
-          "heading": "Sales Development Agent",
-          "status": "Rollout start to Frontier Preview, Dec 2025",
-          "points": [
-            "Autonomous agent that acts like a teammate for lead research, qualification, outreach, and follow-ups.",
-            "Fully independent yet collaborative, working side-by-side with sellers.",
-            "Robust security, management controls, and observability with Agent 365.",
-            "Easy onboarding from the Agent Store; rollout to Frontier Preview Dec 2025."
-          ],
-          "slides": [
-            97
-          ]
-        },
-        {
-          "heading": "Improved agent creation and file generation in Copilot",
-          "status": "",
-          "points": [
-            "Build and refine agents through natural conversation with real-time feedback.",
-            "Add work-related knowledge sources by describing them in plain language.",
-            "Agents can generate Word, Excel, and PowerPoint files and save them to OneDrive.",
-            "Expanded knowledge sources include Teams meetings, calendar, directory, OneNote, and shared mailboxes, respecting permissions."
-          ],
-          "slides": [
-            98,
-            99
-          ]
-        },
-        {
-          "heading": "Opal",
-          "status": "Rollout start to Frontier Program Nov 2025",
-          "points": [
-            "New agent for orchestrating and executing task-based work on your behalf.",
-            "Operates with your identity using computer use on a secure Windows 365 virtual machine across browser-based apps.",
-            "Interact, pause, stop, and resume activity at any time with full auditability.",
-            "Use cases span HR time cards, engineering compliance and ADO updates, and procurement POs; rollout to Frontier Nov 2025."
-          ],
-          "slides": [
-            100
-          ]
-        },
-        {
-          "heading": "Copilot Tuning",
-          "status": "Limited Public Preview (Early Access Program)",
-          "points": [
-            "Boost accuracy and relevance with agents fine-tuned to your business.",
-            "Automate model training with a turnkey, no-code experience in Copilot Studio.",
-            "Models stay within the Microsoft 365 service boundary, preserving ACLs and governance.",
-            "Limited Public Preview via the Early Access Program for customers with 5,000+ Copilot seats in NAM, EU, and APAC."
-          ],
-          "slides": [
-            101
-          ]
-        },
-        {
-          "heading": "MCP connectors in Copilot",
-          "status": "Rollout start to Public Preview Nov 2025",
-          "points": [
-            "User-level MCP connectors securely link third-party tools like Notion, HubSpot, and Canva for real-time access.",
-            "Reasons over user-scoped data without syncing or duplicating, reducing data-leak risk.",
-            "Native MCP connectors in Copilot Studio cover core Microsoft 365 services with provided tools and actions.",
-            "Rollout to Public Preview in Researcher Nov 2025."
-          ],
-          "slides": [
-            102,
-            103
-          ]
-        },
-        {
-          "heading": "Agent evaluation and runtime protection in Copilot Studio",
-          "status": "Public Preview - Oct 2025",
-          "points": [
-            "Agent Evaluation tests agents with automated pre-launch evaluations to identify gaps before deployment.",
-            "Validate performance with detailed feedback showing where agents succeed or need work.",
-            "Additional Runtime Protection integrates Microsoft Defender, third-party, or custom security tools into agent runtime.",
-            "Detects and blocks prompt injection, jailbreaking, and malicious inputs in real time; Public Preview Oct 2025."
-          ],
-          "slides": [
-            104,
-            105
-          ]
-        },
-        {
-          "heading": "Microsoft Agent 365 - the control plane for agents",
-          "status": "Frontier",
-          "points": [
-            "Registry, access control, visualization, interoperability, and security for agents.",
-            "Bring agents under management and limit access with risk-based conditional access.",
-            "Connect agents to Work IQ and the same apps people use to simplify human-agent workflows.",
-            "Integrates with Microsoft 365, Power Apps, Power BI, Defender, Entra, and Purview; available in Frontier."
-          ],
-          "slides": [
-            106,
-            107,
-            108,
-            109,
-            110,
-            111,
-            112,
-            114
-          ]
-        },
-        {
-          "heading": "Agent 365 SDK",
-          "status": "Public Preview - Nov 2025",
-          "points": [
-            "Build enterprise agents with secure identity and complete observability.",
-            "Streamlined onboarding with Entra ID registration, channel setup, and access via the A365 Tooling Gateway.",
-            "Full telemetry with logging, metrics, and tracing routed to Purview, Sentinel, Defender, and App Insights.",
-            "Lifecycle hooks enable real-time monitoring, custom validation, and fine-grained governance; Public Preview Nov 2025."
-          ],
-          "slides": [
-            115
-          ]
-        },
-        {
-          "heading": "Windows 365 for Agents and AI-enabled Cloud PCs",
-          "status": "Frontier Preview",
-          "points": [
-            "Windows 365 for Agents lets builders design, test, and deploy computer-using agents on Cloud PCs.",
-            "Powers first-party agents like Opal and Researcher with orchestration, compliance, and scalability.",
-            "Windows 365 AI-enabled Cloud PCs bring enterprise AI to any device - Windows, iOS, Android, Linux, or web.",
-            "Native MCP support in Windows extends the agentic platform to the cloud; Frontier Preview."
-          ],
-          "slides": [
-            116,
-            117,
-            118
-          ]
-        },
-        {
-          "heading": "Agents in Intune and Copilot in Intune",
-          "status": "Public Preview / GA",
-          "points": [
-            "Change Review Agent assesses change requests and recommends approval or denial.",
-            "Policy Configuration Agent captures intent and maps it to recommended settings.",
-            "Device Offboarding Agent recommends devices to offboard based on activity signals.",
-            "Copilot in Intune adds Autopilot, Endpoint Privilege Management, and Advanced Analytics; agents in public preview."
-          ],
-          "slides": [
-            119
-          ]
-        },
-        {
-          "heading": "Employee Self-Service agent",
-          "status": "Rollout start Oct 2025",
-          "points": [
-            "Single front door for HR and IT support working with Workday, ServiceNow, and SAP SuccessFactors.",
-            "Get answers and take action on tasks like checking leave balance and ordering equipment.",
-            "Set up with prebuilt, extensible workflows in Copilot Studio.",
-            "Rollout Oct 2025."
-          ],
-          "slides": [
-            120
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-11-03-copilot-voice",
-      "date": "2025-11-03",
-      "dateLabel": "November 3, 2025",
-      "title": "Copilot Voice",
-      "category": "Models & Chat",
-      "summary": "Voice in Microsoft 365 Copilot brings natural, hands-free conversation to desktop and mobile, grounded in work and web data.",
-      "tags": [
-        "Voice",
-        "Mobile",
-        "Hands-free"
-      ],
-      "details": [
-        {
-          "heading": "Voice and vision capabilities",
-          "status": "Rollout start Nov 2025",
-          "points": [
-            "Work with AI through natural, hands-free conversation on mobile and desktop.",
-            "Brainstorm, catch up, or prepare for meetings with voice grounded in your work and web data.",
-            "Speak and interrupt easily on mobile or by pressing Win+C at your desk.",
-            "Get real-time help analyzing document content using voice; mobile first, with other Copilot experiences by end of year."
-          ],
-          "slides": [
-            121
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-10-30-researcher-agent-with-computer-use",
-      "date": "2025-10-30",
-      "dateLabel": "October 30, 2025",
-      "title": "Researcher Agent with Computer Use",
-      "category": "Cowork & Research",
-      "summary": "Researcher gains computer use, performing tasks on a virtual computer to access, analyze, and automate research across public, gated, and authenticated web sources.",
-      "tags": [
-        "Researcher",
-        "Computer Use",
-        "Automation"
-      ],
-      "details": [
-        {
-          "heading": "Researcher with Computer Use",
-          "status": "Rollout start to Frontier Program Oct 2025",
-          "points": [
-            "Perform tasks using a virtual computer to access, analyze, and automate research on your behalf.",
-            "Unlock insights across public and gated web sources, overcoming paywalls and interactive browsing sites like travel booking.",
-            "Leverages advanced reasoning, interactive browsing, and automation powered by OpenAI's latest models.",
-            "Reasoning over internal data sources is not part of the initial public preview."
-          ],
-          "slides": [
-            122
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-10-28-app-builder-agent-workflow-agent",
-      "date": "2025-10-28",
-      "dateLabel": "October 28, 2025",
-      "title": "App Builder Agent & Workflow Agent",
-      "category": "Platform & SDK",
-      "summary": "New maker tools let anyone build apps, workflows, and agents in the flow of work directly inside Microsoft 365 Copilot.",
-      "tags": [
-        "App Builder",
-        "Workflows",
-        "Copilot Studio"
-      ],
-      "details": [
-        {
-          "heading": "Apps, Flows, Agents",
-          "status": "",
-          "points": [
-            "Become an AI maker building solutions in the flow of work.",
-            "App Builder builds apps for interactive workspaces.",
-            "Workflows Agent builds flows for automating repetitive tasks.",
-            "Copilot Studio builds agents for conversational assistance."
-          ],
-          "slides": [
-            124
-          ]
-        },
-        {
-          "heading": "App Builder",
-          "status": "Frontier US only | October 2025",
-          "points": [
-            "Build interactive, no-code apps in minutes to boost personal and team productivity.",
-            "Start from existing data and documents in Microsoft Graph.",
-            "Store app data in Microsoft Lists for instant deployment in Microsoft 365 Copilot.",
-            "Share like a document with security and governance baked in; optionally start from runnable code in Copilot Pages."
-          ],
-          "slides": [
-            125
-          ]
-        },
-        {
-          "heading": "Workflows Agent",
-          "status": "Frontier WW | October 2025",
-          "points": [
-            "Create flows in Microsoft 365 just by using your words in chat.",
-            "Build, save, test, and run flows all within Microsoft 365 Copilot.",
-            "Quick scenarios like daily triage, weekly digests, and lightweight approvals.",
-            "Manage and edit active flows directly within Copilot."
-          ],
-          "slides": [
-            127
-          ]
-        },
-        {
-          "heading": "Agents in Copilot Studio",
-          "status": "Generally Available",
-          "points": [
-            "Build personalized, work-grounded agents using your words.",
-            "Connect to your Microsoft work graph - SharePoint, Teams, Outlook - and external systems.",
-            "Test, refine, publish, and share with your team, always honoring access permissions.",
-            "Runs on Microsoft 365 Copilot's secure, compliant foundation."
-          ],
-          "slides": [
-            129
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-10-28-p3-copilot-credits",
-      "date": "2025-10-28",
-      "dateLabel": "October 28, 2025",
-      "title": "P3 Copilot Credits",
-      "category": "Admin & Cost",
-      "summary": "A new Pre-Purchase Plan (P3) joins capacity packs and pay-as-you-go as a third way to buy Copilot Credits, with tiered volume discounts and MACC eligibility.",
-      "tags": [
-        "Copilot Credits",
-        "P3",
-        "MACC",
-        "Pricing"
-      ],
-      "details": [
-        {
-          "heading": "Three ways to buy Copilot Credits",
-          "status": "",
-          "points": [
-            "Copilot Credits are the universal currency for agent usage across Copilot Studio, Dynamics 365 first-party agents, and Copilot Chat.",
-            "Capacity packs (MCS license): $200 per pack per month per tenant, 25,000 credits per pack.",
-            "Pay-as-you-go: $0.01 per message, transacted in the Azure Portal.",
-            "New Pre-Purchase Plan (P3) for larger or variable demand with built-in tiered volume discounts.",
-            "Capacity packs and P3 are MACC eligible; PAYG is not."
-          ],
-          "slides": [
-            131
-          ]
-        },
-        {
-          "heading": "Pre-Purchase Plan (P3)",
-          "status": "",
-          "points": [
-            "Buy Copilot Credit as Copilot Credit Commit Units (CCCU) usable over one year.",
-            "Built-in tiered discounts up to 20% off PAYG rates.",
-            "Annual expiration of CCCU versus monthly capacity packs, with flexibility to add tiers anytime.",
-            "MACC eligible and tracked in real time in the Azure Portal; no Microsoft 365 admin center license needed.",
-            "1 CCCU = 100 Copilot Credits; unused CCCU expire at end of term."
-          ],
-          "slides": [
-            132
-          ]
-        },
-        {
-          "heading": "P3 tiers and discounts",
-          "status": "",
-          "points": [
-            "Nine tiers from Tier 1 (3,000 CCCU / 300,000 credits, $2,850, 5% off) up to Tier 9 (3,000,000 CCCU / 300,000,000 credits, $2,400,000, 20% off).",
-            "Discount grows with commitment, unlocking more savings the more you commit."
-          ],
-          "slides": [
-            133
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-10-27-teams-mode-for-microsoft-365-copilot",
-      "date": "2025-10-27",
-      "dateLabel": "October 27, 2025",
-      "title": "Teams Mode for Microsoft 365 Copilot",
-      "category": "Models & Chat",
-      "summary": "Teams Mode lets you collaborate with Copilot and colleagues together in Teams group chats.",
-      "tags": [
-        "Teams Mode",
-        "Collaboration",
-        "Group chat"
-      ],
-      "details": [
-        {
-          "heading": "Teams Mode for Microsoft 365 Copilot",
-          "status": "Public Preview starts Oct 2025",
-          "points": [
-            "Collaborate with Copilot and colleagues in Teams group chats.",
-            "Start a 1:1 with Copilot and expand into a group chat, or add Copilot to an existing group chat.",
-            "@Copilot to ask questions, create content, retrieve files, and track decisions.",
-            "Review and approve responses when personal memory may be referenced; add users like any Teams chat."
-          ],
-          "slides": [
-            134
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-09-29-agent-mode-and-office-agent",
-      "date": "2025-09-29",
-      "dateLabel": "September 29, 2025",
-      "title": "Agent Mode and Office Agent",
-      "category": "Agents",
-      "summary": "Vibe working arrives with Agent Mode and a taste-driven Office Agent that generate and refine documents, spreadsheets, and presentations from natural language.",
-      "tags": [
-        "Agent Mode",
-        "Office Agent",
-        "Vibe working"
-      ],
-      "details": [
-        {
-          "heading": "Agent Mode and Office Agent",
-          "status": "",
-          "points": [
-            "Generate and refine documents, spreadsheets, and presentations through natural language prompts.",
-            "Focus on intent while the AI handles the technical details.",
-            "Introduced as 'vibe working' in Microsoft 365 Copilot.",
-            "Currently only available for consumers with personal accounts."
-          ],
-          "slides": [
-            136
-          ]
-        },
-        {
-          "heading": "Agent Mode in Word",
-          "status": "",
-          "points": [
-            "Work with Copilot in a more interactive way where writing becomes a conversation.",
-            "Focus on your ideas while Copilot handles the details.",
-            "Uses Word's built-in styles and formatting."
-          ],
-          "slides": [
-            137
-          ]
-        },
-        {
-          "heading": "Office Agent",
-          "status": "",
-          "points": [
-            "Multi-agent system built on an open-source stack, Anthropic's Claude model, and a taste-driven development paradigm.",
-            "Delivers polished PowerPoint presentations, ready-to-use Word documents, and soon Excel spreadsheets.",
-            "Orchestrates specialized agents that plan, draft, and refine Office artifacts end-to-end.",
-            "Currently only available for consumers with personal accounts."
-          ],
-          "slides": [
-            138
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-09-25-microsoft-agent-store",
-      "date": "2025-09-25",
-      "dateLabel": "September 25, 2025",
-      "title": "Microsoft Agent Store",
-      "category": "Platform & SDK",
-      "summary": "The new Microsoft Marketplace and in-product Agent Store provide a connected way to discover, deploy, and manage agents across Microsoft 365.",
-      "tags": [
-        "Agent Store",
-        "Marketplace",
-        "Partners"
-      ],
-      "details": [
-        {
-          "heading": "Microsoft Marketplace and Agent Store",
-          "status": "",
-          "points": [
-            "Microsoft Marketplace is a web storefront for all agents, AI apps, and tools.",
-            "Agent Store is the in-product experience for agents that work with Copilot.",
-            "One publishing process and one catalog from Microsoft Partner Center.",
-            "Research and transact on the web, then deploy and manage agents through the Agent Store."
-          ],
-          "slides": [
-            139
-          ]
-        },
-        {
-          "heading": "Agent Store",
-          "status": "",
-          "points": [
-            "Features pre-built agents from Microsoft, trusted partners, and your organization.",
-            "Offers personalized discovery in the flow of your work.",
-            "Native to Microsoft 365 Copilot and available across Microsoft 365 apps.",
-            "Accessible to all users with no Copilot license required to visit; full catalog from the Marketplace."
-          ],
-          "slides": [
-            140
-          ]
-        },
-        {
-          "heading": "Trusted third-party agents",
-          "status": "",
-          "points": [
-            "A wide ecosystem of partners from Adobe, SAP, and Atlassian to Miro and Monday.com.",
-            "Use agents to automate workflows, accelerate decision-making, and unlock new productivity.",
-            "More role- and industry-specific agents coming to the store in FY26."
-          ],
-          "slides": [
-            141
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-09-24-model-choice",
-      "date": "2025-09-24",
-      "dateLabel": "September 24, 2025",
-      "title": "Model Choice",
-      "category": "Models & Chat",
-      "summary": "Anthropic's Claude Sonnet 4 and Claude Opus 4.1 join Microsoft 365 Copilot, giving users model choice across Researcher and Copilot Studio.",
-      "tags": [
-        "Model Choice",
-        "Anthropic",
-        "Claude"
-      ],
-      "details": [
-        {
-          "heading": "Model Choice",
-          "status": "",
-          "points": [
-            "Introducing Claude Sonnet 4 and Claude Opus 4.1 to Microsoft 365 Copilot.",
-            "Choose between OpenAI and Anthropic models for your tasks.",
-            "Available in the Researcher agent and Copilot Studio for more customizable AI workflows."
-          ],
-          "slides": [
-            142
-          ]
-        },
-        {
-          "heading": "Researcher with Anthropic",
-          "status": "",
-          "points": [
-            "Switch between OpenAI and Anthropic models in Researcher.",
-            "Organizations must opt in to enable external models."
-          ],
-          "slides": [
-            143
-          ]
-        },
-        {
-          "heading": "Copilot Studio with Anthropic",
-          "status": "",
-          "points": [
-            "Choose an external model as the primary AI model in Copilot Studio.",
-            "Allow external large language models for generative responses in Power Platform.",
-            "Available in early release cycle environments worldwide, preview in all environments by mid-October, production by end of year."
-          ],
-          "slides": [
-            144
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-09-18-human-agent-collaboration",
-      "date": "2025-09-18",
-      "dateLabel": "September 18, 2025",
-      "title": "Human-Agent Collaboration",
-      "category": "Agents",
-      "summary": "New collaboration-focused agents embed across Teams, SharePoint, and Viva Engage to help groups coordinate, communicate, and execute.",
-      "tags": [
-        "Agents",
-        "Teams",
-        "Collaboration"
-      ],
-      "details": [
-        {
-          "heading": "Human-agent collaboration",
-          "status": "",
-          "points": [
-            "New collaboration-focused agents within Microsoft 365 Copilot.",
-            "Embedded in Microsoft Teams, SharePoint, and Viva Engage.",
-            "Help groups coordinate, communicate, and execute tasks more efficiently.",
-            "Make AI an active, protected participant in teamwork."
-          ],
-          "slides": [
-            145
-          ]
-        },
-        {
-          "heading": "Project Manager agent",
-          "status": "Public Preview",
-          "points": [
-            "Acts as a virtual project manager within your plans.",
-            "Streamlines the planning process so you focus on strategy.",
-            "Handles some tasks on your behalf."
-          ],
-          "slides": [
-            146
-          ]
-        },
-        {
-          "heading": "Facilitator agent",
-          "status": "Generally available",
-          "points": [
-            "Works alongside you and your team in Teams meetings.",
-            "Takes real-time notes everyone can co-author.",
-            "Moderates meetings using the agenda, checking in midway and recapping decisions and open items."
-          ],
-          "slides": [
-            147
-          ]
-        },
-        {
-          "heading": "Teams Channel agent",
-          "status": "Public Preview",
-          "points": [
-            "Each channel gets a virtual expert.",
-            "Helps your team stay on top of tasks, summarize info, and streamline productivity."
-          ],
-          "slides": [
-            148
-          ]
-        },
-        {
-          "heading": "Agents in Viva Engage communities",
-          "status": "Public Preview",
-          "points": [
-            "Each community can have its own AI-powered agent grounded in conversations and SharePoint content.",
-            "Answers questions, drafts responses, and cites sources.",
-            "Notifies admins or experts in Teams for review, with optional verification before posting."
-          ],
-          "slides": [
-            149
-          ]
-        },
-        {
-          "heading": "Knowledge agent",
-          "status": "Public Preview",
-          "points": [
-            "Intelligent content curator that enriches and structures SharePoint content for AI.",
-            "A content management strategist that makes content more discoverable.",
-            "Auto-tags and classifies files with metadata to improve Copilot grounding."
-          ],
-          "slides": [
-            150
-          ]
-        },
-        {
-          "heading": "Pre-built Microsoft agents",
-          "status": "",
-          "points": [
-            "A growing catalog of pre-built agents designed for work.",
-            "Includes Skills, Channels, Survey, Communities, Facilitator, Analyst, Researcher, Interpreter, Project Manager, and Knowledge.",
-            "Availability spans Frontier, public preview, and general availability."
-          ],
-          "slides": [
-            151
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-09-15-copilot-chat-in-microsoft-365-apps",
-      "date": "2025-09-15",
-      "dateLabel": "September 15, 2025",
-      "title": "Copilot Chat in Microsoft 365 Apps",
-      "category": "Models & Chat",
-      "summary": "Microsoft 365 users get secure Copilot Chat with web data inside the M365 apps, reasoning over open and uploaded files, with deeper work-grounded features for licensed users.",
-      "tags": [
-        "Copilot Chat",
-        "M365 apps",
-        "Licensing"
-      ],
-      "details": [
-        {
-          "heading": "Copilot Chat in Microsoft 365 apps",
-          "status": "",
-          "points": [
-            "Microsoft 365 users can use Copilot Chat with web data directly in the apps.",
-            "Reason over open files, uploaded files, and files added using '/'.",
-            "Without a Copilot license, Copilot in Outlook reasons over individual emails, threads, or attachments only, not the full inbox."
-          ],
-          "slides": [
-            152
-          ]
-        },
-        {
-          "heading": "Licensing comparison",
-          "status": "",
-          "points": [
-            "Copilot Chat (no license) and Microsoft 365 Copilot ($30 pupm) both get web data and a secure AI chat interface.",
-            "Both can reason over the open file, uploaded files, or files added with '/'.",
-            "Advanced create/edit/command features, agents for deeper support, and reasoning AI like Researcher and Analyst require a Copilot license.",
-            "Agent access is metered for unlicensed users."
-          ],
-          "slides": [
-            153
-          ]
-        },
-        {
-          "heading": "Use cases",
-          "status": "",
-          "points": [
-            "Write an intro paragraph, visualize insights, create images, and draft recap emails are available to all.",
-            "Summarizing a full inbox, forecasting with Analyst, and building an industry report with Researcher require a Copilot license."
-          ],
-          "slides": [
-            154
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-09-10-copilot-studio-entitlements",
-      "date": "2025-09-10",
-      "dateLabel": "September 10, 2025",
-      "title": "Copilot Studio Entitlements",
-      "category": "Admin & Cost",
-      "summary": "All Copilot Studio capabilities are now included with Microsoft 365 Copilot for agents running under a licensed user's identity, expanding employee-facing agent building.",
-      "tags": [
-        "Copilot Studio",
-        "Entitlements",
-        "Licensing"
-      ],
-      "details": [
-        {
-          "heading": "Copilot Studio entitlements expansion",
-          "status": "",
-          "points": [
-            "All Copilot Studio capabilities, including agent flows, AI tools, and deep reasoning, are now included with Microsoft 365 Copilot.",
-            "Applies to agents that run using a licensed user's identity.",
-            "Empowers users to build and use agents for employee-facing (B2E) productivity.",
-            "Message rates per 10 responses: Basic 1, Standard 15, Premium 100; agent flow actions 13 per 100, when using the authenticated user's identity."
-          ],
-          "slides": [
-            155
-          ]
-        },
-        {
-          "heading": "Copilot Chat vs Microsoft 365 Copilot capabilities",
-          "status": "",
-          "points": [
-            "Detailed comparison of capabilities included versus metered across Chat, Search, Agents, Create, and Notebooks.",
-            "Copilot Chat (no license) gets GPT-5 web-grounded chat with work-data agents metered.",
-            "Microsoft 365 Copilot adds work-grounded chat, pre-built agents, Researcher and Analyst, role-based solutions, and the Copilot Control System."
-          ],
-          "slides": [
-            156
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-09-10-role-based-agents",
-      "date": "2025-09-10",
-      "dateLabel": "September 10, 2025",
-      "title": "Role-based Agents",
-      "category": "Sales & Service",
-      "summary": "Role-based AI solutions for sales, service, and finance professionals come to Microsoft 365 Copilot, embedded in Outlook, Teams, and Excel.",
-      "tags": [
-        "Sales",
-        "Service",
-        "Finance",
-        "Role-based"
-      ],
-      "details": [
-        {
-          "heading": "Role-based AI solutions",
-          "status": "Rollout starts 10/10/2025",
-          "points": [
-            "Adds role-based AI solutions for sales, service, and finance professionals to Microsoft 365 Copilot.",
-            "Integrates AI into daily apps like Outlook and Microsoft Teams.",
-            "Streamlines tasks and improves customer engagement.",
-            "Rollout starts 10/10/2025."
-          ],
-          "slides": [
-            157
-          ]
-        },
-        {
-          "heading": "Finance agents",
-          "status": "",
-          "points": [
-            "Accelerate business impact and reduce cost with agents for finance processes.",
-            "Deliver new insight and reduce the time to compile and analyze data.",
-            "Drive efficiency by applying AI to manual, labor-intensive processes."
-          ],
-          "slides": [
-            158
-          ]
-        },
-        {
-          "heading": "Financial Reconciliation agent",
-          "status": "",
-          "points": [
-            "Accelerate time-to-close with a Financial Reconciliation agent in Microsoft 365 Excel.",
-            "Intelligent data structure comparisons and guided troubleshooting.",
-            "Auto-generated report summary that highlights discrepancies.",
-            "Automate transaction matching with custom templates and scheduled triggers."
-          ],
-          "slides": [
-            159
-          ]
-        },
-        {
-          "heading": "Variance Analysis agent",
-          "status": "Private Preview",
-          "points": [
-            "Accelerate impact with a Variance Analysis agent in Microsoft 365 Excel.",
-            "Review anomalies, risks, and unmatched data with annotations and supporting data.",
-            "Follow up with suggested contacts and auto-summarized commentary.",
-            "Turn data into presentation-ready visuals for Outlook and Teams."
-          ],
-          "slides": [
-            160
-          ]
-        },
-        {
-          "heading": "Collections agent",
-          "status": "",
-          "points": [
-            "Reduce costs with an agent for customer interactions in quote-to-cash.",
-            "Review customer financial standing directly within Outlook.",
-            "Share customer balance statements and invoice copies from Outlook.",
-            "Summarize and save customer interactions for accurate collaboration."
-          ],
-          "slides": [
-            161
-          ]
-        },
-        {
-          "heading": "Microsoft 365 Copilot for Sales",
-          "status": "",
-          "points": [
-            "AI assistant that helps sellers catch up on pipeline, update CRM, prepare for meetings, and analyze calls.",
-            "Outlook email summaries enriched with CRM data and BANT (Budget, Authority, Needs, Timing) insights.",
-            "Draft customer replies using sales prompts; generate Word meeting-prep briefs blended with CRM data.",
-            "In Teams meetings, surfaces opportunity summaries and real-time brand/competitor SWOT detection."
-          ],
-          "slides": [
-            162,
-            164,
-            165,
-            166,
-            167
-          ]
-        },
-        {
-          "heading": "Copilot for Service",
-          "status": "",
-          "points": [
-            "Brings generative AI into your existing contact center without rip-and-replace.",
-            "Embed Copilot in Outlook, Teams, and CRM desktops like Salesforce.",
-            "Generate case summaries, draft personalized emails, and browse and update CRM records.",
-            "Point-and-click setup over knowledge sources; $50 pupm bundle with Microsoft 365 Copilot, or $20 add-on."
-          ],
-          "slides": [
-            168,
-            170,
-            171,
-            172,
-            173,
-            174
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2025-08-05-gpt-5",
-      "date": "2025-08-05",
-      "dateLabel": "August 5, 2025",
-      "title": "GPT-5",
-      "category": "Models & Chat",
-      "summary": "Copilot Chat is powered by GPT-5 with a real-time router that sends prompts to high-throughput or deeper-reasoning models, secured with enterprise data protection.",
-      "tags": [
-        "GPT-5",
-        "Router",
-        "Reasoning"
-      ],
-      "details": [
-        {
-          "heading": "Copilot Chat powered by GPT-5",
-          "status": "",
-          "points": [
-            "Try the latest model from OpenAI in Copilot Chat.",
-            "A GPT-5 real-time router analyzes prompt complexity automatically.",
-            "Simple prompts route to the GPT-5 high-throughput model; complex prompts route to the GPT-5 deeper-reasoning model.",
-            "Reasoning models are in mainline Copilot Chat for the first time, with no manual model selection needed.",
-            "Both models are secured with enterprise data protection and optimized for work."
-          ],
-          "slides": [
-            176
-          ]
-        },
-        {
-          "heading": "Capacity-based access model",
-          "status": "",
-          "points": [
-            "Microsoft moved to a capacity-based model for a more flexible, scalable experience.",
-            "Copilot Chat users without a Copilot license get standard access subject to service capacity for image generation, file upload, and GPT-5.",
-            "Microsoft 365 Copilot licensed users get priority access with faster, more consistent availability.",
-            "If capacity is unavailable, users are notified but tasks in progress continue uninterrupted."
-          ],
-          "slides": [
-            177
-          ]
-        },
-        {
-          "heading": "GPT-5 Chat vs Reasoning vs Researcher",
-          "status": "",
-          "points": [
-            "GPT-5 Chat: quick, straightforward Q&A, summaries, and brainstorming.",
-            "GPT-5 Reasoning: multi-step logical analysis for think-this-through prompts.",
-            "Researcher: recursive, exhaustive reasoning for deep cross-source synthesis and reports.",
-            "Copilot Chat with GPT-5 automatically chooses between Chat and Reasoning."
-          ],
-          "slides": [
-            178
-          ]
-        }
-      ]
+     "heading": "Copilot Cowork innovations",
+     "status": "",
+     "points": [
+      "Since the March introduction, Cowork became available in Frontier.",
+      "Model choice: Anthropic and OpenAI models available within Cowork.",
+      "Available on iOS and Android mobile.",
+      "Integrated into Agent 365.",
+      "Create and manage your personal skills, plus custom, partner, and Microsoft native plug-ins."
+     ],
+     "slides": [
+      19
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide19-1.jpg",
+       "w": 1100,
+       "h": 733
+      }
+     ]
     }
-  ]
+   ],
+   "links": [
+    {
+     "text": "Anthropic as a subprocessor for Microsoft Online Services | Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
+    },
+    {
+     "text": "Copilot Cowork available in Frontier",
+     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/"
+    },
+    {
+     "text": "Model choice - Anthropic and OpenAI models available within Cowork",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-opus-4-7-in-microsoft-365-copilot/4511666"
+    },
+    {
+     "text": "Create & manage your personal skills Custom, partner, and Microsoft native plug-ins",
+     "url": "https://aka.ms/CoworkInProgress"
+    }
+   ]
+  },
+  {
+   "id": "2026-06-02-build-2026-announcements",
+   "date": "2026-06-02",
+   "dateLabel": "June 2, 2026",
+   "title": "Build 2026 Announcements",
+   "category": "Platform & SDK",
+   "summary": "Microsoft Build 2026 spotlights the Work IQ API GA, Microsoft Scout, Frontier Tuning, the Teams and Agent 365 SDKs, and expanded agent governance for developers.",
+   "tags": [
+    "Build",
+    "Work IQ API",
+    "Scout",
+    "Agent 365"
+   ],
+   "details": [
+    {
+     "heading": "Microsoft Build 2026 overview",
+     "status": "",
+     "points": [
+      "Annual developer conference, June 2-3, San Francisco and online.",
+      "Theme: Microsoft Build 2026 - Be yourself at work.",
+      "Headline blogs cover the new Work IQ APIs, Microsoft Scout, Frontier Tuning, and Learning Agent general availability."
+     ],
+     "slides": [
+      4
+     ]
+    },
+    {
+     "heading": "Work IQ API",
+     "status": "Generally available mid-June worldwide",
+     "points": [
+      "Bring live, permission-trimmed work context into any agent via A2A, MCP, or REST.",
+      "Powered by four components: Chat, Context, Tools, and Workspaces.",
+      "Engineered for agentic workloads with faster responses, lower cost to build and run, and high-volume scale.",
+      "Governance by design: every response is permission-trimmed and operates on enterprise data in place.",
+      "Accessible via low-code (Copilot Studio) or pro-code (GitHub, Visual Studio) with consumption billing through the MAC."
+     ],
+     "slides": [
+      5
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide5-1.png",
+       "w": 1100,
+       "h": 654
+      }
+     ]
+    },
+    {
+     "heading": "Cost management in the Microsoft 365 admin center",
+     "status": "Rollout to GA begins mid-June",
+     "points": [
+      "Manage Copilot credit spend and usage with a centralized dashboard across users and groups.",
+      "Control and configure spend with granular, cascading limits and overage policies at tenant, group, or user level.",
+      "Prevent cost overruns with monthly budgets, alerts, and forecasts.",
+      "Supports Work IQ API consumption billing; choose prepaid credits or pay-as-you-go."
+     ],
+     "slides": [
+      6
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide6-1.jpg",
+       "w": 1100,
+       "h": 610
+      }
+     ]
+    },
+    {
+     "heading": "Microsoft Scout",
+     "status": "Frontier / Private Preview",
+     "points": [
+      "First autopilot agent: a new class of autonomous, always-on agents that turn signals into action.",
+      "Built on OpenClaw, it proactively takes on work across email, calendar, meetings, chat, and docs.",
+      "Flags issues before you ask (calendar conflicts, stalled decisions), proposes fixes, and learns your priorities.",
+      "Operates with its own identity, storage, and mailbox, connected to Teams, Outlook, SharePoint, and OneDrive.",
+      "Build: cloud experience in Private Preview plus a local desktop app in Frontier (WW, English); requires GitHub Copilot license, admin opt-in, and Intune enablement."
+     ],
+     "slides": [
+      7,
+      8
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide7-1.jpg",
+       "w": 1100,
+       "h": 774
+      },
+      {
+       "file": "assets/media/slide7-2.jpg",
+       "w": 1100,
+       "h": 616
+      },
+      {
+       "file": "assets/media/slide8-1.jpg",
+       "w": 1100,
+       "h": 774
+      },
+      {
+       "file": "assets/media/slide8-2.jpg",
+       "w": 1095,
+       "h": 1100
+      }
+     ]
+    },
+    {
+     "heading": "Frontier Tuning",
+     "status": "Private Preview (Forward Deployed Engineer)",
+     "points": [
+      "Tunes any agent on customer data, processes, and conventions using the latest Microsoft AI frontier models.",
+      "Understands your IP, governed by your existing compliance and access controls.",
+      "A reinforcement learning environment used for both training and inference that never stops learning.",
+      "Produces tuned embedding and orchestration models plus skills and tools, fully tenant-resident.",
+      "Built via a step-by-step Agent Builder workflow so subject matter experts can build agents without data scientists."
+     ],
+     "slides": [
+      9
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide9-1.jpg",
+       "w": 936,
+       "h": 525
+      }
+     ]
+    },
+    {
+     "heading": "Microsoft Teams SDK",
+     "status": "Generally available",
+     "points": [
+      "Unified toolset bringing chat messaging, Tabs, Microsoft Graph, and message extensions into one platform.",
+      "Removes boilerplate and complex conversational logic, reducing code by up to 90%.",
+      "Advanced orchestration with MCP and agent-to-agent (A2A) communication plus rich collaboration features.",
+      "Generally available in JavaScript, C#, and Python."
+     ],
+     "slides": [
+      10
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide10-1.jpg",
+       "w": 1100,
+       "h": 409
+      }
+     ]
+    },
+    {
+     "heading": "Third-party agents for Microsoft Teams",
+     "status": "",
+     "points": [
+      "@mention 3P agents like Linear in Teams to file bugs, assign work, and act without leaving the thread.",
+      "Update tasks and pull project status into Teams, connecting to your broader toolchain like GitHub Copilot.",
+      "Connect agents to channels to automatically share project updates.",
+      "Recent additions include Linear, Atlassian Rovo, and Cursor via Microsoft Marketplace."
+     ],
+     "slides": [
+      11
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide11-1.jpg",
+       "w": 1100,
+       "h": 655
+      }
+     ]
+    },
+    {
+     "heading": "Agent 365 SDK",
+     "status": "Generally available",
+     "points": [
+      "Integrate any agent with Agent 365, where it automatically appears in the agent registry, ready for enterprise use.",
+      "Built-in secure Entra-backed Agent ID and standardized OpenTelemetry (OTEL) tracing out of the box.",
+      "Immediately subject to granular Agent 365 governance controls.",
+      "Manage Microsoft and custom MCP servers while supporting AI teammates or user-delegated agents."
+     ],
+     "slides": [
+      12
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide12-1.jpg",
+       "w": 667,
+       "h": 433
+      }
+     ]
+    },
+    {
+     "heading": "Agent 365 extends coverage to local agents",
+     "status": "Public Preview",
+     "points": [
+      "Automatically discover 20+ AI agents running locally on managed endpoints, mapped to devices and users.",
+      "Runtime protection for Claude Code and GitHub Copilot CLI (June 2), then OpenClaw and OpenAI Codex (~June 17).",
+      "Block unsanctioned agents and enforce endpoint policies with Intune.",
+      "Real-time visibility, detection, and blocking with Microsoft Defender; prevent data leaks with Purview."
+     ],
+     "slides": [
+      13
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide13-1.jpg",
+       "w": 1100,
+       "h": 616
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Microsoft Build 2026: Be yourself at work",
+     "url": "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/"
+    },
+    {
+     "text": "Announcing the new Work IQ APIs",
+     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/"
+    },
+    {
+     "text": "Work IQ GA | Microsoft Licensing Resources",
+     "url": "https://www.microsoft.com/en-us/licensing/news/work-iq-general-availability"
+    },
+    {
+     "text": "Work IQ: Production-ready intelligence for every agent",
+     "url": "https://devblogs.microsoft.com/microsoft365dev/work-iq-production-ready-intelligence-for-every-agent/"
+    },
+    {
+     "text": "Introducing Microsoft Scout: Your always-on personal agent",
+     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/"
+    },
+    {
+     "text": "Microsoft Scout documentation",
+     "url": "https://learn.microsoft.com/en-us/microsoft-scout/"
+    },
+    {
+     "text": "Download Microsoft Scout (Frontier)",
+     "url": "https://www.microsoft.com/en-us/download/details.aspx?id=108685"
+    },
+    {
+     "text": "Frontier Tuning: Teaching AI to work the way you do - Microsoft 365 Developer Blog",
+     "url": "https://devblogs.microsoft.com/microsoft365dev/frontier-tuning-teaching-ai-to-work-the-way-you-do/"
+    },
+    {
+     "text": "Learning Agent now generally available",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/learning-agent-now-generally-available-%E2%80%94-personalized-ai-upskilling-for-every-em/4524571"
+    },
+    {
+     "text": "Build_2026_Product 1-sliders.pptx",
+     "url": "https://microsoft.sharepoint.com/:p:/t/CopilotPMMTeam246/cQoKjhOXm09UQa8ocCBuakzzEgUCkLgoWppJDhaNWsrLHD7mdg?isSPOFile=1&amp;xsdata=MDV8MDJ8fGRlYTdhYzJkYWQ3ODQzMWU0NDBiMDhkZWJiM2YzZTE5fDcyZjk4OGJmODZmMTQxYWY5MWFiMmQ3Y2QwMTFkYjQ3fDB8MHw2MzkxNTQwNzc0MzIzNjYwOTF8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKRFFTSTZJbFJsWVcxelgwRlVVRk5sY25acFkyVmZVMUJQVEU5R0lpd2lWaUk2SWpBdU1DNHdNREF3SWl3aVVDSTZJbGRwYmpNeUlpd2lRVTRpT2lKUGRHaGxjaUlzSWxkVUlqb3hNWDA9fDF8TDJOb1lYUnpMekU1T2pWbU1UTmlNemN6TFdZek9UVXROR1EwTmkwNU5qaG1MVFJqT0RsbE56QXhZamRoTVY5aVpHTmlOV0poWkMxbFpXTTNMVFExWm1RdE9XTTBOQzB5T1RabE5UWTNNMlE1WkROQWRXNXhMbWRpYkM1emNHRmpaWE12YldWemMyRm5aWE12TVRjM09UZ3hNRGswTVRVNE13PT18YjJjNDA0ZWZmNDE2NDE3Y2ZhNmYwOGRlYmIzZjNlMTh8ZWRiMDg3NzdjNzI3NGMzOTlmMmIwMzhkYjZmOGE4NTU%3D&amp;sdata=V3J1dFBBQzVoQnFKVXkxd0VrOEF1cUtaUGFzOCtNQjdQdTRCT2dLV2RKQT0%3D&amp;ovuser=72f988bf-86f1-41af-91ab-2d7cd011db47%2Cascarberry%40microsoft.com"
+    },
+    {
+     "text": "Welcome | Teams SDK",
+     "url": "https://microsoft.github.io/teams-sdk/welcome/"
+    },
+    {
+     "text": "Microsoft Marketplace",
+     "url": "https://marketplace.microsoft.com/en-us/marketplace/apps?product=teams"
+    },
+    {
+     "text": "Generally available",
+     "url": "https://learn.microsoft.com/en-us/microsoft-agent-365/developer/"
+    }
+   ]
+  },
+  {
+   "id": "2026-05-27-finance-agents-gartner-cfo-symposium",
+   "date": "2026-05-27",
+   "dateLabel": "May 27, 2026",
+   "title": "Finance Agents (Gartner CFO Symposium)",
+   "category": "Finance",
+   "summary": "Agentic AI purpose-built for finance, with a Finance Agent in Microsoft 365 Copilot and a finance-savvy chat workspace grounded in Work IQ.",
+   "tags": [
+    "Finance Agent",
+    "Work IQ",
+    "ERP"
+   ],
+   "details": [
+    {
+     "heading": "Agentic AI transforms common finance activities",
+     "status": "",
+     "points": [
+      "Quickly find and validate data across systems.",
+      "Use simple prompts to access financial insight, including annotations and supporting data.",
+      "Explore risks and outliers to drive clarity and bring in relevant stakeholders with a click.",
+      "Turn raw data and analysis into presentation-ready visualizations and whitepapers.",
+      "Expedite financial processes with intelligent automation."
+     ],
+     "slides": [
+      14
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide14-1.png",
+       "w": 709,
+       "h": 917
+      }
+     ]
+    },
+    {
+     "heading": "Finance Agent in Microsoft 365 Copilot",
+     "status": "Included in the Microsoft 365 Copilot license",
+     "points": [
+      "AI assistant purpose-built for finance to help in the flow of work, bringing trusted ERP data into your workflow.",
+      "Skills span financial risk assessments, reconciliation, data preparation, and variance analysis.",
+      "Targets 50-80% less time on manual finance tasks.",
+      "Detect risks early with real-time, cross-system insights.",
+      "Shift capacity to planning and decision-making."
+     ],
+     "slides": [
+      15
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide15-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Home and Finance chat",
+     "status": "",
+     "points": [
+      "Finance-savvy workspace within Microsoft 365 Copilot.",
+      "Ask finance questions in natural language from one centralized hub for chat, insight, and decisions.",
+      "Enterprise-grade security and governance based on role-level access.",
+      "Work IQ connects financial data to organizational intelligence so the agent understands how decisions get made."
+     ],
+     "slides": [
+      16
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide16-1.png",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    }
+   ],
+   "links": []
+  },
+  {
+   "id": "2026-05-05-work-trend-index-2026",
+   "date": "2026-05-05",
+   "dateLabel": "May 5, 2026",
+   "title": "Work Trend Index 2026",
+   "category": "Industry & Events",
+   "summary": "The 2026 Work Trend Index explores how, as agents take on more execution, human agency expands across employees, leaders, and organizations.",
+   "tags": [
+    "Work Trend Index",
+    "Research",
+    "Agents"
+   ],
+   "details": [
+    {
+     "heading": "Agents, human agency, and the opportunity for every organization",
+     "status": "",
+     "points": [
+      "2026 Annual Report: Agents, human agency, and the opportunity for organizations.",
+      "Central question: as agents take on more execution, what does that unlock for employees, leaders, and organizations?",
+      "Finding: when AI and agents do more, human agency actually expands.",
+      "More research and insights available at aka.ms/worklab."
+     ],
+     "slides": [
+      17
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Full Report: Agents, human agency, and the opportunity for organizations",
+     "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization"
+    },
+    {
+     "text": "https://aka.ms/worklab",
+     "url": "https://aka.ms/worklab"
+    }
+   ]
+  },
+  {
+   "id": "2026-04-30-legal-agent-for-word",
+   "date": "2026-04-30",
+   "dateLabel": "April 30, 2026",
+   "title": "Legal Agent for Word",
+   "category": "Agents",
+   "summary": "A purpose-built, first-party agent in Word for contract review, redlining, and clause analysis with a deterministic redlining engine.",
+   "tags": [
+    "Legal Agent",
+    "Word",
+    "Contracts"
+   ],
+   "details": [
+    {
+     "heading": "Legal Agent for Word",
+     "status": "Frontier program",
+     "points": [
+      "Analyzes contracts: understand agreements, compare versions, and cite risks directly to source language.",
+      "Drafts clean, negotiation-ready redlines with track changes.",
+      "Maintains history by separating prior revisions from new proposals.",
+      "Flags non-compliant clauses and recommends approved language from internal playbooks.",
+      "Secure by design as a first-party Microsoft agent within the Microsoft 365 trust boundary, using a purpose-built OOXML redlining engine."
+     ],
+     "slides": [
+      20
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide20-1.jpg",
+       "w": 1100,
+       "h": 566
+      }
+     ]
+    }
+   ],
+   "links": []
+  },
+  {
+   "id": "2026-03-30-cowork-and-researcher-updates",
+   "date": "2026-03-30",
+   "dateLabel": "March 30, 2026",
+   "title": "Cowork and Researcher Updates",
+   "category": "Cowork & Research",
+   "summary": "Copilot Cowork arrives in Frontier and Researcher gains multi-model Critique and Council, pairing GPT and Claude for higher-quality deep research.",
+   "tags": [
+    "Cowork",
+    "Researcher",
+    "Critique",
+    "Council"
+   ],
+   "details": [
+    {
+     "heading": "Cowork and Researcher updates overview",
+     "status": "",
+     "points": [
+      "March 30 announcement blogs: Copilot Cowork now available in Frontier.",
+      "Introducing multi-model intelligence in Researcher."
+     ],
+     "slides": [
+      21
+     ]
+    },
+    {
+     "heading": "Copilot Cowork now available to Frontier",
+     "status": "Rollout start to Frontier Program",
+     "points": [
+      "Delegate real work, not prompts: Cowork plans tasks, reasons across tools and files, and keeps work moving over time.",
+      "Observable and controllable, with transparent actions and guardrails to guide or stop execution.",
+      "Grounded in Work IQ so it understands your work directly rather than stitching context from connectors.",
+      "Enterprise-ready within Microsoft security, identity, and governance.",
+      "Built in partnership with Anthropic; Anthropic models currently excluded from the EU Data Boundary."
+     ],
+     "slides": [
+      22
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide22-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Critique in Researcher",
+     "status": "Frontier program",
+     "points": [
+      "GPT drafts an initial response and Claude reviews it for accuracy, completeness, and citation integrity before delivery.",
+      "Measurably outperforms leading competitors on the DRACO deep-research benchmark.",
+      "Natively built in Microsoft 365 Copilot and leverages Work IQ work signals.",
+      "Adheres to privacy and permission settings; Anthropic models disabled by default for EU Data Boundary and UK customers."
+     ],
+     "slides": [
+      23
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide23-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Council in Researcher",
+     "status": "Frontier program",
+     "points": [
+      "Simultaneously run a prompt across multiple AI models right within Researcher.",
+      "Summarizes where models agree, disagree, and what each uniquely adds.",
+      "Designed for exploration, comparison, and pressure-testing decisions.",
+      "Natively built in Microsoft 365 Copilot with Work IQ; Anthropic models disabled by default for EU Data Boundary and UK customers."
+     ],
+     "slides": [
+      24
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide24-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Copilot Cowork : Now available in Frontier | Microsoft 365 Blog",
+     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/30/copilot-cowork-now-available-in-frontier/"
+    },
+    {
+     "text": "Introducing multi-model intelligence in Researcher | Microsoft Community Hub",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-multi-model-intelligence-in-researcher/4506011"
+    },
+    {
+     "text": "Anthropic as a subprocessor for Microsoft Online Services | Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
+    }
+   ]
+  },
+  {
+   "id": "2026-03-09-frontier-moment-with-e7-and-copilot-wave-3",
+   "date": "2026-03-09",
+   "dateLabel": "March 9, 2026",
+   "title": "Frontier Moment with E7 and Copilot Wave 3",
+   "category": "Frontier",
+   "summary": "The Frontier Suite debuts Microsoft 365 E7, deepens Work IQ, expands agentic Office and multi-model choice, and introduces Agent 365 as the control plane for agents.",
+   "tags": [
+    "E7",
+    "Work IQ",
+    "Agent 365",
+    "Multi-model"
+   ],
+   "details": [
+    {
+     "heading": "Introducing the Frontier Suite built on Intelligence + Trust",
+     "status": "",
+     "points": [
+      "Secure agentic AI for Frontier Transformation, powering work with Copilot and agents.",
+      "Frontier firms combine intelligence that understands how work gets done with trust designed in from the start.",
+      "Spans Copilot Cowork, agentic Copilot in Excel/Word/PowerPoint, agentic Outlook, and apps in the flow of work."
+     ],
+     "slides": [
+      26
+     ]
+    },
+    {
+     "heading": "Microsoft 365 E7 - The Frontier Suite",
+     "status": "General availability May 1, 2026",
+     "points": [
+      "Brings together Microsoft 365 Copilot, Microsoft Agent 365, and Work IQ on the Microsoft 365 E5 + Entra Suite foundation.",
+      "Productivity suite for a human-led, agent-operated enterprise that turns human intent into action.",
+      "Adds a unified governance layer for AI agents via Agent 365.",
+      "Available with or without Teams; general availability May 1, 2026."
+     ],
+     "slides": [
+      27
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide27-1.png",
+       "w": 894,
+       "h": 280
+      }
+     ]
+    },
+    {
+     "heading": "Work IQ: closing the context gap",
+     "status": "",
+     "points": [
+      "Most AI works from snapshots, but work happens in context across files, chats, email, meetings, and people.",
+      "Work IQ is the intelligence layer with three parts: Data, Context, and Skills and Tools.",
+      "Builds a semantic graph and persistent memory of how you work over time.",
+      "Combines M365 signals with LOB data to give Copilot real-time understanding and predictive next steps."
+     ],
+     "slides": [
+      30,
+      31,
+      32
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide31-1.png",
+       "w": 1100,
+       "h": 1042
+      },
+      {
+       "file": "assets/media/slide31-2.png",
+       "w": 1100,
+       "h": 930
+      },
+      {
+       "file": "assets/media/slide31-3.png",
+       "w": 878,
+       "h": 859
+      }
+     ]
+    },
+    {
+     "heading": "Work IQ memory and personalization",
+     "status": "Public Preview June 2026",
+     "points": [
+      "Copilot uses custom instructions, saved memories, work profile, and chat history to tailor responses.",
+      "Soon it will also use M365 activity signals such as emails, meetings, and chats to determine relevance.",
+      "Users can view, manage, and control how memory and preferences are applied."
+     ],
+     "slides": [
+      33
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide33-1.png",
+       "w": 1020,
+       "h": 820
+      }
+     ]
+    },
+    {
+     "heading": "Work IQ APIs",
+     "status": "Public Preview Mar 2026",
+     "points": [
+      "Extends Copilot's intelligence beyond first-party experiences to wherever work happens.",
+      "Exposes Copilot intelligence through a natural-language interface for developers building grounded agents.",
+      "Inherits Microsoft enterprise-grade identity, security, permissions, and compliance."
+     ],
+     "slides": [
+      34
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide34-1.png",
+       "w": 1100,
+       "h": 654
+      }
+     ]
+    },
+    {
+     "heading": "Dataverse in Work IQ",
+     "status": "Public Preview",
+     "points": [
+      "Copilot Chat can access Dataverse data, incorporating structured info from Power Apps and Dynamics 365.",
+      "Grounds responses in the organization's full business context including customer, account, and operational data.",
+      "Copilot in Power Apps, Dynamics 365 Sales, and Customer Service can combine business data across the app ecosystem.",
+      "Public preview for Copilot Chat (June 2026) and Dynamics/Power Apps (April 2026), with model-driven Power Apps GA in May 2026."
+     ],
+     "slides": [
+      35,
+      36
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide35-1.jpg",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide36-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Work IQ Skills and Tools",
+     "status": "",
+     "points": [
+      "Skills provide pre-defined, specialized instructions so Copilot and agents perform tasks accurately.",
+      "Tools execute against skill intent for trustworthy, repeatable outcomes over structured and unstructured data.",
+      "Toolset spans MCP server tools, Power Platform connectors, Power Automate and agent flows, API plugins, and connected agents.",
+      "Customers can add their own skills and tools that operate with Work IQ orchestration."
+     ],
+     "slides": [
+      37,
+      38
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide37-1.png",
+       "w": 1100,
+       "h": 624
+      }
+     ]
+    },
+    {
+     "heading": "Cowork",
+     "status": "Q1 2026 Frontier",
+     "points": [
+      "Brings long-running, multi-step work into Microsoft 365 Copilot, built in partnership with Anthropic.",
+      "Delegate real work, not prompts; Cowork plans tasks and reasons across tools and files.",
+      "Observable and controllable with transparent actions and guardrails.",
+      "Grounded in Work IQ and enterprise-ready within Microsoft security, identity, and governance."
+     ],
+     "slides": [
+      40
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide40-1.jpg",
+       "w": 1100,
+       "h": 635
+      }
+     ]
+    },
+    {
+     "heading": "Word, Excel, and PowerPoint Agents",
+     "status": "Public | Mar 2026",
+     "points": [
+      "Turn ideas into polished documents, spreadsheets, and presentations directly in chat.",
+      "Clarify requests through targeted questions about focus, theme, audience, and file length.",
+      "Draw from both web and work sources to research, analyze, and create high-quality content.",
+      "Refine results in chat or open in the Word, Excel, or PowerPoint apps to edit and collaborate."
+     ],
+     "slides": [
+      45
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide45-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Scheduling and email composition from Chat",
+     "status": "",
+     "points": [
+      "Schedule meetings end-to-end in Copilot Chat: find times, visualize fit, create agendas, reserve rooms, and send invites.",
+      "Move from draft to sent email in Copilot Chat without switching apps.",
+      "Scheduling from chat is generally available in English across M365 Copilot and Outlook endpoints.",
+      "Emailing from chat rollout to Frontier begins March 9 for M365 Copilot web and desktop."
+     ],
+     "slides": [
+      46
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide46-1.png",
+       "w": 1100,
+       "h": 625
+      }
+     ]
+    },
+    {
+     "heading": "Multi-model choice and Claude in Copilot Chat",
+     "status": "March 2026",
+     "points": [
+      "Choose the best model for each task without leaving Copilot; Chat now includes Anthropic Claude alongside OpenAI models.",
+      "Speed to value with the latest models, the right model for the job, and lower maintenance.",
+      "Claude excels at deep reasoning, long-form analysis, and structured writing.",
+      "Claude not available in EU/UK or US Gov and sovereign clouds; disabled by default in the EU Data Boundary."
+     ],
+     "slides": [
+      47,
+      48,
+      49
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide48-1.png",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide49-1.png",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Latest GPT-5.3 Instant and GPT-5.4 Thinking models",
+     "status": "Public | Mar 2026",
+     "points": [
+      "GPT-5.3 Instant and GPT-5.4 Thinking available in Copilot Chat and Copilot Studio.",
+      "GPT-5.3 Instant improves refusal handling, search-grounded reasoning, and tone.",
+      "GPT-5.4 Thinking supports complex problems and strategic insights, connecting to Work IQ.",
+      "Accessible in the model selector across both Copilot Chat and Copilot Studio."
+     ],
+     "slides": [
+      50
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide50-1.jpg",
+       "w": 1100,
+       "h": 640
+      }
+     ]
+    },
+    {
+     "heading": "Apps in Agents",
+     "status": "Public | Mar 2026 (Public Preview)",
+     "points": [
+      "Review information and take action across apps without leaving Chat.",
+      "Bring apps you already use like Outlook, Dynamics 365, Adobe, Figma, and Power Apps directly into Copilot Chat.",
+      "Real-time viewing, editing, and action turn Chat into a workspace.",
+      "Inherits Microsoft 365 Copilot security, privacy, and compliance controls."
+     ],
+     "slides": [
+      52
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide52-1.png",
+       "w": 656,
+       "h": 382
+      }
+     ]
+    },
+    {
+     "heading": "Building and improving agents in Copilot Studio",
+     "status": "Rolling Q1-Q2 2026",
+     "points": [
+      "More proactive Describe and Configure panes guide makers through agent creation in real time.",
+      "Agent automation adds recurrent prompts and event-based triggers; submit agents for admin approval.",
+      "Richer knowledge sources including OneDrive files and Outlook skills.",
+      "Improved tool selection and SharePoint grounding raise agent answer quality."
+     ],
+     "slides": [
+      53,
+      55
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide53-1.jpg",
+       "w": 1100,
+       "h": 602
+      },
+      {
+       "file": "assets/media/slide55-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Managing agents and safeguarding prompts",
+     "status": "Public | Mar 2026",
+     "points": [
+      "Copilot Studio PII masking lets admins mask personal information in prompts and responses.",
+      "Agent Message Usage Estimator forecasts an agent's monthly message volume.",
+      "Microsoft Purview DLP prevents Copilot from responding, grounding, or web searching when prompts contain sensitive data.",
+      "DLP extends to Copilot Chat, Microsoft 365 Copilot, and Copilot Studio agents published to the Microsoft 365 channel."
+     ],
+     "slides": [
+      56,
+      57
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide57-1.jpg",
+       "w": 1100,
+       "h": 722
+      }
+     ]
+    },
+    {
+     "heading": "Microsoft Agent 365 - the control plane for agents",
+     "status": "Available May 1",
+     "points": [
+      "The control plane for agents, available May 1, enabling scaled adoption with oversight and guardrails.",
+      "Registry gives a complete view of all agents including agent ID, self-registered, and shadow agents.",
+      "Access control limits agents to needed resources with risk-based conditional access.",
+      "Visualization, interoperability via Work IQ, and security integrate with Entra, Purview, and Defender.",
+      "Roadmap spans Observe, Govern, and Secure with the Agent 365 SDK and Viva Insights dashboards."
+     ],
+     "slides": [
+      58,
+      59,
+      60,
+      61
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide59-1.png",
+       "w": 512,
+       "h": 512
+      },
+      {
+       "file": "assets/media/slide60-1.png",
+       "w": 512,
+       "h": 512
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Introducing the First Frontier Suite built on Intelligence + Trust",
+     "url": "https://blogs.microsoft.com/blog/2026/03/09/introducing-the-first-frontier-suite-built-on-intelligence-trust/"
+    },
+    {
+     "text": "Secure agentic AI for your Frontier Transformation",
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/03/09/secure-agentic-ai-for-your-frontier-transformation/"
+    },
+    {
+     "text": "Powering Frontier Transformation with Copilot and agents",
+     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/powering-frontier-transformation-with-copilot-and-agents/"
+    },
+    {
+     "text": "Copilot Cowork : A new way of getting work done",
+     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/"
+    },
+    {
+     "text": "From draft to done: agentic Copilot in Excel, Word, and PowerPoint",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/from-draft-to-done-agentic-copilot-in-excel-word-and-powerpoint/4500196"
+    },
+    {
+     "text": "Copilot in Outlook: New agentic experiences for email and calendar",
+     "url": "https://techcommunity.microsoft.com/blog/outlook/copilot-in-outlook-new-agentic-experiences-for-email-and-calendar/4499798"
+    },
+    {
+     "text": "Enable agents to bring apps into the flow of work—while keeping IT in control",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/enable-agents-to-bring-apps-into-the-flow-of-work%E2%80%94while-keeping-it-in-control/4499464"
+    },
+    {
+     "text": "Blog: A closer look at Work IQ | Microsoft Community Hub",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/a-closer-look-at-work-iq/4499789"
+    },
+    {
+     "text": "Anthropic as a subprocessor for Microsoft Online Services",
+     "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
+    }
+   ]
+  },
+  {
+   "id": "2026-03-06-chat-gpt-5-4-thinking",
+   "date": "2026-03-06",
+   "dateLabel": "March 6, 2026",
+   "title": "Chat GPT-5.4 Thinking",
+   "category": "Models & Chat",
+   "summary": "GPT-5.4 Thinking arrives in Copilot Chat and Copilot Studio for complex problem solving and strategic insights, grounded in Work IQ.",
+   "tags": [
+    "GPT-5.4",
+    "Reasoning",
+    "Copilot Chat"
+   ],
+   "details": [
+    {
+     "heading": "GPT-5.4 Thinking",
+     "status": "Public | Mar 2026",
+     "points": [
+      "Try the latest model directly in Copilot Chat.",
+      "GPT-5.4 Thinking supports complex problems and strategic insights, with advances in reasoning, coding, and agentic workflows.",
+      "Connects to Work IQ to reason across meetings, emails, and documents for insights and strategic planning.",
+      "Accessible in the model selector in both Copilot Chat and Copilot Studio, available within 30 days of release."
+     ],
+     "slides": [
+      62
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide62-1.jpg",
+       "w": 1100,
+       "h": 664
+      },
+      {
+       "file": "assets/media/slide62-2.jpg",
+       "w": 1100,
+       "h": 640
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Available today: GPT-5.4 Thinking in Microsoft 365 Copilot",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-4-thinking-in-microsoft-365-copilot/4499746"
+    }
+   ]
+  },
+  {
+   "id": "2026-03-03-chat-gpt-5-3-instant",
+   "date": "2026-03-03",
+   "dateLabel": "March 3, 2026",
+   "title": "Chat GPT-5.3 Instant",
+   "category": "Models & Chat",
+   "summary": "GPT-5.3 Instant comes to Copilot Chat and Copilot Studio, improving refusal handling, search-grounded reasoning, and tone.",
+   "tags": [
+    "GPT-5.3",
+    "Instant",
+    "Copilot Chat"
+   ],
+   "details": [
+    {
+     "heading": "GPT-5.3 Instant",
+     "status": "Public | Mar 2026",
+     "points": [
+      "Try the latest model directly in Copilot Chat.",
+      "Builds on GPT-5.2 Instant to improve refusal handling, search-grounded reasoning, and tone for more consistent results.",
+      "Connects to Work IQ to unlock insights, market research, and strategic planning.",
+      "Accessible in the model selector in both Copilot Chat and Copilot Studio."
+     ],
+     "slides": [
+      63
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide63-1.jpg",
+       "w": 1100,
+       "h": 640
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Available today: GPT-5.3 Instant in Microsoft 365 Copilot",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-gpt-5-3-instant-in-microsoft-365-copilot/4496567"
+    }
+   ]
+  },
+  {
+   "id": "2025-12-11-chat-gpt-5-2",
+   "date": "2025-12-11",
+   "dateLabel": "December 11, 2025",
+   "title": "Chat GPT-5.2",
+   "category": "Models & Chat",
+   "summary": "GPT-5.2 brings Thinking and Instant models to Copilot Chat, connected to Work IQ for insights, research, and strategic planning.",
+   "tags": [
+    "GPT-5.2",
+    "Thinking",
+    "Instant"
+   ],
+   "details": [
+    {
+     "heading": "Chat GPT-5.2 model",
+     "status": "Available now",
+     "points": [
+      "GPT-5.2 brings together two advanced models, available now.",
+      "GPT-5.2 Thinking is the best model yet for complex problems and strategic insights.",
+      "GPT-5.2 Instant is an efficient model for everyday writing, translation, and skill-building.",
+      "Connects to Work IQ for insights, market research, and strategic planning; available in Copilot Studio Early Release Environments."
+     ],
+     "slides": [
+      65
+     ]
+    }
+   ],
+   "links": []
+  },
+  {
+   "id": "2025-11-18-microsoft-ignite-2025",
+   "date": "2025-11-18",
+   "dateLabel": "November 18, 2025",
+   "title": "Microsoft Ignite 2025",
+   "category": "Industry & Events",
+   "summary": "Ignite delivers a sweeping Copilot wave: Work IQ, agentic Office and Outlook, new agents, Microsoft Agent 365, Windows 365 for Agents, and enterprise admin and security controls.",
+   "tags": [
+    "Ignite",
+    "Work IQ",
+    "Agent 365",
+    "Agents"
+   ],
+   "details": [
+    {
+     "heading": "AI built for work with Work IQ",
+     "status": "",
+     "points": [
+      "Copilot is AI built for work, connected to the web and your work data and integrated in the flow of work.",
+      "Work IQ knows your work through Data, Memory, and Inference.",
+      "Memory adds implicit, conversational memory of your style, habits, and preferences.",
+      "Inference understands organizational relationships and enables predictive actions."
+     ],
+     "slides": [
+      66,
+      67
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide66-1.jpg",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide66-2.png",
+       "w": 513,
+       "h": 520
+      },
+      {
+       "file": "assets/media/slide67-1.jpg",
+       "w": 733,
+       "h": 1100
+      },
+      {
+       "file": "assets/media/slide67-2.png",
+       "w": 513,
+       "h": 520
+      }
+     ]
+    },
+    {
+     "heading": "New Copilot Chat value",
+     "status": "Public Preview Q1 2026",
+     "points": [
+      "Copilot Chat in Outlook will understand your entire inbox, calendar, and meetings.",
+      "Agent Mode in Word, Excel, and PowerPoint uses web data and referenced files to create and refine content.",
+      "Word, Excel, and PowerPoint Agents create high-quality documents, spreadsheets, and presentations in chat.",
+      "Available for Copilot Chat users with a Microsoft 365 license; rollout to Public Preview in Q1 2026."
+     ],
+     "slides": [
+      68
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide68-1.png",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Agent Mode in Word, Excel, and PowerPoint",
+     "status": "Rollout start Frontier Sept 2025",
+     "points": [
+      "Copilot orchestrates multi-step tasks to deliver Office documents, spreadsheets, and presentations.",
+      "Works with real Word styles, Excel formulas and tables, and PowerPoint layouts.",
+      "Grounded in your files, emails, and meetings via Work IQ plus web grounding; Excel offers OpenAI or Anthropic model choice.",
+      "Excel and Word to worldwide Q4 2025; PowerPoint to Frontier Nov 2025; Public Preview for Chat users Q1 CY26."
+     ],
+     "slides": [
+      69
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide69-1.jpg",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide69-2.png",
+       "w": 513,
+       "h": 520
+      }
+     ]
+    },
+    {
+     "heading": "Word, Excel, and PowerPoint Agents",
+     "status": "Rollout start to Frontier Program Nov 2025",
+     "points": [
+      "Turn ideas into polished documents, spreadsheets, and presentations directly in chat.",
+      "Each agent draws from web and Work IQ sources to research, analyze, and create.",
+      "Clarifies requests through targeted questions about focus, theme, audience, and length.",
+      "Refine in chat or open in the apps; Excel Agent currently uses web sources only."
+     ],
+     "slides": [
+      70
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide70-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Copilot Chat in Microsoft 365 apps",
+     "status": "",
+     "points": [
+      "Secure chat with web and Work IQ that reasons over open files with advanced app skills.",
+      "Built-in access to agents and advanced reasoning AI like Researcher and Analyst.",
+      "Includes in-app editing, work data prompts, and work data access across select Microsoft 365 apps."
+     ],
+     "slides": [
+      71
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide71-1.png",
+       "w": 1100,
+       "h": 688
+      }
+     ]
+    },
+    {
+     "heading": "Microsoft 365 Copilot app navigation updates",
+     "status": "",
+     "points": [
+      "Streamlined navigation pane to start chats, access agents, open recent notebooks, and explore Frontier experiences.",
+      "Expanded Chat history with infinite scroll and Chat search in the navigation pane.",
+      "New Library experience centralizes Copilot-generated images and Pages and content shared with you.",
+      "Rollout to Frontier Nov 2025, worldwide Dec 2025; Library from Oct 2025."
+     ],
+     "slides": [
+      72
+     ]
+    },
+    {
+     "heading": "Tools and Sources in the Copilot app",
+     "status": "Available now",
+     "points": [
+      "Get more relevant responses by selecting tools and specifying which data Copilot draws from.",
+      "Tools surface skills and agents including Designer, Researcher, and Analyst.",
+      "Sources specify whether Copilot taps web content, Microsoft 365 work content, or connected business data.",
+      "Available now."
+     ],
+     "slides": [
+      73
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide73-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Video recap in Copilot Chat",
+     "status": "Rollout to GA Nov 2025",
+     "points": [
+      "Transforms recorded meeting summaries into narrated videos highlighting key takeaways.",
+      "Uses the meeting transcript to identify key topics and add voice-over.",
+      "Creates narrated highlights with short clips of important moments.",
+      "Available for recorded meetings in Copilot Chat, coming soon to the Recap page in Teams."
+     ],
+     "slides": [
+      74
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide74-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Chat experience in Copilot Search",
+     "status": "Rollout to Public Preview Dec 2025",
+     "points": [
+      "Brings powerful search and conversational chat into a single experience.",
+      "Ask, refine, and act in one streamlined conversational process.",
+      "Select documents from search results to guide chat responses and improve precision.",
+      "Public Preview Dec 2025; worldwide March 2026."
+     ],
+     "slides": [
+      75
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide75-1.jpg",
+       "w": 1100,
+       "h": 733
+      }
+     ]
+    },
+    {
+     "heading": "Outlook mobile enhancements",
+     "status": "Rollout start to Frontier Program Nov 2025",
+     "points": [
+      "Triage emails with voice: get summaries and ask questions about recent unread emails.",
+      "Take quick actions like flagging, pinning, archiving, deleting, and drafting replies.",
+      "Context-aware one-tap prompts based on what you are working on.",
+      "Available in Outlook iOS and Android; rollout to Frontier Nov 2025."
+     ],
+     "slides": [
+      76
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide76-1.jpg",
+       "w": 545,
+       "h": 1100
+      },
+      {
+       "file": "assets/media/slide76-2.png",
+       "w": 557,
+       "h": 1100
+      }
+     ]
+    },
+    {
+     "heading": "Advanced scheduling and time management in Outlook",
+     "status": "Rollout start Nov-Dec 2025",
+     "points": [
+      "Triage meeting requests, negotiate conflicts, and schedule using natural language.",
+      "Copilot triages requests on your custom instructions and surfaces ones needing attention.",
+      "Mark 1:1s and personal events as flexible so Copilot can reschedule around conflicts.",
+      "Tell Copilot to schedule, update, or cancel meetings; it finds times, drafts agendas, and books rooms."
+     ],
+     "slides": [
+      77
+     ]
+    },
+    {
+     "heading": "Agent Mode in PowerPoint",
+     "status": "Rollout start to Frontier Program Nov 2025",
+     "points": [
+      "Copilot edits, updates, and polishes your presentation in this early preview.",
+      "Rewrite slides, polish layouts, and format text while respecting your branded template.",
+      "Grounded in web and Work IQ sources to keep presentations accurate and current.",
+      "Edits are reviewable and preserve formatting, structure, and branding."
+     ],
+     "slides": [
+      78
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide78-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Notebooks enhancements",
+     "status": "Rollout start in Frontier program Oct-Nov 2025",
+     "points": [
+      "Share Notebooks so teams can co-author and build on each other's work.",
+      "Overview Page shows summary content with proactive suggestions for references, topics, and prompts.",
+      "Generate narrated video overviews of Notebook content.",
+      "Rollout to Frontier program Oct-Nov 2025."
+     ],
+     "slides": [
+      79
+     ]
+    },
+    {
+     "heading": "Copilot Pages enhancements",
+     "status": "Rollout start to GA Nov 2025",
+     "points": [
+      "Convert a Copilot Page into a polished PowerPoint with a single click.",
+      "Create Pages automatically through Chat and refine them side-by-side with Copilot.",
+      "Write, test, and run code in Pages, then deploy as an app in App Builder.",
+      "Rollout to general availability Nov 2025."
+     ],
+     "slides": [
+      80
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide80-1.jpg",
+       "w": 1100,
+       "h": 621
+      }
+     ]
+    },
+    {
+     "heading": "Microsoft Edge for Business: the secure enterprise AI browser",
+     "status": "Rollout start to Public Preview Feb 2026",
+     "points": [
+      "Get insights across up to 30 open tabs and find sites you have closed using chat.",
+      "Access Copilot every new tab to chat, search the web, and get tailored work recommendations.",
+      "Complete multi-step workflows across websites with Agent Mode.",
+      "Rollout to Public Preview Feb 2026."
+     ],
+     "slides": [
+      81
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide81-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "New Microsoft 365 Copilot agents: Workforce Insights, People, Learning",
+     "status": "Rollout start to Frontier Program Nov 2025",
+     "points": [
+      "Workforce Insights Agent helps leaders understand team composition, skills, and generate data-driven reports.",
+      "People Agent finds colleagues by skills and roles, surfaces recent context, and helps prep for meetings.",
+      "Learning Agent gives Copilot and AI tips, live role-play, and access to Viva Learning and LinkedIn Learning courses.",
+      "All rolling out to the Frontier Program Nov 2025."
+     ],
+     "slides": [
+      82,
+      83,
+      84
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide83-1.jpg",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide84-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Sora 2 in Create",
+     "status": "Rollout start to Frontier Program Nov 2025",
+     "points": [
+      "OpenAI's latest video model turns prompts into short video clips inside the Copilot app.",
+      "Replace media with a generated clip and adjust voiceover, music, and transcripts in the integrated editor.",
+      "Leverages Microsoft enterprise-grade permissions.",
+      "Rollout to Frontier Program Nov 2025."
+     ],
+     "slides": [
+      85
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide85-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Agent usage report",
+     "status": "Rollout to Public Preview Nov 2025",
+     "points": [
+      "Measure agent usage across Microsoft 365 Copilot and Copilot Chat users.",
+      "View results segmented by publisher type: user-created, Microsoft-built, and partner-built.",
+      "Manage deployment with granular details on users, agents, and user-agent pairs in the Microsoft 365 admin center.",
+      "Available in Public Preview Nov 2025."
+     ],
+     "slides": [
+      86
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide86-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Baseline security mode",
+     "status": "Rollout start Nov 2025",
+     "points": [
+      "Enforce Microsoft-recommended security settings across Office, Teams, Entra, and more in a few clicks.",
+      "Identify baseline gaps, simulate changes, and deploy protections with a guided experience.",
+      "Addresses up to 60% of Microsoft Security Response cases from the past two decades.",
+      "Opt-in and free for all commercial customers; rollout Nov 2025."
+     ],
+     "slides": [
+      87
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide87-1.jpg",
+       "w": 1100,
+       "h": 573
+      }
+     ]
+    },
+    {
+     "heading": "Local processing for prompts and responses",
+     "status": "Rollout start Dec 2025",
+     "points": [
+      "Process Microsoft 365 Copilot interactions in-country to keep data local.",
+      "Helps regulated industries and governments meet legal and privacy requirements.",
+      "Available by end of 2025 in Australia, UK, Japan, India, and UAE.",
+      "Expands to 11 more countries throughout 2026; rollout Dec 2025."
+     ],
+     "slides": [
+      88
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide88-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Microsoft Purview DLP to safeguard prompts",
+     "status": "Rollout start to Public Preview Nov 2025",
+     "points": [
+      "Prevents Copilot from responding, grounding, or web searching when a prompt contains sensitive data.",
+      "Extends to Copilot Chat, Microsoft 365 Copilot, and Copilot Studio agents published to the Microsoft 365 channel.",
+      "Reduces data leakage and oversharing risk in real time.",
+      "Rollout to Public Preview Nov 2025; requires a configured Purview DLP policy."
+     ],
+     "slides": [
+      89
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide89-1.jpg",
+       "w": 859,
+       "h": 569
+      }
+     ]
+    },
+    {
+     "heading": "Agent Dashboard and Copilot Chat reports",
+     "status": "Public Preview / GA Nov 2025 - Feb 2026",
+     "points": [
+      "Agent Dashboard measures adoption and impact of custom, Microsoft, and third-party agents in Viva Insights.",
+      "Understand agent adoption trends and identify the most popular agents.",
+      "Copilot Chat reports analyze adoption in the Copilot Dashboard with usage, intensity, and retention.",
+      "Available for customers with 50+ Microsoft 365 Copilot licenses; Agent Dashboard preview Jan-Feb 2026."
+     ],
+     "slides": [
+      90,
+      91
+     ]
+    },
+    {
+     "heading": "Admin agents for Teams and SharePoint",
+     "status": "Rollout start Nov 2025",
+     "points": [
+      "Teams Admin Center agents delegate tasks like meeting monitoring and remediate issues proactively.",
+      "SharePoint Admin Agent detects and remediates inactive, overshared, or ownerless sites and applies policies.",
+      "Agents accomplish tasks autonomously and securely while admins stay in control.",
+      "Rollout to Teams Admin Center and SharePoint Public Preview Nov 2025."
+     ],
+     "slides": [
+      92,
+      93
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide93-1.png",
+       "w": 1100,
+       "h": 618
+      }
+     ]
+    },
+    {
+     "heading": "Agents in Microsoft Teams Channels with MCP",
+     "status": "Public Preview",
+     "points": [
+      "Each channel has an AI teammate that turns intent into action and drives projects forward.",
+      "Channel Agent captures and tracks tasks and sends status reports.",
+      "MCP orchestration connects channel agents with apps like Asana, Atlassian, and GitHub.",
+      "Agents in Teams Channels in Public Preview since Sept 2025; MCP orchestration preview Nov 2025."
+     ],
+     "slides": [
+      94
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide94-1.jpg",
+       "w": 1100,
+       "h": 617
+      }
+     ]
+    },
+    {
+     "heading": "SharePoint in Copilot: pages, lists, and metadata",
+     "status": "Rollout start Nov 2025",
+     "points": [
+      "Create SharePoint lists and pages from a Copilot conversation by @mentioning the SharePoint list or page agent.",
+      "Copilot reasons over the full richness of SharePoint, now including metadata understanding.",
+      "Understand document tags for more accurate, context-aware responses and auto-enrich documents with Knowledge Agent.",
+      "Metadata understanding GA for agents Oct 2025 and for Copilot Nov 2025."
+     ],
+     "slides": [
+      95,
+      96
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide95-1.jpg",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide96-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Sales Development Agent",
+     "status": "Rollout start to Frontier Preview, Dec 2025",
+     "points": [
+      "Autonomous agent that acts like a teammate for lead research, qualification, outreach, and follow-ups.",
+      "Fully independent yet collaborative, working side-by-side with sellers.",
+      "Robust security, management controls, and observability with Agent 365.",
+      "Easy onboarding from the Agent Store; rollout to Frontier Preview Dec 2025."
+     ],
+     "slides": [
+      97
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide97-1.png",
+       "w": 1100,
+       "h": 1036
+      }
+     ]
+    },
+    {
+     "heading": "Improved agent creation and file generation in Copilot",
+     "status": "",
+     "points": [
+      "Build and refine agents through natural conversation with real-time feedback.",
+      "Add work-related knowledge sources by describing them in plain language.",
+      "Agents can generate Word, Excel, and PowerPoint files and save them to OneDrive.",
+      "Expanded knowledge sources include Teams meetings, calendar, directory, OneNote, and shared mailboxes, respecting permissions."
+     ],
+     "slides": [
+      98,
+      99
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide98-1.png",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Opal",
+     "status": "Rollout start to Frontier Program Nov 2025",
+     "points": [
+      "New agent for orchestrating and executing task-based work on your behalf.",
+      "Operates with your identity using computer use on a secure Windows 365 virtual machine across browser-based apps.",
+      "Interact, pause, stop, and resume activity at any time with full auditability.",
+      "Use cases span HR time cards, engineering compliance and ADO updates, and procurement POs; rollout to Frontier Nov 2025."
+     ],
+     "slides": [
+      100
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide100-1.png",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Copilot Tuning",
+     "status": "Limited Public Preview (Early Access Program)",
+     "points": [
+      "Boost accuracy and relevance with agents fine-tuned to your business.",
+      "Automate model training with a turnkey, no-code experience in Copilot Studio.",
+      "Models stay within the Microsoft 365 service boundary, preserving ACLs and governance.",
+      "Limited Public Preview via the Early Access Program for customers with 5,000+ Copilot seats in NAM, EU, and APAC."
+     ],
+     "slides": [
+      101
+     ]
+    },
+    {
+     "heading": "MCP connectors in Copilot",
+     "status": "Rollout start to Public Preview Nov 2025",
+     "points": [
+      "User-level MCP connectors securely link third-party tools like Notion, HubSpot, and Canva for real-time access.",
+      "Reasons over user-scoped data without syncing or duplicating, reducing data-leak risk.",
+      "Native MCP connectors in Copilot Studio cover core Microsoft 365 services with provided tools and actions.",
+      "Rollout to Public Preview in Researcher Nov 2025."
+     ],
+     "slides": [
+      102,
+      103
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide102-1.jpg",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide103-1.jpg",
+       "w": 1100,
+       "h": 371
+      }
+     ]
+    },
+    {
+     "heading": "Agent evaluation and runtime protection in Copilot Studio",
+     "status": "Public Preview - Oct 2025",
+     "points": [
+      "Agent Evaluation tests agents with automated pre-launch evaluations to identify gaps before deployment.",
+      "Validate performance with detailed feedback showing where agents succeed or need work.",
+      "Additional Runtime Protection integrates Microsoft Defender, third-party, or custom security tools into agent runtime.",
+      "Detects and blocks prompt injection, jailbreaking, and malicious inputs in real time; Public Preview Oct 2025."
+     ],
+     "slides": [
+      104,
+      105
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide104-1.jpg",
+       "w": 1100,
+       "h": 592
+      },
+      {
+       "file": "assets/media/slide105-1.png",
+       "w": 525,
+       "h": 391
+      },
+      {
+       "file": "assets/media/slide105-2.png",
+       "w": 558,
+       "h": 320
+      }
+     ]
+    },
+    {
+     "heading": "Microsoft Agent 365 - the control plane for agents",
+     "status": "Frontier",
+     "points": [
+      "Registry, access control, visualization, interoperability, and security for agents.",
+      "Bring agents under management and limit access with risk-based conditional access.",
+      "Connect agents to Work IQ and the same apps people use to simplify human-agent workflows.",
+      "Integrates with Microsoft 365, Power Apps, Power BI, Defender, Entra, and Purview; available in Frontier."
+     ],
+     "slides": [
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      114
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide108-1.jpg",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide109-1.jpg",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide110-1.jpg",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide111-1.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    },
+    {
+     "heading": "Agent 365 SDK",
+     "status": "Public Preview - Nov 2025",
+     "points": [
+      "Build enterprise agents with secure identity and complete observability.",
+      "Streamlined onboarding with Entra ID registration, channel setup, and access via the A365 Tooling Gateway.",
+      "Full telemetry with logging, metrics, and tracing routed to Purview, Sentinel, Defender, and App Insights.",
+      "Lifecycle hooks enable real-time monitoring, custom validation, and fine-grained governance; Public Preview Nov 2025."
+     ],
+     "slides": [
+      115
+     ]
+    },
+    {
+     "heading": "Windows 365 for Agents and AI-enabled Cloud PCs",
+     "status": "Frontier Preview",
+     "points": [
+      "Windows 365 for Agents lets builders design, test, and deploy computer-using agents on Cloud PCs.",
+      "Powers first-party agents like Opal and Researcher with orchestration, compliance, and scalability.",
+      "Windows 365 AI-enabled Cloud PCs bring enterprise AI to any device - Windows, iOS, Android, Linux, or web.",
+      "Native MCP support in Windows extends the agentic platform to the cloud; Frontier Preview."
+     ],
+     "slides": [
+      116,
+      117,
+      118
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide116-1.jpg",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide117-1.jpg",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide118-1.png",
+       "w": 1100,
+       "h": 620
+      }
+     ]
+    },
+    {
+     "heading": "Agents in Intune and Copilot in Intune",
+     "status": "Public Preview / GA",
+     "points": [
+      "Change Review Agent assesses change requests and recommends approval or denial.",
+      "Policy Configuration Agent captures intent and maps it to recommended settings.",
+      "Device Offboarding Agent recommends devices to offboard based on activity signals.",
+      "Copilot in Intune adds Autopilot, Endpoint Privilege Management, and Advanced Analytics; agents in public preview."
+     ],
+     "slides": [
+      119
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide119-1.jpg",
+       "w": 1100,
+       "h": 657
+      }
+     ]
+    },
+    {
+     "heading": "Employee Self-Service agent",
+     "status": "Rollout start Oct 2025",
+     "points": [
+      "Single front door for HR and IT support working with Workday, ServiceNow, and SAP SuccessFactors.",
+      "Get answers and take action on tasks like checking leave balance and ordering equipment.",
+      "Set up with prebuilt, extensible workflows in Copilot Studio.",
+      "Rollout Oct 2025."
+     ],
+     "slides": [
+      120
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Standard access",
+     "url": "https://support.microsoft.com/en-us/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f"
+    },
+    {
+     "text": "aka.ms/ CopilotTuningEAP",
+     "url": "https://aka.ms/CopilotTuningEAP"
+    },
+    {
+     "text": "waitlist here",
+     "url": "http://www.aka.ms/W365AInterestForm"
+    },
+    {
+     "text": "aka.ms/Windows/Ignite2025AIBlog",
+     "url": "https://aka.ms/Windows/Ignite2025AIBlog"
+    }
+   ]
+  },
+  {
+   "id": "2025-11-03-copilot-voice",
+   "date": "2025-11-03",
+   "dateLabel": "November 3, 2025",
+   "title": "Copilot Voice",
+   "category": "Models & Chat",
+   "summary": "Voice in Microsoft 365 Copilot brings natural, hands-free conversation to desktop and mobile, grounded in work and web data.",
+   "tags": [
+    "Voice",
+    "Mobile",
+    "Hands-free"
+   ],
+   "details": [
+    {
+     "heading": "Voice and vision capabilities",
+     "status": "Rollout start Nov 2025",
+     "points": [
+      "Work with AI through natural, hands-free conversation on mobile and desktop.",
+      "Brainstorm, catch up, or prepare for meetings with voice grounded in your work and web data.",
+      "Speak and interrupt easily on mobile or by pressing Win+C at your desk.",
+      "Get real-time help analyzing document content using voice; mobile first, with other Copilot experiences by end of year."
+     ],
+     "slides": [
+      121
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide121-1.jpg",
+       "w": 566,
+       "h": 1100
+      },
+      {
+       "file": "assets/media/slide121-2.jpg",
+       "w": 476,
+       "h": 946
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Blog - Introducing voice in Microsoft 365 Copilot: a more productive way to work on the go",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-voice-in-microsoft-365-copilot-a-more-productive-way-to-work-on-the-/4466034"
+    }
+   ]
+  },
+  {
+   "id": "2025-10-30-researcher-agent-with-computer-use",
+   "date": "2025-10-30",
+   "dateLabel": "October 30, 2025",
+   "title": "Researcher Agent with Computer Use",
+   "category": "Cowork & Research",
+   "summary": "Researcher gains computer use, performing tasks on a virtual computer to access, analyze, and automate research across public, gated, and authenticated web sources.",
+   "tags": [
+    "Researcher",
+    "Computer Use",
+    "Automation"
+   ],
+   "details": [
+    {
+     "heading": "Researcher with Computer Use",
+     "status": "Rollout start to Frontier Program Oct 2025",
+     "points": [
+      "Perform tasks using a virtual computer to access, analyze, and automate research on your behalf.",
+      "Unlock insights across public and gated web sources, overcoming paywalls and interactive browsing sites like travel booking.",
+      "Leverages advanced reasoning, interactive browsing, and automation powered by OpenAI's latest models.",
+      "Reasoning over internal data sources is not part of the initial public preview."
+     ],
+     "slides": [
+      122
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide122-1.png",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    }
+   ],
+   "links": []
+  },
+  {
+   "id": "2025-10-28-app-builder-agent-workflow-agent",
+   "date": "2025-10-28",
+   "dateLabel": "October 28, 2025",
+   "title": "App Builder Agent & Workflow Agent",
+   "category": "Platform & SDK",
+   "summary": "New maker tools let anyone build apps, workflows, and agents in the flow of work directly inside Microsoft 365 Copilot.",
+   "tags": [
+    "App Builder",
+    "Workflows",
+    "Copilot Studio"
+   ],
+   "details": [
+    {
+     "heading": "Apps, Flows, Agents",
+     "status": "",
+     "points": [
+      "Become an AI maker building solutions in the flow of work.",
+      "App Builder builds apps for interactive workspaces.",
+      "Workflows Agent builds flows for automating repetitive tasks.",
+      "Copilot Studio builds agents for conversational assistance."
+     ],
+     "slides": [
+      124
+     ]
+    },
+    {
+     "heading": "App Builder",
+     "status": "Frontier US only | October 2025",
+     "points": [
+      "Build interactive, no-code apps in minutes to boost personal and team productivity.",
+      "Start from existing data and documents in Microsoft Graph.",
+      "Store app data in Microsoft Lists for instant deployment in Microsoft 365 Copilot.",
+      "Share like a document with security and governance baked in; optionally start from runnable code in Copilot Pages."
+     ],
+     "slides": [
+      125
+     ]
+    },
+    {
+     "heading": "Workflows Agent",
+     "status": "Frontier WW | October 2025",
+     "points": [
+      "Create flows in Microsoft 365 just by using your words in chat.",
+      "Build, save, test, and run flows all within Microsoft 365 Copilot.",
+      "Quick scenarios like daily triage, weekly digests, and lightweight approvals.",
+      "Manage and edit active flows directly within Copilot."
+     ],
+     "slides": [
+      127
+     ]
+    },
+    {
+     "heading": "Agents in Copilot Studio",
+     "status": "Generally Available",
+     "points": [
+      "Build personalized, work-grounded agents using your words.",
+      "Connect to your Microsoft work graph - SharePoint, Teams, Outlook - and external systems.",
+      "Test, refine, publish, and share with your team, always honoring access permissions.",
+      "Runs on Microsoft 365 Copilot's secure, compliant foundation."
+     ],
+     "slides": [
+      129
+     ]
+    }
+   ],
+   "links": []
+  },
+  {
+   "id": "2025-10-28-p3-copilot-credits",
+   "date": "2025-10-28",
+   "dateLabel": "October 28, 2025",
+   "title": "P3 Copilot Credits",
+   "category": "Admin & Cost",
+   "summary": "A new Pre-Purchase Plan (P3) joins capacity packs and pay-as-you-go as a third way to buy Copilot Credits, with tiered volume discounts and MACC eligibility.",
+   "tags": [
+    "Copilot Credits",
+    "P3",
+    "MACC",
+    "Pricing"
+   ],
+   "details": [
+    {
+     "heading": "Three ways to buy Copilot Credits",
+     "status": "",
+     "points": [
+      "Copilot Credits are the universal currency for agent usage across Copilot Studio, Dynamics 365 first-party agents, and Copilot Chat.",
+      "Capacity packs (MCS license): $200 per pack per month per tenant, 25,000 credits per pack.",
+      "Pay-as-you-go: $0.01 per message, transacted in the Azure Portal.",
+      "New Pre-Purchase Plan (P3) for larger or variable demand with built-in tiered volume discounts.",
+      "Capacity packs and P3 are MACC eligible; PAYG is not."
+     ],
+     "slides": [
+      131
+     ]
+    },
+    {
+     "heading": "Pre-Purchase Plan (P3)",
+     "status": "",
+     "points": [
+      "Buy Copilot Credit as Copilot Credit Commit Units (CCCU) usable over one year.",
+      "Built-in tiered discounts up to 20% off PAYG rates.",
+      "Annual expiration of CCCU versus monthly capacity packs, with flexibility to add tiers anytime.",
+      "MACC eligible and tracked in real time in the Azure Portal; no Microsoft 365 admin center license needed.",
+      "1 CCCU = 100 Copilot Credits; unused CCCU expire at end of term."
+     ],
+     "slides": [
+      132
+     ]
+    },
+    {
+     "heading": "P3 tiers and discounts",
+     "status": "",
+     "points": [
+      "Nine tiers from Tier 1 (3,000 CCCU / 300,000 credits, $2,850, 5% off) up to Tier 9 (3,000,000 CCCU / 300,000,000 credits, $2,400,000, 20% off).",
+      "Discount grows with commitment, unlocking more savings the more you commit."
+     ],
+     "slides": [
+      133
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Blog Post - Scale your agent rollout with confidence: Introducing Copilot Credit Pre-Purchase Plan",
+     "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/scale-your-agent-rollout-with-confidence-introducing-copilot-credit-pre-purchase-plan/?msockid=2165056c548a63c10741131b5536624f"
+    }
+   ]
+  },
+  {
+   "id": "2025-10-27-teams-mode-for-microsoft-365-copilot",
+   "date": "2025-10-27",
+   "dateLabel": "October 27, 2025",
+   "title": "Teams Mode for Microsoft 365 Copilot",
+   "category": "Models & Chat",
+   "summary": "Teams Mode lets you collaborate with Copilot and colleagues together in Teams group chats.",
+   "tags": [
+    "Teams Mode",
+    "Collaboration",
+    "Group chat"
+   ],
+   "details": [
+    {
+     "heading": "Teams Mode for Microsoft 365 Copilot",
+     "status": "Public Preview starts Oct 2025",
+     "points": [
+      "Collaborate with Copilot and colleagues in Teams group chats.",
+      "Start a 1:1 with Copilot and expand into a group chat, or add Copilot to an existing group chat.",
+      "@Copilot to ask questions, create content, retrieve files, and track decisions.",
+      "Review and approve responses when personal memory may be referenced; add users like any Teams chat."
+     ],
+     "slides": [
+      134
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide134-1.png",
+       "w": 1100,
+       "h": 637
+      },
+      {
+       "file": "assets/media/slide134-2.png",
+       "w": 1100,
+       "h": 649
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Blog - Introducing Teams Mode for Microsoft 365 Copilot",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-teams-mode-for-microsoft-365-copilot/4463259"
+    }
+   ]
+  },
+  {
+   "id": "2025-09-29-agent-mode-and-office-agent",
+   "date": "2025-09-29",
+   "dateLabel": "September 29, 2025",
+   "title": "Agent Mode and Office Agent",
+   "category": "Agents",
+   "summary": "Vibe working arrives with Agent Mode and a taste-driven Office Agent that generate and refine documents, spreadsheets, and presentations from natural language.",
+   "tags": [
+    "Agent Mode",
+    "Office Agent",
+    "Vibe working"
+   ],
+   "details": [
+    {
+     "heading": "Agent Mode and Office Agent",
+     "status": "",
+     "points": [
+      "Generate and refine documents, spreadsheets, and presentations through natural language prompts.",
+      "Focus on intent while the AI handles the technical details.",
+      "Introduced as 'vibe working' in Microsoft 365 Copilot.",
+      "Currently only available for consumers with personal accounts."
+     ],
+     "slides": [
+      136
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide136-1.jpg",
+       "w": 709,
+       "h": 406
+      }
+     ]
+    },
+    {
+     "heading": "Agent Mode in Word",
+     "status": "",
+     "points": [
+      "Work with Copilot in a more interactive way where writing becomes a conversation.",
+      "Focus on your ideas while Copilot handles the details.",
+      "Uses Word's built-in styles and formatting."
+     ],
+     "slides": [
+      137
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide137-1.jpg",
+       "w": 1100,
+       "h": 622
+      }
+     ]
+    },
+    {
+     "heading": "Office Agent",
+     "status": "",
+     "points": [
+      "Multi-agent system built on an open-source stack, Anthropic's Claude model, and a taste-driven development paradigm.",
+      "Delivers polished PowerPoint presentations, ready-to-use Word documents, and soon Excel spreadsheets.",
+      "Orchestrates specialized agents that plan, draft, and refine Office artifacts end-to-end.",
+      "Currently only available for consumers with personal accounts."
+     ],
+     "slides": [
+      138
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide138-1.jpg",
+       "w": 1100,
+       "h": 622
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Vibe working: Introducing Agent Mode and Office Agent in Microsoft 365 Copilot",
+     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/"
+    },
+    {
+     "text": "Agent Mode in Word - Microsoft Support",
+     "url": "https://support.microsoft.com/en-us/office/agent-mode-in-word-647d5d14-eaec-4e8a-a574-7cefffa7f8f0"
+    },
+    {
+     "text": "Office Agent – “Taste driven” multi-agent system for Microsoft 365 Copilot | Microsoft Community Hub",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/office-agent-%E2%80%93-%E2%80%9Ctaste-driven%E2%80%9D-multi-agent-system-for-microsoft-365-copilot/4457397"
+    },
+    {
+     "text": "Getting started with Office Agent - Microsoft Support",
+     "url": "https://support.microsoft.com/en-us/topic/getting-started-with-office-agent-6d043333-6eeb-49d8-a80c-681d29ab7c04"
+    }
+   ]
+  },
+  {
+   "id": "2025-09-25-microsoft-agent-store",
+   "date": "2025-09-25",
+   "dateLabel": "September 25, 2025",
+   "title": "Microsoft Agent Store",
+   "category": "Platform & SDK",
+   "summary": "The new Microsoft Marketplace and in-product Agent Store provide a connected way to discover, deploy, and manage agents across Microsoft 365.",
+   "tags": [
+    "Agent Store",
+    "Marketplace",
+    "Partners"
+   ],
+   "details": [
+    {
+     "heading": "Microsoft Marketplace and Agent Store",
+     "status": "",
+     "points": [
+      "Microsoft Marketplace is a web storefront for all agents, AI apps, and tools.",
+      "Agent Store is the in-product experience for agents that work with Copilot.",
+      "One publishing process and one catalog from Microsoft Partner Center.",
+      "Research and transact on the web, then deploy and manage agents through the Agent Store."
+     ],
+     "slides": [
+      139
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide139-1.jpg",
+       "w": 1100,
+       "h": 666
+      },
+      {
+       "file": "assets/media/slide139-2.png",
+       "w": 971,
+       "h": 556
+      }
+     ]
+    },
+    {
+     "heading": "Agent Store",
+     "status": "",
+     "points": [
+      "Features pre-built agents from Microsoft, trusted partners, and your organization.",
+      "Offers personalized discovery in the flow of your work.",
+      "Native to Microsoft 365 Copilot and available across Microsoft 365 apps.",
+      "Accessible to all users with no Copilot license required to visit; full catalog from the Marketplace."
+     ],
+     "slides": [
+      140
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide140-1.png",
+       "w": 1014,
+       "h": 570
+      }
+     ]
+    },
+    {
+     "heading": "Trusted third-party agents",
+     "status": "",
+     "points": [
+      "A wide ecosystem of partners from Adobe, SAP, and Atlassian to Miro and Monday.com.",
+      "Use agents to automate workflows, accelerate decision-making, and unlock new productivity.",
+      "More role- and industry-specific agents coming to the store in FY26."
+     ],
+     "slides": [
+      141
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide141-1.png",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide141-2.png",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide141-3.png",
+       "w": 1100,
+       "h": 733
+      }
+     ]
+    }
+   ],
+   "links": []
+  },
+  {
+   "id": "2025-09-24-model-choice",
+   "date": "2025-09-24",
+   "dateLabel": "September 24, 2025",
+   "title": "Model Choice",
+   "category": "Models & Chat",
+   "summary": "Anthropic's Claude Sonnet 4 and Claude Opus 4.1 join Microsoft 365 Copilot, giving users model choice across Researcher and Copilot Studio.",
+   "tags": [
+    "Model Choice",
+    "Anthropic",
+    "Claude"
+   ],
+   "details": [
+    {
+     "heading": "Model Choice",
+     "status": "",
+     "points": [
+      "Introducing Claude Sonnet 4 and Claude Opus 4.1 to Microsoft 365 Copilot.",
+      "Choose between OpenAI and Anthropic models for your tasks.",
+      "Available in the Researcher agent and Copilot Studio for more customizable AI workflows."
+     ],
+     "slides": [
+      142
+     ]
+    },
+    {
+     "heading": "Researcher with Anthropic",
+     "status": "",
+     "points": [
+      "Switch between OpenAI and Anthropic models in Researcher.",
+      "Organizations must opt in to enable external models."
+     ],
+     "slides": [
+      143
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide143-1.jpg",
+       "w": 1100,
+       "h": 622
+      }
+     ]
+    },
+    {
+     "heading": "Copilot Studio with Anthropic",
+     "status": "",
+     "points": [
+      "Choose an external model as the primary AI model in Copilot Studio.",
+      "Allow external large language models for generative responses in Power Platform.",
+      "Available in early release cycle environments worldwide, preview in all environments by mid-October, production by end of year."
+     ],
+     "slides": [
+      144
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide144-1.jpg",
+       "w": 1100,
+       "h": 825
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Expanding model choice in Microsoft 365 Copilot | Microsoft 365 Blog",
+     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/24/expanding-model-choice-in-microsoft-365-copilot/"
+    },
+    {
+     "text": "Admin: Connect to Anthropic's AI models | Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-models"
+    },
+    {
+     "text": "Choose an external model as the primary AI model - Microsoft Copilot Studio",
+     "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-select-external-response-model"
+    },
+    {
+     "text": "Allow external large language models (LLMs) for generative responses - Power Platform",
+     "url": "https://learn.microsoft.com/en-us/power-platform/admin/allow-llm-generative-responses"
+    },
+    {
+     "text": "Anthropic joins the multi-model lineup in Microsoft Copilot Studio",
+     "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/anthropic-joins-the-multi-model-lineup-in-microsoft-copilot-studio/"
+    },
+    {
+     "text": "early release cycle environments",
+     "url": "https://learn.microsoft.com/en-us/power-platform/admin/early-release"
+    }
+   ]
+  },
+  {
+   "id": "2025-09-18-human-agent-collaboration",
+   "date": "2025-09-18",
+   "dateLabel": "September 18, 2025",
+   "title": "Human-Agent Collaboration",
+   "category": "Agents",
+   "summary": "New collaboration-focused agents embed across Teams, SharePoint, and Viva Engage to help groups coordinate, communicate, and execute.",
+   "tags": [
+    "Agents",
+    "Teams",
+    "Collaboration"
+   ],
+   "details": [
+    {
+     "heading": "Human-agent collaboration",
+     "status": "",
+     "points": [
+      "New collaboration-focused agents within Microsoft 365 Copilot.",
+      "Embedded in Microsoft Teams, SharePoint, and Viva Engage.",
+      "Help groups coordinate, communicate, and execute tasks more efficiently.",
+      "Make AI an active, protected participant in teamwork."
+     ],
+     "slides": [
+      145
+     ]
+    },
+    {
+     "heading": "Project Manager agent",
+     "status": "Public Preview",
+     "points": [
+      "Acts as a virtual project manager within your plans.",
+      "Streamlines the planning process so you focus on strategy.",
+      "Handles some tasks on your behalf."
+     ],
+     "slides": [
+      146
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide146-1.jpg",
+       "w": 1100,
+       "h": 622
+      }
+     ]
+    },
+    {
+     "heading": "Facilitator agent",
+     "status": "Generally available",
+     "points": [
+      "Works alongside you and your team in Teams meetings.",
+      "Takes real-time notes everyone can co-author.",
+      "Moderates meetings using the agenda, checking in midway and recapping decisions and open items."
+     ],
+     "slides": [
+      147
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide147-1.jpg",
+       "w": 1100,
+       "h": 622
+      }
+     ]
+    },
+    {
+     "heading": "Teams Channel agent",
+     "status": "Public Preview",
+     "points": [
+      "Each channel gets a virtual expert.",
+      "Helps your team stay on top of tasks, summarize info, and streamline productivity."
+     ],
+     "slides": [
+      148
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide148-1.png",
+       "w": 1100,
+       "h": 623
+      }
+     ]
+    },
+    {
+     "heading": "Agents in Viva Engage communities",
+     "status": "Public Preview",
+     "points": [
+      "Each community can have its own AI-powered agent grounded in conversations and SharePoint content.",
+      "Answers questions, drafts responses, and cites sources.",
+      "Notifies admins or experts in Teams for review, with optional verification before posting."
+     ],
+     "slides": [
+      149
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide149-1.png",
+       "w": 1100,
+       "h": 869
+      }
+     ]
+    },
+    {
+     "heading": "Knowledge agent",
+     "status": "Public Preview",
+     "points": [
+      "Intelligent content curator that enriches and structures SharePoint content for AI.",
+      "A content management strategist that makes content more discoverable.",
+      "Auto-tags and classifies files with metadata to improve Copilot grounding."
+     ],
+     "slides": [
+      150
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide150-1.png",
+       "w": 1100,
+       "h": 618
+      }
+     ]
+    },
+    {
+     "heading": "Pre-built Microsoft agents",
+     "status": "",
+     "points": [
+      "A growing catalog of pre-built agents designed for work.",
+      "Includes Skills, Channels, Survey, Communities, Facilitator, Analyst, Researcher, Interpreter, Project Manager, and Knowledge.",
+      "Availability spans Frontier, public preview, and general availability."
+     ],
+     "slides": [
+      151
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide151-1.png",
+       "w": 1100,
+       "h": 733
+      },
+      {
+       "file": "assets/media/slide151-2.png",
+       "w": 1100,
+       "h": 492
+      },
+      {
+       "file": "assets/media/slide151-3.png",
+       "w": 1100,
+       "h": 1100
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Power up project management in Teams with the Project Manager Agent | Microsoft Community Hub",
+     "url": "https://techcommunity.microsoft.com/blog/plannerblog/power-up-project-management-in-teams-with-the-project-manager-agent/4454813"
+    },
+    {
+     "text": "AI and Microsoft Teams: A New Era of Collaboration | Microsoft Community Hub",
+     "url": "https://techcommunity.microsoft.com/blog/microsoftteamsblog/ai-and-microsoft-teams-a-new-era-of-collaboration/4454152"
+    },
+    {
+     "text": "Introducing agents in Viva Engage communities: Your AI-powered community expert | Microsoft Community Hub",
+     "url": "https://techcommunity.microsoft.com/blog/viva_engage_blog/introducing-agents-in-viva-engage-communities-your-ai-powered-community-expert/4454146"
+    },
+    {
+     "text": "Introducing Knowledge Agent in SharePoint | Microsoft Community Hub",
+     "url": "https://techcommunity.microsoft.com/blog/spblog/introducing-knowledge-agent-in-sharepoint/4454154"
+    },
+    {
+     "text": "Coming to Frontier September 2025",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/announcing-people-skills-general-availability-and-new-skills-agent/4406364"
+    },
+    {
+     "text": "Frontier program",
+     "url": "https://techcommunity.microsoft.com/blog/microsoftformsblog/shipped-surveys-agent-now-live-for-customers-in-microsoft-365-copilot-frontier-p/4444421"
+    },
+    {
+     "text": "Generally available",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/analyst-agent-in-microsoft-365-copilot/4397191"
+    },
+    {
+     "text": "Generally available",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/researcher-agent-in-microsoft-365-copilot/4397186"
+    },
+    {
+     "text": "Generally available",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-new-agents-in-microsoft-365/4296918"
+    },
+    {
+     "text": "Public preview",
+     "url": "https://techcommunity.microsoft.com/blog/plannerblog/unleashing-the-power-of-agents-in-microsoft-planner/4304794"
+    },
+    {
+     "text": "AI agents – Microsoft Adoption",
+     "url": "https://adoption.microsoft.com/en-us/customer-hub/ai-agents/"
+    }
+   ]
+  },
+  {
+   "id": "2025-09-15-copilot-chat-in-microsoft-365-apps",
+   "date": "2025-09-15",
+   "dateLabel": "September 15, 2025",
+   "title": "Copilot Chat in Microsoft 365 Apps",
+   "category": "Models & Chat",
+   "summary": "Microsoft 365 users get secure Copilot Chat with web data inside the M365 apps, reasoning over open and uploaded files, with deeper work-grounded features for licensed users.",
+   "tags": [
+    "Copilot Chat",
+    "M365 apps",
+    "Licensing"
+   ],
+   "details": [
+    {
+     "heading": "Copilot Chat in Microsoft 365 apps",
+     "status": "",
+     "points": [
+      "Microsoft 365 users can use Copilot Chat with web data directly in the apps.",
+      "Reason over open files, uploaded files, and files added using '/'.",
+      "Without a Copilot license, Copilot in Outlook reasons over individual emails, threads, or attachments only, not the full inbox."
+     ],
+     "slides": [
+      152
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide152-1.png",
+       "w": 1100,
+       "h": 602
+      }
+     ]
+    },
+    {
+     "heading": "Licensing comparison",
+     "status": "",
+     "points": [
+      "Copilot Chat (no license) and Microsoft 365 Copilot ($30 pupm) both get web data and a secure AI chat interface.",
+      "Both can reason over the open file, uploaded files, or files added with '/'.",
+      "Advanced create/edit/command features, agents for deeper support, and reasoning AI like Researcher and Analyst require a Copilot license.",
+      "Agent access is metered for unlicensed users."
+     ],
+     "slides": [
+      153
+     ]
+    },
+    {
+     "heading": "Use cases",
+     "status": "",
+     "points": [
+      "Write an intro paragraph, visualize insights, create images, and draft recap emails are available to all.",
+      "Summarizing a full inbox, forecasting with Analyst, and building an industry report with Researcher require a Copilot license."
+     ],
+     "slides": [
+      154
+     ]
+    }
+   ],
+   "links": []
+  },
+  {
+   "id": "2025-09-10-copilot-studio-entitlements",
+   "date": "2025-09-10",
+   "dateLabel": "September 10, 2025",
+   "title": "Copilot Studio Entitlements",
+   "category": "Admin & Cost",
+   "summary": "All Copilot Studio capabilities are now included with Microsoft 365 Copilot for agents running under a licensed user's identity, expanding employee-facing agent building.",
+   "tags": [
+    "Copilot Studio",
+    "Entitlements",
+    "Licensing"
+   ],
+   "details": [
+    {
+     "heading": "Copilot Studio entitlements expansion",
+     "status": "",
+     "points": [
+      "All Copilot Studio capabilities, including agent flows, AI tools, and deep reasoning, are now included with Microsoft 365 Copilot.",
+      "Applies to agents that run using a licensed user's identity.",
+      "Empowers users to build and use agents for employee-facing (B2E) productivity.",
+      "Message rates per 10 responses: Basic 1, Standard 15, Premium 100; agent flow actions 13 per 100, when using the authenticated user's identity."
+     ],
+     "slides": [
+      155
+     ]
+    },
+    {
+     "heading": "Copilot Chat vs Microsoft 365 Copilot capabilities",
+     "status": "",
+     "points": [
+      "Detailed comparison of capabilities included versus metered across Chat, Search, Agents, Create, and Notebooks.",
+      "Copilot Chat (no license) gets GPT-5 web-grounded chat with work-data agents metered.",
+      "Microsoft 365 Copilot adds work-grounded chat, pre-built agents, Researcher and Analyst, role-based solutions, and the Copilot Control System."
+     ],
+     "slides": [
+      156
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Choose the Right Copilot Studio Experience for Building Your Agent | Microsoft Learn",
+     "url": "https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-studio-experience?branch=pr-en-us-1114"
+    },
+    {
+     "text": "standard and priority access",
+     "url": "https://support.microsoft.com/en-us/topic/standard-versus-priority-access-to-features-in-microsoft-365-copilot-chat-12c8d9f8-db32-4f99-8ebe-d8d85879137f"
+    }
+   ]
+  },
+  {
+   "id": "2025-09-10-role-based-agents",
+   "date": "2025-09-10",
+   "dateLabel": "September 10, 2025",
+   "title": "Role-based Agents",
+   "category": "Sales & Service",
+   "summary": "Role-based AI solutions for sales, service, and finance professionals come to Microsoft 365 Copilot, embedded in Outlook, Teams, and Excel.",
+   "tags": [
+    "Sales",
+    "Service",
+    "Finance",
+    "Role-based"
+   ],
+   "details": [
+    {
+     "heading": "Role-based AI solutions",
+     "status": "Rollout starts 10/10/2025",
+     "points": [
+      "Adds role-based AI solutions for sales, service, and finance professionals to Microsoft 365 Copilot.",
+      "Integrates AI into daily apps like Outlook and Microsoft Teams.",
+      "Streamlines tasks and improves customer engagement.",
+      "Rollout starts 10/10/2025."
+     ],
+     "slides": [
+      157
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide157-1.jpg",
+       "w": 1100,
+       "h": 733
+      }
+     ]
+    },
+    {
+     "heading": "Finance agents",
+     "status": "",
+     "points": [
+      "Accelerate business impact and reduce cost with agents for finance processes.",
+      "Deliver new insight and reduce the time to compile and analyze data.",
+      "Drive efficiency by applying AI to manual, labor-intensive processes."
+     ],
+     "slides": [
+      158
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide158-1.png",
+       "w": 1100,
+       "h": 606
+      },
+      {
+       "file": "assets/media/slide158-2.png",
+       "w": 1100,
+       "h": 627
+      },
+      {
+       "file": "assets/media/slide158-3.jpg",
+       "w": 474,
+       "h": 1100
+      }
+     ]
+    },
+    {
+     "heading": "Financial Reconciliation agent",
+     "status": "",
+     "points": [
+      "Accelerate time-to-close with a Financial Reconciliation agent in Microsoft 365 Excel.",
+      "Intelligent data structure comparisons and guided troubleshooting.",
+      "Auto-generated report summary that highlights discrepancies.",
+      "Automate transaction matching with custom templates and scheduled triggers."
+     ],
+     "slides": [
+      159
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide159-1.png",
+       "w": 1100,
+       "h": 746
+      }
+     ]
+    },
+    {
+     "heading": "Variance Analysis agent",
+     "status": "Private Preview",
+     "points": [
+      "Accelerate impact with a Variance Analysis agent in Microsoft 365 Excel.",
+      "Review anomalies, risks, and unmatched data with annotations and supporting data.",
+      "Follow up with suggested contacts and auto-summarized commentary.",
+      "Turn data into presentation-ready visuals for Outlook and Teams."
+     ],
+     "slides": [
+      160
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide160-1.jpg",
+       "w": 474,
+       "h": 1100
+      },
+      {
+       "file": "assets/media/slide160-2.jpg",
+       "w": 970,
+       "h": 746
+      }
+     ]
+    },
+    {
+     "heading": "Collections agent",
+     "status": "",
+     "points": [
+      "Reduce costs with an agent for customer interactions in quote-to-cash.",
+      "Review customer financial standing directly within Outlook.",
+      "Share customer balance statements and invoice copies from Outlook.",
+      "Summarize and save customer interactions for accurate collaboration."
+     ],
+     "slides": [
+      161
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide161-1.jpg",
+       "w": 1100,
+       "h": 724
+      },
+      {
+       "file": "assets/media/slide161-2.jpg",
+       "w": 474,
+       "h": 1100
+      }
+     ]
+    },
+    {
+     "heading": "Microsoft 365 Copilot for Sales",
+     "status": "",
+     "points": [
+      "AI assistant that helps sellers catch up on pipeline, update CRM, prepare for meetings, and analyze calls.",
+      "Outlook email summaries enriched with CRM data and BANT (Budget, Authority, Needs, Timing) insights.",
+      "Draft customer replies using sales prompts; generate Word meeting-prep briefs blended with CRM data.",
+      "In Teams meetings, surfaces opportunity summaries and real-time brand/competitor SWOT detection."
+     ],
+     "slides": [
+      162,
+      164,
+      165,
+      166,
+      167
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide162-1.png",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide162-2.png",
+       "w": 632,
+       "h": 632
+      },
+      {
+       "file": "assets/media/slide164-1.png",
+       "w": 1100,
+       "h": 663
+      },
+      {
+       "file": "assets/media/slide164-2.jpg",
+       "w": 309,
+       "h": 840
+      }
+     ]
+    },
+    {
+     "heading": "Copilot for Service",
+     "status": "",
+     "points": [
+      "Brings generative AI into your existing contact center without rip-and-replace.",
+      "Embed Copilot in Outlook, Teams, and CRM desktops like Salesforce.",
+      "Generate case summaries, draft personalized emails, and browse and update CRM records.",
+      "Point-and-click setup over knowledge sources; $50 pupm bundle with Microsoft 365 Copilot, or $20 add-on."
+     ],
+     "slides": [
+      168,
+      170,
+      171,
+      172,
+      173,
+      174
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide168-1.jpg",
+       "w": 1100,
+       "h": 658
+      },
+      {
+       "file": "assets/media/slide168-2.png",
+       "w": 884,
+       "h": 772
+      },
+      {
+       "file": "assets/media/slide170-1.png",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide170-2.jpg",
+       "w": 1100,
+       "h": 658
+      }
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Moving sales, service, and finance to the Frontier with Microsoft 365 Copilot",
+     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/09/10/moving-sales-service-and-finance-to-the-frontier-with-microsoft-365-copilot/"
+    }
+   ]
+  },
+  {
+   "id": "2025-08-05-gpt-5",
+   "date": "2025-08-05",
+   "dateLabel": "August 5, 2025",
+   "title": "GPT-5",
+   "category": "Models & Chat",
+   "summary": "Copilot Chat is powered by GPT-5 with a real-time router that sends prompts to high-throughput or deeper-reasoning models, secured with enterprise data protection.",
+   "tags": [
+    "GPT-5",
+    "Router",
+    "Reasoning"
+   ],
+   "details": [
+    {
+     "heading": "Copilot Chat powered by GPT-5",
+     "status": "",
+     "points": [
+      "Try the latest model from OpenAI in Copilot Chat.",
+      "A GPT-5 real-time router analyzes prompt complexity automatically.",
+      "Simple prompts route to the GPT-5 high-throughput model; complex prompts route to the GPT-5 deeper-reasoning model.",
+      "Reasoning models are in mainline Copilot Chat for the first time, with no manual model selection needed.",
+      "Both models are secured with enterprise data protection and optimized for work."
+     ],
+     "slides": [
+      176
+     ],
+     "images": [
+      {
+       "file": "assets/media/slide176-1.jpg",
+       "w": 1100,
+       "h": 619
+      },
+      {
+       "file": "assets/media/slide176-2.jpg",
+       "w": 1100,
+       "h": 335
+      }
+     ]
+    },
+    {
+     "heading": "Capacity-based access model",
+     "status": "",
+     "points": [
+      "Microsoft moved to a capacity-based model for a more flexible, scalable experience.",
+      "Copilot Chat users without a Copilot license get standard access subject to service capacity for image generation, file upload, and GPT-5.",
+      "Microsoft 365 Copilot licensed users get priority access with faster, more consistent availability.",
+      "If capacity is unavailable, users are notified but tasks in progress continue uninterrupted."
+     ],
+     "slides": [
+      177
+     ]
+    },
+    {
+     "heading": "GPT-5 Chat vs Reasoning vs Researcher",
+     "status": "",
+     "points": [
+      "GPT-5 Chat: quick, straightforward Q&A, summaries, and brainstorming.",
+      "GPT-5 Reasoning: multi-step logical analysis for think-this-through prompts.",
+      "Researcher: recursive, exhaustive reasoning for deep cross-source synthesis and reports.",
+      "Copilot Chat with GPT-5 automatically chooses between Chat and Reasoning."
+     ],
+     "slides": [
+      178
+     ]
+    }
+   ],
+   "links": [
+    {
+     "text": "Learn more on Microsoft Support",
+     "url": "https://aka.ms/StandardVsPriorityAccess"
+    }
+   ]
+  }
+ ]
 }

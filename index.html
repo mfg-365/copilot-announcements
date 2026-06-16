@@ -27,6 +27,7 @@
 
   <nav class="tabs" role="tablist" aria-label="Sections">
     <button class="tab is-active" role="tab" data-tab="announcements">Announcements</button>
+    <button class="tab" role="tab" data-tab="timeline">Timeline</button>
     <button class="tab" role="tab" data-tab="updates">Roadmap</button>
     <button class="tab" role="tab" data-tab="blogs">Copilot Blogs</button>
     <button class="tab" role="tab" data-tab="resources">Resources</button>
@@ -82,6 +83,17 @@
         <div id="annDetail"></div>
       </div>
 
+    </section>
+
+    <!-- ============ TIMELINE ============ -->
+    <section class="panel" id="timeline" role="tabpanel">
+      <span class="kicker">At a glance</span>
+      <h1 class="compact">Announcement Timeline</h1>
+      <p class="lead">Every Copilot announcement on one track &mdash; most recent on the right. Scroll left to travel back through the history, and click any milestone to open its full page.</p>
+      <div class="tl-scroll" id="tlScroll">
+        <div class="tl-track" id="tlTrack"><div class="rm-empty">Loading timeline&hellip;</div></div>
+      </div>
+      <p class="source-note">Tip: scroll horizontally (Shift + mouse wheel) or drag to move along the timeline.</p>
     </section>
 
     <!-- ============ ROADMAP (Updates) ============ -->

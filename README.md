@@ -5,11 +5,22 @@ An interactive, **Microsoft 365 Copilot–branded** site that replaces the runni
 static site for **GitHub Pages**.
 
 ## Tabs
-- **Announcements** – a curated, searchable, filter-by-area feed of the big Copilot
-  announcements (the content migrated from the deck). Driven by `data/announcements.json`.
+- **Announcements** – date cards; each opens a dedicated detail page (`#a/<id>`) with its
+  full details, **screenshots from the deck**, and **blog/article links** in the header.
+- **Timeline** – a horizontal timeline of every announcement (most recent on the right;
+  scroll/drag left to go back). Each milestone links to its date page.
 - **Roadmap** – live feed of Copilot features from the public Microsoft 365 Roadmap.
 - **Copilot Blogs** – the latest official Microsoft Copilot/agent blog posts.
 - **Resources** – official Microsoft links and a link to the source deck.
+
+## Media & links
+- Screenshots were extracted and optimized from the source deck into `assets/media/`
+  (150 images, ~20 MB; longest side ≤1100 px). Each detail block references its images via
+  an `images` array in `data/announcements.json`.
+- Blog/article hyperlinks were extracted from the deck and attached to each announcement's
+  `links` array; they render in the dark header of each detail page under "Blogs & articles".
+- Videos from the deck are intentionally **not** included (they exceed GitHub's file-size
+  limits — several are >100 MB).
 
 ## Updating announcements (the part you maintain)
 Announcements are **organized by date**. The main page shows a card per date; clicking a

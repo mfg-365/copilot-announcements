@@ -8,6 +8,7 @@ function activate(id, keepHash) {
   if (!keepHash && location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
   if (!keepHash) window.scrollTo({ top: 0, behavior: "smooth" });
   if (id === "announcements") loadAnnouncements();
+  if (id === "timeline") loadTimeline();
   if (id === "updates") loadRoadmap();
   if (id === "blogs") loadBlogs();
 }
@@ -110,18 +111,29 @@ function renderAnnDetail(id) {
   }
   const cats = annData.categories || [];
   const tags = (i.tags || []).map((t) => `<span class="tag-pill">${esc(t)}</span>`).join("");
+
+  // Header links (blogs / articles / section-title links)
+  const headerLinks = (i.links || [])
+    .map((l) => `<a class="det-link" href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.text)}<span class="det-link-host">${esc(hostOf(l.url))}</span></a>`)
+    .join("");
+  const linksBlock = headerLinks
+    ? `<div class="det-links"><span class="det-links-label">Blogs &amp; articles</span><div class="det-links-grid">${headerLinks}</div></div>`
+    : "";
+
   const details = (i.details || [])
     .map((d) => {
       const pts = (d.points || []).map((p) => `<li>${esc(p)}</li>`).join("");
       const status = d.status ? `<span class="det-status">${esc(d.status)}</span>` : "";
+      const imgs = (d.images || [])
+        .map((im) => `<a class="det-shot" href="${esc(im.file)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(im.file)}" alt="${esc(d.heading)} screenshot" /></a>`)
+        .join("");
+      const gallery = imgs ? `<div class="det-shots">${imgs}</div>` : "";
       return `<article class="det-card">
         <div class="det-head"><h3>${esc(d.heading)}</h3>${status}</div>
         ${pts ? `<ul class="det-points">${pts}</ul>` : ""}
+        ${gallery}
       </article>`;
     })
-    .join("");
-  const links = (i.links || [])
-    .map((l) => `<a class="link-card" href="${esc(l.url)}" target="_blank" rel="noopener"><strong>${esc(l.label)}</strong><span>${esc(l.sub || "Open")}</span></a>`)
     .join("");
 
   wrap.innerHTML = `
@@ -131,10 +143,14 @@ function renderAnnDetail(id) {
       <h1>${esc(i.title)}</h1>
       ${i.summary ? `<p class="lead">${esc(i.summary)}</p>` : ""}
       ${tags ? `<div class="tag-row">${tags}</div>` : ""}
+      ${linksBlock}
     </header>
     <div class="det-grid">${details || '<div class="rm-empty">No further detail captured for this date.</div>'}</div>
-    ${links ? `<h2 class="section-title">Related links</h2><div class="link-grid">${links}</div>` : ""}
   `;
+}
+
+function hostOf(url) {
+  try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; }
 }
 
 function showAnnList() {
@@ -223,6 +239,72 @@ document.getElementById("annBack").addEventListener("click", () => {
   showAnnList();
 });
 window.addEventListener("hashchange", routeAnnouncements);
+
+// ----- Timeline (horizontal, newest on right) -----
+let timelineBuilt = false;
+async function loadTimeline() {
+  const track = document.getElementById("tlTrack");
+  if (timelineBuilt) return;
+  if (!annData) {
+    try { await loadAnnouncements(); } catch { /* handled below */ }
+  }
+  if (!annData) {
+    track.innerHTML = "";
+    track.appendChild(errorBox("Couldn't load the timeline.", () => { timelineBuilt = false; loadTimeline(); }));
+    return;
+  }
+  const cats = annData.categories || [];
+  // Oldest -> newest so the most recent sits on the right.
+  const items = [...annData.items].sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+
+  let lastYear = null;
+  const nodes = items
+    .map((i, idx) => {
+      const side = idx % 2 === 0 ? "below" : "above";
+      const yr = (i.date || "").slice(0, 4);
+      const yearTick = yr !== lastYear ? `<span class="tl-year">${esc(yr)}</span>` : "";
+      lastYear = yr;
+      const n = (i.details || []).length;
+      return `<a class="tl-node tl-${side}" href="#a/${esc(i.id)}">
+        <div class="tl-card">
+          <span class="ann-cat ${catClass(i.category, cats)}">${esc(i.category || "Update")}</span>
+          <span class="tl-date">${esc(i.dateLabel || fmtDate(i.date))}</span>
+          <strong class="tl-title">${esc(i.title)}</strong>
+          ${n ? `<span class="tl-count">${n} update${n === 1 ? "" : "s"}</span>` : ""}
+        </div>
+        <span class="tl-dot ${catClass(i.category, cats)}"></span>
+        ${yearTick}
+      </a>`;
+    })
+    .join("");
+
+  track.innerHTML = `<div class="tl-axis"></div>${nodes}`;
+  timelineBuilt = true;
+
+  // Scroll to the most recent (right end) after layout.
+  const scroller = document.getElementById("tlScroll");
+  requestAnimationFrame(() => { scroller.scrollLeft = scroller.scrollWidth; });
+  enableDragScroll(scroller);
+}
+
+// Click-drag to pan the timeline horizontally.
+function enableDragScroll(el) {
+  let down = false, startX = 0, startLeft = 0, moved = false;
+  el.addEventListener("pointerdown", (e) => {
+    down = true; moved = false; startX = e.clientX; startLeft = el.scrollLeft; el.classList.add("grabbing");
+  });
+  el.addEventListener("pointermove", (e) => {
+    if (!down) return;
+    const dx = e.clientX - startX;
+    if (Math.abs(dx) > 4) moved = true;
+    el.scrollLeft = startLeft - dx;
+  });
+  const end = () => { down = false; el.classList.remove("grabbing"); };
+  el.addEventListener("pointerup", end);
+  el.addEventListener("pointerleave", end);
+  // Prevent a drag from also triggering the node link.
+  el.addEventListener("click", (e) => { if (moved) { e.preventDefault(); e.stopPropagation(); } }, true);
+}
 
 // ----- Roadmap (Updates) -----
 let roadmapData = null;
