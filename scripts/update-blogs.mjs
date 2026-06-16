@@ -31,6 +31,21 @@ const FEEDS = [
   },
 ];
 
+// Curated posts that the public RSS feeds may not surface yet (the feeds can lag
+// real publishing by days). These are merged into the pool and de-duplicated by
+// normalized title, so when a feed later includes the same post the duplicate is
+// dropped automatically. Dates are derived from the blog URL when present.
+const PINNED = [
+  {
+    title: "Copilot Cowork is now generally available",
+    link: "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+    description:
+      "Copilot Cowork reaches general availability across desktop, iOS, and Android — multi-model by design, grounded in Work IQ, extensible with native and partner plugins, enterprise-secured, and billed through the new per-seat plus usage-based Copilot Credits model.",
+    source: "Microsoft 365 Blog",
+    categories: ["Copilot", "Cowork"],
+  },
+];
+
 function decodeOnce(s) {
   return (s || "")
     .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
@@ -130,7 +145,8 @@ function dateFromUrl(link) {
 
 async function main() {
   const results = await Promise.all(FEEDS.map(fetchFeed));
-  let items = results.flat();
+  // Pinned posts go first so they win de-duplication when a feed lags behind.
+  let items = [...PINNED, ...results.flat()];
 
   // de-dup by normalized title
   const seen = new Set();

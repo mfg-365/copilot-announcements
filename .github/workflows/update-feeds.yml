@@ -2,7 +2,10 @@ name: Update Feeds (Roadmap + Blogs)
 
 on:
   schedule:
-    - cron: "0 12 * * *"   # daily at 12:00 UTC
+    # 13:17 UTC daily. Deliberately off the top of the hour: GitHub heavily
+    # throttles/drops cron jobs scheduled at :00 of popular hours, which can make
+    # a daily schedule appear to "never run". An odd minute is far more reliable.
+    - cron: "17 13 * * *"
   workflow_dispatch:          # allow manual runs
 
 permissions:
