@@ -167,21 +167,6 @@
      ],
      "images": [
       {
-       "file": "assets/media/slide7-1.jpg",
-       "w": 1100,
-       "h": 774
-      },
-      {
-       "file": "assets/media/slide7-2.jpg",
-       "w": 1100,
-       "h": 616
-      },
-      {
-       "file": "assets/media/slide8-1.jpg",
-       "w": 1100,
-       "h": 774
-      },
-      {
        "file": "assets/media/slide8-2.jpg",
        "w": 1095,
        "h": 1100
@@ -372,13 +357,6 @@
      ],
      "slides": [
       14
-     ],
-     "images": [
-      {
-       "file": "assets/media/slide14-1.png",
-       "w": 709,
-       "h": 917
-      }
      ]
     },
     {
@@ -393,13 +371,6 @@
      ],
      "slides": [
       15
-     ],
-     "images": [
-      {
-       "file": "assets/media/slide15-1.jpg",
-       "w": 1100,
-       "h": 619
-      }
      ]
     },
     {
@@ -651,13 +622,6 @@
      ],
      "slides": [
       27
-     ],
-     "images": [
-      {
-       "file": "assets/media/slide27-1.png",
-       "w": 894,
-       "h": 280
-      }
      ]
     },
     {
@@ -675,16 +639,6 @@
       32
      ],
      "images": [
-      {
-       "file": "assets/media/slide31-1.png",
-       "w": 1100,
-       "h": 1042
-      },
-      {
-       "file": "assets/media/slide31-2.png",
-       "w": 1100,
-       "h": 930
-      },
       {
        "file": "assets/media/slide31-3.png",
        "w": 878,
@@ -752,11 +706,6 @@
      "images": [
       {
        "file": "assets/media/slide35-1.jpg",
-       "w": 1100,
-       "h": 619
-      },
-      {
-       "file": "assets/media/slide36-1.jpg",
        "w": 1100,
        "h": 619
       }
@@ -868,11 +817,6 @@
        "file": "assets/media/slide48-1.png",
        "w": 1100,
        "h": 619
-      },
-      {
-       "file": "assets/media/slide49-1.png",
-       "w": 1100,
-       "h": 619
       }
      ]
     },
@@ -931,11 +875,6 @@
      ],
      "images": [
       {
-       "file": "assets/media/slide53-1.jpg",
-       "w": 1100,
-       "h": 602
-      },
-      {
        "file": "assets/media/slide55-1.jpg",
        "w": 1100,
        "h": 619
@@ -978,18 +917,6 @@
       59,
       60,
       61
-     ],
-     "images": [
-      {
-       "file": "assets/media/slide59-1.png",
-       "w": 512,
-       "h": 512
-      },
-      {
-       "file": "assets/media/slide60-1.png",
-       "w": 512,
-       "h": 512
-      }
      ]
     }
    ],
@@ -1054,11 +981,6 @@
        "file": "assets/media/slide62-1.jpg",
        "w": 1100,
        "h": 664
-      },
-      {
-       "file": "assets/media/slide62-2.jpg",
-       "w": 1100,
-       "h": 640
       }
      ],
      "links": [
@@ -1165,28 +1087,6 @@
      "slides": [
       66,
       67
-     ],
-     "images": [
-      {
-       "file": "assets/media/slide66-1.jpg",
-       "w": 1100,
-       "h": 619
-      },
-      {
-       "file": "assets/media/slide66-2.png",
-       "w": 513,
-       "h": 520
-      },
-      {
-       "file": "assets/media/slide67-1.jpg",
-       "w": 733,
-       "h": 1100
-      },
-      {
-       "file": "assets/media/slide67-2.png",
-       "w": 513,
-       "h": 520
-      }
      ]
     },
     {
@@ -1226,11 +1126,6 @@
        "file": "assets/media/slide69-1.jpg",
        "w": 1100,
        "h": 619
-      },
-      {
-       "file": "assets/media/slide69-2.png",
-       "w": 513,
-       "h": 520
       }
      ],
      "links": [
@@ -1366,11 +1261,6 @@
      ],
      "images": [
       {
-       "file": "assets/media/slide76-1.jpg",
-       "w": 545,
-       "h": 1100
-      },
-      {
        "file": "assets/media/slide76-2.png",
        "w": 557,
        "h": 1100
@@ -1480,11 +1370,6 @@
      "images": [
       {
        "file": "assets/media/slide83-1.jpg",
-       "w": 1100,
-       "h": 619
-      },
-      {
-       "file": "assets/media/slide84-1.jpg",
        "w": 1100,
        "h": 619
       }
@@ -1663,11 +1548,6 @@
        "file": "assets/media/slide95-1.jpg",
        "w": 1100,
        "h": 619
-      },
-      {
-       "file": "assets/media/slide96-1.jpg",
-       "w": 1100,
-       "h": 619
       }
      ]
     },
@@ -1769,11 +1649,6 @@
        "file": "assets/media/slide102-1.jpg",
        "w": 1100,
        "h": 619
-      },
-      {
-       "file": "assets/media/slide103-1.jpg",
-       "w": 1100,
-       "h": 371
       }
      ]
     },
@@ -1795,16 +1670,6 @@
        "file": "assets/media/slide104-1.jpg",
        "w": 1100,
        "h": 592
-      },
-      {
-       "file": "assets/media/slide105-1.png",
-       "w": 525,
-       "h": 391
-      },
-      {
-       "file": "assets/media/slide105-2.png",
-       "w": 558,
-       "h": 320
       }
      ]
     },
@@ -1830,21 +1695,6 @@
      "images": [
       {
        "file": "assets/media/slide108-1.jpg",
-       "w": 1100,
-       "h": 619
-      },
-      {
-       "file": "assets/media/slide109-1.jpg",
-       "w": 1100,
-       "h": 619
-      },
-      {
-       "file": "assets/media/slide110-1.jpg",
-       "w": 1100,
-       "h": 619
-      },
-      {
-       "file": "assets/media/slide111-1.jpg",
        "w": 1100,
        "h": 619
       }
@@ -1879,19 +1729,9 @@
      ],
      "images": [
       {
-       "file": "assets/media/slide116-1.jpg",
-       "w": 1100,
-       "h": 619
-      },
-      {
        "file": "assets/media/slide117-1.jpg",
        "w": 1100,
        "h": 619
-      },
-      {
-       "file": "assets/media/slide118-1.png",
-       "w": 1100,
-       "h": 620
       }
      ],
      "links": [
@@ -1970,11 +1810,6 @@
        "file": "assets/media/slide121-1.jpg",
        "w": 566,
        "h": 1100
-      },
-      {
-       "file": "assets/media/slide121-2.jpg",
-       "w": 476,
-       "h": 946
       }
      ],
      "links": [
@@ -2176,11 +2011,6 @@
      ],
      "images": [
       {
-       "file": "assets/media/slide134-1.png",
-       "w": 1100,
-       "h": 637
-      },
-      {
        "file": "assets/media/slide134-2.png",
        "w": 1100,
        "h": 649
@@ -2245,13 +2075,6 @@
      "slides": [
       137
      ],
-     "images": [
-      {
-       "file": "assets/media/slide137-1.jpg",
-       "w": 1100,
-       "h": 622
-      }
-     ],
      "links": [
       {
        "title": "Edit with Copilot in Word",
@@ -2270,13 +2093,6 @@
      ],
      "slides": [
       138
-     ],
-     "images": [
-      {
-       "file": "assets/media/slide138-1.jpg",
-       "w": 1100,
-       "h": 622
-      }
      ],
      "links": [
       {
@@ -2321,11 +2137,6 @@
        "file": "assets/media/slide139-1.jpg",
        "w": 1100,
        "h": 666
-      },
-      {
-       "file": "assets/media/slide139-2.png",
-       "w": 971,
-       "h": 556
       }
      ]
     },
@@ -2359,23 +2170,6 @@
      ],
      "slides": [
       141
-     ],
-     "images": [
-      {
-       "file": "assets/media/slide141-1.png",
-       "w": 1100,
-       "h": 619
-      },
-      {
-       "file": "assets/media/slide141-2.png",
-       "w": 1100,
-       "h": 619
-      },
-      {
-       "file": "assets/media/slide141-3.png",
-       "w": 1100,
-       "h": 733
-      }
      ]
     }
    ]
@@ -2511,13 +2305,6 @@
      "slides": [
       146
      ],
-     "images": [
-      {
-       "file": "assets/media/slide146-1.jpg",
-       "w": 1100,
-       "h": 622
-      }
-     ],
      "links": [
       {
        "title": "Power up project management in Teams with the Project Manager Agent",
@@ -2535,13 +2322,6 @@
      ],
      "slides": [
       147
-     ],
-     "images": [
-      {
-       "file": "assets/media/slide147-1.jpg",
-       "w": 1100,
-       "h": 622
-      }
      ]
     },
     {
@@ -2628,23 +2408,6 @@
      ],
      "slides": [
       151
-     ],
-     "images": [
-      {
-       "file": "assets/media/slide151-1.png",
-       "w": 1100,
-       "h": 733
-      },
-      {
-       "file": "assets/media/slide151-2.png",
-       "w": 1100,
-       "h": 492
-      },
-      {
-       "file": "assets/media/slide151-3.png",
-       "w": 1100,
-       "h": 1100
-      }
      ]
     }
    ],
@@ -2815,13 +2578,6 @@
      "slides": [
       157
      ],
-     "images": [
-      {
-       "file": "assets/media/slide157-1.jpg",
-       "w": 1100,
-       "h": 733
-      }
-     ],
      "links": [
       {
        "title": "Moving sales, service, and finance to the Frontier with Microsoft 365 Copilot",
@@ -2842,19 +2598,9 @@
      ],
      "images": [
       {
-       "file": "assets/media/slide158-1.png",
-       "w": 1100,
-       "h": 606
-      },
-      {
        "file": "assets/media/slide158-2.png",
        "w": 1100,
        "h": 627
-      },
-      {
-       "file": "assets/media/slide158-3.jpg",
-       "w": 474,
-       "h": 1100
       }
      ]
     },
@@ -2892,11 +2638,6 @@
      ],
      "images": [
       {
-       "file": "assets/media/slide160-1.jpg",
-       "w": 474,
-       "h": 1100
-      },
-      {
        "file": "assets/media/slide160-2.jpg",
        "w": 970,
        "h": 746
@@ -2920,11 +2661,6 @@
        "file": "assets/media/slide161-1.jpg",
        "w": 1100,
        "h": 724
-      },
-      {
-       "file": "assets/media/slide161-2.jpg",
-       "w": 474,
-       "h": 1100
       }
      ]
     },
@@ -2946,24 +2682,9 @@
      ],
      "images": [
       {
-       "file": "assets/media/slide162-1.png",
-       "w": 1100,
-       "h": 619
-      },
-      {
-       "file": "assets/media/slide162-2.png",
-       "w": 632,
-       "h": 632
-      },
-      {
        "file": "assets/media/slide164-1.png",
        "w": 1100,
        "h": 663
-      },
-      {
-       "file": "assets/media/slide164-2.jpg",
-       "w": 309,
-       "h": 840
       }
      ]
     },
@@ -2987,21 +2708,6 @@
      "images": [
       {
        "file": "assets/media/slide168-1.jpg",
-       "w": 1100,
-       "h": 658
-      },
-      {
-       "file": "assets/media/slide168-2.png",
-       "w": 884,
-       "h": 772
-      },
-      {
-       "file": "assets/media/slide170-1.png",
-       "w": 1100,
-       "h": 619
-      },
-      {
-       "file": "assets/media/slide170-2.jpg",
        "w": 1100,
        "h": 658
       }
@@ -3036,11 +2742,6 @@
       176
      ],
      "images": [
-      {
-       "file": "assets/media/slide176-1.jpg",
-       "w": 1100,
-       "h": 619
-      },
       {
        "file": "assets/media/slide176-2.jpg",
        "w": 1100,
