@@ -2,7 +2,7 @@
 // Paste the internal SharePoint URL of the Copilot Announcements deck below.
 // Leave it empty to keep the card as a non-clickable label.
 window.DECK_LINKS = {
-  announcements: "" // e.g. "https://microsoft-my.sharepoint.com/:p:/p/cowi/...."
+  announcements: "https://livesend.microsoft.com/i/QA50DnJHqqsstg2J6mhGcltXSOtXZ6OxxwO___N5Y3weTo8dlaLuQwHa8p0FNMxL67m9G3IBWy9g___Nlu___Icwou9n7r0HmDPobPZxgsI0xk8M3rqoRDkoaQePKwOel0phH4"
 };
 
 // Wire the deck card (runs after the DOM, since this script is at the end of <body>).
@@ -24,4 +24,13 @@ window.DECK_LINKS = {
     }
   });
   if (note && enabled) note.textContent = "Click the deck to open it.";
+
+  // Wire the download callout banner(s) on the announcements page.
+  document.querySelectorAll("[data-deck-link]").forEach((el) => {
+    const url = links[el.dataset.deckLink];
+    if (url) {
+      el.href = url;
+      el.hidden = false;
+    }
+  });
 })();

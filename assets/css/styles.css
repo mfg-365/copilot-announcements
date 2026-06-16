@@ -216,6 +216,24 @@ a.driver-card:hover{text-decoration:none}
 .deck-card.enabled{cursor:pointer}
 .deck-card.enabled:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(26,33,80,.14)}
 
+/* Deck download callout (announcements page) */
+.deck-callout{display:flex;align-items:center;gap:1.1rem;margin-top:1.6rem;
+  background:linear-gradient(120deg,#171E45 0%,#23306A 55%,#3A2A6E 100%);
+  border:1px solid rgba(124,92,252,.35);border-radius:14px;padding:1.05rem 1.3rem;
+  color:#fff;box-shadow:0 10px 30px rgba(26,33,80,.22);position:relative;overflow:hidden;
+  transition:transform .14s,box-shadow .14s}
+.deck-callout::after{content:"";position:absolute;right:-50px;top:-60px;width:220px;height:220px;border-radius:50%;
+  background:radial-gradient(circle,rgba(18,184,166,.4),transparent 70%);filter:blur(18px);pointer-events:none}
+.deck-callout:hover{transform:translateY(-2px);box-shadow:0 16px 38px rgba(26,33,80,.3);text-decoration:none}
+.deck-callout-icon{flex:0 0 auto;width:48px;height:48px;border-radius:12px;display:flex;align-items:center;justify-content:center;
+  background:var(--grad);color:#fff;position:relative;z-index:1}
+.deck-callout-copy{display:flex;flex-direction:column;gap:.15rem;flex:1;min-width:0;position:relative;z-index:1}
+.deck-callout-copy strong{font-size:1.02rem;color:#fff}
+.deck-callout-copy span{font-size:.86rem;color:#C9D2F0}
+.deck-callout-cta{flex:0 0 auto;background:var(--grad);color:#fff;font-weight:700;font-size:.9rem;
+  padding:.6rem 1.2rem;border-radius:10px;white-space:nowrap;box-shadow:0 6px 18px rgba(124,92,252,.45);position:relative;z-index:1}
+@media(max-width:640px){.deck-callout{flex-wrap:wrap}.deck-callout-cta{width:100%;text-align:center}}
+
 /* Updates */
 .updates-meta{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.6rem;margin-bottom:1rem}
 .meta-counts{display:flex;gap:.6rem;flex-wrap:wrap}

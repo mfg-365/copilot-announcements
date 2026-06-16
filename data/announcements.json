@@ -18,69 +18,137 @@
    "dateLabel": "June 16, 2026",
    "title": "Copilot Cowork General Availability",
    "category": "Cowork & Research",
-   "summary": "Copilot Cowork reaches general availability with native and third-party connectors, partner plugins, and mobile, expanding delegated multi-step work across Microsoft 365.",
+   "summary": "Copilot Cowork is now generally available across desktop, iOS, and Android — multi-model by design, grounded in Work IQ, extensible via native and partner plugins, enterprise-secured, and billed through a new per-seat plus usage-based Copilot Credits model.",
    "tags": [
     "Cowork",
-    "Connectors",
+    "GA",
     "Plugins",
-    "GA"
+    "Copilot Credits",
+    "Work IQ"
    ],
    "details": [
     {
-     "heading": "Copilot Cowork connectors and plugins",
-     "status": "",
+     "heading": "Cowork — net new innovation on 6/16",
+     "status": "Generally Available",
      "points": [
-      "Bridge your knowledge sources with native and third-party connectors and plugins.",
-      "Microsoft native plugins and connectors such as Power BI and Fabric (Fabric IQ).",
-      "Partner integrations with Miro, monday.com, London Stock Exchange Group (LSEG), and S&P Global Energy, with more on the way.",
-      "Add, create, and manage your own custom plugins and personal skills.",
-      "Example: a finance manager has Cowork review a contract, pulling Dynamics 365 Finance, LSEG, and S&P Global Energy data plus a custom Compliance Checker skill.",
-      "Partner plugins coming late May; Anthropic models currently excluded from the EU Data Boundary."
+      "Multi-model by design: Opus 4.8 and Sonnet 4.6 (GA), GPT-5.5 Thinking (Frontier), and a coming-soon fine-tuned 'Cowork 1' model post-trained for Cowork tasks at substantially lower cost.",
+      "New features: browser use via Edge (Frontier), generate and edit images with Imagen 2 (GA), branded PowerPoint templates (GA), and save/manage/share personal Skills (GA).",
+      "New plugins (GA): Enosix, Harvey, LSEG, Miro, Monday.com, Moodys, Morningstar, S&P Global Energy, and TeamsMaestro.",
+      "Coming soon (GA): Adobe, Atlassian, Box, Canva, CB Insights, Databricks, MoneyForward, and Templafy; Fabric and Dynamics 365 Sales, Customer Service, and ERP apps are also now GA.",
+      "Security & compliance: sensitivity-label inheritance, Communication Compliance, audit logging, DSPM activity explorer, and eDiscovery — with Insider Risk Management, DLM, and DLP coming soon.",
+      "Updated UX: a single toggle to switch between Copilot Chat and Cowork, plus a unified home base to resume tasks, manage schedules, and customize skills and plugins."
+     ]
+    },
+    {
+     "heading": "Generally available across desktop, iOS, and Android",
+     "status": "Generally Available",
+     "points": [
+      "Delegate real work, not prompts: Cowork plans tasks, reasons across tools and files, and keeps work moving over time.",
+      "Grounded in Work IQ: it understands your work directly through Microsoft 365 rather than stitching context together from connectors.",
+      "Connected to your tools: Cowork uses plugins to tap into the apps, data, and custom skills your team already runs on.",
+      "Observable and controllable: transparent actions and reviewable progress, with guardrails to guide or stop execution.",
+      "Enterprise-ready: operates within Microsoft security, identity, and governance — built in partnership with Anthropic.",
+      "Currently excluded from the EU Data Boundary and, where applicable, in-country processing commitments."
      ],
-     "slides": [
-      18
+     "images": [
+      {
+       "file": "assets/media/cowork-ga-home.jpg",
+       "w": 1100,
+       "h": 619
+      }
      ],
      "links": [
       {
-       "title": "Anthropic models in Microsoft Online Services",
+       "title": "Anthropic as a subprocessor for Microsoft Online Services",
        "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
       }
      ]
     },
     {
-     "heading": "Copilot Cowork innovations",
+     "heading": "Bridge your knowledge sources with connectors and plugins",
      "status": "",
      "points": [
-      "Since the March introduction, Cowork became available in Frontier.",
-      "Model choice: Anthropic and OpenAI models available within Cowork.",
-      "Available on iOS and Android mobile.",
-      "Integrated into Agent 365.",
-      "Create and manage your personal skills, plus custom, partner, and Microsoft native plug-ins."
+      "Microsoft native plugins and connectors such as Power BI and Fabric (Fabric IQ).",
+      "Partner integrations with Miro, monday.com, LSEG, S&P Global Energy, Harvey, Morningstar, Moodys, TeamsMaestro, and Enosix — with more on the way.",
+      "Add, create, and manage your own custom plugins and personal skills.",
+      "Example: a finance manager has Cowork review a customer contract — pulling Dynamics 365 Finance AR/AP history, benchmarking deal terms, running a custom Compliance Checker skill, and cross-referencing LSEG and S&P Global Energy market data.",
+      "Coming by mid-July: Box, Canva, CB Insights, Databricks, Atlassian, Templafy, MoneyForward, and Adobe."
      ],
-     "slides": [
-      19
+     "links": [
+      {
+       "title": "Anthropic as a subprocessor for Microsoft Online Services",
+       "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
+      }
+     ]
+    },
+    {
+     "heading": "Out-of-the-box specialized skills",
+     "status": "",
+     "points": [
+      "Office: create and edit Word documents, Excel spreadsheets, and PowerPoint presentations, and work with PDF documents.",
+      "Email & calendar: compose, reply, forward, and send email; create events with natural language; add Teams links and manage your calendar.",
+      "Meetings & briefings: schedule meetings, prepare meeting intelligence, and assemble your daily briefing.",
+      "Knowledge: enterprise search across your organization, plus in-depth Research across multiple sources.",
+      "Adaptive cards: generate interactive, card-based responses with structured layouts, buttons, and data.",
+      "Custom skills: keep a OneDrive subfolder of custom skills that Cowork references at the start of each conversation."
+     ],
+     "links": [
+      {
+       "title": "Anthropic as a subprocessor for Microsoft Online Services",
+       "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
+      }
+     ]
+    },
+    {
+     "heading": "Pricing: per-seat plus usage-based Copilot Credits",
+     "status": "",
+     "points": [
+      "Per-seat continues to include Copilot Chat, Copilot in Office apps and Teams, pre-built agents (e.g., Researcher), Work IQ, multi-model, and more.",
+      "Usage-based Copilot Credits cover Cowork and other usage; 1 Credit = $0.01 in the pay-as-you-go plan.",
+      "Each task's price is calculated from four inputs: models, context, tools, and runtime.",
+      "Models: the AI model chosen per task varies with the quality, speed, and cost the task demands.",
+      "Context: understanding of the people, roles, and collaboration behind the work, drawn from emails, files, meetings, and past interactions.",
+      "Tools & runtime: the actions taken to get work done plus the managed cloud orchestration that keeps agents working across long-running tasks."
+     ],
+     "links": [
+      {
+       "title": "Microsoft 365 Copilot licensing guide",
+       "url": "https://aka.ms/CopilotCredits/LicensingGuide"
+      }
+     ]
+    },
+    {
+     "heading": "Manage spend with centralized cost management",
+     "status": "",
+     "points": [
+      "Monitor: track Copilot Credit usage and runway, with reporting and spend trends.",
+      "Configure: select services, set limits, and create spending policies at the tenant, group, and user level.",
+      "Optimize: inform policy adjustments and smarter budget allocation.",
+      "Manage spend from a centralized dashboard in the Microsoft 365 admin center."
      ],
      "images": [
       {
-       "file": "assets/media/slide19-1.jpg",
+       "file": "assets/media/cowork-ga-costmgmt.jpg",
        "w": 1100,
-       "h": 733
+       "h": 619
       }
      ],
      "links": [
       {
-       "title": "Copilot Cowork: A new way of getting work done",
-       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/03/09/copilot-cowork-a-new-way-of-getting-work-done/"
-      },
-      {
-       "title": "Available today: Anthropic Claude Opus 4.7 in Microsoft 365 Copilot",
-       "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-anthropic-claude-opus-4-7-in-microsoft-365-copilot/4511666"
-      },
-      {
-       "title": "(Co)work in Progress",
-       "url": "https://aka.ms/CoworkInProgress"
+       "title": "Usage-based billing and cost management for Copilot Credits",
+       "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/usage-based-billing-overview-copilot-credits"
       }
      ]
+    }
+   ],
+   "headerLinks": [
+    {
+     "title": "Copilot Cowork is now generally available",
+     "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
+    },
+    {
+     "title": "(Co)work in Progress: behind the build",
+     "url": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/cowork-in-progress/4511672"
     }
    ]
   },
