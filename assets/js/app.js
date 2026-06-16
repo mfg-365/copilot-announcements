@@ -240,12 +240,23 @@ document.getElementById("annBack").addEventListener("click", () => {
 });
 window.addEventListener("hashchange", routeAnnouncements);
 
-// ----- Timeline (horizontal, newest on right) -----
+// ----- Timeline (horizontal, newest on right, lazy thumbnails) -----
 let timelineBuilt = false;
+
+// Pick a representative thumbnail for an announcement (first detail image).
+function thumbOf(item) {
+  for (const d of item.details || []) {
+    if (d.images && d.images.length) return d.images[0].file;
+  }
+  return null;
+}
+
 async function loadTimeline() {
   const track = document.getElementById("tlTrack");
   if (timelineBuilt) return;
+  // Render as soon as data is available; never block on images.
   if (!annData) {
+    track.innerHTML = '<div class="rm-empty">Loading timeline&hellip;</div>';
     try { await loadAnnouncements(); } catch { /* handled below */ }
   }
   if (!annData) {
@@ -265,12 +276,23 @@ async function loadTimeline() {
       const yearTick = yr !== lastYear ? `<span class="tl-year">${esc(yr)}</span>` : "";
       lastYear = yr;
       const n = (i.details || []).length;
+      const thumb = thumbOf(i);
+      // Eagerly load only the most recent (rightmost) so it appears instantly;
+      // the rest lazy-load as the user scrolls back.
+      const eager = idx >= items.length - 2;
+      const thumbHtml = thumb
+        ? `<span class="tl-thumb"><img ${eager ? "" : 'loading="lazy"'} decoding="async" src="${esc(thumb)}" alt="" /></span>`
+        : `<span class="tl-thumb tl-thumb-none ${catClass(i.category, cats)}" aria-hidden="true"></span>`;
       return `<a class="tl-node tl-${side}" href="#a/${esc(i.id)}">
         <div class="tl-card">
-          <span class="ann-cat ${catClass(i.category, cats)}">${esc(i.category || "Update")}</span>
-          <span class="tl-date">${esc(i.dateLabel || fmtDate(i.date))}</span>
-          <strong class="tl-title">${esc(i.title)}</strong>
-          ${n ? `<span class="tl-count">${n} update${n === 1 ? "" : "s"}</span>` : ""}
+          ${thumbHtml}
+          <div class="tl-card-body">
+            <span class="ann-cat ${catClass(i.category, cats)}">${esc(i.category || "Update")}</span>
+            <span class="tl-date">${esc(i.dateLabel || fmtDate(i.date))}</span>
+            <strong class="tl-title">${esc(i.title)}</strong>
+            ${i.summary ? `<span class="tl-desc">${esc(i.summary)}</span>` : ""}
+            ${n ? `<span class="tl-count">${n} update${n === 1 ? "" : "s"}</span>` : ""}
+          </div>
         </div>
         <span class="tl-dot ${catClass(i.category, cats)}"></span>
         ${yearTick}
@@ -281,8 +303,9 @@ async function loadTimeline() {
   track.innerHTML = `<div class="tl-axis"></div>${nodes}`;
   timelineBuilt = true;
 
-  // Scroll to the most recent (right end) after layout.
+  // Jump to the most recent (right end) immediately so the latest is the starting view.
   const scroller = document.getElementById("tlScroll");
+  scroller.scrollLeft = scroller.scrollWidth;
   requestAnimationFrame(() => { scroller.scrollLeft = scroller.scrollWidth; });
   enableDragScroll(scroller);
 }
