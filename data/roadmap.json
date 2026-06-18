@@ -1,13 +1,56 @@
 {
-  "generatedAt": "2026-06-17T16:43:57.961Z",
+  "generatedAt": "2026-06-18T16:43:31.780Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
   "totalCopilotFeatures": 724,
   "counts": {
     "inDevelopment": 29,
-    "rollingOut": 6,
-    "launched": 25
+    "rollingOut": 4,
+    "launched": 27
   },
   "items": [
+    {
+      "id": 554936,
+      "title": "Outlook: Copilot Chat available in shared and delegate mailboxes",
+      "description": "Shared mailbox users and delegates with Read and manage (full access), and/or mail folder-level permission will now be able to access Copilot Chat directly from their shared and delegate mailboxes in new Outlook.",
+      "status": "Launched",
+      "products": [
+        "Outlook"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "March CY2026",
+      "preview": "",
+      "modified": "2026-06-17T23:15:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=554936"
+    },
+    {
+      "id": 543421,
+      "title": "Microsoft Copilot (Microsoft 365): PowerPoint Agent",
+      "description": "PowerPoint Agent helps you build polished presentations with strong storytelling and visual structure. It streamlines research, formatting, and layout so you can stay focused on your message. Use multi-turn chat to refine content or open the deck in PowerPoint for full editing and collaboration. Ideal for executive presentations, strategic updates, and market overviews. Available to Microsoft 365 users with or without a Microsoft 365 Copilot license.",
+      "status": "Launched",
+      "products": [
+        "PowerPoint",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "March CY2026",
+      "preview": "November CY2025",
+      "modified": "2026-06-17T23:15:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=543421"
+    },
     {
       "id": 557178,
       "title": "Microsoft Teams: Sensitivity label inheritance for meeting recordings",
@@ -1202,48 +1245,6 @@
       "preview": "June CY2026",
       "modified": "2026-06-03T23:00:57",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561491"
-    },
-    {
-      "id": 560396,
-      "title": "Microsoft Purview: Endpoint Data Loss Prevention - Expand protection to Copilot + PC devices for Recall snapshots through custom policies",
-      "description": "Microsoft Purview Endpoint data loss prevention is expanding coverage to Copilot + PCs initially to support Recall snapshots and determining whether policies exist to prevent capture of windows containing restricted sensitivity labels and Sensitive information types (SITs). Purview admins will author Endpoint DLP custom policies to integrate with Windows Copilot + PC Recall setup by Intune admins for Copilot + PC devices exclusively.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "May CY2026",
-      "preview": "",
-      "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560396"
-    },
-    {
-      "id": 559310,
-      "title": "Microsoft Copilot (Microsoft 365): Updated chat-first design in the Microsoft 365 Copilot mobile app",
-      "description": "We are introducing a refreshed chat-first design in the Microsoft 365 Copilot mobile app, bringing a cleaner, more intuitive interface to users. This update includes a modernized design language, streamlined navigation, and other improvements that make it easier and faster for users to start, continue, and manage chats on the mobile app.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft 365 app",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "iOS"
-      ],
-      "releasePhase": [
-        "Current Channel",
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "May CY2026",
-      "preview": "",
-      "modified": "2026-06-03T23:00:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559310"
     }
   ]
 }
