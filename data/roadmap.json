@@ -1,13 +1,74 @@
 {
-  "generatedAt": "2026-06-23T16:06:34.230Z",
+  "generatedAt": "2026-06-24T15:38:55.546Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 724,
+  "totalCopilotFeatures": 726,
   "counts": {
     "inDevelopment": 22,
     "rollingOut": 8,
     "launched": 30
   },
   "items": [
+    {
+      "id": 566470,
+      "title": "Microsoft Viva: Insights for GitHub Copilot spend and usage",
+      "description": "AI spend and usage insights for GitHub Copilot will be available on Viva Insights for managers with at least 5 direct reports (scoped access), Global analysts and Microsoft Global administrators. They can track spend and make data-driven decisions for AI spend and usage in GitHub Copilot. The dashboard is enabled by default to ensure immediate access.",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-06-23T23:15:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566470"
+    },
+    {
+      "id": 562354,
+      "title": "Microsoft Copilot (Microsoft 365): Updated Copilot Answers",
+      "description": "Copilot Answers in Copilot Search (in the M365 Copilot App on web and desktop) will provide more concise responses and more prominently highlight the ability to continue in the conversation in Copilot chat on the right-hand sidebar.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-06-23T23:15:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562354"
+    },
+    {
+      "id": 562017,
+      "title": "Microsoft Viva: Fresh Copilot Metrics in Custom Person Queries & Reports- Viva Advanced Analysis",
+      "description": "Key Microsoft 365 Copilot metrics in custom person queries and reports will have values up to 2-3 days old from the current date. This will provide fresher copilot usage analysis to analysts in Viva Advanced analysis.",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-06-23T23:15:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562017"
+    },
     {
       "id": 560532,
       "title": "Planner: Planner Agent chat",
@@ -1186,66 +1247,6 @@
       "preview": "",
       "modified": "2026-06-05T22:00:28",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555879"
-    },
-    {
-      "id": 555878,
-      "title": "Microsoft Copilot (Microsoft 365): Reference an attached PowerPoint deck’s style when creating a new presentation with Agent Mode in PowerPoint",
-      "description": "When creating a presentation with Copilot in PowerPoint using Agent Mode, you can reference an existing PowerPoint file, so Copilot applies its theme and styles to the new deck, keeping formatting consistent. Updated June 5, 2026: This feature is still in development and will begin rolling out mid-June 2026. We apologize for the inconvenience.",
-      "status": "In development",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Mac"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555878"
-    },
-    {
-      "id": 555891,
-      "title": "Microsoft Copilot (Microsoft 365): Reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation",
-      "description": "You can now reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation.",
-      "status": "In development",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "March CY2026",
-      "preview": "",
-      "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555891"
-    },
-    {
-      "id": 555888,
-      "title": "Microsoft Copilot (Microsoft 365): Reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation",
-      "description": "You can now reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation.",
-      "status": "In development",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "March CY2026",
-      "preview": "",
-      "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555888"
     }
   ]
 }
