@@ -1,13 +1,82 @@
 {
-  "generatedAt": "2026-06-24T15:38:55.546Z",
+  "generatedAt": "2026-06-25T15:45:54.444Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
   "totalCopilotFeatures": 726,
   "counts": {
     "inDevelopment": 22,
-    "rollingOut": 8,
-    "launched": 30
+    "rollingOut": 7,
+    "launched": 31
   },
   "items": [
+    {
+      "id": 561552,
+      "title": "Microsoft Purview: Data Loss Prevention to restrict processing external emails in Microsoft 365 Copilot and Copilot Chat",
+      "description": "We are expanding Microsoft Purview DLP for Microsoft 365 Copilot and Copilot Chat to safeguard risks from external emails. This real-time control helps organizations mitigate data risks by preventing Microsoft 365 Copilot and Chat from processing emails from senders external to your organization. This capability currently extends to Microsoft 365 Copilot and agents built in Copilot Studio that are published to Microsoft 365 Copilot.",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "January CY2027",
+      "preview": "June CY2026",
+      "modified": "2026-06-24T23:15:55",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561552"
+    },
+    {
+      "id": 558341,
+      "title": "Microsoft Teams: Facilitator detects and answers questions",
+      "description": "Facilitator now automatically detects open questions raised during a Teams meeting and offers to help answer them using web search. When a participant asks a question (e.g., “What is an LLM?”) and no one answers, Facilitator posts a prompt offering to find an answer. Participants can select “Yes” to have the agent retrieve and share the information.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-06-24T23:15:55",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558341"
+    },
+    {
+      "id": 558934,
+      "title": "Microsoft Copilot (Microsoft 365): Create Word documents from Copilot Notebooks",
+      "description": "Copilot Notebooks allows users to generate Word documents using the content and references gathered in a notebook. Copilot drafts a structured document grounded in the notebook’s context, which can be opened and edited in Word, helping users move from ideas and source material to a ready-to-use document with fewer manual steps.",
+      "status": "Launched",
+      "products": [
+        "Microsoft 365",
+        "OneNote",
+        "Microsoft 365 app",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "May CY2026",
+      "preview": "March CY2026",
+      "modified": "2026-06-24T23:15:55",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558934"
+    },
     {
       "id": 566470,
       "title": "Microsoft Viva: Insights for GitHub Copilot spend and usage",
@@ -343,30 +412,6 @@
       "preview": "March CY2026",
       "modified": "2026-06-18T23:00:06",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558938"
-    },
-    {
-      "id": 558934,
-      "title": "Microsoft Copilot (Microsoft 365): Create Word documents from Copilot Notebooks",
-      "description": "Copilot Notebooks allows users to generate Word documents using the content and references gathered in a notebook. Copilot drafts a structured document grounded in the notebook’s context, which can be opened and edited in Word, helping users move from ideas and source material to a ready-to-use document with fewer manual steps.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft 365",
-        "OneNote",
-        "Microsoft 365 app",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "May CY2026",
-      "preview": "March CY2026",
-      "modified": "2026-06-18T23:00:06",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558934"
     },
     {
       "id": 554936,
@@ -1207,46 +1252,6 @@
       "preview": "June CY2026",
       "modified": "2026-06-05T22:00:28",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559996"
-    },
-    {
-      "id": 555880,
-      "title": "Microsoft Copilot (Microsoft 365): Reference an attached PowerPoint deck’s style when creating a new presentation with Agent Mode in PowerPoint",
-      "description": "When creating a presentation with Copilot in PowerPoint using Agent Mode, you can reference an existing PowerPoint file, so Copilot applies its theme and styles to the new deck, keeping the design consistent. Updated June 5, 2026: This feature is still in development and will begin rolling out mid-June 2026. We apologize for the inconvenience.",
-      "status": "In development",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555880"
-    },
-    {
-      "id": 555879,
-      "title": "Microsoft Copilot (Microsoft 365): Reference an attached PowerPoint deck’s style when creating a new presentation with Agent Mode in PowerPoint",
-      "description": "When creating a presentation with Copilot in PowerPoint using Agent Mode, you can reference an existing PowerPoint file, so Copilot applies its theme and styles to the new deck, keeping formatting consistent. Updated June 5, 2026: This feature is still in development and will begin rolling out mid-June 2026. We apologize for the inconvenience.",
-      "status": "In development",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555879"
     }
   ]
 }
