@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-06-25T15:45:54.444Z",
+  "generatedAt": "2026-06-26T15:31:05.467Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
   "totalCopilotFeatures": 726,
   "counts": {
-    "inDevelopment": 22,
+    "inDevelopment": 25,
     "rollingOut": 7,
-    "launched": 31
+    "launched": 28
   },
   "items": [
     {
-      "id": 561552,
-      "title": "Microsoft Purview: Data Loss Prevention to restrict processing external emails in Microsoft 365 Copilot and Copilot Chat",
-      "description": "We are expanding Microsoft Purview DLP for Microsoft 365 Copilot and Copilot Chat to safeguard risks from external emails. This real-time control helps organizations mitigate data risks by preventing Microsoft 365 Copilot and Chat from processing emails from senders external to your organization. This capability currently extends to Microsoft 365 Copilot and agents built in Copilot Studio that are published to Microsoft 365 Copilot.",
+      "id": 559614,
+      "title": "Microsoft Copilot (Microsoft 365): Copilot improved long files navigation using document structure, enabling more accurate answers and clearer citations.",
+      "description": "We’ve improved how Copilot reads long and complex files by making it more aware of document structure. When you ask a question, Copilot can now navigate to the most relevant parts of your document (for example, specific sections/pages) before answering—helping reduce missed details and improving confidence with clearer citations that are easier to trace back to the source.",
       "status": "In development",
       "products": [
-        "Microsoft Purview"
+        "Microsoft Copilot (Microsoft 365)"
       ],
       "platforms": [
-        "Web"
+        "Android",
+        "Desktop"
       ],
       "releasePhase": [
-        "General Availability",
-        "Preview"
+        "General Availability"
       ],
-      "availability": "January CY2027",
-      "preview": "June CY2026",
-      "modified": "2026-06-24T23:15:55",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561552"
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-06-25T23:15:45",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559614"
     },
     {
       "id": 558341,
@@ -48,10 +48,114 @@
         "General Availability",
         "Targeted Release"
       ],
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-06-25T23:15:45",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558341"
+    },
+    {
+      "id": 519571,
+      "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
+      "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This report provides insights into overall connector activity, and connector powered response patterns over time, along with detailed user-level connectors adoption data. With these analytics, admins can monitor adoption, identify usage patterns, and optimize Copilot experiences to drive greater value across their organization. #copilotcontrolsystem",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Microsoft 365 admin center"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "September CY2026",
+      "preview": "June CY2026",
+      "modified": "2026-06-25T23:15:45",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571"
+    },
+    {
+      "id": 492618,
+      "title": "Microsoft Purview compliance portal: Copilot Prompt Gallery in Data Security Posture Management",
+      "description": "The Data Security Posture Management (DSPM) Copilot Prompt Gallery is a curated collection of prompts and promptbooks created to help users engage more effectively with the Security Copilot experience in DSPM. It acts as a centralized hub where users can explore, search, and leverage prompts that streamline workflows and improve productivity. Designed to support a range of roles and use cases within Data Security, the Prompt Gallery is a powerful resource that enables users to quickly access relevant prompts, accelerate task completion, and unlock the full potential of the Copilot experience.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "August CY2025",
+      "preview": "October CY2025",
+      "modified": "2026-06-25T23:15:45",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=492618"
+    },
+    {
+      "id": 422323,
+      "title": "OneNote: Summary and Q&A in OneNote Mobile with Copilot (Android)",
+      "description": "With this new Summary feature in OneNote mobile, you can create a short and fluent summary of your longer pages which will help to consume relevant information faster. With the Question and Answer at your fingertips, you can get real-time answers to your queries directly within your notes, enhancing your ability to access and utilize information quickly and effectively.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "OneNote"
+      ],
+      "platforms": [
+        "Android"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-06-25T23:15:45",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=422323"
+    },
+    {
+      "id": 420335,
+      "title": "Microsoft Edge: Rewrite by Copilot in Edge is being upgraded to include enterprise data protection compliance standards",
+      "description": "Rewrite by Copilot in Edge, which lets users edit typed text for tone, format, and length within an open page in Microsoft Edge, is being updated to include enterprise data protection for commercial customers. Once Rewrite is available, users signed in with a Microsoft Entra ID will have enterprise data protection when using the feature in Microsoft Edge. Updated March 20, 2026: We have paused release of this feature temporarily and will announce new release timelines soon. We apologize for any inconvenience.",
+      "status": "In development",
+      "products": [
+        "Microsoft Edge"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
       "availability": "August CY2026",
       "preview": "",
+      "modified": "2026-06-25T23:15:45",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=420335"
+    },
+    {
+      "id": 561552,
+      "title": "Microsoft Purview: Data Loss Prevention to restrict processing external emails in Microsoft 365 Copilot and Copilot Chat",
+      "description": "We are expanding Microsoft Purview DLP for Microsoft 365 Copilot and Copilot Chat to safeguard risks from external emails. This real-time control helps organizations mitigate data risks by preventing Microsoft 365 Copilot and Chat from processing emails from senders external to your organization. This capability currently extends to Microsoft 365 Copilot and agents built in Copilot Studio that are published to Microsoft 365 Copilot.",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "January CY2027",
+      "preview": "June CY2026",
       "modified": "2026-06-24T23:15:55",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558341"
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561552"
     },
     {
       "id": 558934,
@@ -1150,108 +1254,6 @@
       "preview": "",
       "modified": "2026-06-09T20:46:16",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=511801"
-    },
-    {
-      "id": 516039,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot uses enterprise assets hosted on Adobe Experience Manager when creating presentations",
-      "description": "Once you connect your asset library hosted on Adobe Experience Manager to Microsoft365 and Copilot, Copilot will create presentations using your organization's images.",
-      "status": "Launched",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "April CY2026",
-      "preview": "",
-      "modified": "2026-06-09T20:46:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516039"
-    },
-    {
-      "id": 516038,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot uses enterprise assets hosted on Adobe Experience Manager when creating presentations",
-      "description": "Once you connect your asset library hosted on Adobe Experience Manager to Microsoft365 and Copilot, Copilot will create presentations using your organization's images.",
-      "status": "Launched",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "April CY2026",
-      "preview": "",
-      "modified": "2026-06-09T20:46:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516038"
-    },
-    {
-      "id": 516037,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot uses enterprise assets hosted on Adobe Experience Manager when creating presentations",
-      "description": "Once you connect your asset library hosted on Adobe Experience Manager to Microsoft365 and Copilot, Copilot will create presentations using your organization's images.",
-      "status": "Launched",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Mac"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "April CY2026",
-      "preview": "",
-      "modified": "2026-06-09T20:46:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516037"
-    },
-    {
-      "id": 561323,
-      "title": "SharePoint: Authoritative Sites",
-      "description": "Authoritative Sites feature empowers administrators to designate specific SharePoint sites as official, trusted sources of information. By classifying these sites as authoritative these high-quality, credible content, such as company news, policies, and updates, are prioritized across Copilot Chat and Copilot Search experiences",
-      "status": "Launched",
-      "products": [
-        "SharePoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "June CY2026",
-      "preview": "May CY2026",
-      "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561323"
-    },
-    {
-      "id": 559996,
-      "title": "Microsoft Viva: New Overview experience in Agent Dashboard",
-      "description": "Customers can now view and understand their agent landscape through the new Overview page that will be included as part of the Agent Dashboard in Microsoft Viva. This experience will provide customers with key at-a-glance insights on adoption in their organizations and visibility into who’s creating agents used in their organization.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "June CY2026",
-      "modified": "2026-06-05T22:00:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559996"
     }
   ]
 }
