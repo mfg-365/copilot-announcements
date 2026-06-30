@@ -1,13 +1,158 @@
 {
-  "generatedAt": "2026-06-29T16:42:24.271Z",
+  "generatedAt": "2026-06-30T15:41:00.577Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 723,
+  "totalCopilotFeatures": 721,
   "counts": {
-    "inDevelopment": 28,
-    "rollingOut": 9,
+    "inDevelopment": 29,
+    "rollingOut": 8,
     "launched": 23
   },
   "items": [
+    {
+      "id": 566702,
+      "title": "Microsoft Copilot (Microsoft 365): Edit your document with Copilot in PowerPoint in Government Clouds",
+      "description": "Copilot in PowerPoint helps you create, edit, and refine presentations through natural language—right inside your deck. Start a new presentation or build on an existing one by asking Copilot to generate slides, update content, improve layouts, and polish design, all while preserving your formatting, structure, and branding. Copilot can also connect to your brand kit to apply branded templates, insert brand-approved images, and check for brand compliance. Available to Microsoft 365 Copilot (Premium) users.",
+      "status": "In development",
+      "products": [
+        "PowerPoint",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-06-29T23:02:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566702"
+    },
+    {
+      "id": 566701,
+      "title": "Microsoft Copilot (Microsoft 365): Edit your document with Copilot in PowerPoint in Government Clouds",
+      "description": "Copilot in PowerPoint helps you create, edit, and refine presentations through natural language—right inside your deck. Start a new presentation or build on an existing one by asking Copilot to generate slides, update content, improve layouts, and polish design, all while preserving your formatting, structure, and branding. Copilot can also connect to your brand kit to apply branded templates, insert brand-approved images, and check for brand compliance. Available to Microsoft 365 Copilot (Premium) users.",
+      "status": "In development",
+      "products": [
+        "PowerPoint",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-06-29T23:02:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566701"
+    },
+    {
+      "id": 566322,
+      "title": "OneNote: Multimodal capture in Copilot Notebooks (Windows)",
+      "description": "Capture on Windows helps you bring conversations and ideas from meetings, brainstorming sessions, and everyday work into Copilot Notebooks. Capture audio, images, and notes in one experience, then let Copilot turn them into structured notes with key insights, decisions, and action items, in a Copilot Notebook of your choice",
+      "status": "In development",
+      "products": [
+        "OneNote",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-06-29T23:02:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566322"
+    },
+    {
+      "id": 559020,
+      "title": "Microsoft Copilot (Microsoft 365): Work IQ APIs – Remote MCP Server Support",
+      "description": "Supports connecting to remote MCP servers through the Work IQ endpoint, enabling agents to securely invoke external tools and services beyond the local runtime for richer, distributed agent orchestration.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Developer"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "June CY2026",
+      "preview": "",
+      "modified": "2026-06-29T23:02:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559020"
+    },
+    {
+      "id": 561488,
+      "title": "Microsoft Copilot (Microsoft 365): Simplified design for the Microsoft 365 Copilot app",
+      "description": "A refreshed design for the Microsoft 365 Copilot web and desktop app simplifies the user experience to drive engagement with Copilot. This includes updates to the chat home screen, chat response layout, and navigation pane.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "June CY2026",
+      "preview": "May CY2026",
+      "modified": "2026-06-29T23:02:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561488"
+    },
+    {
+      "id": 560532,
+      "title": "Planner: Planner Agent chat",
+      "description": "Introducing built-in Planner Agent chat with natural language Q&A, smart task discovery, and in-plan task management.",
+      "status": "Launched",
+      "products": [
+        "Planner",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Teams and Surface Devices",
+        "Web"
+      ],
+      "releasePhase": [
+        "Preview"
+      ],
+      "availability": "June CY2026",
+      "preview": "June CY2026",
+      "modified": "2026-06-29T23:02:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560532"
+    },
+    {
+      "id": 516576,
+      "title": "Microsoft Copilot (Microsoft 365): Planner Agent in Microsoft 365 Copilot",
+      "description": "Planner agent in Microsoft 365 will help you plan, organize, and manage work more efficiently. We’re starting with core task and plan management features to simplify project tracking and will introduce additional advanced project management capabilities over time. Updated May 21, 2026: We previously launched in Preview and GA is expected in June. We apologize for any inconvenience.",
+      "status": "Launched",
+      "products": [
+        "Planner",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "June CY2026",
+      "preview": "March CY2026",
+      "modified": "2026-06-29T23:02:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516576"
+    },
     {
       "id": 566703,
       "title": "Microsoft Edge: Upgraded Copilot new tab page",
@@ -404,27 +549,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562017"
     },
     {
-      "id": 560532,
-      "title": "Planner: Planner Agent chat",
-      "description": "Introducing built-in Planner Agent chat with natural language Q&A, smart task discovery, and in-plan task management.",
-      "status": "Rolling out",
-      "products": [
-        "Planner",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "releasePhase": [
-        "Preview"
-      ],
-      "availability": "June CY2026",
-      "preview": "June CY2026",
-      "modified": "2026-06-22T23:00:47",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560532"
-    },
-    {
       "id": 560540,
       "title": "Microsoft Copilot (Microsoft 365): Now smarter with visuals: Copilot Chat leverages embedded images for richer, more accurate answers.",
       "description": "Copilot has been enhanced to interpret and ground responses using images embedded in files such as Word documents (.docx), PowerPoint presentations (.pptx), and PDFs. This capability allows Copilot to extract insights from visual elements like charts, diagrams, and screenshots, ensuring that answers are not only text-based but also informed by graphical context. By combining textual and visual understanding, Copilot delivers more comprehensive and contextually accurate responses for complex queries",
@@ -591,25 +715,6 @@
       "preview": "",
       "modified": "2026-06-19T22:15:36",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557981"
-    },
-    {
-      "id": 566322,
-      "title": "OneNote: Multimodal Capture in Copilot Notebooks (Windows)",
-      "description": "Capture on Windows helps you bring conversations and ideas from meetings, brainstorming sessions, and everyday work into Copilot Notebooks. Capture audio, images, and notes in one experience, then let Copilot turn them into structured notes with key insights, decisions, and action items, in a Copilot Notebook of your choice",
-      "status": "In development",
-      "products": [
-        "OneNote"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "July CY2026",
-      "preview": "",
-      "modified": "2026-06-18T23:00:06",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566322"
     },
     {
       "id": 559418,
@@ -1035,27 +1140,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559017"
     },
     {
-      "id": 516576,
-      "title": "Microsoft Copilot (Microsoft 365): Planner Agent in Microsoft 365 Copilot",
-      "description": "Planner agent in Microsoft 365 will help you plan, organize, and manage work more efficiently. We’re starting with core task and plan management features to simplify project tracking and will introduce additional advanced project management capabilities over time. Updated May 21, 2026: We previously launched in Preview and GA is expected in June. We apologize for any inconvenience.",
-      "status": "In development",
-      "products": [
-        "Planner",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "June CY2026",
-      "preview": "March CY2026",
-      "modified": "2026-06-11T23:15:28",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516576"
-    },
-    {
       "id": 485724,
       "title": "Microsoft Copilot (Microsoft 365): Quickly launch the Microsoft 365 Copilot app on your iOS device",
       "description": "Press the Action button or ask Siri to launch Copilot on your iOS device.",
@@ -1178,87 +1262,6 @@
       "preview": "",
       "modified": "2026-06-09T23:15:32",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560340"
-    },
-    {
-      "id": 548641,
-      "title": "Microsoft Copilot (Microsoft 365): Microsoft Copilot (Microsoft 365): Open Word, Excel, and PowerPoint Files in Copilot Chat",
-      "description": "Currently, clicking on cited content in Copilot opens files outside of Copilot. With this new feature, content can be opened directly in Copilot Chat to make viewing documents more streamlined alongside chat. This change is not available on the Microsfot 365 Copilot mobile app or when using Copilot in Edge, Copilot in Excel, Copilot in Word, and Copilot PowerPoint.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "April CY2026",
-      "preview": "",
-      "modified": "2026-06-09T23:15:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=548641"
-    },
-    {
-      "id": 490154,
-      "title": "Microsoft Copilot (Microsoft 365): Learning Agent in Microsoft 365 Copilot",
-      "description": "The Learning agent helps employees build skills through personalized microlearning and structured learning experiences.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-06-09T23:15:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=490154"
-    },
-    {
-      "id": 512429,
-      "title": "Microsoft Copilot (Microsoft 365): Seamless Search and Chat Integration",
-      "description": "Microsoft 365 Chat brings the power of conversational AI directly into Microsoft 365 Copilot Search, enabling users to move effortlessly from finding information to acting on it. Search results become the foundation for contextual chat, allowing you to ask follow-up questions, synthesize insights, and generate content—all in one unified experience. This integration reduces workflow fragmentation, accelerates decision-making, and delivers a more intuitive way to interact with your organization’s knowledge.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft 365 app",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "March CY2026",
-      "preview": "January CY2026",
-      "modified": "2026-06-09T23:15:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=512429"
-    },
-    {
-      "id": 500632,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot Chat-centered experience for creating new documents in the Microsoft 365 Copilot app on iPhone and iPad",
-      "description": "In the Create experience in the Microsoft 365 Copilot app on iPhone and iPad, users will see a chat-centered experience to create documents, enabling them to describe the document they want to create in a prompt.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "iOS"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2025",
-      "preview": "",
-      "modified": "2026-06-09T23:15:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=500632"
     }
   ]
 }
