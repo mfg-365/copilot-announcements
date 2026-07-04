@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T15:25:22.806Z",
+  "generatedAt": "2026-07-04T14:45:54.032Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -12,6 +12,22 @@
   ],
   "count": 30,
   "items": [
+    {
+      "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188",
+      "description": "Starting today, Anthropic's Claude Sonnet 5 is available in Microsoft 365 Copilot—a new frontier model rolling out in Copilot Cowork and PowerPoint, built for agentic, multi-step work across everyday work: documents, spreadsheets, and prese",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-07-02T15:55:25.000Z"
+    },
+    {
+      "title": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
+      "description": "Give every seller the customer and deal context they need, wherever work happens—helping them prepare faster, follow up sooner, and keep CRM data current. Built for the pace of modern selling, Sales Agent helps sellers quickly access the cu",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-07-02T15:00:00.000Z"
+    },
     {
       "title": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
@@ -270,22 +286,6 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-04-30T16:37:29.000Z"
-    },
-    {
-      "title": "Copilot in OneNote now understands more of your notes",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-in-onenote-now-understands-more-of-your-notes/ba-p/4515922",
-      "description": "In Microsoft OneNote, you can use Copilot to reason over your notes to summarize content, extract key insights, and build on your ideas. We’ve improved the way Copilot responds to your queries in OneNote, making it easier to interact with y",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-04-29T17:09:55.000Z"
-    },
-    {
-      "title": "Available today: GPT-5.5 Thinking and ChatGPT Images 2.0 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-gpt-5-5-thinking-and-chatgpt-images-2-0-in/ba-p/4514243",
-      "description": "Today, we’re expanding what Microsoft 365 Copilot can do with GPT-5.5 Thinking and ChatGPT Images 2.0 bringing stronger support for deeper analysis, multi-step work, and visual creation. GPT-5.5 Thinking is now available in Copilot Studio e",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-04-27T15:33:18.000Z"
     }
   ]
 }
