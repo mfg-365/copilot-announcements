@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T16:29:58.936Z",
+  "generatedAt": "2026-07-07T15:50:15.681Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -43,6 +43,17 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-06-30T15:30:00.000Z"
+    },
+    {
+      "title": "Copilot in Excel: Built for the era of Frontier Finance",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+      "description": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft 365 Blog .",
+      "categories": [
+        "AI",
+        "Work IQ"
+      ],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-06-25T12:00:00.000Z"
     },
     {
       "title": "Copilot Cowork is now generally available",
@@ -267,16 +278,6 @@
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-05-05T10:00:00.000Z"
-    },
-    {
-      "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-      "description": "Microsoft Agent 365 helps you take control of agent sprawl as your control plane to observe, govern, and secure agents and their interactions. The post Microsoft Agent 365, now generally available, expands capabilities and integrations appe",
-      "categories": [
-        "Agents"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-05-01T12:00:00.000Z"
     },
     {
       "title": "Word: Legal Agent in Frontier",
