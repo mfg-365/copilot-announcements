@@ -1,13 +1,161 @@
 {
-  "generatedAt": "2026-07-07T15:50:15.341Z",
+  "generatedAt": "2026-07-08T15:34:06.258Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 717,
+  "totalCopilotFeatures": 719,
   "counts": {
-    "inDevelopment": 37,
-    "rollingOut": 9,
-    "launched": 14
+    "inDevelopment": 40,
+    "rollingOut": 7,
+    "launched": 13
   },
   "items": [
+    {
+      "id": 566470,
+      "title": "Microsoft Viva: Insights for GitHub Copilot spend and usage",
+      "description": "AI spend and usage insights for GitHub Copilot will be available on Viva Insights for managers with at least 5 direct reports (scoped access), Global analysts and Microsoft Global administrators. They can track spend and make data-driven decisions for AI spend and usage in GitHub Copilot. The dashboard is enabled by default to ensure immediate access.",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "July CY2026",
+      "preview": "July CY2026",
+      "modified": "2026-07-07T23:10:48",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566470"
+    },
+    {
+      "id": 562662,
+      "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App",
+      "description": "The new Copilot Notebooks design in the Microsoft 365 Copilot app now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. While this is the quicker, light-weight Notebooks experience, you can still find the fuller, workspace-forward experience in OneNote.",
+      "status": "In development",
+      "products": [
+        "Microsoft 365 app"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview",
+        "Targeted Release"
+      ],
+      "availability": "August CY2026",
+      "preview": "July CY2026",
+      "modified": "2026-07-07T23:10:08",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562662"
+    },
+    {
+      "id": 567315,
+      "title": "Planner: Capabilities in Microsoft Cowork",
+      "description": "You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your Planner tasks across Microsoft 365, such as drafting and sending emails, scheduling meetings, posting updates to Teams, and working with files. It can then write progress back to Planner with your approval. You can move from planning your work to getting it done in one place.",
+      "status": "In development",
+      "products": [
+        "Planner",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Teams and Surface Devices",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-07-07T23:01:01",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567315"
+    },
+    {
+      "id": 566859,
+      "title": "Microsoft Copilot Studio: Use SharePoint lists as a knowledge source",
+      "description": "Unlock the full value of your structured data by bringing SharePoint lists directly into your Microsoft Copilot Studio agents. With native support, customers can ground AI responses in up-to-date, business-critical data—such as tasks, inventory, customers, or operations—without manual data movement or complex integrations. This enables more accurate, context-aware copilots that reflect how your business runs, helping teams make faster decisions, reduce errors, and automate workflows with confidence.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Microsoft Copilot Studio"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "September CY2026",
+      "preview": "July CY2026",
+      "modified": "2026-07-07T23:01:01",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566859"
+    },
+    {
+      "id": 565863,
+      "title": "OneNote: Copilot Notebook in OneNote on Mac",
+      "description": "Copilot Notebook, an AI-powered workspace for a project or topic built on reference materials, is coming to OneNote on Mac. Bring together your work context behind a project in one place.",
+      "status": "In development",
+      "products": [
+        "OneNote"
+      ],
+      "platforms": [
+        "Mac"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-07-07T23:01:01",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=565863"
+    },
+    {
+      "id": 557681,
+      "title": "Microsoft Copilot (Microsoft 365): Intelligent Summaries in Copilot Dashboard",
+      "description": "Use intelligent summaries in Copilot Dashboard to quickly surface what’s working and where targeted attention can accelerate Copilot adoption. Intelligent summaries highlight key adoption trends to focus on areas of success. Suggested prompts enable deeper exploration of underlying trends and drivers.",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-07-07T23:01:01",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557681"
+    },
+    {
+      "id": 486695,
+      "title": "Microsoft Copilot (Microsoft 365): Copilot Prompt Gallery - Company-wide prompt publishing",
+      "description": "Organizations can build their own collections of prompts that are tailored to their business needs and workflows and distribute these to all users within the tenant.",
+      "status": "Launched",
+      "products": [
+        "Excel",
+        "Microsoft Copilot (Microsoft 365)",
+        "OneNote",
+        "PowerPoint",
+        "Word"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "June CY2026",
+      "preview": "",
+      "modified": "2026-07-07T23:01:01",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=486695"
+    },
     {
       "id": 567121,
       "title": "Microsoft Copilot (Microsoft 365): Microsoft 365 admin center - Usage reports - Copilot Chat for GCC, GCC High and DoD",
@@ -45,27 +193,6 @@
       "preview": "",
       "modified": "2026-07-06T23:00:50",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567120"
-    },
-    {
-      "id": 562662,
-      "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App",
-      "description": "The new Copilot Notebooks design in the Microsoft 365 Copilot app now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. While this is the quicker, light-weight Notebooks experience, you can still find the fuller, workspace-forward experience in OneNote.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft 365 app"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview",
-        "Targeted Release"
-      ],
-      "availability": "July CY2026",
-      "preview": "June CY2026",
-      "modified": "2026-07-06T23:00:50",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562662"
     },
     {
       "id": 502532,
@@ -526,30 +653,6 @@
       "preview": "",
       "modified": "2026-06-30T22:57:58",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516040"
-    },
-    {
-      "id": 486695,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot Prompt Gallery - Company-wide prompt publishing",
-      "description": "Organizations can build their own collections of prompts that are tailored to their business needs and workflows and distribute these to all users within the tenant.",
-      "status": "In development",
-      "products": [
-        "Excel",
-        "Microsoft Copilot (Microsoft 365)",
-        "OneNote",
-        "PowerPoint",
-        "Word"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-06-30T22:57:58",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=486695"
     },
     {
       "id": 422324,
@@ -1026,26 +1129,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558934"
     },
     {
-      "id": 566470,
-      "title": "Microsoft Viva: Insights for GitHub Copilot spend and usage",
-      "description": "AI spend and usage insights for GitHub Copilot will be available on Viva Insights for managers with at least 5 direct reports (scoped access), Global analysts and Microsoft Global administrators. They can track spend and make data-driven decisions for AI spend and usage in GitHub Copilot. The dashboard is enabled by default to ensure immediate access.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "July CY2026",
-      "preview": "",
-      "modified": "2026-06-23T23:15:39",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566470"
-    },
-    {
       "id": 562354,
       "title": "Microsoft Copilot (Microsoft 365): Updated Copilot Answers",
       "description": "Copilot Answers in Copilot Search (in the M365 Copilot App on web and desktop) will provide more concise responses and more prominently highlight the ability to continue in the conversation in Copilot chat on the right-hand sidebar.",
@@ -1168,91 +1251,6 @@
       "preview": "",
       "modified": "2026-06-22T23:00:47",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=551195"
-    },
-    {
-      "id": 537269,
-      "title": "Microsoft Teams: Express voice enrollment in Microsoft Teams",
-      "description": "Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room and transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you don’t yet have a voice profile, just go to the recognition tab in Teams settings and opt-in to enroll your voice simply by speaking during a meeting. Admins can enable or disable this feature.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Teams and Surface Devices"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-06-22T23:00:47",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=537269"
-    },
-    {
-      "id": 566302,
-      "title": "Microsoft Viva: Copilot Analytics - Insights in Cowork and WorkIQ spend and usage",
-      "description": "Insights into AI spend (Copilot credit usage) at a group or team level will be available in Viva Insights as a dashboard and in Advanced insights. The services in scope of this release are Cowork and Work IQ API. The dashboard experience is available to managers with at least 5 direct reports (scoped access), the Insights analysts, and Global administrators and is enabled by default to ensure immediate access to usage-based cost insights. For users to be able to use Cowork or WorkIQ API, your tenant must have usage-based billing setup via Cost Management in the Microsoft 365 admin center. Leader access to tenant-wide data is out of scope for this release. The same insights will be available for Insights Analysts and Global Administrators in Advanced Insights.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-06-19T22:15:36",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566302"
-    },
-    {
-      "id": 559480,
-      "title": "Microsoft Copilot (Microsoft 365): Create Excel spreadsheets from Copilot Notebooks",
-      "description": "Copilot Notebooks allows users to generate Excel spreadsheets using the content and references gathered in a notebook. Copilot drafts a structured spreadsheet grounded in the notebook’s context, which can be opened and edited in Excel, helping users move from ideas and source material to a ready-to-use spreadsheet with fewer manual steps.",
-      "status": "Launched",
-      "products": [
-        "OneNote",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "May CY2026",
-      "preview": "March CY2026",
-      "modified": "2026-06-19T22:15:36",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559480"
-    },
-    {
-      "id": 557981,
-      "title": "Microsoft Viva: Insights - New Copilot Metrics Available",
-      "description": "We are bringing a set of new Copilot metrics including actions taken in Microsoft 365 Copilot app, Edge and OneNote, and more key use cases across Outlook, Word, Excel, and PowerPoint including suggested reply, translate, coach, clean data and more. This will empower customers to more deeply understand the key Copilot adoption cases in Copilot Dashboard and Advanced Analysis in Viva Insights.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-06-19T22:15:36",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557981"
     }
   ]
 }
