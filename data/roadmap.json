@@ -1,13 +1,141 @@
 {
-  "generatedAt": "2026-07-09T16:09:42.516Z",
+  "generatedAt": "2026-07-10T15:40:10.703Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 723,
+  "totalCopilotFeatures": 724,
   "counts": {
-    "inDevelopment": 42,
-    "rollingOut": 7,
-    "launched": 11
+    "inDevelopment": 43,
+    "rollingOut": 8,
+    "launched": 9
   },
   "items": [
+    {
+      "id": 567009,
+      "title": "SharePoint: Create new workflows with Copilot in SharePoint",
+      "description": "Describe a workflow intent such as \"when files are set to status = Complete, post a message in my Teams chat\" and Copilot in SharePoint will assemble the necessary triggers, conditions, and actions to setup your workflow. You can come back to Copilot in SharePoint at any time to make changes or click \"Workflows\" from the command bar to see your live workflow.",
+      "status": "In development",
+      "products": [
+        "SharePoint"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "December CY2026",
+      "preview": "",
+      "modified": "2026-07-09T23:00:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567009"
+    },
+    {
+      "id": 566704,
+      "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App (Android)",
+      "description": "Copilot Notebooks in the Microsoft 365 Copilot app (Android) now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time.",
+      "status": "In development",
+      "products": [
+        "Microsoft 365 app",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-07-09T23:00:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566704"
+    },
+    {
+      "id": 567302,
+      "title": "Microsoft Teams: Ability for IT admins to customize the user notification messages for recording and transcription in calls",
+      "description": "This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-07-09T23:00:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567302"
+    },
+    {
+      "id": 566302,
+      "title": "Microsoft Viva: Copilot Analytics - Insights in Cowork and WorkIQ spend and usage",
+      "description": "Insights into AI spend (Copilot credit usage) at a group or team level will be available in Viva Insights as a dashboard and in Advanced insights. The services in scope of this release are Cowork and Work IQ API. The dashboard experience is available to managers with at least 5 direct reports (scoped access), the Insights analysts, and Global administrators and is enabled by default to ensure immediate access to usage-based cost insights. For users to be able to use Cowork or WorkIQ API, your tenant must have usage-based billing setup via Cost Management in the Microsoft 365 admin center. Leader access to tenant-wide data is out of scope for this release. The same insights will be available for Insights Analysts and Global Administrators in Advanced Insights.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "June CY2026",
+      "preview": "",
+      "modified": "2026-07-09T23:00:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566302"
+    },
+    {
+      "id": 555852,
+      "title": "Microsoft Copilot (Microsoft 365): Branded footer in the Microsoft 365 Copilot app",
+      "description": "This update introduces a co-branding experience in the Microsoft 365 Copilot app that helps organizations present an admin approved visual identifier directly within the Chat screen. Specifically, the experience enables administrators to leverage the organization-supported logo already managed in the Microsoft Admin Center theming settings and display it in the footer of the Chat screen, paired with a fixed label: “Approved by”.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft 365",
+        "Microsoft 365 app",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-07-09T23:00:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555852"
+    },
+    {
+      "id": 505441,
+      "title": "Microsoft Copilot (Microsoft 365): Improved content freshness using Copilot connectors with webhooks-led notifications",
+      "description": "Copilot connectors will offer improved content freshness with more frequent sync of updates using webhook event notifications. The following connectors are in scope - Azure DevOps, Jira cloud, Confluence cloud, Trello, Asana, Bitbucket, GitHub and Gitlab.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "August CY2025",
+      "modified": "2026-07-09T23:00:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=505441"
+    },
     {
       "id": 564608,
       "title": "Microsoft Copilot (Microsoft 365): Support for MCP Agents with Interactive UI Widgets in Government Clouds",
@@ -129,27 +257,6 @@
       "preview": "",
       "modified": "2026-07-08T23:11:07",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=499428"
-    },
-    {
-      "id": 567302,
-      "title": "Microsoft Teams: Ability for IT admins to customize the user notification messages for recording and transcription in calls",
-      "description": "This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-08T23:10:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567302"
     },
     {
       "id": 567004,
@@ -534,32 +641,6 @@
       "preview": "",
       "modified": "2026-07-02T23:12:48",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560823"
-    },
-    {
-      "id": 555852,
-      "title": "Microsoft Copilot (Microsoft 365): Branded footer in the Microsoft 365 Copilot app",
-      "description": "This update introduces a co-branding experience in the Microsoft 365 Copilot app that helps organizations present an admin approved visual identifier directly within the Chat screen. Specifically, the experience enables administrators to leverage the organization-supported logo already managed in the Microsoft Admin Center theming settings and display it in the footer of the Chat screen, paired with a fixed label: “Approved by”.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft 365",
-        "Microsoft 365 app",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-07-02T23:12:48",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555852"
     },
     {
       "id": 555882,
@@ -1161,91 +1242,6 @@
       "preview": "",
       "modified": "2026-06-26T22:01:51",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561037"
-    },
-    {
-      "id": 559991,
-      "title": "Outlook: Account Selector in Outlook Copilot Side Pane",
-      "description": "When users have more than one Copilot-enabled account added to new Outlook, the Copilot side pane in Calendar will include an account dropdown that makes it clear which Copilot-enabled account you’re using and lets you switch accounts without relying on Outlook UI’s account context.",
-      "status": "Launched",
-      "products": [
-        "Outlook"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "May CY2026",
-      "preview": "April CY2026",
-      "modified": "2026-06-26T22:01:51",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559991"
-    },
-    {
-      "id": 559995,
-      "title": "Microsoft Viva: Unlocking Deeper Copilot Insights with Enhanced Power BI Filtering",
-      "description": "Enable Global and Insights admins to turn on additional attributes as filters in Power BI reports, including reserved attributes and your organization’s custom attributes. Users who have access to Power BI reports can then use these newly enabled filters to tailor reports to their business needs.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-06-26T22:01:51",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559995"
-    },
-    {
-      "id": 559614,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot improved long files navigation using document structure, enabling more accurate answers and clearer citations.",
-      "description": "We’ve improved how Copilot reads long and complex files by making it more aware of document structure. When you ask a question, Copilot can now navigate to the most relevant parts of your document (for example, specific sections/pages) before answering—helping reduce missed details and improving confidence with clearer citations that are easier to trace back to the source.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "July CY2026",
-      "preview": "",
-      "modified": "2026-06-25T23:15:45",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559614"
-    },
-    {
-      "id": 519571,
-      "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
-      "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This report provides insights into overall connector activity, and connector powered response patterns over time, along with detailed user-level connectors adoption data. With these analytics, admins can monitor adoption, identify usage patterns, and optimize Copilot experiences to drive greater value across their organization. #copilotcontrolsystem",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft 365 admin center"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "June CY2026",
-      "modified": "2026-06-25T23:15:45",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571"
     }
   ]
 }
