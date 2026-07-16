@@ -1,13 +1,140 @@
 {
-  "generatedAt": "2026-07-15T15:01:26.933Z",
+  "generatedAt": "2026-07-16T15:13:10.803Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
   "totalCopilotFeatures": 713,
   "counts": {
-    "inDevelopment": 41,
-    "rollingOut": 7,
-    "launched": 12
+    "inDevelopment": 38,
+    "rollingOut": 8,
+    "launched": 14
   },
   "items": [
+    {
+      "id": 567667,
+      "title": "Microsoft Viva: Copilot Analytics - Agent 365 Dashboard in Insights",
+      "description": "Customers can now access their Agent 365 data through the Agent Dashboard in Copilot Analytics (Insights), enabling leaders to understand activity across all agents registered through Agent 365. Customers with Agent 365 and Copilot will now see the Agent 365 Dashboard with the ability to view historical data in Agent Dashboard.",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-07-15T22:55:27",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567667"
+    },
+    {
+      "id": 567458,
+      "title": "Microsoft Teams: Multilingual recap available with translation button",
+      "description": "After meeting recap is automatically generated in the translation language chosen during the meeting, users can continue to change the language of the meeting recap after its generated.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-07-15T22:55:27",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567458"
+    },
+    {
+      "id": 561920,
+      "title": "Microsoft Copilot (Microsoft 365): SharePoint list support in Agent Builder",
+      "description": "Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge source types. Support for list attachments and lookup columns is not yet available.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "June CY2026",
+      "preview": "",
+      "modified": "2026-07-15T22:55:27",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561920"
+    },
+    {
+      "id": 560705,
+      "title": "Microsoft Viva: Copilot Analytics - Power user insights in Copilot dashboard",
+      "description": "Understand who is building a habit using Copilot with the new power user insights in Copilot dashboard",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-07-15T22:55:27",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560705"
+    },
+    {
+      "id": 559110,
+      "title": "Microsoft Copilot (Microsoft 365): Find meetings based on topics and keywords",
+      "description": "Copilot will be able to find meetings based on topics or keywords from relevant data like meeting body, chat and transcription.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "June CY2026",
+      "preview": "",
+      "modified": "2026-07-15T22:55:27",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559110"
+    },
+    {
+      "id": 553219,
+      "title": "Microsoft 365: New profile cards for buildings, rooms and desks",
+      "description": "Buildings, rooms and desks that are added to the Places directory will have new profile cards, accessible from Copilot Chat and across other Microsoft 365 entry points.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft 365",
+        "Microsoft 365 app",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "June CY2026",
+      "preview": "",
+      "modified": "2026-07-15T22:55:27",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553219"
+    },
     {
       "id": 567671,
       "title": "Planner: Planner Agent chat in Basic Plans",
@@ -69,47 +196,6 @@
       "preview": "August CY2026",
       "modified": "2026-07-14T22:41:38",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567668"
-    },
-    {
-      "id": 567667,
-      "title": "Microsoft Viva: Copilot Analytics - Agent 365 Dashboard in Insights",
-      "description": "Customers can now access their Agent 365 data through the Agent Dashboard in Copilot Analytics (Insights), enabling leaders to understand activity across all agents registered through Agent 365. Customers with Agent 365 and Copilot will now see the Agent 365 Dashboard with the ability to view historical data in Agent Dashboard.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "July CY2026",
-      "modified": "2026-07-14T22:41:38",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567667"
-    },
-    {
-      "id": 567458,
-      "title": "Microsoft Teams: Multilingual recap available with translation button",
-      "description": "After meeting recap is automatically generated in the translation language chosen during the meeting, users can continue to change the language of the meeting recap after its generated.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "iOS"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-14T22:41:38",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567458"
     },
     {
       "id": 561209,
@@ -1147,89 +1233,6 @@
       "preview": "July CY2026",
       "modified": "2026-07-01T23:03:18",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566873"
-    },
-    {
-      "id": 566872,
-      "title": "Microsoft Copilot (Microsoft 365): Complex web search with Copilot in Excel",
-      "description": "Copilot in Excel improves complex web search quality with a multi-agent search system that coordinates parallel research, verifies findings, and re-checks gaps when needed, delivering faster and more complete answers across multiple sources.",
-      "status": "In development",
-      "products": [
-        "Excel",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "July CY2026",
-      "preview": "",
-      "modified": "2026-07-01T23:03:18",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566872"
-    },
-    {
-      "id": 566864,
-      "title": "Microsoft Edge: Ask Copilot about an image",
-      "description": "Ask Copilot about an image in Edge enables users to instantly analyze images from the web by sending them directly to Copilot from the Edge context menu, making it easy to ask questions, gain insights, and understand visual content without leaving their browsing experience. Admins can control availability to this feature using the EdgeEntraCopilotPageContext and Microsoft365CopilotChatIconEnabled policies.",
-      "status": "In development",
-      "products": [
-        "Microsoft Edge",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-01T23:03:18",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566864"
-    },
-    {
-      "id": 560700,
-      "title": "Microsoft Teams: AI-powered notes for in-person meetings with Facilitator in Teams Rooms on Android",
-      "description": "In addition to capturing real-time notes and meeting outcomes during scheduled or hybrid meetings, the Facilitator agent assists you with notes, decisions and actions for in-person meetings in Teams Rooms on Android. Simply invite Facilitator with one tap of the room console. Meeting notes appear on the front of room display or touch board, are available via meeting recap when shared, and deleted if no one selected. Rest assured no data remains in the room. Available with Teams Rooms Pro.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Teams and Surface Devices"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-01T23:03:18",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560700"
-    },
-    {
-      "id": 560318,
-      "title": "Microsoft Teams: AI-powered notes for in-person meetings with Facilitator in Teams Rooms on Windows",
-      "description": "In addition to capturing real-time notes and meeting outcomes during scheduled or hybrid meetings, the Facilitator agent assists you with notes, decisions and actions for in-person meetings in Teams Rooms on Windows. Simply invite Facilitator with one tap of the room console. Meeting notes appear on the front of room display or touch board, are available via meeting recap when shared, and deleted if no one selected. Rest assured no data remains in the room. Available with Teams Rooms Pro.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Teams and Surface Devices"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-01T23:03:18",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560318"
     }
   ]
 }
