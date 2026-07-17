@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T15:13:10.803Z",
+  "generatedAt": "2026-07-17T14:53:10.450Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
   "totalCopilotFeatures": 713,
   "counts": {
@@ -8,6 +8,50 @@
     "launched": 14
   },
   "items": [
+    {
+      "id": 562353,
+      "title": "Microsoft Copilot (Microsoft 365): Session and Response Sharing in M365 Copilot",
+      "description": "Session and Response Sharing let Microsoft 365 Copilot users share Copilot chat content through a link. Session Sharing shares a full chat session, while Response Sharing shares a single Copilot response. The shared content opens as a read-only view, and recipients can continue from it in their own Copilot chat. This gives Copilot users an easier and more controlled way to share useful Copilot outputs with coworkers instead of copying and pasting. It helps teams reuse work, share context, and collaborate more efficiently while keeping sharing within organizational controls.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "Mac",
+        "Teams and Surface Devices",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-07-16T23:08:19",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562353"
+    },
+    {
+      "id": 566703,
+      "title": "Microsoft Edge: Upgraded Copilot new tab page",
+      "description": "Search, chat, and explore the web from one search box with Copilot-suggested actions and curated work content to help your users get things done faster on the Copilot new tab page. Users will see upgraded Copilot new tab page functionality and features.",
+      "status": "In development",
+      "products": [
+        "Microsoft Edge",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "September CY2026",
+      "preview": "August CY2026",
+      "modified": "2026-07-16T23:08:19",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566703"
+    },
     {
       "id": 567667,
       "title": "Microsoft Viva: Copilot Analytics - Agent 365 Dashboard in Insights",
@@ -1191,48 +1235,6 @@
       "preview": "",
       "modified": "2026-07-02T23:12:48",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=502529"
-    },
-    {
-      "id": 566998,
-      "title": "Microsoft Copilot Studio: Invoke agents as workflow steps with the agent node",
-      "description": "The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Copilot Studio"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "April CY2026",
-      "modified": "2026-07-01T23:03:18",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566998"
-    },
-    {
-      "id": 566873,
-      "title": "Microsoft Copilot Studio: Enforce safe sharing by detecting credential oversharing",
-      "description": "This feature helps organizations reduce security risk by preventing agents and flows from being shared when they rely on unsafe identities, such as maker credentials. By detecting identity oversharing early and enforcing safe-sharing policies at publish and share time, customers can avoid identity leakage, privilege escalation, and unintended access - while still allowing makers to build and iterate safely within approved guardrails.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Copilot Studio"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "July CY2026",
-      "modified": "2026-07-01T23:03:18",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566873"
     }
   ]
 }
