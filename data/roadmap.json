@@ -1,13 +1,75 @@
 {
-  "generatedAt": "2026-07-22T15:17:01.618Z",
+  "generatedAt": "2026-07-23T15:24:44.887Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 719,
+  "totalCopilotFeatures": 715,
   "counts": {
-    "inDevelopment": 38,
+    "inDevelopment": 39,
     "rollingOut": 6,
-    "launched": 16
+    "launched": 15
   },
   "items": [
+    {
+      "id": 567007,
+      "title": "Outlook: New Copilot entry point in Classic Outlook",
+      "description": "We've introduced a new experience for Copilot in the apps—a consistent entry point across apps that sits above your work and understands the context beneath it. Rather than scattering touchpoints across the interface, it anchors Copilot as one connected system across Microsoft 365, surfacing relevant actions that help you stay in flow. With this release, we are rolling out this new experience - already available across other Outlook endpoints, as well as in Word, Excel and PowerPoint - to classic Outlook.",
+      "status": "In development",
+      "products": [
+        "Outlook",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "Current Channel",
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-07-22T22:41:54",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567007"
+    },
+    {
+      "id": 542181,
+      "title": "Microsoft Copilot (Microsoft 365): Edit with Copilot in Excel (Web, Win32, Mac) - GCC",
+      "description": "Edit with Copilot lets you build and edit workbooks side by side with Copilot. When you're updating budgets, creating financial models, or analyzing data, Copilot uses Excel's most powerful tools like tables, charts, PivotTables, and formulas to help you get the job done.",
+      "status": "In development",
+      "products": [
+        "Excel",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-07-22T22:41:54",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=542181"
+    },
+    {
+      "id": 503772,
+      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Users in DoD will be able to use custom engine agents",
+      "description": "Users in DoD will be able to use custom engine agents.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "July CY2025",
+      "preview": "",
+      "modified": "2026-07-22T22:41:54",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503772"
+    },
     {
       "id": 537281,
       "title": "Microsoft Copilot (Microsoft 365): [Copilot Search] [Copilot Search] Copilot Chat available when using Copilot Search",
@@ -403,28 +465,6 @@
       "preview": "",
       "modified": "2026-07-17T22:12:56",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557255"
-    },
-    {
-      "id": 542181,
-      "title": "Microsoft Copilot (Microsoft 365): Agent Mode in Excel for GCC",
-      "description": "Edit with Copilot lets you build and edit workbooks side by side with Copilot. When you're updating budgets, creating financial models, or analyzing data, Agent Mode uses Excel's most powerful tools like tables, charts, PivotTables, and formulas to help you get the job done.",
-      "status": "In development",
-      "products": [
-        "Excel",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-07-17T22:12:56",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=542181"
     },
     {
       "id": 503553,
@@ -1207,47 +1247,6 @@
       "preview": "August CY2026",
       "modified": "2026-07-08T23:11:07",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=523223"
-    },
-    {
-      "id": 499428,
-      "title": "Microsoft Copilot (Microsoft 365): Agent Mode in Word for Enhanced document editing",
-      "description": "Copilot supports document editing in Word through chat-based interactions with Agent Mode. Users can initiate edits, share clarifying directions, and review a summary of changes within the document.",
-      "status": "Launched",
-      "products": [
-        "Word",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2025",
-      "preview": "",
-      "modified": "2026-07-08T23:11:07",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=499428"
-    },
-    {
-      "id": 567004,
-      "title": "Microsoft Copilot (Microsoft 365): Link meetings to CRM records automatically with AI",
-      "description": "This feature saves you time by automatically connecting your meetings to the correct CRM records. You have the right deal insights at your fingertips when preparing for customer conversations, so you can focus less on updating records and more on selling with confidence and context.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-07-08T23:10:57",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567004"
     }
   ]
 }
