@@ -1,13 +1,35 @@
 {
-  "generatedAt": "2026-07-24T15:05:27.427Z",
+  "generatedAt": "2026-07-25T14:41:51.846Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 712,
+  "totalCopilotFeatures": 710,
   "counts": {
     "inDevelopment": 39,
-    "rollingOut": 5,
-    "launched": 16
+    "rollingOut": 4,
+    "launched": 17
   },
   "items": [
+    {
+      "id": 553219,
+      "title": "Microsoft 365: New profile cards for buildings, rooms and desks",
+      "description": "Buildings, rooms and desks that are added to the Places directory will have new profile cards, accessible from Copilot Chat and across other Microsoft 365 entry points.",
+      "status": "Launched",
+      "products": [
+        "Microsoft 365",
+        "Microsoft 365 app",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "June CY2026",
+      "preview": "",
+      "modified": "2026-07-24T22:00:08",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553219"
+    },
     {
       "id": 567883,
       "title": "Microsoft Teams: Unified Agent and App Installation Management Across Microsoft 365 and Teams Admin Center",
@@ -752,28 +774,6 @@
       "preview": "",
       "modified": "2026-07-15T22:55:27",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559110"
-    },
-    {
-      "id": 553219,
-      "title": "Microsoft 365: New profile cards for buildings, rooms and desks",
-      "description": "Buildings, rooms and desks that are added to the Places directory will have new profile cards, accessible from Copilot Chat and across other Microsoft 365 entry points.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft 365",
-        "Microsoft 365 app",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-07-15T22:55:27",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553219"
     },
     {
       "id": 567671,
