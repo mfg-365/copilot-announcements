@@ -1,13 +1,34 @@
 {
-  "generatedAt": "2026-07-30T15:22:45.315Z",
+  "generatedAt": "2026-07-31T15:29:08.435Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 698,
+  "totalCopilotFeatures": 696,
   "counts": {
-    "inDevelopment": 42,
+    "inDevelopment": 43,
     "rollingOut": 4,
-    "launched": 14
+    "launched": 13
   },
   "items": [
+    {
+      "id": 558933,
+      "title": "Microsoft Teams: AI-generated meeting archive for knowledge retention",
+      "description": "Admins can enable a tenant-wide policy that allows Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods. This enables Copilot to continue answering questions about past meetings even after transcripts expire. Admins can also configure how long this AI-generated meeting archive is stored.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-07-30T23:01:43",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933"
+    },
     {
       "id": 568072,
       "title": "Microsoft Viva: Copilot Dashboard - Targeted Audience Surveys",
@@ -1228,28 +1249,6 @@
       "preview": "",
       "modified": "2026-07-15T22:55:27",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560705"
-    },
-    {
-      "id": 559110,
-      "title": "Microsoft Copilot (Microsoft 365): Find meetings based on topics and keywords",
-      "description": "Copilot will be able to find meetings based on topics or keywords from relevant data like meeting body, chat and transcription.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-07-15T22:55:27",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559110"
     }
   ]
 }
