@@ -456,7 +456,7 @@ function renderBlogs() {
 
 let blogLoading = null;
 async function loadBlogs() {
-  if (blogData) { renderBlogs(); return; }
+  if (blogData) { renderBlogs(); renderRecentBlogs(); return; }
   if (blogLoading) return blogLoading;
   const list = document.getElementById("blogList");
   list.innerHTML = '<div class="rm-empty">Loading the latest Copilot blog posts&hellip;</div>';
@@ -472,6 +472,7 @@ async function loadBlogs() {
         ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
         : "";
       renderBlogs();
+      renderRecentBlogs();
     } catch (e) {
       list.innerHTML = "";
       list.appendChild(errorBox("Couldn't load blog data.", loadBlogs));
@@ -483,6 +484,32 @@ async function loadBlogs() {
 }
 
 document.getElementById("blogSearch").addEventListener("input", renderBlogs);
+
+// Latest-blogs strip on the Announcements landing page. Reads the SAME blogData
+// (data/blogs.json) as the Blogs tab, so it refreshes automatically whenever the
+// Copilot Blogs feed updates. Shows the three most recent posts by date.
+function renderRecentBlogs() {
+  const wrap = document.getElementById("annRecentBlogs");
+  const grid = document.getElementById("annRecentBlogsGrid");
+  if (!wrap || !grid || !blogData) return;
+  const items = (blogData.items || [])
+    .slice()
+    .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
+    .slice(0, 3);
+  if (!items.length) { wrap.hidden = true; return; }
+  grid.innerHTML = items
+    .map((i) => {
+      const meta = [];
+      if (i.date) meta.push(`<span class="m">${esc(fmtDate(i.date))}</span>`);
+      if (i.source) meta.push(`<span class="m">${esc(i.source)}</span>`);
+      return `<a class="recent-blog-card" href="${esc(i.link)}" target="_blank" rel="noopener">
+        <span class="recent-blog-title">${esc(i.title)}</span>
+        <span class="recent-blog-meta">${meta.join(' &middot; ')}</span>
+      </a>`;
+    })
+    .join("");
+  wrap.hidden = false;
+}
 
 // Open the tab from the URL hash on load (after all state + handlers are defined)
 const rawHash = location.hash || "#announcements";
