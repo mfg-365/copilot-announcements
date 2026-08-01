@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T15:29:08.715Z",
+  "generatedAt": "2026-08-01T14:40:11.603Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -12,6 +12,17 @@
   ],
   "count": 30,
   "items": [
+    {
+      "title": "The next measure of AI momentum is work transformed",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+      "description": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first ",
+      "categories": [
+        "AI",
+        "Copilot for Work"
+      ],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-07-30T12:00:00.000Z"
+    },
     {
       "title": "More control over web grounding with Domain Exclusion for Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/more-control-over-web-grounding-with-domain-exclusion-for/ba-p/4540151",
@@ -269,20 +280,6 @@
         "Copilot Cowork",
         "Copilot for Work",
         "Work IQ"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-05-05T10:00:00.000Z"
-    },
-    {
-      "title": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
-      "description": "As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes. The post Microsoft 365 Copilot, human agency, and the opportunity for every organizatio",
-      "categories": [
-        "AI",
-        "Copilot for Work",
-        "Microsoft 365 Copilot",
-        "Work Trend Index",
-        "WorkLab"
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-05-05T10:00:00.000Z"
