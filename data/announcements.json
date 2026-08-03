@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-06-15T21:39:29.422865+00:00",
+ "generatedAt": "2026-08-03T13:36:33.853256+00:00",
  "categories": [
   "Models & Chat",
   "Agents",
@@ -12,6 +12,70 @@
   "Industry & Events"
  ],
  "items": [
+  {
+   "id": "2026-07-02-claude-sonnet-5-in-microsoft-365-copilot",
+   "date": "2026-07-02",
+   "dateLabel": "July 2, 2026",
+   "title": "Claude Sonnet 5 in Microsoft 365 Copilot",
+   "category": "Models & Chat",
+   "summary": "Anthropic’s Claude Sonnet 5 is now available in Microsoft 365 Copilot, expanding multi-model choice — users can select it from the model picker across Copilot Chat, Researcher, and Copilot Studio, with admin opt-in required to enable Anthropic models.",
+   "tags": [
+    "Claude Sonnet 5",
+    "Anthropic",
+    "Multi-model",
+    "Model Choice",
+    "Researcher"
+   ],
+   "details": [
+    {
+     "heading": "Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
+     "points": [
+      "Adds Anthropic’s Claude Sonnet 5 to the multi-model lineup in Microsoft 365 Copilot, giving users another model option for their tasks.",
+      "Selectable from the model picker in Copilot Chat — alongside OpenAI models — the same way you choose models in Researcher and Agent Mode.",
+      "Available in the Researcher agent and Copilot Studio, where organizations can set an external model as the primary model for generative responses.",
+      "Anthropic models require admin opt-in; customers within the EU Data Boundary and the UK have Anthropic models disabled by default.",
+      "Get faster value from the best models — the right model for each task, with Microsoft handling research, testing, validation, and secure integration."
+     ],
+     "links": [
+      {
+       "title": "Connect to Anthropic’s AI models",
+       "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-models"
+      },
+      {
+       "title": "Anthropic as a subprocessor for Microsoft Online Services",
+       "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-06-24-copilot-in-excel-capabilities-for-finance",
+   "date": "2026-06-24",
+   "dateLabel": "June 24, 2026",
+   "title": "New Copilot in Excel Capabilities for Finance Workflows",
+   "category": "Finance",
+   "summary": "New Copilot in Excel capabilities built for finance workflows help finance teams reconcile data, analyze variances, and turn results into presentation-ready reports — using natural-language prompts with enterprise-grade governance.",
+   "tags": [
+    "Excel",
+    "Finance",
+    "Reconciliation",
+    "Variance Analysis",
+    "Work IQ"
+   ],
+   "details": [
+    {
+     "heading": "Copilot in Excel for finance workflows",
+     "points": [
+      "Financial reconciliation in Excel: compare data structures across systems with guided troubleshooting and an auto-generated report summary that highlights discrepancies.",
+      "Variance analysis in Excel: review anomalies, risks, and unmatched results with annotations and supporting data, plus auto-summarized analysis commentary.",
+      "Use simple natural-language prompts to quickly find and validate financial data across systems and surface insights in the flow of work.",
+      "Turn raw data and analysis into presentation-ready visuals and reports that can be shared across Outlook and Teams.",
+      "Enterprise-grade security and governance with role-level access, grounded in Work IQ to connect financial data to the intelligence of the organization."
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-06-16-copilot-cowork-general-availability",
    "date": "2026-06-16",
