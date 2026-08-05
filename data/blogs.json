@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T15:34:48.502Z",
+  "generatedAt": "2026-08-05T15:27:19.878Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -12,6 +12,14 @@
   ],
   "count": 30,
   "items": [
+    {
+      "title": "Update: Domain Exclusion for Microsoft 365 Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/update-domain-exclusion-for-microsoft-365-copilot/ba-p/4543648",
+      "description": "We want to inform the community that the Domain Exclusion for Microsoft 365 Copilot feature described in this post, More control over web grounding with Domain Exclusion for Microsoft 365 Copilot , has been rolled back at this time. We unde",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-08-04T16:00:00.000Z"
+    },
     {
       "title": "What’s New in Microsoft 365 Copilot | July 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-july-2026/ba-p/4538332",
@@ -34,7 +42,7 @@
     {
       "title": "More control over web grounding with Domain Exclusion for Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/more-control-over-web-grounding-with-domain-exclusion-for/ba-p/4540151",
-      "description": "We are excited to announce Domain Exclusion for Microsoft 365 Copilot, a new web search control that gives organizations more choice over which external web sources can be used to ground Copilot responses. As customers bring Microsoft 365 C",
+      "description": "**UPDATE** Please see new announcement here: Update: Domain Exclusion for Microsoft 365 Copilot | Microsoft Community Hub We are excited to announce Domain Exclusion for Microsoft 365 Copilot, a new web search control that gives organizatio",
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-07-28T15:50:14.000Z"
@@ -251,14 +259,6 @@
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-05-26T16:00:00.000Z"
-    },
-    {
-      "title": "Launched: Microsoft 365 Copilot Adoption Hub Redesign",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/launched-microsoft-365-copilot-adoption-hub-redesign/ba-p/4520841",
-      "description": "One of the biggest barriers to Copilot adoption is people don’t always know where to start. Today, we released the first version of our redesigned Microsoft 365 Copilot business user hub. Take a look. We set out to simplify adoption by maki",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-05-19T22:53:07.000Z"
     },
     {
       "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences",

@@ -1,13 +1,181 @@
 {
-  "generatedAt": "2026-08-04T15:34:48.294Z",
+  "generatedAt": "2026-08-05T15:27:19.599Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 689,
+  "totalCopilotFeatures": 690,
   "counts": {
-    "inDevelopment": 42,
+    "inDevelopment": 43,
     "rollingOut": 6,
-    "launched": 12
+    "launched": 11
   },
   "items": [
+    {
+      "id": 562996,
+      "title": "Microsoft Copilot (Microsoft 365): Copilot memory in Researcher",
+      "description": "Copilot memory within Researcher brings forward relevant context from your past interactions—helping ground insights, personalize outputs, and reduce repetitive setup as you explore complex topics.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "November CY2026",
+      "preview": "",
+      "modified": "2026-08-04T22:45:42",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562996"
+    },
+    {
+      "id": 561208,
+      "title": "Microsoft Purview: Data Lifecycle Management – Archive SharePoint files under retention",
+      "description": "We are introducing file archiving support in SharePoint Online, utilizing this feature administrators can seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins can now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SharePoint Online. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "September CY2026",
+      "preview": "August CY2026",
+      "modified": "2026-08-04T22:45:42",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208"
+    },
+    {
+      "id": 561488,
+      "title": "Microsoft Copilot (Microsoft 365): Simplified design for the Microsoft 365 Copilot app",
+      "description": "A refreshed design for the Microsoft 365 Copilot web and desktop app simplifies the user experience to drive engagement with Copilot. This includes updates to the chat home screen, chat response layout, and navigation pane.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "June CY2026",
+      "preview": "May CY2026",
+      "modified": "2026-08-04T22:45:42",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561488"
+    },
+    {
+      "id": 561032,
+      "title": "Microsoft Purview: Data Loss Prevention – New Guided Experience to Diagnose and Resolve DLP Issues",
+      "description": "We’re introducing a new guided diagnostics experience to help users understand why their DLP policies may not be behaving as expected. This experience provides a clear summary of why a DLP action was taken on a document, including which policies were triggered, the order of evaluation, and detailed insights into which conditions evaluated as true or false. For Microsoft 365 E5 customers, the experience also includes Copilot-powered insights and tailored recommendations to accelerate troubleshooting and policy optimization.",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "September CY2026",
+      "modified": "2026-08-04T22:45:42",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561032"
+    },
+    {
+      "id": 559989,
+      "title": "Outlook: Copilot now provides concise summaries with Outlook search results",
+      "description": "Get answers to queries quickly with Copilot's concise AI summaries at the top of Outlook search results. Users can dig deeper by opening Copilot chat directly from the Copilot summary card.",
+      "status": "In development",
+      "products": [
+        "Outlook",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "July CY2026",
+      "preview": "",
+      "modified": "2026-08-04T22:45:42",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=559989"
+    },
+    {
+      "id": 558538,
+      "title": "Microsoft Copilot (Microsoft 365): Critique in Researcher",
+      "description": "Responses are generated by GPT and Claude working together, with GPT drafting an initial response and Claude reviewing for increased response accuracy, completeness, and citation integrity.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "December CY2026",
+      "preview": "March CY2026",
+      "modified": "2026-08-04T22:45:42",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558538"
+    },
+    {
+      "id": 553213,
+      "title": "Microsoft Copilot (Microsoft 365): Researcher Council",
+      "description": "Council in Researcher runs multiple leading AI models from different providers in parallel in one place, so you can quickly compare outputs and see consensus vs. conflict) to make high-stakes decisions with greater confidence—without switching tools.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview",
+        "Targeted Release"
+      ],
+      "availability": "December CY2026",
+      "preview": "March CY2026",
+      "modified": "2026-08-04T22:45:42",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553213"
+    },
+    {
+      "id": 522616,
+      "title": "Microsoft Copilot (Microsoft 365): Ask Copilot about highlighted response content",
+      "description": "Highlight a sentence, paragraph, or table from the response and ask Copilot to work only on that selection. Get focused explanations, concise summaries, quick translations, or next steps for the exact passage you’re reviewing—no more over broad answers. Your selection is previewed in the prompt so you can edit before you send. It’s a faster, more controlled way to get help right where you’re working.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-08-04T22:45:42",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=522616"
+    },
     {
       "id": 567320,
       "title": "Microsoft Viva: Viva Glint - Copilot admin configuration assistance",
@@ -519,26 +687,6 @@
       "preview": "",
       "modified": "2026-07-28T22:43:45",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562345"
-    },
-    {
-      "id": 561208,
-      "title": "Microsoft Purview: Data Lifecycle Management – Archive OneDrive and SharePoint files under retention",
-      "description": "With the introduction of file archiving support in SharePoint Online, administrators are looking to seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins want to now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SPO. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
-      "status": "In development",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "August CY2026",
-      "modified": "2026-07-28T22:43:45",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208"
     },
     {
       "id": 561206,
@@ -1097,157 +1245,6 @@
       "preview": "June CY2026",
       "modified": "2026-07-20T22:37:15",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561552"
-    },
-    {
-      "id": 503144,
-      "title": "Microsoft Copilot (Microsoft 365): Domain exclusion for web grounding",
-      "description": "This feature will allow admins to specify a limited set of sites to exclude from web grounding in M365 Copilot and Copilot Chat #copilotcontrolsystem",
-      "status": "Launched",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-07-20T22:37:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503144"
-    },
-    {
-      "id": 422324,
-      "title": "OneNote: Summary and Q&A in OneNote Mobile with Copilot (Iphone)",
-      "description": "With this new Summary feature in OneNote mobile, you can create a short and fluent summary of your longer pages which will help to consume relevant information faster. With the Question and Answer at your fingertips, you can get real-time answers to your queries directly within your notes, enhancing your ability to access and utilize information quickly and effectively. We inadvertently marked this item as rolling out and now have updated it to be accurate. We apologize for any inconvenience.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "OneNote"
-      ],
-      "platforms": [
-        "iOS"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-20T22:37:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=422324"
-    },
-    {
-      "id": 422323,
-      "title": "OneNote: Summary and Q&A in OneNote Mobile with Copilot (Android)",
-      "description": "With this new Summary feature in OneNote mobile, you can create a short and fluent summary of your longer pages which will help to consume relevant information faster. With the Question and Answer at your fingertips, you can get real-time answers to your queries directly within your notes, enhancing your ability to access and utilize information quickly and effectively.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "OneNote"
-      ],
-      "platforms": [
-        "Android"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-20T22:37:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=422323"
-    },
-    {
-      "id": 567893,
-      "title": "Microsoft Viva: Copilot Analytics - Agent 365 dashboard for managers",
-      "description": "Managers in organizations can now access their Agent 365 data through the Agent Dashboard in Copilot Analytics (Insights), enabling them to understand activity across all agents registered through Agent 365. Customers with Agent 365 and Copilot will now see the Agent 365 Dashboard with the ability to view historical data in Agent Dashboard.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-17T22:12:56",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567893"
-    },
-    {
-      "id": 567670,
-      "title": "Microsoft Copilot (Microsoft 365): Use Agent 365 agents within Microsoft 365 Copilot Chat and Declarative Agents",
-      "description": "Agents that are published to Agents 365 are already managed in the Microsoft 365 Admin Center. If the agent implements the Agent2Agent protocol, it can be used as a connected agent for the agents that users build in Agent Builder or Copilot Studio.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-17T22:12:56",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567670"
-    },
-    {
-      "id": 567315,
-      "title": "Planner: Capabilities in Microsoft Cowork",
-      "description": "You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your Planner tasks across Microsoft 365, such as drafting and sending emails, scheduling meetings, posting updates to Teams, and working with files. It can then write progress back to Planner with your approval. You can move from planning your work to getting it done in one place.",
-      "status": "In development",
-      "products": [
-        "Planner",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-07-17T22:12:56",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567315"
-    },
-    {
-      "id": 557255,
-      "title": "Microsoft Purview: Data Loss Prevention to prevent Microsoft 365 Copilot processing content with sensitivity labels supports all storage locations",
-      "description": "The Microsoft Purview Data Loss Prevention policy to restrict Microsoft 365 Copilot processing sensitive files in Word, Excel, and PowerPoint will now apply regardless of file storage location.",
-      "status": "Launched",
-      "products": [
-        "Excel",
-        "Microsoft 365",
-        "PowerPoint",
-        "Word",
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac"
-      ],
-      "releasePhase": [
-        "Current Channel",
-        "General Availability"
-      ],
-      "availability": "April CY2026",
-      "preview": "",
-      "modified": "2026-07-17T22:12:56",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557255"
     }
   ]
 }
