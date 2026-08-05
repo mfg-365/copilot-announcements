@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T15:27:19.878Z",
+  "generatedAt": "2026-08-05T18:18:10.765Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -8,6 +8,14 @@
     {
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365CopilotBlog"
+    },
+    {
+      "source": "Copilot Studio Blog (Tech Community)",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog"
+    },
+    {
+      "source": "Microsoft Power Platform Blog (Copilot Studio)",
+      "url": "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/"
     }
   ],
   "count": 30,
@@ -19,6 +27,14 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-08-04T16:00:00.000Z"
+    },
+    {
+      "title": "More powerful agents and workflows for autonomous business processes: Introducing a new harness for Copilot Studio",
+      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/more-powerful-agents-and-workflows-for-autonomous-business/ba-p/4542969",
+      "description": "Over the past two months, we’ve been previewing a new capability within Copilot Studio that lets you build agents capable of taking on more complex business processes. Today, we’re excited to share that this capability is now generally avai",
+      "categories": [],
+      "source": "Copilot Studio Blog (Tech Community)",
+      "date": "2026-08-03T16:18:57.000Z"
     },
     {
       "title": "What’s New in Microsoft 365 Copilot | July 2026",
@@ -129,6 +145,14 @@
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-06-25T12:00:00.000Z"
+    },
+    {
+      "title": "Meet the new Copilot Studio: rebuilt for more complex, multi-step work",
+      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/meet-the-new-copilot-studio-rebuilt-for-more-complex-multi-step/ba-p/4526488",
+      "description": "We consistently hear feedback from our customers. You want to build more capable agents and workflows that work together naturally. You need agents that can handle multi-step tasks reliably, without breaking down midway. You need more intui",
+      "categories": [],
+      "source": "Copilot Studio Blog (Tech Community)",
+      "date": "2026-06-17T16:41:17.000Z"
     },
     {
       "title": "Copilot Cowork is now generally available",
@@ -259,30 +283,6 @@
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-05-26T16:00:00.000Z"
-    },
-    {
-      "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
-      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
-      "description": "See what's new in Copilot Studio, April 2026: updates to workflows, increased control over agent operations, and an expanded agent usage estimator. The post New and improved: Agent governance, intelligent workflows, and connected app experi",
-      "categories": [
-        "AI",
-        "Copilot Studio"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-05-11T17:25:12.000Z"
-    },
-    {
-      "title": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
-      "description": "Today, we’re announcing additional capabilities in Cowork to expand on what it can make possible for you. The post Copilot Cowork: From conversation to action across skills, integrations, and devices appeared first on Microsoft 365 Blog .",
-      "categories": [
-        "AI",
-        "Copilot Cowork",
-        "Copilot for Work",
-        "Work IQ"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-05-05T10:00:00.000Z"
     }
   ]
 }
