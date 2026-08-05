@@ -29,6 +29,16 @@ const FEEDS = [
     source: "Microsoft 365 Copilot Blog (Tech Community)",
     copilotOnly: false, // dedicated Copilot blog board — official articles only
   },
+  {
+    url: "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog",
+    source: "Copilot Studio Blog (Tech Community)",
+    copilotOnly: false, // dedicated Copilot Studio blog board — official articles only
+  },
+  {
+    url: "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/",
+    source: "Microsoft Power Platform Blog (Copilot Studio)",
+    copilotOnly: false, // Power Platform blog filtered to the Copilot Studio product
+  },
 ];
 
 // Curated posts that the public RSS feeds may not surface yet (the feeds can lag
@@ -145,26 +155,38 @@ function dateFromUrl(link) {
 
 async function main() {
   const results = await Promise.all(FEEDS.map(fetchFeed));
-  // Pinned posts go first so they win de-duplication when a feed lags behind.
-  let items = [...PINNED, ...results.flat()];
+  const fetched = results.flat();
+
+  // Load previously published data FIRST. Blogs are ADDITIVE: prior posts are
+  // always carried forward, so a transient feed outage can never shrink or wipe
+  // the published list. Prior data also locks in the EARLIEST observed date per
+  // article (the Tech Community board feed "bumps" pubDate on activity, which
+  // would otherwise make old posts appear published today).
+  const prior = readJson("blogs.json", { items: [] });
+  const priorItems = Array.isArray(prior.items) ? prior.items : [];
+
+  // Resilience: if every feed failed/returned nothing but we already have a
+  // published list, keep the existing file untouched rather than churn it.
+  if (fetched.length === 0 && priorItems.length > 0) {
+    console.warn(`All feeds returned 0 items; keeping existing ${priorItems.length} posts (no rewrite).`);
+    return;
+  }
+
+  // Additive pool: pinned + freshly fetched + everything previously published.
+  // Fetched/pinned come first so they win de-duplication with fresher fields.
+  let items = [...PINNED, ...fetched, ...priorItems];
 
   // de-dup by normalized title
   const seen = new Set();
   items = items.filter((it) => {
-    const key = it.title.toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60);
-    if (seen.has(key)) return false;
+    const key = (it.title || "").toLowerCase().replace(/[^a-z0-9]/g, "").slice(0, 60);
+    if (!key || seen.has(key)) return false;
     seen.add(key);
     return true;
   });
 
-  // Load the previously published data so we can lock in the EARLIEST date
-  // ever observed per article. The Tech Community board feed intermittently
-  // "bumps" pubDate to the current time on activity, which would otherwise
-  // make old articles appear published today. Taking the earliest seen date
-  // (and the date embedded in microsoft.com blog URLs) is self-correcting.
-  const prior = readJson("blogs.json", { items: [] });
   const priorByLink = new Map();
-  (prior.items || []).forEach((it) => {
+  priorItems.forEach((it) => {
     if (it.link && it.date) priorByLink.set(it.link, it.date);
   });
 
@@ -188,6 +210,12 @@ async function main() {
     .slice(0, MAX_ITEMS)
     .map(({ _t, pubDate, ...rest }) => rest);
 
+  // Final guard: never publish an empty list.
+  if (items.length === 0) {
+    console.warn("Refusing to write an empty blogs.json; keeping existing file.");
+    return;
+  }
+
   const payload = {
     generatedAt: new Date().toISOString(),
     sources: FEEDS.map((f) => ({ source: f.source, url: f.url })),
@@ -195,8 +223,14 @@ async function main() {
     items,
   };
 
+  // Atomic, validated write: serialize, re-parse to prove validity, then swap
+  // in via a temp file so an interrupted run can never leave a corrupt file.
+  const json = JSON.stringify(payload, null, 2);
+  JSON.parse(json);
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
-  fs.writeFileSync(OUT, JSON.stringify(payload, null, 2));
+  const tmp = OUT + ".tmp";
+  fs.writeFileSync(tmp, json);
+  fs.renameSync(tmp, OUT);
   console.log(`Wrote ${items.length} Copilot blog posts to ${OUT}`);
 }
 

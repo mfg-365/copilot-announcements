@@ -9,8 +9,8 @@
   --font:"Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:var(--font);color:var(--body);background:var(--light);line-height:1.55;-webkit-font-smoothing:antialiased}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{font-family:var(--font);color:var(--body);background:var(--light);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:clip}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
 
@@ -61,7 +61,10 @@ h1{font-size:clamp(1.8rem,4vw,2.6rem);color:var(--ink);line-height:1.12;letter-s
 
 /* Hero */
 .hero{display:grid;grid-template-columns:1.4fr .9fr;gap:1.5rem;align-items:center;
-  background:var(--navy);border-radius:var(--radius);padding:clamp(1.6rem,4vw,2.6rem);
+  background:var(--navy);border-radius:0;
+  margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);
+  margin-top:calc(clamp(1.4rem,4vw,2.8rem) * -1);
+  padding:clamp(2rem,5vw,3rem) max(clamp(1rem,4vw,1.6rem), calc((100vw - var(--maxw)) / 2 + 1.6rem));
   color:#fff;overflow:hidden;position:relative}
 .hero .kicker{color:var(--teal)}
 .hero-copy h1{color:#fff}
