@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T18:18:10.765Z",
+  "generatedAt": "2026-08-06T15:27:34.573Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -20,6 +20,14 @@
   ],
   "count": 30,
   "items": [
+    {
+      "title": "ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/icymi-partner-blog-from-ai-curiosity-to-copilot-adoption-in-30/ba-p/4544027",
+      "description": "Thirty days. Twenty-five users. One clear path to AI. For small and medium-sized businesses, AI is no longer a someday conversation, it's a right-now decision. SMB customers aren't asking whether AI matters anymore; they're asking how to pu",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-08-05T17:00:00.000Z"
+    },
     {
       "title": "Update: Domain Exclusion for Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/update-domain-exclusion-for-microsoft-365-copilot/ba-p/4543648",
@@ -272,17 +280,6 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-05-27T12:00:00.000Z"
-    },
-    {
-      "title": "New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences",
-      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
-      "description": "Learn what’s new in Copilot Studio, May 2026: computer-using agents are now generally available, plus redesigned workflows and Work IQ extensibility. The post New and improved: Computer-using agents, a new workflows experience, and real-tim",
-      "categories": [
-        "AI",
-        "Copilot Studio"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-05-26T16:00:00.000Z"
     }
   ]
 }
