@@ -1,13 +1,115 @@
 {
-  "generatedAt": "2026-08-06T15:27:34.345Z",
+  "generatedAt": "2026-08-07T14:18:48.351Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
   "totalCopilotFeatures": 690,
   "counts": {
-    "inDevelopment": 38,
-    "rollingOut": 7,
-    "launched": 15
+    "inDevelopment": 39,
+    "rollingOut": 8,
+    "launched": 13
   },
   "items": [
+    {
+      "id": 562662,
+      "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App",
+      "description": "The new Copilot Notebooks design in the Microsoft 365 Copilot app now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. While this is the quicker, light-weight Notebooks experience, you can still find the fuller, workspace-forward experience in OneNote.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft 365 app"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview",
+        "Targeted Release"
+      ],
+      "availability": "August CY2026",
+      "preview": "July CY2026",
+      "modified": "2026-08-06T22:57:59",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562662"
+    },
+    {
+      "id": 516577,
+      "title": "Microsoft Copilot (Microsoft 365): Planner capabilities in Copilot chat (M365 Copilot)",
+      "description": "We will support creating Planner tasks and plans querying Planner information in M365 Copilot chat, allowing users to manage their tasks and plans between Copilot and Planner seamlessly.",
+      "status": "In development",
+      "products": [
+        "Planner",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "August CY2026",
+      "modified": "2026-08-06T22:57:59",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516577"
+    },
+    {
+      "id": 500872,
+      "title": "Microsoft Copilot (Microsoft 365): Export Copilot metrics in the Copilot Dashboard",
+      "description": "This enables users to export row-level Copilot metrics from the Copilot Dashboard for reporting and deeper analysis.",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "September CY2026",
+      "preview": "December CY2025",
+      "modified": "2026-08-06T22:57:59",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=500872"
+    },
+    {
+      "id": 568933,
+      "title": "Microsoft Teams: Use Copilot Chat after a call in Queues app",
+      "description": "After a recorded call is completed, use Copilot in the Queues app to quickly catch up on key details, uncover insights, and resolve customer issues faster without having to manually search through a transcript or listen back to a recording. Navigate to the unified call history in the Queues app, select the recorded call record, and launch the Copilot Chat sidecar from within the Recap tab. You can then ask Copilot to generate a summary or answer questions about specific details related to the call.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-08-06T22:54:24",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568933"
+    },
+    {
+      "id": 568762,
+      "title": "Microsoft Copilot Studio: Agent Readiness in Microsoft Copilot Studio",
+      "description": "Agent Readiness gives makers a real-time, always-visible health check for their Copilot Studio agents. A single \"Review\" indicator in the build experience surfaces anything blocking or at risk — from policy restrictions to missing evaluations — before it derails a publish. Blocked capabilities are grayed out up front with a clear reason, so makers never waste time configuring something that was never going to work.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot Studio"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-08-06T22:54:24",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568762"
+    },
     {
       "id": 565870,
       "title": "Microsoft Purview: Data Loss Prevention - Data Loss Prevention to safeguard sensitive information from external web search in Microsoft 356 Copilot and Copilot Chat",
@@ -1140,108 +1242,6 @@
       "preview": "",
       "modified": "2026-07-23T23:27:16",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=502533"
-    },
-    {
-      "id": 502541,
-      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Improved discovery of Copilot connector sources in Microsoft 365 Copilot (optionally add chat) with Content Source filter(s)",
-      "description": "Improved discovery of Copilot connector sources in Microsoft 365 Copilot (optionally add chat) with Content Source filter(s).",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-07-23T23:27:16",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=502541"
-    },
-    {
-      "id": 567007,
-      "title": "Outlook: New Copilot entry point in Classic Outlook",
-      "description": "We've introduced a new experience for Copilot in the apps—a consistent entry point across apps that sits above your work and understands the context beneath it. Rather than scattering touchpoints across the interface, it anchors Copilot as one connected system across Microsoft 365, surfacing relevant actions that help you stay in flow. With this release, we are rolling out this new experience - already available across other Outlook endpoints, as well as in Word, Excel and PowerPoint - to classic Outlook.",
-      "status": "In development",
-      "products": [
-        "Outlook",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "Current Channel",
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-22T22:41:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567007"
-    },
-    {
-      "id": 537281,
-      "title": "Microsoft Copilot (Microsoft 365): [Copilot Search] [Copilot Search] Copilot Chat available when using Copilot Search",
-      "description": "Copilot Chat will be available for Microsoft 365 Copilot users from the side pane on the right-hand side when using Copilot Search in the Microsoft 365 Copilot app. This allows users to engage with Copilot while browsing universal search without switching pages or losing context.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "April CY2026",
-      "preview": "",
-      "modified": "2026-07-21T22:37:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=537281"
-    },
-    {
-      "id": 512429,
-      "title": "Microsoft Copilot (Microsoft 365): Seamless Search and Chat Integration",
-      "description": "Microsoft 365 Chat brings the power of conversational AI directly into Microsoft 365 Copilot Search, enabling users to move effortlessly from finding information to acting on it. Search results become the foundation for contextual chat, allowing you to ask follow-up questions, synthesize insights, and generate content—all in one unified experience. This integration reduces workflow fragmentation, accelerates decision-making, and delivers a more intuitive way to interact with your organization’s knowledge.",
-      "status": "Launched",
-      "products": [
-        "Microsoft 365 app",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "March CY2026",
-      "preview": "January CY2026",
-      "modified": "2026-07-21T22:37:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=512429"
-    },
-    {
-      "id": 499898,
-      "title": "Microsoft Copilot (Microsoft 365): Viva Engage - Agents in communities",
-      "description": "Agents in Viva Engage communities supports communities by answering questions, facilitating knowledge sharing, citing sources, and scaling expertise.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "September CY2025",
-      "modified": "2026-07-21T22:37:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=499898"
     }
   ]
 }
