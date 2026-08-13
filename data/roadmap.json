@@ -1,13 +1,55 @@
 {
-  "generatedAt": "2026-08-12T14:31:55.954Z",
+  "generatedAt": "2026-08-13T14:32:45.561Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
   "totalCopilotFeatures": 688,
   "counts": {
-    "inDevelopment": 44,
-    "rollingOut": 5,
-    "launched": 11
+    "inDevelopment": 42,
+    "rollingOut": 6,
+    "launched": 12
   },
   "items": [
+    {
+      "id": 567458,
+      "title": "Microsoft Teams: Multilingual recap available with translation button",
+      "description": "After meeting recap is automatically generated in the translation language chosen during the meeting, users can continue to change the language of the meeting recap after its generated.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-08-12T22:47:48",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567458"
+    },
+    {
+      "id": 553224,
+      "title": "Microsoft Viva: Copilot Enhanced Topic Assignment",
+      "description": "We're upgrading our topic assignment pipeline to be powered by Copilot, delivering significantly improved accuracy in categorizing survey comments into relevant topics.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Viva"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-08-12T22:47:48",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553224"
+    },
     {
       "id": 569213,
       "title": "Microsoft Copilot (Microsoft 365): Add Agents and Skills from the Plus menu",
@@ -1220,45 +1262,6 @@
       "preview": "",
       "modified": "2026-07-28T22:43:45",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=515145"
-    },
-    {
-      "id": 564608,
-      "title": "Microsoft Copilot (Microsoft 365): Support for MCP Agents with Interactive UI Widgets in Government Clouds",
-      "description": "Feature description: Model Context Protocol (MCP) based agents in Microsoft 365 Copilot Chat will now be able to surface rich, interactive UI widgets directly within chat. This enhancement enables developers to deliver more engaging and structured agent interactions. Users will experience these widgets when interacting with agents that implement them, and admins will continue to manage these agents through the Microsoft 365 Admin Center.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-28T22:43:45",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=564608"
-    },
-    {
-      "id": 562345,
-      "title": "Microsoft Purview: Data Lifecycle Management - Archive OneDrive and SharePoint files under retention",
-      "description": "With the introduction of file archiving support in SharePoint Online, administrators are looking to seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins want to now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SPO. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
-      "status": "In development",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-07-28T22:43:45",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562345"
     }
   ]
 }

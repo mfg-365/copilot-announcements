@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T14:31:56.198Z",
+  "generatedAt": "2026-08-13T14:32:46.800Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -20,6 +20,14 @@
   ],
   "count": 30,
   "items": [
+    {
+      "title": "Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016",
+      "description": "The tools that run a business rarely live in one place. For a small business owner, that means stepping out of the document you're writing to search for an attorney, digging through a folder for the LLC paperwork you half-remember filing, o",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-08-12T16:00:00.000Z"
+    },
     {
       "title": "ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/icymi-partner-blog-from-ai-curiosity-to-copilot-adoption-in-30/ba-p/4544027",
@@ -272,14 +280,6 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-05-27T16:00:00.000Z"
-    },
-    {
-      "title": "Scaling the reach of finance: what’s next with Finance Agent in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/scaling-the-reach-of-finance-what-s-next-with-finance-agent-in/ba-p/4522976",
-      "description": "In most organizations, finance is a small but mighty strategic partner to the business, supporting enterprise-wide decisions while managing core processes from record-to-report and source-to-pay to forecast-to-plan. The insights and guidanc",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-05-27T12:00:00.000Z"
     }
   ]
 }
