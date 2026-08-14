@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T14:32:46.800Z",
+  "generatedAt": "2026-08-14T14:19:35.356Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -20,6 +20,14 @@
   ],
   "count": 30,
   "items": [
+    {
+      "title": "Copilot Notebooks now works with Markdown, plain-text, and rich-text files",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652",
+      "description": "Add your READMEs, wikis, logs, and transcripts to your notebook Your most useful project knowledge does not always live in a polished document. It might be captured in a README, project wiki, system log, meeting transcript, research export,",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-08-13T16:00:00.000Z"
+    },
     {
       "title": "Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016",
@@ -272,14 +280,6 @@
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-05-28T12:00:00.000Z"
-    },
-    {
-      "title": "Recertified: How Microsoft 365 Copilot continues to earn trust and What Changed in a Year",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/recertified-how-microsoft-365-copilot-continues-to-earn-trust/ba-p/4521693",
-      "description": "Recertification: ISO 42001 for the second consecutive year Today, we are announcing that Microsoft 365 Copilot and Copilot Chat (Copilot) have achieved ISO/IEC 42001:2023 recertification independently validated for the second consecutive ye",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-05-27T16:00:00.000Z"
     }
   ]
 }
