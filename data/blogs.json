@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T13:42:58.757Z",
+  "generatedAt": "2026-08-16T13:44:27.749Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -27,6 +27,14 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-08-13T16:00:00.000Z"
+    },
+    {
+      "title": "Register now for PPCC 2026: Come for the learning, stay for the community",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/13/register-now-for-ppcc-2026-come-for-the-learning-stay-for-the-community/",
+      "description": "Whether you’re exploring AI in your business, building with low code, developing professional solutions, or leading enterprise-wide transformation, PPCC is your best opportunity to return to work on Monday ready to make an impact. The post ",
+      "categories": [],
+      "source": "Microsoft Power Platform Blog (Copilot Studio)",
+      "date": "2026-08-13T12:00:00.000Z"
     },
     {
       "title": "Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work",
@@ -266,17 +274,6 @@
       "categories": [
         "AI",
         "Copilot for Work"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-05-28T12:00:00.000Z"
-    },
-    {
-      "title": "Introducing a new design for Microsoft 365 Copilot",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
-      "description": "We’ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work. The post Introducing a new design for Microsoft 365 Copilot appeared first on Microso",
-      "categories": [
-        "AI",
-        "Microsoft 365 Copilot"
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-05-28T12:00:00.000Z"
