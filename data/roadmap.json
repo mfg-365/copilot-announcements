@@ -1,13 +1,75 @@
 {
-  "generatedAt": "2026-08-17T13:52:35.941Z",
+  "generatedAt": "2026-08-18T13:56:27.393Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 685,
+  "totalCopilotFeatures": 679,
   "counts": {
     "inDevelopment": 42,
-    "rollingOut": 6,
-    "launched": 12
+    "rollingOut": 5,
+    "launched": 13
   },
   "items": [
+    {
+      "id": 569364,
+      "title": "Microsoft Purview: eDiscovery- Select user-owned SharePoint embedded container as a data source",
+      "description": "eDiscovery users will be able to view and select SharePoint Embedded content containers owned or created by a selected person. These containers store content from apps such as Microsoft Loop, Copilot Pages, and Copilot Notebooks.",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "September CY2026",
+      "modified": "2026-08-17T22:52:47",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569364"
+    },
+    {
+      "id": 569215,
+      "title": "OneDrive: Improved capabilities for files with Copilot in OneDrive Web",
+      "description": "With improved Copilot file skills in OneDrive, you can go from files to finished work directly from chat. Copilot helps you find the right content, analyze files and data, create polished outputs like summaries, dashboards, and presentations, and collaborate by saving or sharing the results from OneDrive.",
+      "status": "In development",
+      "products": [
+        "OneDrive",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "December CY2026",
+      "preview": "August CY2026",
+      "modified": "2026-08-17T22:52:47",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569215"
+    },
+    {
+      "id": 562662,
+      "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App",
+      "description": "The new Copilot Notebooks design in the Microsoft 365 Copilot app now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. While this is the quicker, light-weight Notebooks experience, you can still find the fuller, workspace-forward experience in OneNote.",
+      "status": "Launched",
+      "products": [
+        "Microsoft 365 app"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview",
+        "Targeted Release"
+      ],
+      "availability": "August CY2026",
+      "preview": "July CY2026",
+      "modified": "2026-08-17T22:52:47",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562662"
+    },
     {
       "id": 567458,
       "title": "Microsoft Teams: Multilingual recap available with translation button",
@@ -478,27 +540,6 @@
       "preview": "",
       "modified": "2026-08-07T21:45:15",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=554934"
-    },
-    {
-      "id": 562662,
-      "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App",
-      "description": "The new Copilot Notebooks design in the Microsoft 365 Copilot app now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time. While this is the quicker, light-weight Notebooks experience, you can still find the fuller, workspace-forward experience in OneNote.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft 365 app"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview",
-        "Targeted Release"
-      ],
-      "availability": "August CY2026",
-      "preview": "July CY2026",
-      "modified": "2026-08-06T22:57:59",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562662"
     },
     {
       "id": 516577,
@@ -1215,53 +1256,6 @@
       "preview": "August CY2026",
       "modified": "2026-07-28T22:43:45",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567886"
-    },
-    {
-      "id": 567008,
-      "title": "Microsoft Copilot (Microsoft 365): New Rich Answer Cards",
-      "description": "Surface new model-driven, dynamically placed Answer Cards across top 7 segments: weather, sports, finance, images, video, places and news for Entra & MSA users across all surfaces.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mobile",
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-07-28T22:43:45",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567008"
-    },
-    {
-      "id": 515145,
-      "title": "Microsoft Copilot (Microsoft 365): Workforce Insights Agent",
-      "description": "Workforce Insights (WFI) Agent in Microsoft 365 Copilot is an agent designed to help leaders, managers, and their delegates quickly understand their organization by turning complex workforce data into clear, actionable insights. With WFI Agent, leaders can quickly explore their organization’s structure, team composition, skills inventories, and flexible work patterns to move from insight to action in a single, unified experience directly in Copilot or Teams.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-07-28T22:43:45",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=515145"
     }
   ]
 }
