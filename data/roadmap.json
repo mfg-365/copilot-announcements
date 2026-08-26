@@ -1,13 +1,74 @@
 {
-  "generatedAt": "2026-08-25T14:03:20.979Z",
+  "generatedAt": "2026-08-26T14:02:35.009Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 672,
+  "totalCopilotFeatures": 673,
   "counts": {
-    "inDevelopment": 37,
+    "inDevelopment": 38,
     "rollingOut": 4,
-    "launched": 19
+    "launched": 18
   },
   "items": [
+    {
+      "id": 569928,
+      "title": "Microsoft Copilot (Microsoft 365): Power BI reports as references in Copilot Notebooks",
+      "description": "Copilot Notebooks now lets users add Power BI reports as references, bringing report data directly into their notebooks alongside files. Copilot uses this information to help generate more relevant summaries, presentations, and briefs grounded in the organization's data.",
+      "status": "In development",
+      "products": [
+        "OneNote",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "September CY2026",
+      "preview": "August CY2026",
+      "modified": "2026-08-25T23:13:41",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569928"
+    },
+    {
+      "id": 561208,
+      "title": "Microsoft Purview: Data Lifecycle Management – Archive SharePoint files under retention",
+      "description": "We are introducing file archiving support in SharePoint Online, utilizing this feature administrators can seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins can now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SharePoint Online. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "September CY2026",
+      "modified": "2026-08-25T23:13:41",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208"
+    },
+    {
+      "id": 550514,
+      "title": "Microsoft Copilot (Microsoft 365): Newly created Declarative Agents now understand referenced scanned PDFs",
+      "description": "Any newly created Declarative Agents can now reliably ground answers in scanned PDFs and image-based documents referenced from SharePoint, unlocking a major class of enterprise content that was previously hard to use in agent scenarios.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "February CY2026",
+      "preview": "",
+      "modified": "2026-08-25T23:13:41",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=550514"
+    },
     {
       "id": 565905,
       "title": "Microsoft Copilot (Microsoft 365): People Skills- removal and deletion admin control",
@@ -1193,69 +1254,6 @@
       "preview": "",
       "modified": "2026-08-05T22:47:32",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555878"
-    },
-    {
-      "id": 553223,
-      "title": "Microsoft Teams: Voice tethering",
-      "description": "The voice tethering feature builds on the recent introduction of Sign Language Mode. It ensures that when an interpreter voices for a D/HH signer, captions and transcripts attribute the spoken content to the signer rather than the interpreter. This provides accurate representation in meetings and makes it clear who is contributing to the conversation. It also improves downstream meeting intelligence such as Copilot so that notes, summaries, action items, and insights are attributed to the correct participant.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "March CY2026",
-      "preview": "",
-      "modified": "2026-08-05T22:47:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553223"
-    },
-    {
-      "id": 523205,
-      "title": "Microsoft Copilot (Microsoft 365): Use voice for Q&A during Read Aloud in Word",
-      "description": "Interact in real time with read aloud in Word with Copilot. While your document is being read aloud, you can ask questions with your voice—such as “What does this mean?” or “Summarize this section”—and get answers instantly. No need to pause and search manually. This keeps you in context, reduces interruptions, and helps you understand and act faster.",
-      "status": "Launched",
-      "products": [
-        "Word",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "February CY2026",
-      "preview": "",
-      "modified": "2026-08-05T22:47:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=523205"
-    },
-    {
-      "id": 562996,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot memory in Researcher",
-      "description": "Copilot memory within Researcher brings forward relevant context from your past interactions—helping ground insights, personalize outputs, and reduce repetitive setup as you explore complex topics.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-08-04T22:45:42",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562996"
     }
   ]
 }
