@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T17:19:14.701Z",
+  "generatedAt": "2026-09-02T17:09:44.250Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -20,6 +20,22 @@
   ],
   "count": 30,
   "items": [
+    {
+      "title": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
+      "description": "Claude Fable 5.1 is now joining the frontier models available in Copilot Cowork and Copilot Studio, giving customers more choice as they delegate more complex tasks to AI. Fable 5.1 is designed for long-running work, financial analysis, and",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-09-01T19:26:41.000Z"
+    },
+    {
+      "title": "What’s New in Microsoft Copilot | August 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-copilot-august-2026/ba-p/4551960",
+      "description": "Welcome to the August 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and effi",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-08-31T17:51:17.000Z"
+    },
     {
       "title": "Copilot Notebooks now works with Markdown, plain-text, and rich-text files",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652",
@@ -258,25 +274,6 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-05-29T20:43:08.000Z"
-    },
-    {
-      "title": "Available today: Anthropic Claude Opus 4.8 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-opus-4-8-in-microsoft-365/ba-p/4523405",
-      "description": "Today we’re expanding model choice in Microsoft 365 Copilot with the addition of Anthropic’s latest model—Claude Opus 4.8. Available now in Copilot Cowork (Frontier) and rolling out to Copilot Chat, Excel, PowerPoint, and Copilot Studio. Op",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-05-28T18:37:31.000Z"
-    },
-    {
-      "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
-      "description": "On July 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work. The post Introducing Microsoft 365 Business with Copilot: The new standard for small business appeared fi",
-      "categories": [
-        "AI",
-        "Copilot for Work"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-05-28T12:00:00.000Z"
     }
   ]
 }
