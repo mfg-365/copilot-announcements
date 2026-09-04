@@ -1,13 +1,34 @@
 {
-  "generatedAt": "2026-09-03T17:02:23.484Z",
+  "generatedAt": "2026-09-04T16:51:57.618Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 679,
+  "totalCopilotFeatures": 678,
   "counts": {
-    "inDevelopment": 37,
+    "inDevelopment": 38,
     "rollingOut": 11,
-    "launched": 12
+    "launched": 11
   },
   "items": [
+    {
+      "id": 506749,
+      "title": "Microsoft Viva: Copilot Analytics - Agent Dashboard.",
+      "description": "<p>Viva Insights is creating an Agent Dashboard, designed to be a central place for leaders, delegates and analysts to understand how your organization is adopting agents. #copilotcontrolsystem</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "February CY2026",
+      "modified": "2026-09-03T22:50:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=506749"
+    },
     {
       "id": 570433,
       "title": "Microsoft Copilot Studio: Deliver rich interactive app experiences in Copilot Studio agents",
@@ -1216,26 +1237,6 @@
       "preview": "",
       "modified": "2026-08-19T22:58:06",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=553224"
-    },
-    {
-      "id": 555882,
-      "title": "Microsoft Copilot (Microsoft 365): Attach and reference an image when creating a presentation with Copilot in PowerPoint using Agent Mode.",
-      "description": "You can now reference an image when creating a presentation with Copilot using Agent Mode in PowerPoint.",
-      "status": "Launched",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "July CY2026",
-      "preview": "",
-      "modified": "2026-08-19T22:58:06",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555882"
     }
   ]
 }
