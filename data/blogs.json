@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T16:51:58.988Z",
+  "generatedAt": "2026-09-05T16:04:17.439Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -21,6 +21,14 @@
   "count": 30,
   "items": [
     {
+      "title": "Available today: OpenAI GPT-6 Astra in Microsoft Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-gpt-6-astra-in-microsoft-copilot/ba-p/4552808",
+      "description": "GPT-6 Astra joins the frontier models available in Copilot Cowork and Copilot Studio, giving customers more choice for complex work they want to delegate to AI. Astra expands the range of work that can be handed off to Copilot. Instead of b",
+      "categories": [],
+      "source": "Microsoft 365 Copilot Blog (Tech Community)",
+      "date": "2026-09-04T20:28:50.000Z"
+    },
+    {
       "title": "White paper: Choosing between the GitHub Copilot and Standard harnesses in Copilot Studio",
       "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/white-paper-choosing-between-the-github-copilot-and-standard/ba-p/4552385",
       "description": "The Standard harness and GitHub Copilot harness are two authoring and runtime options within Microsoft Copilot Studio. A harness is the operating layer between the model and the agent’s configuration. It determines how the model receives co",
@@ -31,9 +39,13 @@
     {
       "title": "PPCC 2026: Bringing AI and your business processes together",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
-      "description": "Every enterprise runs on business processes, but it’s the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes toge",
-      "categories": [],
-      "source": "Microsoft Power Platform Blog (Copilot Studio)",
+      "description": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes toge",
+      "categories": [
+        "Agents",
+        "AI",
+        "Work IQ"
+      ],
+      "source": "Microsoft 365 Blog",
       "date": "2026-09-03T12:00:00.000Z"
     },
     {
@@ -260,17 +272,6 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-06-08T21:52:59.000Z"
-    },
-    {
-      "title": "Introducing Microsoft Scout: Your always-on personal agent",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
-      "description": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared first on Microsoft 365 Blog .",
-      "categories": [
-        "Agents",
-        "AI"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-06-02T12:00:00.000Z"
     }
   ]
 }
