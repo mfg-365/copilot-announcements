@@ -1,13 +1,114 @@
 {
-  "generatedAt": "2026-09-14T18:38:11.126Z",
+  "generatedAt": "2026-09-15T17:40:06.520Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 668,
+  "totalCopilotFeatures": 667,
   "counts": {
-    "inDevelopment": 36,
+    "inDevelopment": 34,
     "rollingOut": 15,
-    "launched": 9
+    "launched": 11
   },
   "items": [
+    {
+      "id": 567007,
+      "title": "Outlook: New Copilot entry point in Classic Outlook",
+      "description": "<p>We've introduced a new experience for Copilot in the apps—a consistent entry point across apps that sits above your work and understands the context beneath it. Rather than scattering touchpoints across the interface, it anchors Copilot as one connected system across Microsoft 365, surfacing relevant actions that help you stay in flow. With this release, we are rolling out this new experience - already available across other Outlook endpoints, as well as in Word, Excel and PowerPoint - to classic Outlook.</p>",
+      "status": "In development",
+      "products": [
+        "Outlook",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "Current Channel",
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-09-14T23:03:47",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567007"
+    },
+    {
+      "id": 567315,
+      "title": "Planner: Capabilities in Microsoft Cowork",
+      "description": "<p>You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your Planner tasks across Microsoft 365, such as drafting and sending emails, scheduling meetings, posting updates to Teams, and working with files. It can then write progress back to Planner with your approval. You can move from planning your work to getting it done in one place.</p>",
+      "status": "In development",
+      "products": [
+        "Planner",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Teams and Surface Devices",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-09-14T23:03:47",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567315"
+    },
+    {
+      "id": 566318,
+      "title": "Microsoft 365 app: New Copilot Notebooks design in the Microsoft 365 Copilot App (iOS)",
+      "description": "<p>Copilot Notebooks in the Microsoft 365 Copilot app (iOS) now lets users organize related chats, output creations, and references into a persistent AI workspace. Copilot uses the Notebook's accumulated context to ground responses, so work continues across sessions instead of starting over each time.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft 365 app"
+      ],
+      "platforms": [
+        "iOS"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-09-14T23:03:47",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566318"
+    },
+    {
+      "id": 561491,
+      "title": "Outlook: Copilot Settings in classic Outlook for Windows",
+      "description": "<p>You will now be able to access different Copilot settings directly in classic Outlook for Windows.</p>",
+      "status": "Launched",
+      "products": [
+        "Outlook"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "July CY2026",
+      "preview": "July CY2026",
+      "modified": "2026-09-14T23:03:47",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561491"
+    },
+    {
+      "id": 501111,
+      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Users in GCC-M will able to use custom engine agents",
+      "description": "<p>Users in GCC-M will be able to use custom engine agents.</p>",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-09-14T23:03:47",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=501111"
+    },
     {
       "id": 570277,
       "title": "Word: Copilot edit mode is available to users in Office 365 GCC",
@@ -804,27 +905,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568933"
     },
     {
-      "id": 567007,
-      "title": "Outlook: New Copilot entry point in Classic Outlook",
-      "description": "We've introduced a new experience for Copilot in the apps—a consistent entry point across apps that sits above your work and understands the context beneath it. Rather than scattering touchpoints across the interface, it anchors Copilot as one connected system across Microsoft 365, surfacing relevant actions that help you stay in flow. With this release, we are rolling out this new experience - already available across other Outlook endpoints, as well as in Word, Excel and PowerPoint - to classic Outlook.",
-      "status": "In development",
-      "products": [
-        "Outlook",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "Current Channel",
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-09-01T23:00:02",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567007"
-    },
-    {
       "id": 567891,
       "title": "Microsoft Copilot (Microsoft 365): Power BI integration in M365 Copilot",
       "description": "This release enables M365 Copilot to reason over Power BI enterprise data and returns grounded answers directly from Power BI reports and semantic models. Users can ask natural-language questions and receive accurate answers.",
@@ -1175,85 +1255,6 @@
       "preview": "",
       "modified": "2026-08-28T21:59:29",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933"
-    },
-    {
-      "id": 557561,
-      "title": "Microsoft Edge: Auto-open Copilot side pane for Outlook links",
-      "description": "When users open links from Outlook, Microsoft Edge can automatically open the Copilot side pane to provide contextual insights and actionable suggestion chips based on email and destination content - such as highlighting key points, and recommending next actions - without disrupting the browsing flow. This experience helps users quickly understand content, take action with fewer steps, and get more value from Copilot while extending productive browsing time in Edge. Admins can control availability to this feature using the M365LinksAutoOpenCopilotEnabled policy.",
-      "status": "In development",
-      "products": [
-        "Microsoft Edge"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-08-28T21:59:29",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557561"
-    },
-    {
-      "id": 569475,
-      "title": "Microsoft Copilot Studio: Agent Sharing amongst makers",
-      "description": "Enables sharing of agents with other makers in the new GHCP harness. Makers can grant other makers Agent Viewer (view analytics/evaluations only) or Editor (view, edit, configure, share, publish) access to an agent, with auto-assigned security roles.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot Studio"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "September CY2026",
-      "modified": "2026-08-28T17:54:55",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569475"
-    },
-    {
-      "id": 568937,
-      "title": "Microsoft 365 admin center: Data Quality Report for Profile Data",
-      "description": "Microsoft 365 Organizational Data Services is introducing a new data quality report that helps administrators assess the coverage and health of people data used across Microsoft 365 experiences. High-quality people data enables users to more effectively discover and learn about colleagues through experiences such as the People Card, Org Explorer, Microsoft 365 Copilot, and Microsoft 365 Cowork. The new report provides organizational data administrators, People Administrators, and AI Administrators with visibility into the completeness and quality of people attributes available in Microsoft 365. Administrators can use these insights to identify data gaps, improve attribute coverage, and help ensure users and AI-powered experiences have access to accurate organizational information. Key benefits: - Monitor the health and completeness of people profile attributes across the organization. - Identify missing or incomplete organizational data that may impact user and AI experiences. - Improve discoverability and organizational understanding in People Card and Org Explorer. - Help increase the effectiveness of Microsoft 365 Copilot and Microsoft 365 Cowork by improving the quality of underlying people data. This feature is available to Organizational Data Administrators, People Administrators, and AI Administrators through Microsoft 365 Organizational Data Services.",
-      "status": "In development",
-      "products": [
-        "Microsoft 365 admin center"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-08-27T22:38:48",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568937"
-    },
-    {
-      "id": 560700,
-      "title": "Microsoft Teams: AI-powered notes for in-person meetings with Facilitator in Teams Rooms on Android",
-      "description": "In addition to capturing real-time notes and meeting outcomes during scheduled or hybrid meetings, the Facilitator agent assists you with notes, decisions and actions for in-person meetings in Teams Rooms on Android. Simply invite Facilitator with one tap of the room console. Meeting notes appear on the front of room display or touch board, are available via meeting recap when shared, and deleted if no one selected. Rest assured no data remains in the room. Available with Teams Rooms Pro.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Teams and Surface Devices"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-08-27T22:38:48",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560700"
     }
   ]
 }
