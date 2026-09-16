@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T17:40:06.721Z",
+  "generatedAt": "2026-09-16T17:37:28.973Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -21,6 +21,46 @@
   "count": 30,
   "items": [
     {
+      "title": "Managing apps built in Copilot Studio",
+      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/managing-apps-built-in-copilot-studio/ba-p/4556774",
+      "description": "Last week we announced app building in Copilot Studio and Copilot Cowork . Makers can now describe business outcomes and produce full-stack apps with built-in source control, deployment stages, and version isolation—all on Microsoft-hosted ",
+      "categories": [],
+      "source": "Copilot Studio Blog (Tech Community)",
+      "date": "2026-09-15T20:09:00.000Z"
+    },
+    {
+      "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
+      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+      "description": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on Mic",
+      "categories": [
+        "AI"
+      ],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-09-15T15:00:00.000Z"
+    },
+    {
+      "title": "Build apps in Copilot Cowork and Copilot Studio",
+      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
+      "description": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft 365 Blog .",
+      "categories": [
+        "AI",
+        "Copilot Cowork"
+      ],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-09-10T15:00:00.000Z"
+    },
+    {
+      "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+      "description": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft 365 B",
+      "categories": [
+        "Agents",
+        "AI"
+      ],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-09-10T12:00:00.000Z"
+    },
+    {
       "title": "Available today: OpenAI GPT-6 Astra in Microsoft Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-openai-gpt-6-astra-in-microsoft-copilot/ba-p/4552808",
       "description": "GPT-6 Astra joins the frontier models available in Copilot Cowork and Copilot Studio, giving customers more choice for complex work they want to delegate to AI. Astra expands the range of work that can be handed off to Copilot. Instead of b",
@@ -38,7 +78,7 @@
     },
     {
       "title": "PPCC 2026: Bringing AI and your business processes together",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
       "description": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes toge",
       "categories": [
         "Agents",
@@ -122,11 +162,10 @@
     },
     {
       "title": "The next measure of AI momentum is work transformed",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
       "description": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first ",
       "categories": [
-        "AI",
-        "Copilot for Work"
+        "AI"
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-07-30T12:00:00.000Z"
@@ -213,7 +252,7 @@
     },
     {
       "title": "Copilot in Excel: Built for the era of Frontier Finance",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
       "description": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft 365 Blog .",
       "categories": [
         "AI",
@@ -240,38 +279,6 @@
         "Cowork"
       ],
       "date": "2026-06-16T12:00:00.000Z"
-    },
-    {
-      "title": "What’s New in Notebooks | May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-may-2026/ba-p/4519838",
-      "description": "Copilot Notebooks gets smarter for Microsoft 365 Copilot users Work rarely lives in one place. A single project can span a deck in SharePoint, decisions in a Teams thread, customer context in email, and ideas captured in quick conversations",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-12T14:34:37.000Z"
-    },
-    {
-      "title": "Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832",
-      "description": "We’re expanding model choice in Microsoft 365 Copilot with Anthropic’s latest model, Claude Fable 5 as a preview model—designed to support longer, multi-step workflows. As organizations move beyond simple prompts to more complex work, custo",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-11T20:58:32.000Z"
-    },
-    {
-      "title": "What’s New in Notebooks | June 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625",
-      "description": "Today, Copilot Notebooks is rolling out to more people across your team, making shared notebook collaboration broadly accessible in the Microsoft 365 Copilot app and OneNote . Copilot Notebooks are available to Copilot Chat users Previously",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-11T15:03:45.000Z"
-    },
-    {
-      "title": "What’s New in Microsoft 365 Copilot | May 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-microsoft-365-copilot-may-2026/ba-p/4522010",
-      "description": "Welcome to the May 2026 edition of What's New in Microsoft 365 Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 admins up to date with Copilot features that help your users be more productive and effici",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-06-08T21:52:59.000Z"
     }
   ]
 }
