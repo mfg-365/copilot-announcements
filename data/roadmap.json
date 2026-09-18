@@ -1,13 +1,96 @@
 {
-  "generatedAt": "2026-09-17T17:37:40.526Z",
+  "generatedAt": "2026-09-18T17:04:24.856Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 674,
+  "totalCopilotFeatures": 673,
   "counts": {
-    "inDevelopment": 34,
-    "rollingOut": 8,
+    "inDevelopment": 35,
+    "rollingOut": 7,
     "launched": 18
   },
   "items": [
+    {
+      "id": 570427,
+      "title": "Microsoft Teams: Meeting Shared Files",
+      "description": "<p>The new Meeting Shared Files feature allows users to add relevant files and links to their meeting for easy access and to automatically share that content with all meeting participants. AI in the meeting, like the Facilitator agent, uses these files for targeted grounding to answer questions and enhance skill functionality.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "November CY2026",
+      "preview": "",
+      "modified": "2026-09-17T23:00:45",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570427"
+    },
+    {
+      "id": 566864,
+      "title": "Microsoft Edge: Ask Copilot about an image",
+      "description": "<p>Ask Copilot about an image in Edge enables users to instantly analyze images from the web by sending them directly to Copilot from the Edge context menu, making it easy to ask questions, gain insights, and understand visual content without leaving their browsing experience. Admins can control availability to this feature using the EdgeEntraCopilotPageContext and Microsoft365CopilotChatIconEnabled policies.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Edge",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-09-17T23:00:45",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566864"
+    },
+    {
+      "id": 562345,
+      "title": "Microsoft Purview: Archive SharePoint files under retention policies",
+      "description": "<p>With the introduction of file archiving support in SharePoint Online, administrators are looking to seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins want to now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SPO. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-09-17T23:00:45",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562345"
+    },
+    {
+      "id": 500872,
+      "title": "Microsoft Copilot (Microsoft 365): Export Copilot metrics in the Copilot Dashboard",
+      "description": "<p>This enables users to export row-level Copilot metrics from the Copilot Dashboard for reporting and deeper analysis.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "October CY2026",
+      "modified": "2026-09-17T23:00:45",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=500872"
+    },
     {
       "id": 571299,
       "title": "Microsoft Teams: Ask Copilot from Search on Mobile",
@@ -783,29 +866,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570440"
     },
     {
-      "id": 570427,
-      "title": "Microsoft Teams: Meeting Shared Files",
-      "description": "<p>The new Meeting Shared Files feature allows users to add relevant files and links to their meeting for easy access and to automatically share that content with all meeting participants. AI in the meeting, like the Facilitator agent, uses these files for targeted grounding to answer questions and enhance skill functionality.</p>",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-09-09T22:36:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570427"
-    },
-    {
       "id": 567895,
       "title": "OneNote: Multimodal capture in Copilot Notebooks (Android)",
       "description": "<p>Multimodal capture enables users to transcribe audio, take images, and type notes in a single session. Copilot then creates a structured Copilot Page with insights and user-captured content, saved to a user-selected Copilot Notebook. Designed for capturing offline work moments—including in-person conversations, whiteboard sessions, and personal notes. This capability is already generally available on OneNote for iPhone and iPad.</p>",
@@ -1183,68 +1243,6 @@
       "preview": "",
       "modified": "2026-09-02T22:56:59",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=529850"
-    },
-    {
-      "id": 422324,
-      "title": "OneNote: Summary and Q&A in OneNote Mobile with Copilot (Iphone)",
-      "description": "With this new Summary feature in OneNote mobile, you can create a short and fluent summary of your longer pages which will help to consume relevant information faster. With the Question and Answer at your fingertips, you can get real-time answers to your queries directly within your notes, enhancing your ability to access and utilize information quickly and effectively. We inadvertently marked this item as rolling out and now have updated it to be accurate. We apologize for any inconvenience.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "OneNote"
-      ],
-      "platforms": [
-        "iOS"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-09-02T22:56:59",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=422324"
-    },
-    {
-      "id": 422323,
-      "title": "OneNote: Summary and Q&A in OneNote Mobile with Copilot (Android)",
-      "description": "With this new Summary feature in OneNote mobile, you can create a short and fluent summary of your longer pages which will help to consume relevant information faster. With the Question and Answer at your fingertips, you can get real-time answers to your queries directly within your notes, enhancing your ability to access and utilize information quickly and effectively.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "OneNote"
-      ],
-      "platforms": [
-        "Android"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-09-02T22:56:59",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=422323"
-    },
-    {
-      "id": 569017,
-      "title": "Microsoft Teams: Intelligent call recaps in Queues app",
-      "description": "Spend less time catching up on call recordings to resolve customer issues faster. For recorded call queue calls, the Queues app now supports intelligent call recaps for recorded calls that includes AI-generated summary notes, key discussion points, and follow-up actions. Navigate to the call record in the Queues app and select the Recap tab to access.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-09-01T23:00:02",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569017"
     }
   ]
 }
