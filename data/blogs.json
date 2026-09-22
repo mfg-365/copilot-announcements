@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T18:41:55.945Z",
+  "generatedAt": "2026-09-22T17:38:02.348Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -20,6 +20,14 @@
   ],
   "count": 30,
   "items": [
+    {
+      "title": "Governance is becoming agentic, too: How enterprises can operate AI at scale",
+      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/governance-is-becoming-agentic-too-how-enterprises-can-operate/ba-p/4556820",
+      "description": "Organizations have spent the past few years trying to get people building with AI. That effort is working: Agents are moving beyond experimentation and into real business processes. For IT teams, this kind of successful adoption creates a n",
+      "categories": [],
+      "source": "Copilot Studio Blog (Tech Community)",
+      "date": "2026-09-22T15:15:00.000Z"
+    },
     {
       "title": "Managing apps built in Copilot Studio",
       "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/managing-apps-built-in-copilot-studio/ba-p/4556774",
@@ -268,17 +276,6 @@
       "categories": [],
       "source": "Copilot Studio Blog (Tech Community)",
       "date": "2026-06-17T16:41:17.000Z"
-    },
-    {
-      "title": "Copilot Cowork is now generally available",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
-      "description": "Copilot Cowork reaches general availability across desktop, iOS, and Android — multi-model by design, grounded in Work IQ, extensible with native and partner plugins, enterprise-secured, and billed through the new per-seat plus usage-based Copilot Credits model.",
-      "source": "Microsoft 365 Blog",
-      "categories": [
-        "Copilot",
-        "Cowork"
-      ],
-      "date": "2026-06-16T12:00:00.000Z"
     }
   ]
 }
