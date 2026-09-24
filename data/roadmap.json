@@ -1,13 +1,76 @@
 {
-  "generatedAt": "2026-09-23T17:51:11.702Z",
+  "generatedAt": "2026-09-24T17:51:46.331Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 675,
+  "totalCopilotFeatures": 676,
   "counts": {
     "inDevelopment": 34,
-    "rollingOut": 6,
-    "launched": 20
+    "rollingOut": 5,
+    "launched": 21
   },
   "items": [
+    {
+      "id": 569018,
+      "title": "PowerPoint: Skills in Brand Kit",
+      "description": "<p>Upload skill (.md file) in Brand Kit and use within PPT Copilot</p>",
+      "status": "In development",
+      "products": [
+        "PowerPoint",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-09-23T22:59:12",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569018"
+    },
+    {
+      "id": 571886,
+      "title": "Microsoft Copilot (Microsoft 365): Local inferencing",
+      "description": "<p>Local inferencing expands Microsoft Copilot’s sovereign controls by enabling AI inferencing for supported Copilot interactions to occur within the applicable local geography.</p> <p>Launching in Australia, India, the United Arab Emirates, the United Kingdom, and the United States, this capability gives organizations greater control over where AI inferencing occurs, helping them address sovereignty and regional requirements. Inferencing is the processing step when an AI model executes a prompt to produce an output or response.</p>",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "December CY2026",
+      "preview": "",
+      "modified": "2026-09-23T22:59:12",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571886"
+    },
+    {
+      "id": 555897,
+      "title": "Microsoft Copilot (Microsoft 365): Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Agent Mode in PowerPoint",
+      "description": "<p>You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Agent Mode in PowerPoint.</p>",
+      "status": "Launched",
+      "products": [
+        "PowerPoint",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Mac"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "June CY2026",
+      "preview": "",
+      "modified": "2026-09-23T22:59:12",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555897"
+    },
     {
       "id": 570964,
       "title": "Microsoft Copilot (Microsoft 365): Federated Copilot Connectors will support write, update and delete actions",
@@ -86,41 +149,6 @@
       "preview": "",
       "modified": "2026-09-22T22:57:16",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=522616"
-    },
-    {
-      "id": 571886,
-      "title": "Microsoft Copilot (Microsoft 365): Local inferencing",
-      "description": "<p>Local inferencing expands Microsoft Copilot’s sovereign controls by enabling AI inferencing for supported Copilot interactions to occur within the applicable local geography.</p> <p>Launching in Australia, India, the United Arab Emirates, the United Kingdom, and the United States, this capability gives organizations greater control over where AI inferencing occurs, helping them address sovereignty and regional requirements. Inferencing is the processing step when an AI model executes a prompt to produce an output or response.</p>",
-      "status": "In development",
-      "products": [
-        "Excel",
-        "Exchange",
-        "Forms",
-        "Microsoft 365",
-        "Microsoft 365 admin center",
-        "OneDrive",
-        "OneNote",
-        "Outlook",
-        "Planner",
-        "Word",
-        "Microsoft 365 app",
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Agent 365"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "December CY2026",
-      "preview": "",
-      "modified": "2026-09-21T23:04:49",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571886"
     },
     {
       "id": 570846,
@@ -1207,46 +1235,6 @@
       "preview": "",
       "modified": "2026-09-09T22:36:54",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570647"
-    },
-    {
-      "id": 570440,
-      "title": "Outlook: Inline chat for email drafting",
-      "description": "<p>Instead of opening Copilot Chat every time you want to use Copilot to draft a message, this change introduces an inline chat component that streamlines the process and lets you interact with Copilot without opening the sidebar.</p>",
-      "status": "In development",
-      "products": [
-        "Outlook"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-09-09T22:36:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570440"
-    },
-    {
-      "id": 567895,
-      "title": "OneNote: Multimodal capture in Copilot Notebooks (Android)",
-      "description": "<p>Multimodal capture enables users to transcribe audio, take images, and type notes in a single session. Copilot then creates a structured Copilot Page with insights and user-captured content, saved to a user-selected Copilot Notebook. Designed for capturing offline work moments—including in-person conversations, whiteboard sessions, and personal notes. This capability is already generally available on OneNote for iPhone and iPad.</p>",
-      "status": "Rolling out",
-      "products": [
-        "OneNote",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "August CY2026",
-      "modified": "2026-09-09T22:36:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567895"
     }
   ]
 }
