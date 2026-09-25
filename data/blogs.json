@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T17:51:46.631Z",
+  "generatedAt": "2026-09-25T17:56:57.938Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -21,6 +21,14 @@
   "count": 30,
   "items": [
     {
+      "title": "Building the system for AI at work",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
+      "description": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+      "categories": [],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-09-23T12:00:00.000Z"
+    },
+    {
       "title": "Governance is becoming agentic, too: How enterprises can operate AI at scale",
       "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/governance-is-becoming-agentic-too-how-enterprises-can-operate/ba-p/4556820",
       "description": "Organizations have spent the past few years trying to get people building with AI. That effort is working: Agents are moving beyond experimentation and into real business processes. For IT teams, this kind of successful adoption creates a n",
@@ -39,7 +47,7 @@
     {
       "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
       "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
-      "description": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on Mic",
+      "description": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on AI ",
       "categories": [
         "AI"
       ],
@@ -49,7 +57,7 @@
     {
       "title": "Build apps in Copilot Cowork and Copilot Studio",
       "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
-      "description": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft 365 Blog .",
+      "description": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
       "categories": [
         "AI",
         "Copilot Cowork"
@@ -60,7 +68,7 @@
     {
       "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
       "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
-      "description": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft 365 B",
+      "description": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog",
       "categories": [
         "Agents",
         "AI"
@@ -261,21 +269,13 @@
     {
       "title": "Copilot in Excel: Built for the era of Frontier Finance",
       "link": "https://www.microsoft.com/en-us/copilot/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
-      "description": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft 365 Blog .",
+      "description": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on AI at Work Blog .",
       "categories": [
         "AI",
         "Work IQ"
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-06-25T12:00:00.000Z"
-    },
-    {
-      "title": "Meet the new Copilot Studio: rebuilt for more complex, multi-step work",
-      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/meet-the-new-copilot-studio-rebuilt-for-more-complex-multi-step/ba-p/4526488",
-      "description": "We consistently hear feedback from our customers. You want to build more capable agents and workflows that work together naturally. You need agents that can handle multi-step tasks reliably, without breaking down midway. You need more intui",
-      "categories": [],
-      "source": "Copilot Studio Blog (Tech Community)",
-      "date": "2026-06-17T16:41:17.000Z"
     }
   ]
 }
