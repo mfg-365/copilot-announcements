@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-03T13:36:33.853256+00:00",
+ "generatedAt": "2026-09-26T18:45:24.742479+00:00",
  "categories": [
   "Models & Chat",
   "Agents",
@@ -12,6 +12,680 @@
   "Industry & Events"
  ],
  "items": [
+  {
+   "id": "2026-09-25-wave-4-announcements",
+   "date": "2026-09-25",
+   "dateLabel": "September 25, 2026",
+   "title": "Copilot Wave 4 Announcements",
+   "category": "Agents",
+   "summary": "Wave 4 reshapes Copilot around four modes of work — Chat, Cowork, Code, and Autopilot — with a new Copilot Home, live Office files inside the Copilot app, Work IQ Skills and Plugins reaching GA, automatic model routing, Copilot in SharePoint and OneDrive going GA, and conversational app building governed by the new Copilot Managed Runtime.",
+   "tags": [
+    "Wave 4",
+    "Autopilot",
+    "Copilot Home",
+    "Work IQ",
+    "Skills",
+    "Plugins",
+    "Copilot Studio",
+    "Managed Runtime"
+   ],
+   "details": [
+    {
+     "heading": "Copilot Home: Chat and Cowork, together with Office",
+     "status": "Frontier / Public",
+     "points": [
+      "Your starting place: Chat for quick answers, Cowork for end-to-end tasks — and soon Copilot will route the work for you.",
+      "Office in Copilot brings live, editable Word, Excel, and PowerPoint files side by side in the Copilot app.",
+      "Coming soon — Today: a proactive command center across mail, meetings, and tasks that surfaces what needs attention and moves work forward.",
+      "Copilot for the new modes of work: Assist (Chat), Delegate (Cowork), Build (Code), and Automate (Autopilot)."
+     ],
+     "images": [
+      {
+       "file": "assets/media/wave4-copilot-home.jpg",
+       "w": 1100,
+       "h": 725
+      }
+     ]
+    },
+    {
+     "heading": "Office in Copilot",
+     "status": "Frontier / Public",
+     "points": [
+      "Create Word, Excel, and PowerPoint files directly inside the Copilot app.",
+      "Refine by editing manually, or ask Copilot to update the file directly in the Copilot app.",
+      "Collaborate with Copilot and teammates together in the same file."
+     ],
+     "images": [
+      {
+       "file": "assets/media/wave4-office-in-copilot.jpg",
+       "w": 1100,
+       "h": 618
+      }
+     ]
+    },
+    {
+     "heading": "Autopilot — your always-on digital teammate",
+     "status": "Extended Private Preview",
+     "points": [
+      "Autopilot (previously Microsoft Scout) is an always-on, cloud-hosted personal agent with its own identity and permissions, and access to M365 apps and tools — Teams, Outlook, Word/Excel/PowerPoint, your data, the local system, and the web.",
+      "Personal: reports to you and learns your role, preferences, and priorities so it works the way you work, improving over time.",
+      "Proactive: works like a colleague across email, calendar, meetings, chat, and docs, connecting signals into action.",
+      "Enterprise-ready: built for security from day one with audit trails, policy compliance, and enterprise-grade governance."
+     ],
+     "images": [
+      {
+       "file": "assets/media/wave4-autopilot.jpg",
+       "w": 1100,
+       "h": 725
+      }
+     ]
+    },
+    {
+     "heading": "Work IQ Skills — turn organizational know-how into action",
+     "status": "Generally Available 9/30",
+     "points": [
+      "Skills package the steps, prompts, and context behind common tasks so teams turn workflows into ready-to-run actions.",
+      "A unified plugin registry extends skills beyond a single app, making them available across supported Copilot surfaces.",
+      "Skills deliver trusted, consistent outcomes grounded in business context.",
+      "Work IQ supplies the Context, Memory, and Skills layer for Copilot, Copilot Studio, and custom agents and apps."
+     ],
+     "images": [
+      {
+       "file": "assets/media/wave4-workiq-skills.jpg",
+       "w": 1100,
+       "h": 733
+      }
+     ]
+    },
+    {
+     "heading": "Plugins in Copilot",
+     "status": "Generally Available 9/30",
+     "points": [
+      "Discover and use plugins consistently across Copilot experiences.",
+      "Unlock functional and industry scenarios that help users complete more workflows.",
+      "Govern, manage, and publish plugins centrally in the Microsoft 365 admin center and Agent 365."
+     ],
+     "images": [
+      {
+       "file": "assets/media/wave4-plugins.jpg",
+       "w": 1100,
+       "h": 651
+      }
+     ]
+    },
+    {
+     "heading": "Auto — automatic model routing",
+     "points": [
+      "Auto routes the right model for each task, and will soon route reasoning effort and orchestrate across Chat, Cowork, and Code.",
+      "Multi-model by design: Auto taps a growing range of models from leading labs including OpenAI and Anthropic, with more coming.",
+      "Optimized per task: Auto balances accuracy, speed, and cost for every request.",
+      "The Auto advantage is the right intelligence without the complexity of picking a model each time."
+     ],
+     "images": [
+      {
+       "file": "assets/media/wave4-auto-model-routing.jpg",
+       "w": 1100,
+       "h": 725
+      }
+     ]
+    },
+    {
+     "heading": "Copilot in SharePoint",
+     "status": "Generally Available",
+     "points": [
+      "Anyone can create: turn an idea into a SharePoint site, page, list, or library with Copilot.",
+      "Produce polished outputs: turn existing SharePoint content into Office docs and interactive HTML reports, with reusable team skills for repeatable work.",
+      "Make content AI-ready: organize and enrich content with metadata, giving Copilot and agents richer context."
+     ],
+     "images": [
+      {
+       "file": "assets/media/wave4-copilot-sharepoint.jpg",
+       "w": 1100,
+       "h": 618
+      }
+     ]
+    },
+    {
+     "heading": "Copilot in OneDrive",
+     "status": "Generally Available",
+     "points": [
+      "Ask questions and get answers across all your files.",
+      "Compare files to surface trends and insights across files, meetings, and emails.",
+      "Create interactive dashboards that turn spreadsheets, meetings, and content into visuals."
+     ]
+    },
+    {
+     "heading": "Teams agent collaboration",
+     "status": "Generally Available",
+     "points": [
+      "Turn conversations into action: @mention agents such as GitHub Copilot, Linear, and Atlassian Rovo directly in Teams to get updates, manage projects, and take action.",
+      "Stay in the flow of work: access agents, tools, and data where you collaborate in Teams.",
+      "Put shared context to work: agents use conversations, files, and decisions to deliver more relevant results for the team."
+     ],
+     "images": [
+      {
+       "file": "assets/media/wave4-teams-agents.jpg",
+       "w": 1100,
+       "h": 618
+      }
+     ]
+    },
+    {
+     "heading": "Build apps in Copilot and Copilot Studio",
+     "status": "Public Preview",
+     "points": [
+      "Create apps in Copilot, Copilot Studio, or third-party tools — all on the same underlying building experience and governance model.",
+      "Ground apps in business context by connecting to your organization's data, people, and processes through Work IQ and a broad connectors ecosystem.",
+      "Describe the business outcome and Copilot generates a working app with UI, logic, and data from a prompt, then preview, refine, connect, and publish.",
+      "Apps, Agents, and Workflows come together in Copilot Studio — structure, autonomy, and consistency as the building blocks of business processes.",
+      "Deploy and manage with confidence using enterprise-ready governance, security, and management controls in the Microsoft 365 admin center."
+     ],
+     "images": [
+      {
+       "file": "assets/media/wave4-app-building.jpg",
+       "w": 1100,
+       "h": 653
+      }
+     ]
+    },
+    {
+     "heading": "Copilot Managed Runtime",
+     "status": "Public Preview",
+     "points": [
+      "Bring employee- and AI-created first-party and third-party code into production faster and manage it confidently at enterprise scale.",
+      "Publish from Microsoft: deploy apps and code from Copilot Cowork, Copilot Code, and Copilot Studio.",
+      "Publish from your own tools, or integrate publishing into your platform with the Copilot Managed Runtime SDK — launch partner Lovable.",
+      "Built-in infrastructure: Microsoft provides hosting, vulnerability scanning, identity, connectors, governance, and lifecycle management in the M365 admin center.",
+      "End-user simplicity: share apps like OneDrive files, connect to live Microsoft 365 data, and access them anywhere — governed by default."
+     ],
+     "images": [
+      {
+       "file": "assets/media/wave4-managed-runtime.jpg",
+       "w": 1100,
+       "h": 653
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-09-25-wave-4-finops-for-ai",
+   "date": "2026-09-25",
+   "dateLabel": "September 25, 2026",
+   "title": "Wave 4: FinOps for AI",
+   "category": "Admin & Cost",
+   "summary": "New FinOps for AI capabilities let organizations control, measure, and optimize Copilot Credit spend — expanded coverage across Cowork, Code, Managed Runtime and Work IQ, model choice as a policy setting, departmental billing and chargeback, and usage visibility for admins, teams, and end users.",
+   "tags": [
+    "FinOps",
+    "Copilot Credits",
+    "Cost Management",
+    "Agent 365",
+    "Chargeback",
+    "Admin"
+   ],
+   "details": [
+    {
+     "heading": "FinOps for AI — set the boundaries for your spend",
+     "points": [
+      "Control spend: govern AI spend with policies, limits, and alerts.",
+      "Measure value: see what AI costs and what it delivers.",
+      "Optimize for impact: turn insights into business outcomes (coming November).",
+      "Expanded coverage: manage across Cowork, Code, Managed Runtime, and Work IQ, with Copilot Studio coming in October.",
+      "Consumption insights for Cowork show which scenarios consume credits and what they produce, to guide optimization and investment.",
+      "More capabilities are being added continuously, including resource-level chargeback policies and agent cost and value for first- and third-party agents."
+     ],
+     "images": [
+      {
+       "file": "assets/media/finops-capabilities.jpg",
+       "w": 1100,
+       "h": 508
+      }
+     ]
+    },
+    {
+     "heading": "Cost management dashboard",
+     "points": [
+      "Monitor: track Copilot Credit usage and runway with reporting and spend trends.",
+      "Control spend: select services, set limits, and create spending policies at tenant, group, and user level.",
+      "Optimize: inform policy adjustments and smarter budget allocation."
+     ],
+     "links": [
+      {
+       "title": "Usage-based billing and cost management for Copilot Credits",
+       "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/usage-based-billing-overview-copilot-credits"
+      }
+     ],
+     "images": [
+      {
+       "file": "assets/media/finops-cost-dashboard.jpg",
+       "w": 1100,
+       "h": 618
+      }
+     ]
+    },
+    {
+     "heading": "Manage model choice",
+     "status": "Available now",
+     "points": [
+      "Tailor access to specific model families, such as Claude Sonnet or GPT Sol, that users are allowed to select.",
+      "Model policy also shapes what Auto selects in Cowork.",
+      "Deploy advanced models for key projects and power users while steering the rest of the organization to more cost-efficient models.",
+      "Available for Cowork with additional supported workloads coming soon; managing effort choice arrives October 2026."
+     ],
+     "images": [
+      {
+       "file": "assets/media/finops-model-choice.jpg",
+       "w": 1100,
+       "h": 547
+      }
+     ]
+    },
+    {
+     "heading": "Departmental billing",
+     "points": [
+      "Bill department usage to its own Azure subscription — for example, sales policies bill to the sales subscription.",
+      "Attribute more granularly within a shared subscription by picking the Azure resource group aligned to the department.",
+      "Credits draw down in order: capacity packs, then Pre-Purchase Plan (P3), then pay-as-you-go."
+     ],
+     "images": [
+      {
+       "file": "assets/media/finops-departmental-billing.jpg",
+       "w": 1100,
+       "h": 1050
+      }
+     ]
+    },
+    {
+     "heading": "Flexible chargeback options",
+     "status": "Available October 2026",
+     "points": [
+      "Choose how AI usage is funded when configuring a spending policy for supported workloads such as agents.",
+      "Charge usage back to the users who consume it, or to the cost center that owns the resource.",
+      "Align AI consumption with your organization's existing budgeting processes."
+     ],
+     "images": [
+      {
+       "file": "assets/media/finops-chargeback.jpg",
+       "w": 1100,
+       "h": 565
+      }
+     ]
+    },
+    {
+     "heading": "Visibility into usage — organization, team, and personal",
+     "points": [
+      "Track total credit consumption over time from capacity packs, P3, and pay-as-you-go.",
+      "Monitor usage against limits by users, groups, agents, services, and policies, and identify top users of AI spend.",
+      "Team-level insights show how usage is distributed across the top 1%, 5%, 25%, and 50% of users and which services account for spend.",
+      "End users see credits used to date, credits remaining, and history in one place, with banners as they approach limits.",
+      "Personal usage is accessible via /cost and “usage insights” in the menu overflow; users can request more credits in the app and admins approve by policy so work resumes immediately."
+     ],
+     "images": [
+      {
+       "file": "assets/media/finops-org-usage.jpg",
+       "w": 1100,
+       "h": 618
+      }
+     ]
+    },
+    {
+     "heading": "Visibility into Copilot Studio usage",
+     "status": "Available October 2026",
+     "points": [
+      "Any agent creator can know what an agent costs before it scales.",
+      "Makers view Copilot Credits consumed within Copilot Studio as they create and test, optimizing the build instead of discovering cost after rollout.",
+      "Visible within agent preview chat, agent history, natural-language build, agent evaluations, the agent monitor tab, activity/web view, and workflow monitor review."
+     ],
+     "images": [
+      {
+       "file": "assets/media/finops-copilot-studio-usage.jpg",
+       "w": 1100,
+       "h": 619
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "2026-09-22-updates-across-q3",
+   "date": "2026-09-22",
+   "dateLabel": "September 22, 2026",
+   "title": "Updates Across Q3",
+   "category": "Cowork & Research",
+   "summary": "A roundup of Microsoft 365 Copilot announcements from July through September 2026 — Cowork reaching general availability, effort levels and cost visibility, local browser use going GA, new Anthropic, OpenAI, and Grok models, Copilot in Excel and PowerPoint enhancements, the rebuilt Copilot Studio harness, and new admin and data-protection controls.",
+   "tags": [
+    "Cowork",
+    "Model Choice",
+    "Excel",
+    "PowerPoint",
+    "Copilot Studio",
+    "Admin",
+    "Q3 Roundup"
+   ],
+   "headerLinks": [
+    {
+     "title": "Microsoft Copilot Blog — Microsoft Community Hub",
+     "url": "https://techcommunity.microsoft.com/category/microsoft-copilot/blog/microsoft-copilot-blog"
+    },
+    {
+     "title": "Copilot Studio Blog — Microsoft Community Hub",
+     "url": "https://techcommunity.microsoft.com/category/microsoft-copilot/blog/copilot-studio-blog"
+    },
+    {
+     "title": "AI at Work Blog: latest product updates and insights",
+     "url": "https://www.microsoft.com/en-us/copilot/blog/"
+    }
+   ],
+   "details": [
+    {
+     "heading": "Copilot Cowork reaches general availability",
+     "status": "Generally Available",
+     "points": [
+      "Cowork became generally available worldwide in July across desktop, iOS, and Android.",
+      "The fastest-growing feature in the history of the Frontier program, with among the highest user satisfaction of any Copilot experience shipped.",
+      "Agentic by design: plans tasks, reasons across tools and files, and keeps work moving over time rather than answering one prompt at a time.",
+      "Grounded in Work IQ: understands your work directly through Microsoft 365 instead of stitching context together with connectors.",
+      "Billed through a new per-seat plus usage-based Copilot Credits model."
+     ],
+     "links": [
+      {
+       "title": "Copilot Cowork is now generally available",
+       "url": "https://www.microsoft.com/en-us/copilot/blog/2026/06/16/copilot-cowork-is-now-generally-available/"
+      }
+     ],
+     "images": [
+      {
+       "file": "assets/media/q3-cowork-ga.jpg",
+       "w": 1100,
+       "h": 634
+      }
+     ]
+    },
+    {
+     "heading": "Effort levels and cost visibility in Cowork",
+     "status": "Rolled out August 2026",
+     "points": [
+      "Choose your effort level: Light, Medium, High, Extra High, and Max trade quality, speed, and credit usage per task — Medium is the default for everyday work.",
+      "One control surface: model and effort controls now appear together directly in the compose box.",
+      "See what you spend: the /cost skill gives users more visibility into Cowork credit consumption.",
+      "Why it matters: gives usage-based experiences a predictable cost story for both users and finance stakeholders."
+     ],
+     "links": [
+      {
+       "title": "Microsoft Copilot Blog — What's New in Microsoft Copilot",
+       "url": "https://techcommunity.microsoft.com/category/microsoft-copilot/blog/microsoft-copilot-blog"
+      }
+     ],
+     "images": [
+      {
+       "file": "assets/media/q3-effort-levels.jpg",
+       "w": 1100,
+       "h": 618
+      }
+     ]
+    },
+    {
+     "heading": "App skill in Copilot Cowork and Copilot Studio",
+     "status": "Frontier — September 2026",
+     "points": [
+      "Describe it, don't code it: create lightweight, interactive apps from a plain-language description with no code required.",
+      "Refine in chat: iterate on the app conversationally, then open, publish, and share it with people in your organization.",
+      "Grounded in your data: apps are built on the data and context Cowork already has access to.",
+      "Rolling out to the Frontier program in September."
+     ],
+     "links": [
+      {
+       "title": "Build business apps with Copilot Cowork and Copilot Studio",
+       "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/"
+      },
+      {
+       "title": "Managing apps built in Copilot Studio",
+       "url": "https://techcommunity.microsoft.com/blog/copilot-studio-blog/managing-apps-built-in-copilot-studio/4556774"
+      }
+     ],
+     "images": [
+      {
+       "file": "assets/media/q3-app-skill.jpg",
+       "w": 1100,
+       "h": 618
+      }
+     ]
+    },
+    {
+     "heading": "Local browser use and plugin enhancements",
+     "status": "Generally Available",
+     "points": [
+      "Browser use goes GA: local browser use moved from Frontier to general availability for all Microsoft 365 Copilot tenants — Cowork completes web tasks in Microsoft Edge on your device.",
+      "Uses your sign-ins and policies: runs with existing sign-ins and your organization's policies; requires Edge installed.",
+      "Files into plugins: plugin connector tools can now accept files from your session as input, so a tool can convert, analyze, or forward a workspace document.",
+      "Plugins on mobile: plugins are now discoverable and configurable in the mobile app under the attach menu (September 2026)."
+     ],
+     "links": [
+      {
+       "title": "Use the local browser with Copilot Cowork",
+       "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/cowork-local-browser"
+      },
+      {
+       "title": "What's new in Copilot Cowork",
+       "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/whats-new"
+      }
+     ],
+     "images": [
+      {
+       "file": "assets/media/q3-browser-use.jpg",
+       "w": 1100,
+       "h": 733
+      }
+     ]
+    },
+    {
+     "heading": "Measuring the value of Cowork",
+     "points": [
+      "Beyond engagement charts: moves reporting from prompt volume and adoption curves to work actually completed.",
+      "A value framework for quantifying the outcomes leadership cares about rather than AI interactions.",
+      "Pairs with cost controls: use alongside effort levels, the /cost skill, and the Cost Management dashboard to tell a full value story.",
+      "A ready-made narrative for executive sponsors evaluating renewal and expansion in QBRs."
+     ],
+     "links": [
+      {
+       "title": "Measuring the value of Cowork: from AI interactions to completed work",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/measuring-the-value-of-cowork-from-ai-interactions-to-completed-work/4554464"
+      }
+     ],
+     "images": [
+      {
+       "file": "assets/media/q3-measuring-value.jpg",
+       "w": 1100,
+       "h": 722
+      }
+     ]
+    },
+    {
+     "heading": "Brand Kit and Skills in Copilot in PowerPoint",
+     "points": [
+      "On-brand automatically: applies your organization's approved colors, fonts, and identity so less time goes into formatting slides.",
+      "Skills for repeatable work: save and reuse skills so common deck tasks follow the same pattern every time.",
+      "Focus on the story: shifts effort from slide cleanup to shaping the narrative.",
+      "Also in Excel: a companion brand kit skill applies approved formatting across a worksheet in one pass."
+     ],
+     "links": [
+      {
+       "title": "Brand Kit and Skills in Copilot in PowerPoint",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/brand-kit-and-skills-in-copilot-in-powerpoint/4554932"
+      }
+     ]
+    },
+    {
+     "heading": "Copilot in Excel: Python, skills, and Power BI grounding",
+     "status": "Generally Available Aug 25, 2026",
+     "points": [
+      "Python in Edit with Copilot (Insiders): run Python for statistics, simulations, and advanced visualizations with results output directly in the workbook.",
+      "Theme design skill formats an entire sheet in a single pass for a consistent, presentation-ready look.",
+      "Grounded in Power BI: Copilot can ground answers in Power BI reports while respecting row-level security.",
+      "Broader workbook support for cloud-saved workbooks with AutoSave off, plus chat history and a change history skill that summarizes how a workbook evolved and can undo or restore changes.",
+      "Chart and PivotTable skills: create and organize PivotTables and use @chart-design to turn complex data into polished visuals.",
+      "All August 2026 Copilot updates ship across Excel for Windows, Mac, and the web."
+     ],
+     "links": [
+      {
+       "title": "Copilot in Excel: bringing clarity to collaborative workbooks",
+       "url": "https://techcommunity.microsoft.com/blog/excelblog/copilot-in-excel-bringing-clarity-to-collaborative-workbooks/4552007"
+      },
+      {
+       "title": "Microsoft 365 Copilot release notes",
+       "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes"
+      }
+     ]
+    },
+    {
+     "heading": "Copilot Notebooks turn notes into deliverables",
+     "status": "Rolled out July–August 2026",
+     "points": [
+      "From notes to files: a Notebook can now produce a Word document, an Excel workbook, or a PowerPoint deck from what is inside it.",
+      "See the shape of your thinking: generate a mind map of a Notebook's contents to spot structure and gaps.",
+      "The messy-thinking space becomes the first-draft workspace where drafts originate.",
+      "Additional Notebook enhancements shipped through August."
+     ],
+     "images": [
+      {
+       "file": "assets/media/q3-notebooks.jpg",
+       "w": 1100,
+       "h": 524
+      }
+     ]
+    },
+    {
+     "heading": "Anthropic models: Claude Sonnet 5 and Fable 5.1",
+     "points": [
+      "Sonnet 5 in Microsoft 365 Copilot: available July 2 and selectable from the model picker across Copilot Chat, Researcher, and Copilot Studio.",
+      "Anthropic models require admin opt-in before users can select them.",
+      "Fable 5.1 is now the most advanced Anthropic option for ambitious work, replacing Fable 5 in the Cowork model selector."
+     ],
+     "links": [
+      {
+       "title": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/4551974"
+      }
+     ],
+     "images": [
+      {
+       "file": "assets/media/q3-anthropic-models.jpg",
+       "w": 1100,
+       "h": 840
+      }
+     ]
+    },
+    {
+     "heading": "OpenAI models: GPT-5.6 and GPT-6 Astra",
+     "points": [
+      "GPT-5.6 arrived in Copilot in July as part of a steady frontier-model cadence.",
+      "GPT-6 Astra began rolling out in Copilot Cowork and Copilot Studio on Sept 4 as the latest model for tough problems.",
+      "Pick per task: model selection pairs with effort levels so users tune reasoning depth, latency, and credit use.",
+      "No migration required — new models appear in the same picker inside existing Copilot experiences."
+     ],
+     "links": [
+      {
+       "title": "Available today: OpenAI GPT-6 Astra in Microsoft Copilot",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/available-today-openai-gpt-6-astra-in-microsoft-copilot/4552808"
+      }
+     ],
+     "images": [
+      {
+       "file": "assets/media/q3-openai-models.jpg",
+       "w": 988,
+       "h": 572
+      }
+     ]
+    },
+    {
+     "heading": "Expanding model choice with Grok",
+     "points": [
+      "Grok joins the picker: Copilot model choice expanded with Grok models from SpaceXAI.",
+      "Multi-model by design: customers can match the model to the task instead of being locked to one provider.",
+      "One governance boundary: all models operate inside Microsoft identity, security, and compliance controls.",
+      "Availability remains subject to tenant-level admin configuration."
+     ],
+     "links": [
+      {
+       "title": "Expanding model choice in Copilot with Grok",
+       "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/expanding-model-choice-in-copilot-with-grok/4555749"
+      }
+     ],
+     "images": [
+      {
+       "file": "assets/media/q3-grok.jpg",
+       "w": 1069,
+       "h": 603
+      }
+     ]
+    },
+    {
+     "heading": "The new Copilot Studio with GitHub harness",
+     "points": [
+      "Rebuilt for complex work: a streamlined authoring experience and modern AI core for agents and workflows that deliver more consistent outcomes.",
+      "Workflow Designer reached general availability in August, with node-by-node testing and native versioning.",
+      "Rebuilt orchestrator adds recursive task execution and advanced reasoning model support, with backward compatibility for existing agents.",
+      "Simplified surface: the build experience consolidated from nine tabs to four.",
+      "A new harness for building agents that take on more complex, multi-step business processes, announced Aug 3 after a two-month preview.",
+      "September brought agent skills, enterprise knowledge, and richer context for harness-powered agents."
+     ],
+     "links": [
+      {
+       "title": "More powerful agents and workflows for autonomous business processes: introducing a new harness for Copilot Studio",
+       "url": "https://techcommunity.microsoft.com/blog/copilot-studio-blog/more-powerful-agents-and-workflows-for-autonomous-business-processes-introducing/4542969"
+      },
+      {
+       "title": "White paper: choosing between the GitHub Copilot and Standard harnesses in Copilot Studio",
+       "url": "https://techcommunity.microsoft.com/blog/copilot-studio-blog/white-paper-choosing-between-the-github-copilot-and-standard-harnesses-in-copilo/4552385"
+      }
+     ],
+     "images": [
+      {
+       "file": "assets/media/q3-copilot-studio-harness.jpg",
+       "w": 996,
+       "h": 556
+      }
+     ]
+    },
+    {
+     "heading": "Admin controls and data protection",
+     "points": [
+      "Domain Exclusion: admins control which domains Copilot uses for web grounding (update Sept 9, 2026).",
+      "Auto-install is default on: the Microsoft 365 Copilot app installs automatically on eligible commercial Windows devices unless admins opt out in the Microsoft 365 Apps admin center.",
+      "Labels follow the content: sensitivity labels now carry into Copilot-generated files.",
+      "Provenance: AI-generated video and audio carry persistent watermarks."
+     ],
+     "links": [
+      {
+       "title": "Microsoft Copilot Blog — admin and data protection updates",
+       "url": "https://techcommunity.microsoft.com/category/microsoft-copilot/blog/microsoft-copilot-blog"
+      }
+     ],
+     "images": [
+      {
+       "file": "assets/media/q3-admin-controls.jpg",
+       "w": 859,
+       "h": 569
+      }
+     ]
+    },
+    {
+     "heading": "Visibility, cost, and adoption",
+     "points": [
+      "Cost Management dashboard: put cost controls in place before enabling usage-based experiences such as Cowork.",
+      "Agent telemetry: export environment-level agent telemetry to Azure Application Insights (preview), with per-agent analytics and health reporting.",
+      "Momentum: Microsoft 365 Copilot surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter (announced July 30, 2026)."
+     ],
+     "images": [
+      {
+       "file": "assets/media/q3-visibility-adoption.jpg",
+       "w": 1100,
+       "h": 609
+      }
+     ]
+    }
+   ]
+  },
   {
    "id": "2026-07-02-claude-sonnet-5-in-microsoft-365-copilot",
    "date": "2026-07-02",
