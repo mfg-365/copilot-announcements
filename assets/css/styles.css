@@ -226,6 +226,14 @@ a.driver-card:hover{text-decoration:none}
 .deck-card.enabled{cursor:pointer}
 .deck-card.enabled:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(26,33,80,.14)}
 
+/* "Deck last updated <date>" stamp, inline beside the callout title */
+.deck-callout-head{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;min-width:0}
+.deck-updated,.deck-card span.deck-updated,.deck-callout-copy span.deck-updated{
+  display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.01em;white-space:nowrap;
+  color:var(--purple);background:var(--light);border-radius:20px;padding:.14rem .58rem}
+.deck-callout-copy span.deck-updated{background:rgba(255,255,255,.18);color:#fff}
+.deck-updated[hidden]{display:none}
+
 /* Deck download callout (announcements page) */
 .deck-callout{display:flex;align-items:center;gap:1.1rem;margin-top:1.6rem;
   background:linear-gradient(120deg,#171E45 0%,#23306A 55%,#3A2A6E 100%);
