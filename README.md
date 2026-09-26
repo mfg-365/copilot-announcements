@@ -65,10 +65,42 @@ When there's a big announcement, add an entry to the top of the `items` array in
 ## Automated daily refresh
 A GitHub Action keeps the live feeds current with **zero effort**:
 
-- **`.github/workflows/update-feeds.yml`** — runs **daily at 12:00 UTC** (and on demand).
+- **`.github/workflows/update-feeds.yml`** — runs **daily at 13:17 UTC** (and on demand).
   Executes `scripts/update-roadmap.mjs` (public Microsoft 365 Roadmap → `data/roadmap.json`)
   and `scripts/update-blogs.mjs` (official Microsoft blog RSS → `data/blogs.json`).
   Any change is committed automatically, which rebuilds the Pages site.
+
+### Monitored blog sources
+`update-blogs.mjs` keeps the **50** most recent Copilot-relevant posts. Boards marked
+*dedicated* are entirely Copilot news and are kept unfiltered; the others are general
+product blogs where a post must mention Copilot, Cowork, Autopilot, Work IQ, or agents.
+
+| Source | Board / feed | Dedicated |
+| --- | --- | --- |
+| Microsoft 365 Blog | `microsoft.com/microsoft-365/blog` | no |
+| Microsoft Copilot Blog | `microsoft-copilot-blog` | yes |
+| Copilot Studio Blog | `copilot-studio-blog` | yes |
+| Power Platform Blog (Copilot Studio) | `power-platform/blog/product/copilot-studio` | yes |
+| Microsoft AI at Work Blog | `microsoft.com/copilot/blog` | yes |
+| SharePoint Blog | `SPBlog` | no |
+| Excel Blog | `ExcelBlog` | no |
+| Microsoft 365 Insider Blog | `Microsoft365InsiderBlog` | no |
+| Microsoft Teams Blog | `MicrosoftTeamsBlog` | no |
+| OneDrive Blog | `onedriveblog` | no |
+
+> **Word and PowerPoint** have no dedicated Tech Community *blog* board (only
+> discussion boards, which are excluded because they aren't `/ba-p/` articles).
+> Their Copilot feature news ships through the **Microsoft 365 Insider Blog** and
+> the **Microsoft Copilot Blog**, both of which are monitored above.
+
+> **Note:** the Copilot board was renamed from `Microsoft365CopilotBlog` to
+> `microsoft-copilot-blog`. The old id silently returns an empty feed, so if posts
+> ever stop appearing, re-check the board id first.
+
+### Roadmap
+`update-roadmap.mjs` keeps the **120** most recently modified items matching
+Copilot, Cowork, Autopilot, Work IQ, or agent capabilities. Roadmap descriptions
+arrive as HTML, so tags and entities are stripped before writing.
 
 Run them locally too:
 

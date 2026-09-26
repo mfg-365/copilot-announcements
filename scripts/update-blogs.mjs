@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(__dirname, "..", "data", "blogs.json");
-const MAX_ITEMS = 30;
+const MAX_ITEMS = 50;
 
 function readJson(file, fallback) {
   try {
@@ -18,26 +18,65 @@ function readJson(file, fallback) {
   }
 }
 
+// `dedicated: true` means every article on the board is Copilot news, so posts are
+// kept without keyword filtering. `dedicated: false` boards are general product
+// blogs (SharePoint, Excel, Teams, Insider) where only Copilot/agent posts qualify.
+const TC = (id) => `https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=${id}`;
+
 const FEEDS = [
   {
     url: "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
     source: "Microsoft 365 Blog",
-    copilotOnly: false, // this blog is broadly AI/Copilot; keep AI + Copilot + agent posts
+    dedicated: false, // broadly AI/Copilot; keep AI + Copilot + agent posts
   },
   {
-    url: "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365CopilotBlog",
-    source: "Microsoft 365 Copilot Blog (Tech Community)",
-    copilotOnly: false, // dedicated Copilot blog board — official articles only
+    // NOTE: the board was renamed from `Microsoft365CopilotBlog` to
+    // `microsoft-copilot-blog`; the old id now returns an empty feed.
+    url: TC("microsoft-copilot-blog"),
+    source: "Microsoft Copilot Blog (Tech Community)",
+    dedicated: true,
   },
   {
-    url: "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog",
+    url: TC("copilot-studio-blog"),
     source: "Copilot Studio Blog (Tech Community)",
-    copilotOnly: false, // dedicated Copilot Studio blog board — official articles only
+    dedicated: true,
   },
   {
     url: "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/",
     source: "Microsoft Power Platform Blog (Copilot Studio)",
-    copilotOnly: false, // Power Platform blog filtered to the Copilot Studio product
+    dedicated: true,
+  },
+  {
+    url: "https://www.microsoft.com/en-us/copilot/blog/feed/",
+    source: "Microsoft AI at Work Blog",
+    dedicated: true,
+  },
+  {
+    url: TC("SPBlog"),
+    source: "Microsoft SharePoint Blog (Tech Community)",
+    dedicated: false,
+  },
+  {
+    url: TC("ExcelBlog"),
+    source: "Excel Blog (Tech Community)",
+    dedicated: false,
+  },
+  {
+    // Word and PowerPoint have no dedicated Tech Community blog board (only
+    // discussion boards); their Copilot feature news ships via Microsoft 365 Insider.
+    url: TC("Microsoft365InsiderBlog"),
+    source: "Microsoft 365 Insider Blog (Tech Community)",
+    dedicated: false,
+  },
+  {
+    url: TC("MicrosoftTeamsBlog"),
+    source: "Microsoft Teams Blog (Tech Community)",
+    dedicated: false,
+  },
+  {
+    url: TC("onedriveblog"),
+    source: "Microsoft OneDrive Blog (Tech Community)",
+    dedicated: false,
   },
 ];
 
@@ -109,7 +148,11 @@ function parseItems(xml) {
   return items;
 }
 
-const COPILOT_RE = /copilot|\bagent(s)?\b|work iq|\bAI\b/i;
+// Copilot relevance for general product blogs (SharePoint, Excel, Teams, Insider,
+// OneDrive). Deliberately tighter than a bare /AI/ match so routine product posts
+// don't flood the list — the post must actually name Copilot, an agent, Cowork,
+// Autopilot, Work IQ, or Copilot Studio.
+const COPILOT_RE = /copilot|cowork|autopilot|work iq|\bagent(ic|s)?\b|\bAI\b/i;
 
 async function fetchFeed(feed) {
   try {
@@ -132,7 +175,7 @@ async function fetchFeed(feed) {
         return true; // microsoft.com/blog is already official published content
       })
       .filter((it) => {
-        if (feed.copilotOnly === false && /copilot/i.test(feed.url)) return true; // dedicated Copilot feed
+        if (feed.dedicated) return true; // every post on this board is Copilot news
         const hay = it.title + " " + it.description + " " + it.categories.join(" ");
         return COPILOT_RE.test(hay);
       })

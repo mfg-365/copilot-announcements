@@ -206,6 +206,20 @@
       }
      ]
     }
+   ],
+   "headerLinks": [
+    {
+     "title": "Introducing the new Copilot with Home, Code and Autopilot",
+     "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
+    },
+    {
+     "title": "Evolution of the Copilot pricing model",
+     "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/evolution-of-the-copilot-pricing-model/ba-p/4559416"
+    },
+    {
+     "title": "More Models, One Copilot",
+     "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-models-one-copilot/ba-p/4559035"
+    }
    ]
   },
   {
@@ -343,6 +357,12 @@
        "h": 619
       }
      ]
+    }
+   ],
+   "headerLinks": [
+    {
+     "title": "Evolution of the Copilot pricing model",
+     "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/evolution-of-the-copilot-pricing-model/ba-p/4559416"
     }
    ]
   },
@@ -489,7 +509,7 @@
      "links": [
       {
        "title": "Measuring the value of Cowork: from AI interactions to completed work",
-       "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/measuring-the-value-of-cowork-from-ai-interactions-to-completed-work/4554464"
+       "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/measuring-the-value-of-cowork-from-ai-interactions-to-completed/ba-p/4554464"
       }
      ],
      "images": [
@@ -712,6 +732,10 @@
      ],
      "links": [
       {
+       "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
+       "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188"
+      },
+      {
        "title": "Connect to Anthropic’s AI models",
        "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-models"
       },
@@ -720,6 +744,12 @@
        "url": "https://learn.microsoft.com/en-us/copilot/microsoft-365/connect-to-ai-subprocessor"
       }
      ]
+    }
+   ],
+   "headerLinks": [
+    {
+     "title": "Available today: Anthropic’s Claude Sonnet 5 in Microsoft 365 Copilot",
+     "url": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-s-claude-sonnet-5-in-microsoft-365/ba-p/4532188"
     }
    ]
   },
