@@ -73,7 +73,7 @@ window.SPOTLIGHT = {
   kicker: "Spotlight",
   date: "2026-09-25",
   title: "Introducing the new Copilot",
-  lead: "Chat, Cowork, Office, building and a proactive agent \u2014 together in one app.",
+  lead: "Chat, Cowork, Code, Autopilot and Office \u2014 together in one app.",
   link: "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
   source: "Official Microsoft Blog",
   blogTitle: "Introducing the new Copilot with Home, Code and Autopilot",
