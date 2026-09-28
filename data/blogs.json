@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T17:44:07.104Z",
+  "generatedAt": "2026-09-28T20:07:09.237Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -45,6 +45,14 @@
   "count": 50,
   "items": [
     {
+      "title": "Change Management Best Practices to Drive Value with Agent Builder",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/change-management-best-practices-to-drive-value-with-agent/ba-p/4559753",
+      "description": "Most organizations start in the same place: licenses are provisioned, a handful of enthusiasts begin experimenting, and excitement around AI is high. Yet for most employees, building and using agents remains largely unexplored. The technolo",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-09-28T15:00:00.000Z"
+    },
+    {
       "title": "SharePoint AI innovations hit GA, powering new Copilot app and agents",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-ai-innovations-hit-ga-powering-new-copilot-app-and/ba-p/4555724",
       "description": "Today we announced the new Copilot app , bringing together how people assist, delegate, build, and automate work in one experience powered by Work IQ . Because Work IQ grounds these experiences in your work and organizational context, the q",
@@ -73,7 +81,7 @@
       "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
       "description": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilo",
       "categories": [],
-      "source": "Microsoft AI at Work Blog",
+      "source": "Microsoft 365 Blog",
       "date": "2026-09-25T12:00:00.000Z"
     },
     {
@@ -449,14 +457,6 @@
       "categories": [],
       "source": "Microsoft 365 Copilot Blog (Tech Community)",
       "date": "2026-07-14T17:07:56.000Z"
-    },
-    {
-      "title": "Available today: OpenAI’s GPT-5.6 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-5-6-in-microsoft-365-copilot/ba-p/4533152",
-      "description": "Starting today, OpenAI's GPT-5.6 family of models is available in Microsoft 365 Copilot—in Word, Excel, PowerPoint, Chat and Cowork. OpenAI and Microsoft partnered together to optimize GPT-5.6 for knowledge work across Microsoft 365 apps an",
-      "categories": [],
-      "source": "Microsoft Copilot Blog (Tech Community)",
-      "date": "2026-07-10T15:04:24.000Z"
     }
   ]
 }
