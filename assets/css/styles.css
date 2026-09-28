@@ -452,7 +452,7 @@ a.driver-card:hover{text-decoration:none}
   text-transform:uppercase;color:var(--teal);margin-bottom:.5rem}
 .sp-kicker i{width:8px;height:8px;border-radius:50%;background:var(--teal);box-shadow:0 0 0 4px rgba(18,184,166,.22)}
 .spotlight h2{color:#fff;font-size:clamp(1.5rem,3.2vw,2.1rem);line-height:1.15;margin-bottom:.4rem}
-.sp-lead{color:#C9D2F0;font-size:1.02rem;max-width:62ch}
+.sp-lead{color:#C9D2F0;font-size:1.02rem;max-width:80ch;text-wrap:balance}
 .sp-pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.4rem}
 .sp-pillar{display:flex;flex-direction:column;gap:.45rem;background:rgba(255,255,255,.05);
   border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:1.1rem 1.15rem;transition:transform .14s,border-color .14s}
