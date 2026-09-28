@@ -112,7 +112,7 @@ function renderAnnDetail(id) {
   const cats = annData.categories || [];
   const tags = (i.tags || []).map((t) => `<span class="tag-pill">${esc(t)}</span>`).join("");
 
-  // Header links (from the section/title slide) — shown directly under the header.
+  // Header links (from the section/title slide) â€” shown directly under the header.
   const headerLinks = (i.headerLinks || [])
     .map((l) => `<a class="det-link" href="${esc(l.url)}" target="_blank" rel="noopener"><span class="det-link-title">${esc(l.title)}</span><span class="det-link-host">${esc(hostOf(l.url))}</span></a>`)
     .join("");
@@ -123,7 +123,7 @@ function renderAnnDetail(id) {
   const details = (i.details || [])
     .map((d) => {
       const pts = (d.points || []).map((p) => `<li>${esc(p)}</li>`).join("");
-      // Inline links from this feature's slide — rendered as active linked bullets.
+      // Inline links from this feature's slide â€” rendered as active linked bullets.
       const linkPts = (d.links || [])
         .map((l) => `<li class="det-point-link"><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a> <span class="det-point-host">${esc(hostOf(l.url))}</span></li>`)
         .join("");
@@ -427,31 +427,57 @@ document.querySelectorAll("#statusFilter .chip").forEach((chip) =>
 // ----- Blogs -----
 let blogData = null;
 
+// Normalized URL for matching the Spotlight post against feed items.
+function normLink(u) {
+  return (u || "").replace(/[?#].*$/, "").replace(/\/+$/, "").toLowerCase();
+}
+
+function blogCard(i, featured) {
+  const meta = [];
+  if (i.date) meta.push(`<span class="m">${esc(fmtDate(i.date))}</span>`);
+  if (i.source) meta.push(`<span class="m">${esc(i.source)}</span>`);
+  return `<article class="rm-card blog-card${featured ? " is-featured" : ""}">
+    ${featured ? '<span class="featured-badge">&#9733; Featured</span>' : ""}
+    <div class="rm-head">
+      <h3 class="rm-title"><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
+    </div>
+    ${i.description ? `<p class="rm-desc">${esc(i.description)}${featured ? "" : "&hellip;"}</p>` : ""}
+    <div class="rm-meta">${meta.join("")}</div>
+  </article>`;
+}
+
 function renderBlogs() {
   const list = document.getElementById("blogList");
   if (!blogData) return;
   const q = (document.getElementById("blogSearch").value || "").toLowerCase().trim();
-  const items = (blogData.items || []).filter(
-    (i) => !q || (i.title + " " + i.description).toLowerCase().includes(q)
-  );
-  if (!items.length) {
+  const matches = (i) => !q || (i.title + " " + (i.description || "")).toLowerCase().includes(q);
+
+  // Pin the Spotlight post to the top. Use the feed's copy when present (and drop
+  // it from the list so it isn't shown twice); otherwise build it from the config
+  // so the pin survives even after the post ages out of the 30-item feed.
+  let all = blogData.items || [];
+  let featured = null;
+  const sp = window.SPOTLIGHT;
+  if (sp && sp.enabled && sp.pinBlog && sp.link) {
+    const key = normLink(sp.link);
+    const fromFeed = all.find((i) => normLink(i.link) === key);
+    featured = {
+      title: sp.blogTitle || (fromFeed && fromFeed.title) || sp.title,
+      link: sp.link,
+      description: sp.blogDescription || sp.lead,
+      date: (fromFeed && fromFeed.date) || sp.date,
+      source: sp.source || (fromFeed && fromFeed.source),
+    };
+    all = all.filter((i) => normLink(i.link) !== key);
+  }
+
+  const items = all.filter(matches);
+  const showFeatured = featured && matches(featured);
+  if (!items.length && !showFeatured) {
     list.innerHTML = '<div class="rm-empty">No matching posts. Try a different search.</div>';
     return;
   }
-  list.innerHTML = items
-    .map((i) => {
-      const meta = [];
-      if (i.date) meta.push(`<span class="m">${esc(fmtDate(i.date))}</span>`);
-      if (i.source) meta.push(`<span class="m">${esc(i.source)}</span>`);
-      return `<article class="rm-card blog-card">
-        <div class="rm-head">
-          <h3 class="rm-title"><a href="${esc(i.link)}" target="_blank" rel="noopener">${esc(i.title)}</a></h3>
-        </div>
-        ${i.description ? `<p class="rm-desc">${esc(i.description)}&hellip;</p>` : ""}
-        <div class="rm-meta">${meta.join("")}</div>
-      </article>`;
-    })
-    .join("");
+  list.innerHTML = (showFeatured ? blogCard(featured, true) : "") + items.map((i) => blogCard(i, false)).join("");
 }
 
 let blogLoading = null;
@@ -510,6 +536,49 @@ function renderRecentBlogs() {
     .join("");
   wrap.hidden = false;
 }
+
+// ----- Spotlight (featured launch banner, config: window.SPOTLIGHT in decks.config.js) -----
+const SPOTLIGHT_ICONS = {
+  home: '<path d="M3 11.2 12 4l9 7.2V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-8.8Z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/>',
+  code: '<path d="m8.5 7-5 5 5 5M15.5 7l5 5-5 5M13.5 4.5l-3 15" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>',
+  autopilot: '<path d="M12 3.5l1.9 5.1 5.1 1.9-5.1 1.9L12 17.5l-1.9-5.1-5.1-1.9 5.1-1.9L12 3.5ZM18.5 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8.8-2.2Z" fill="currentColor"/>',
+};
+
+function renderSpotlight() {
+  const el = document.getElementById("spotlight");
+  const sp = window.SPOTLIGHT;
+  if (!el || !sp || !sp.enabled) return;
+  const pillars = (sp.pillars || [])
+    .map(
+      (p) => `<div class="sp-pillar">
+        <span class="sp-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22">${SPOTLIGHT_ICONS[p.icon] || ""}</svg></span>
+        <h3>${esc(p.name)}</h3>
+        <p>${esc(p.text)}</p>
+        ${p.status ? `<span class="sp-status sp-${esc(p.tone || "frontier")}">${esc(p.status)}</span>` : ""}
+      </div>`
+    )
+    .join("");
+  const also = (sp.alsoNew || []).length
+    ? `<div class="sp-also"><span class="sp-also-label">Also new</span>${sp.alsoNew.map((a) => `<span class="sp-chip">${esc(a)}</span>`).join("")}</div>`
+    : "";
+  const video = sp.video && sp.video.url
+    ? `<a class="btn btn-ghost" href="${esc(sp.video.url)}" target="_blank" rel="noopener">&#9654;&nbsp; ${esc(sp.video.label || "Watch the video")}</a>`
+    : "";
+  el.innerHTML = `
+    <div class="sp-head">
+      <span class="sp-kicker"><i></i>${esc(sp.kicker || "Spotlight")}${sp.date ? " &middot; " + esc(fmtDate(sp.date)) : ""}</span>
+      <h2>${esc(sp.title)}</h2>
+      ${sp.lead ? `<p class="sp-lead">${esc(sp.lead)}</p>` : ""}
+    </div>
+    <div class="sp-pillars">${pillars}</div>
+    ${also}
+    <div class="sp-actions">
+      <a class="btn btn-primary" href="${esc(sp.link)}" target="_blank" rel="noopener">Read the announcement &rarr;</a>
+      ${video}
+    </div>`;
+  el.hidden = false;
+}
+renderSpotlight();
 
 // Open the tab from the URL hash on load (after all state + handlers are defined)
 const rawHash = location.hash || "#announcements";

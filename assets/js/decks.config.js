@@ -63,3 +63,50 @@ function formatDeckDate(iso) {
     }
   });
 })();
+
+// Spotlight: a featured-launch banner on the Announcements landing page, plus a
+// pinned "Featured" card at the top of the Copilot Blogs tab.
+// To feature a different launch, edit this object. Set enabled:false to hide it.
+window.SPOTLIGHT = {
+  enabled: true,
+  pinBlog: true, // also pin this post to the top of the Blogs tab
+  kicker: "Spotlight",
+  date: "2026-09-25",
+  title: "Introducing the new Copilot",
+  lead: "Chat, Cowork, Office, building and a proactive agent \u2014 together in one app.",
+  link: "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+  source: "Official Microsoft Blog",
+  blogTitle: "Introducing the new Copilot with Home, Code and Autopilot",
+  blogDescription:
+    "Microsoft introduces the new Copilot: Home brings Chat, Cowork and Office together; Code lets anyone build apps, dashboards and automations; and Autopilot is a persistent, proactive agent that keeps working even when you\u2019re not.",
+  video: { label: "Watch the video", url: "https://www.youtube.com/watch?v=OgInADh5Tcs" },
+  pillars: [
+    {
+      icon: "home",
+      name: "Home",
+      text: "Your new starting point, where Chat, Cowork and the full power of Word, Excel and PowerPoint come together.",
+      status: "Frontier \u00b7 coming weeks",
+      tone: "frontier"
+    },
+    {
+      icon: "code",
+      name: "Code",
+      text: "Describe an app, dashboard or automation in plain language and Copilot builds it, running safely in your tenant.",
+      status: "Frontier \u00b7 end of month",
+      tone: "frontier"
+    },
+    {
+      icon: "autopilot",
+      name: "Autopilot",
+      text: "A persistent, proactive agent with its own identity and memory that keeps working even when you\u2019re not.",
+      status: "Private preview",
+      tone: "preview"
+    }
+  ],
+  alsoNew: [
+    "FinOps for AI",
+    "Copilot Managed Runtime",
+    "Unified plugin registry",
+    "Fabric IQ + Dynamics 365 grounding"
+  ]
+};
