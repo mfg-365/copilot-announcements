@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T14:07:26.949Z",
+  "generatedAt": "2026-10-01T23:02:38.541Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -53,14 +53,6 @@
       "date": "2026-09-30T23:28:22.000Z"
     },
     {
-      "title": "Introducing the plugin registry - one place to discover and govern plugins for Microsoft Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/introducing-the-plugin-registry-one-place-to-discover-and-govern/ba-p/4559682",
-      "description": "On September 25, we introduced the new Microsoft Copilot to connect the tools people rely on with the next generation of capabilities they’ll need to build, customize and scale AI across work. Agents in Copilot already help you work with yo",
-      "categories": [],
-      "source": "Microsoft Copilot Blog (Tech Community)",
-      "date": "2026-09-30T19:11:46.000Z"
-    },
-    {
       "title": "Help your customers get answers and support with Teams Phone Agent",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/help-your-customers-get-answers-and-support-with-teams-phone/ba-p/4560840",
       "description": "Your customers are your number one priority, and you want to be there whenever they call. Questions and appointment changes can arrive during busy call volume periods or after hours. Customers expect fast and convenient service whenever the",
@@ -75,6 +67,14 @@
       "categories": [],
       "source": "Microsoft Copilot Blog (Tech Community)",
       "date": "2026-09-30T15:30:00.000Z"
+    },
+    {
+      "title": "Introducing the plugin registry - one place to discover and govern plugins for Microsoft Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/introducing-the-plugin-registry-one-place-to-discover-and-govern/ba-p/4559682",
+      "description": "On September 25, we introduced the new Microsoft Copilot to connect the tools people rely on with the next generation of capabilities they’ll need to build, customize and scale AI across work. Agents in Copilot already help you work with yo",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-09-30T13:00:00.000Z"
     },
     {
       "title": "Change Management Best Practices to Drive Value with Agent Builder",
