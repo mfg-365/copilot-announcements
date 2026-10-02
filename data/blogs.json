@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T23:02:38.541Z",
+  "generatedAt": "2026-10-02T22:52:04.519Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -45,6 +45,14 @@
   "count": 50,
   "items": [
     {
+      "title": "What’s new in Copilot in SharePoint: October 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/what-s-new-in-copilot-in-sharepoint-october-2026/ba-p/4535423",
+      "description": "Your monthly roundup of what's new in Copilot in SharePoint. Copilot in SharePoint general availability rollout started on September 30 — read the announcement blog for the full story. But general availability isn't the finish line, and thi",
+      "categories": [],
+      "source": "Microsoft SharePoint Blog (Tech Community)",
+      "date": "2026-10-01T17:44:11.000Z"
+    },
+    {
       "title": "Available today: OpenAI's GPT-6.1 Sol and Claude Sonnet 5.5 in Microsoft Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-1-sol-and-claude-sonnet-5-5-in/ba-p/4560801",
       "description": "Earlier this month, Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Sol joined model choice in Microsoft Copilot . Now, we're continuing to expand that choice by bringing GPT-6.1 Sol and Claude Sonnet 5.5 to Microsoft Copilot, giving users m",
@@ -55,7 +63,7 @@
     {
       "title": "Help your customers get answers and support with Teams Phone Agent",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/help-your-customers-get-answers-and-support-with-teams-phone/ba-p/4560840",
-      "description": "Your customers are your number one priority, and you want to be there whenever they call. Questions and appointment changes can arrive during busy call volume periods or after hours. Customers expect fast and convenient service whenever the",
+      "description": "Your customers are your number one priority, and you want to be there whenever they call. But customer needs don’t follow a schedule. Questions and appointment changes can come during your busiest periods or after hours, and customers still",
       "categories": [],
       "source": "Microsoft Teams Blog (Tech Community)",
       "date": "2026-09-30T15:38:55.000Z"
@@ -449,14 +457,6 @@
       "categories": [],
       "source": "Microsoft Teams Blog (Tech Community)",
       "date": "2026-07-24T16:24:35.000Z"
-    },
-    {
-      "title": "1 million documents to 300+agents: Building an enterprise-scale Microsoft 365 Copilot connector",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/1-million-documents-to-300-agents-building-an-enterprise-scale/ba-p/4540155",
-      "description": "1 million documents. 100,000+ monthly users. 300+ Copilot Studio agents. Here's what we learned building the Microsoft 365 Copilot connector behind them. Most enterprise knowledge lives in portals and repositories that people trust but rare",
-      "categories": [],
-      "source": "Microsoft Copilot Blog (Tech Community)",
-      "date": "2026-07-23T18:57:12.000Z"
     }
   ]
 }
