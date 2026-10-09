@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T23:41:46.806Z",
+  "generatedAt": "2026-10-09T23:06:59.144Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -44,6 +44,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "Are bigger agents better? How to design agents that scale",
+      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/are-bigger-agents-better-how-to-design-agents-that-scale/ba-p/4559073",
+      "description": "There is a moment every maker hits. An agent works, so you add another tool. Then another knowledge source. Then instructions for an exception that appeared last week or an entirely new use case you want your agent to be able to tackle. Eac",
+      "categories": [],
+      "source": "Copilot Studio Blog (Tech Community)",
+      "date": "2026-10-08T18:18:59.000Z"
+    },
     {
       "title": "What’s new in Copilot in SharePoint: October 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/what-s-new-in-copilot-in-sharepoint-october-2026/ba-p/4535423",
@@ -449,14 +457,6 @@
       "categories": [],
       "source": "Microsoft Copilot Blog (Tech Community)",
       "date": "2026-07-24T21:11:08.000Z"
-    },
-    {
-      "title": "Introducing smarter bot protection in Microsoft Teams meetings",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-smarter-bot-protection-in-microsoft-teams-meetings/ba-p/4531375",
-      "description": "AI note-taking has become a familiar part of the meeting experience, helping people keep track of important details while staying present in the conversation. But as AI meeting tools have become more common, new challenges have emerged. Bot",
-      "categories": [],
-      "source": "Microsoft Teams Blog (Tech Community)",
-      "date": "2026-07-24T16:24:35.000Z"
     }
   ]
 }
