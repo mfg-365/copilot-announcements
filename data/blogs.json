@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T23:06:59.144Z",
+  "generatedAt": "2026-10-10T22:21:41.901Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -44,6 +44,22 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "What's New in Notebooks | October 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-notebooks-october-2026/ba-p/4559105",
+      "description": "Copilot Notebooks is an AI-powered workspace for a project or topic to help individuals and teams move work forward. It brings your Microsoft 365 work context into one workspace where you can collect references, ask questions grounded in yo",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-10-09T20:09:25.000Z"
+    },
+    {
+      "title": "Introducing Office in the new Microsoft Copilot app",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/introducing-office-in-the-new-microsoft-copilot-app/ba-p/4561230",
+      "description": "Microsoft Office has defined productivity for the PC era, driving the shift from desktop software to cloud computing and collaboration-based work. Now, we’re defining productivity in the AI era with Microsoft Copilot. The Copilot app is whe",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-10-09T19:25:48.000Z"
+    },
     {
       "title": "Are bigger agents better? How to design agents that scale",
       "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/are-bigger-agents-better-how-to-design-agents-that-scale/ba-p/4559073",
@@ -441,22 +457,6 @@
       "categories": [],
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "date": "2026-07-28T18:34:37.000Z"
-    },
-    {
-      "title": "What's New in Excel (July 2026)",
-      "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-july-2026/ba-p/4523403",
-      "description": "Welcome to the July 2026 update. New this month for Copilot in Excel: inline citations, synced connectors, Power BI grounding, brand and theme design skills, and support for workbooks with AutoSave turned off. Also new this month, two front",
-      "categories": [],
-      "source": "Excel Blog (Tech Community)",
-      "date": "2026-07-28T17:50:50.000Z"
-    },
-    {
-      "title": "Available today: Anthropic Claude Opus 5 in Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-opus-5-in-microsoft-365-copilot/ba-p/4540524",
-      "description": "Today we’re expanding model choice in Microsoft 365 Copilot with the addition of Anthropic’s latest model—Claude Opus 5. Claude Opus 5 is the newest model in Anthropic’s Opus family. Designed to be used every day for complex, multi-step wor",
-      "categories": [],
-      "source": "Microsoft Copilot Blog (Tech Community)",
-      "date": "2026-07-24T21:11:08.000Z"
     }
   ]
 }
