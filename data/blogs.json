@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T22:44:44.889Z",
+  "generatedAt": "2026-10-12T23:57:42.345Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -44,6 +44,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "Beyond Analysis: Copilot Gets to Work in Excel",
+      "link": "https://techcommunity.microsoft.com/t5/excel-blog/beyond-analysis-copilot-gets-to-work-in-excel/ba-p/4517581",
+      "description": "Excel has always been where work gets done. The best outcomes in Excel rarely come from a single analysis. They come from bringing in the right data, preparing it with confidence, applying the processes you trust, and turning the result int",
+      "categories": [],
+      "source": "Excel Blog (Tech Community)",
+      "date": "2026-10-12T15:00:00.000Z"
+    },
     {
       "title": "What's New in Notebooks | October 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-notebooks-october-2026/ba-p/4559105",
@@ -449,14 +457,6 @@
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-07-30T12:00:00.000Z"
-    },
-    {
-      "title": "SharePoint Showcase: 10 Custom AI Skills Every SharePoint Site Owner Should Build",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-showcase-10-custom-ai-skills-every-sharepoint-site/ba-p/4535414",
-      "description": "Every team has repeatable work they want done the right way, not just once, but every time. Copilot can learn the way your team already works, follow the processes you trust, and help people repeat high-quality outcomes without starting fro",
-      "categories": [],
-      "source": "Microsoft SharePoint Blog (Tech Community)",
-      "date": "2026-07-28T18:34:37.000Z"
     }
   ]
 }
