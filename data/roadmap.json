@@ -1,13 +1,116 @@
 {
-  "generatedAt": "2026-10-14T22:08:43.067Z",
+  "generatedAt": "2026-10-15T22:01:52.102Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 766,
+  "totalCopilotFeatures": 763,
   "counts": {
-    "inDevelopment": 72,
-    "rollingOut": 8,
-    "launched": 40
+    "inDevelopment": 70,
+    "rollingOut": 9,
+    "launched": 41
   },
   "items": [
+    {
+      "id": 574111,
+      "title": "Microsoft Copilot (Microsoft 365): Copilot response personalization - Memory citations",
+      "description": "When Copilot Chat uses memory to personalize a response, users can now see what informed the answer. Select Sources beneath the response, then open the Personalization tab to view the custom instructions, saved memories, memories learned from conversations, and past chats that shaped the response. From there, users can return to a cited chat to pick up where they left off or review and delete saved memories. Memory citations appear only when memory is turned on.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-14T23:01:02",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=574111"
+    },
+    {
+      "id": 573168,
+      "title": "Planner: Planner Agent in Copilot V2 Improvements",
+      "description": "Planner Agent brings Planner’s intelligent work management directly into Copilot Chat, enabling users to create, update, and manage personal tasks and shared basic plans without switching context. Integrated across Microsoft 365, it provides insights into priorities, deadlines, and at-risk work, along with interactive task cards to help users stay organized and keep work moving. Building on the initial launch, planned improvements include: Improved context handling and support for larger plans. Higher-quality responses through model upgrades, refined prompts, and better grounding. Greater reliability and reduced latency for more consistent, responsive interactions. Expanded task management capabilities, including broader task assignment support. User experience enhancements to make managing tasks and plans in Copilot Chat more intuitive. New capabilities, including scheduled task catch-ups.",
+      "status": "In development",
+      "products": [
+        "Planner"
+      ],
+      "platforms": [
+        "Desktop",
+        "Teams and Surface Devices",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-14T23:01:02",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573168"
+    },
+    {
+      "id": 570846,
+      "title": "Microsoft Teams: Express face enrollment",
+      "description": "Express face enrollment makes it easier for users to create a face profile in Teams by using their camera during eligible meetings, after they opt in. Once enrolled, users can be recognized in supported Teams Rooms experiences, helping identify who is in the room and improving downstream meeting experiences such as Copilot and recap. Admins can enable or disable the feature for their organization.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "December CY2026",
+      "preview": "",
+      "modified": "2026-10-14T23:01:02",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570846"
+    },
+    {
+      "id": 561032,
+      "title": "Microsoft Purview: Data Loss Prevention – New Guided Experience to Diagnose and Resolve DLP Issues",
+      "description": "We’re introducing a new guided diagnostics experience to help users understand why their DLP policies may not be behaving as expected. This experience provides a clear summary of why a DLP action was taken on a document, including which policies were triggered, the order of evaluation, and detailed insights into which conditions evaluated as true or false. For Microsoft 365 E5 customers, the experience also includes Copilot-powered insights and tailored recommendations to accelerate troubleshooting and policy optimization.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "September CY2026",
+      "modified": "2026-10-14T23:01:02",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561032"
+    },
+    {
+      "id": 532720,
+      "title": "Microsoft Teams: Organization Evaluation Score for Apps and Agents",
+      "description": "Today, IT admins manually review trust data for Teams apps and agents in the Teams admin center to ensure they meet organizational security, privacy, and compliance standards. This feature introduces a scalable, automated evaluation process. Admins can define their organization’s trust requirements once, and the system will automatically assess each app and agent—generating an evaluation score and detailed evaluation report tailored to those requirements. This enables faster, more consistent decision-making by clearly identifying which apps and agents meet the organization’s standards and where further review is needed.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Teams"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "February CY2026",
+      "preview": "",
+      "modified": "2026-10-14T23:01:02",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=532720"
+    },
     {
       "id": 575298,
       "title": "SharePoint: Agent chat web part",
@@ -2337,107 +2440,6 @@
       "preview": "",
       "modified": "2026-09-28T22:58:08",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569608"
-    },
-    {
-      "id": 567007,
-      "title": "Outlook: New Copilot entry point in Classic Outlook",
-      "description": "We've introduced a new experience for Copilot in the apps—a consistent entry point across apps that sits above your work and understands the context beneath it. Rather than scattering touchpoints across the interface, it anchors Copilot as one connected system across Microsoft 365, surfacing relevant actions that help you stay in flow. With this release, we are rolling out this new experience - already available across other Outlook endpoints, as well as in Word, Excel and PowerPoint - to classic Outlook.",
-      "status": "In development",
-      "products": [
-        "Outlook",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "Current Channel",
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-09-28T22:58:08",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567007"
-    },
-    {
-      "id": 567895,
-      "title": "OneNote: Multimodal capture in Copilot Notebooks (Android)",
-      "description": "Multimodal capture enables users to transcribe audio, take images, and type notes in a single session. Copilot then creates a structured Copilot Page with insights and user-captured content, saved to a user-selected Copilot Notebook. Designed for capturing offline work moments—including in-person conversations, whiteboard sessions, and personal notes. This capability is already generally available on OneNote for iPhone and iPad.",
-      "status": "Launched",
-      "products": [
-        "OneNote",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "August CY2026",
-      "modified": "2026-09-28T22:58:08",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567895"
-    },
-    {
-      "id": 570967,
-      "title": "Microsoft Power Platform governance and administration: Maker Guidelines",
-      "description": "The Maker guidelines feature gives organizations a direct way to share guidance with Copilot Studio makers in the flow of work. Administrators can explain which tools, models, connectors, and channels are approved for an environment and point makers to the right policy, request process, or support contact. The message appears in the Review pane alongside the agent's blockers and warnings and remains available when the agent has no issues. This gives makers a consistent place to understand organizational expectations and find help without leaving Copilot Studio.",
-      "status": "In development",
-      "products": [
-        "Microsoft Power Platform governance and administration"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "September CY2026",
-      "modified": "2026-09-25T22:37:50",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570967"
-    },
-    {
-      "id": 570436,
-      "title": "PowerPoint: Async Notifications for Copilot in PowerPoint",
-      "description": "Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention.",
-      "status": "In development",
-      "products": [
-        "PowerPoint"
-      ],
-      "platforms": [
-        "Mac"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-09-25T22:37:50",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570436"
-    },
-    {
-      "id": 571672,
-      "title": "Dynamics 365 Field Service: Expand your service offering through subcontractors without the onboarding overhead",
-      "description": "Business value Subcontractors commonly communicate completion through an emailed service report or a message describing the work performed. Dispatchers then have to find the correct assignment, interpret the report, update the booking and work order, and copy important closeout details into Field Service. This manual process delays operational visibility, creates inconsistent service history, and can leave completed bookings or work orders open. Service teams can setup an agent to process subcontractor service reports to prepare a coordinated booking and work-order closeout. This supports faster reconciliation of external work and helps keep scheduling status, operational records, and service history consistent. Feature detail An agent in Dynamics 365 Field Service processes supported emails and service reports, identifies the applicable Field Service work order and active booking, and prepares a coordinated closeout proposal. The proposal can include supported booking and work-order status changes together with completion details extracted from the submission, such as the completion summary, work performed, notes, recommendations, requirements, requested follow-up, actual completion information, and supported labor-duration values. An internal dispatcher or service coordinator reviews the source submission and the proposed values, corrects or selects the supported changes as allowed, and applies them to Field Service. Coordinating the booking and work-order changes keeps scheduling records, operational status, and service history aligned. If the sender is not authorized, the work cannot be matched confidently, multiple bookings could apply, required information is missing, or the message contains no actionable closeout information, the submission is routed for human resolution rather than being silently applied. This feature closes out existing supported bookings and work orders. It does not create new follow-up work, process payroll or invoices, or automatically create parts and product-consumption records unless those capabilities are delivered separately.",
-      "status": "In development",
-      "products": [
-        "Dynamics 365 Field Service"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "Preview"
-      ],
-      "availability": "February CY2027",
-      "preview": "October CY2026",
-      "modified": "2026-09-25T22:37:50",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571672"
     }
   ]
 }
