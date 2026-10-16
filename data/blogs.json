@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T13:46:14.061Z",
+  "generatedAt": "2026-10-16T13:50:49.597Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -58,6 +58,14 @@
         "Copilot Studio",
         "Agents"
       ]
+    },
+    {
+      "title": "Introducing Microsoft Copilot for legal",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/introducing-microsoft-copilot-for-legal/ba-p/4564246",
+      "description": "In legal work, the answer rarely sits neatly in one place. It may depend on precedent, organizational standards, or a regulatory consideration that changes the whole analysis. General-purpose AI can fall short: legal professionals need to u",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-10-15T15:04:08.000Z"
     },
     {
       "title": "Introducing a team knowledge base, curated by Copilot and agents",
@@ -454,14 +462,6 @@
       "categories": [],
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "date": "2026-08-06T13:00:00.000Z"
-    },
-    {
-      "title": "ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/icymi-partner-blog-from-ai-curiosity-to-copilot-adoption-in-30/ba-p/4544027",
-      "description": "Thirty days. Twenty-five users. One clear path to AI. For small and medium-sized businesses, AI is no longer a someday conversation, it's a right-now decision. SMB customers aren't asking whether AI matters anymore; they're asking how to pu",
-      "categories": [],
-      "source": "Microsoft Copilot Blog (Tech Community)",
-      "date": "2026-08-05T17:00:00.000Z"
     }
   ]
 }
