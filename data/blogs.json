@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T22:01:53.606Z",
+  "generatedAt": "2026-10-16T13:46:14.061Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -20,6 +20,10 @@
     {
       "source": "Microsoft AI at Work Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/feed/"
+    },
+    {
+      "source": "Microsoft Copilot Studio Blog",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/feed/"
     },
     {
       "source": "Microsoft SharePoint Blog (Tech Community)",
@@ -44,6 +48,17 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "Delegate shared business processes to agents that are more persistent and proactive with Microsoft Copilot Studio",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/delegate-shared-business-processes-to-agents-that-are-more-persistent-and-proactive-with-microsoft-copilot-studio/",
+      "description": "Build persistent agents in Microsoft Copilot Studio with agent accounts, memory, and triggers to run recurring business processes.",
+      "date": "2026-10-15T15:05:00.000Z",
+      "source": "Microsoft Copilot Studio Blog",
+      "categories": [
+        "Copilot Studio",
+        "Agents"
+      ]
+    },
     {
       "title": "Introducing a team knowledge base, curated by Copilot and agents",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/introducing-a-team-knowledge-base-curated-by-copilot-and-agents/ba-p/4564203",
@@ -170,6 +185,14 @@
       "description": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilo",
       "categories": [],
       "source": "Microsoft 365 Blog",
+      "date": "2026-09-25T12:00:00.000Z"
+    },
+    {
+      "title": "Build where you want, run with confidence: Now Microsoft hosts and manages the code created by Copilot",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/build-where-you-want-run-with-confidence-now-microsoft-hosts-and-manages-the-code-created-by-copilot/",
+      "description": "Meet Microsoft Copilot Managed Runtime, an enterprise platform that helps teams build and run apps with security, governance, and IT control. The post Build where you want, run with confidence: Now Microsoft hosts and manages the code creat",
+      "categories": [],
+      "source": "Microsoft Copilot Studio Blog",
       "date": "2026-09-25T12:00:00.000Z"
     },
     {
@@ -313,6 +336,14 @@
       "date": "2026-09-02T23:26:40.000Z"
     },
     {
+      "title": "New and improved: GitHub Copilot harness, agent skills, and richer context",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-github-copilot-harness-agent-skills-and-richer-context/",
+      "description": "Explore the latest Copilot Studio updates, including the GitHub Copilot harness and new ways for agents to use skills, enterprise knowledge, and more. The post New and improved: GitHub Copilot harness, agent skills, and richer context appea",
+      "categories": [],
+      "source": "Microsoft Copilot Studio Blog",
+      "date": "2026-09-02T17:30:00.000Z"
+    },
+    {
       "title": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
       "description": "Claude Fable 5.1 is now joining the frontier models available in Copilot Cowork and Copilot Studio, giving customers more choice as they delegate more complex tasks to AI. Fable 5.1 is designed for long-running work, financial analysis, and",
@@ -431,30 +462,6 @@
       "categories": [],
       "source": "Microsoft Copilot Blog (Tech Community)",
       "date": "2026-08-05T17:00:00.000Z"
-    },
-    {
-      "title": "More control over web grounding with Domain Exclusion for Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/more-control-over-web-grounding-with-domain-exclusion-for/ba-p/4540151",
-      "description": "**UPDATE** Please see new announcement here: Update: Domain Exclusion for Microsoft 365 Copilot | Microsoft Community Hub We are excited to announce Domain Exclusion for Microsoft 365 Copilot, a new web search control that gives organizatio",
-      "categories": [],
-      "source": "Microsoft Copilot Blog (Tech Community)",
-      "date": "2026-08-04T16:15:19.000Z"
-    },
-    {
-      "title": "Update: Domain Exclusion for Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/update-domain-exclusion-for-microsoft-365-copilot/ba-p/4543648",
-      "description": "We want to inform the community that the Domain Exclusion for Microsoft 365 Copilot feature described in this post, More control over web grounding with Domain Exclusion for Microsoft 365 Copilot , has been rolled back at this time. We unde",
-      "categories": [],
-      "source": "Microsoft 365 Copilot Blog (Tech Community)",
-      "date": "2026-08-04T16:00:00.000Z"
-    },
-    {
-      "title": "More powerful agents and workflows for autonomous business processes: Introducing a new harness for Copilot Studio",
-      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/more-powerful-agents-and-workflows-for-autonomous-business/ba-p/4542969",
-      "description": "Over the past two months, we’ve been previewing a new capability within Copilot Studio that lets you build agents capable of taking on more complex business processes. Today, we’re excited to share that this capability is now generally avai",
-      "categories": [],
-      "source": "Copilot Studio Blog (Tech Community)",
-      "date": "2026-08-03T16:18:57.000Z"
     }
   ]
 }

@@ -52,6 +52,11 @@ const FEEDS = [
     dedicated: true,
   },
   {
+    url: "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/feed/",
+    source: "Microsoft Copilot Studio Blog",
+    dedicated: true,
+  },
+  {
     url: TC("SPBlog"),
     source: "Microsoft SharePoint Blog (Tech Community)",
     dedicated: false,
@@ -92,6 +97,15 @@ const PINNED = [
       "Copilot Cowork reaches general availability across desktop, iOS, and Android — multi-model by design, grounded in Work IQ, extensible with native and partner plugins, enterprise-secured, and billed through the new per-seat plus usage-based Copilot Credits model.",
     source: "Microsoft 365 Blog",
     categories: ["Copilot", "Cowork"],
+  },
+  {
+    title: "Delegate shared business processes to agents that are more persistent and proactive with Microsoft Copilot Studio",
+    link: "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/delegate-shared-business-processes-to-agents-that-are-more-persistent-and-proactive-with-microsoft-copilot-studio/",
+    description:
+      "Build persistent agents in Microsoft Copilot Studio with agent accounts, memory, and triggers to run recurring business processes.",
+    date: "2026-10-15T15:05:00.000Z",
+    source: "Microsoft Copilot Studio Blog",
+    categories: ["Copilot Studio", "Agents"],
   },
 ];
 
@@ -237,6 +251,7 @@ async function main() {
     const candidates = [];
     const urlDate = dateFromUrl(it.link);
     if (urlDate) candidates.push(urlDate);              // authoritative when present
+    if (it.date) candidates.push(it.date);              // curated/pinned date
     const feedDate = it.pubDate ? new Date(it.pubDate).toISOString() : null;
     if (feedDate) candidates.push(feedDate);
     const priorDate = priorByLink.get(it.link);
