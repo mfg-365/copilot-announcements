@@ -1,13 +1,76 @@
 {
-  "generatedAt": "2026-10-16T21:58:02.724Z",
+  "generatedAt": "2026-10-17T21:20:47.797Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 806,
+  "totalCopilotFeatures": 805,
   "counts": {
     "inDevelopment": 63,
     "rollingOut": 9,
     "launched": 48
   },
   "items": [
+    {
+      "id": 575292,
+      "title": "Microsoft Viva: Copilot Analytics - Agent 365 reporting availability for Microsoft platform agents",
+      "description": "Customers can now view agent insights in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics) without an Agent 365 license. Customers will be able to view reporting on their Microsoft platform-built agents in one consolidated picture, along with context on who built each agent and why.",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-16T22:00:35",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575292"
+    },
+    {
+      "id": 557561,
+      "title": "Microsoft Edge: Auto-open Copilot side pane for Outlook links",
+      "description": "When users open links from Outlook, Microsoft Edge can automatically open the Copilot side pane to provide contextual insights and actionable suggestion chips based on email and destination content - such as highlighting key points, and recommending next actions - without disrupting the browsing flow. This experience helps users quickly understand content, take action with fewer steps, and get more value from Copilot while extending productive browsing time in Edge. Admins can control availability to this feature using the M365LinksAutoOpenCopilotEnabled policy.",
+      "status": "In development",
+      "products": [
+        "Microsoft Edge"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "December CY2026",
+      "preview": "",
+      "modified": "2026-10-16T22:00:35",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557561"
+    },
+    {
+      "id": 519571,
+      "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
+      "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This report provides insights into overall connector activity, and connector powered response patterns over time, along with detailed user-level connectors adoption data. With these analytics, admins can monitor adoption, identify usage patterns, and optimize Copilot experiences to drive greater value across their organization. #copilotcontrolsystem",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Microsoft 365 admin center"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "November CY2026",
+      "preview": "June CY2026",
+      "modified": "2026-10-16T22:00:35",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571"
+    },
     {
       "id": 576884,
       "title": "Dynamics 365 Field Service: Optimize resource scheduling - Optimize multiple resources with Scheduling Operations Agent",
@@ -2397,64 +2460,6 @@
       "preview": "March CY2027",
       "modified": "2026-10-05T23:03:05",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=493752"
-    },
-    {
-      "id": 573280,
-      "title": "Outlook: Draft, edit and format emails conversationally with Copilot in Outlook",
-      "description": "In Outlook, Copilot now works side by side with users to draft, refine, and format emails conversationally, powered by the same agentic capabilities available in Word, Excel, and PowerPoint.",
-      "status": "In development",
-      "products": [
-        "Outlook"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-10-02T22:01:21",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573280"
-    },
-    {
-      "id": 571675,
-      "title": "Dynamics 365 Field Service: Automate optimizations with Scheduling Operations Agent",
-      "description": "This release expands the optimization capabilities of the Scheduling Operations Agent to include the ability to create recurring optimizations on a schedule. The agent considers the availability of the resources, their current schedules, and unscheduled requirements. It suggests a schedule that honors configured constraints and optimizes it according to the selected goal. The agent automatically runs optimizations and applies the results on the configured schedule. New capabilities include: Configure optimization plans to run on a recurrence schedule. Add and weight additional objectives to optimization goals. These capabilities build on the existing public preview of the Scheduling Operations Agent and are automatically enabled for all organizations that have the agent enabled. Learn more at Scheduling Operations Agent overview .",
-      "status": "In development",
-      "products": [
-        "Dynamics 365 Field Service"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "Preview"
-      ],
-      "availability": "April CY2027",
-      "preview": "September CY2026",
-      "modified": "2026-10-02T22:01:21",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571675"
-    },
-    {
-      "id": 571400,
-      "title": "Microsoft Copilot (Microsoft 365): Chat: Access to UBB models via the model selector",
-      "description": "Users will be able to access models that require usage-based billing (UBB) from the model selector in Chat. Tenant admins will need to allocate credits so that users can interact with these models. If users consume their allotted credits, they will be able to request credits from their tenant admins.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-10-02T22:01:21",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571400"
     }
   ]
 }
