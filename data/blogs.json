@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T21:20:40.611Z",
+  "generatedAt": "2026-10-19T22:50:38.102Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -48,6 +48,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "Transform your storytelling with interactive slides in PowerPoint",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/transform-your-storytelling-with-interactive-slides-in/ba-p/4564287",
+      "description": "The most powerful moments in a presentation are when you and your audience can explore an idea together. We're continuing to expand how PowerPoint helps you turn ideas, data, and institutional knowledge into compelling narratives with inter",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-10-19T16:14:07.000Z"
+    },
     {
       "title": "Delegate shared business processes to agents that are more persistent and proactive with Microsoft Copilot Studio",
       "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/delegate-shared-business-processes-to-agents-that-are-more-persistent-and-proactive-with-microsoft-copilot-studio/",
@@ -454,14 +462,6 @@
       "categories": [],
       "source": "Excel Blog (Tech Community)",
       "date": "2026-08-06T17:30:08.000Z"
-    },
-    {
-      "title": "What's New in Copilot in SharePoint: August 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/what-s-new-in-copilot-in-sharepoint-august-2026/ba-p/4535421",
-      "description": "Copilot in SharePoint helps you do more with your content — ask questions, run workflows, and create sites, pages, interactive reports, and Office files using natural language. Here's everything that's new in the last month: 📊 Create live ",
-      "categories": [],
-      "source": "Microsoft SharePoint Blog (Tech Community)",
-      "date": "2026-08-06T13:00:00.000Z"
     }
   ]
 }
