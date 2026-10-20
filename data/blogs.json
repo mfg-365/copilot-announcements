@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T22:50:38.102Z",
+  "generatedAt": "2026-10-20T22:10:48.590Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -48,6 +48,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "OneDrive Just Got a Major Upgrade: New Copilot Capabilities, Simpler Sharing, and Smarter Photos",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-just-got-a-major-upgrade-new-copilot-capabilities/ba-p/4565995",
+      "description": "Files have always been at the heart of how we work. They're where we create, collaborate, and share ideas. And now, with Copilot and agents, they're taking on an even bigger role, providing the knowledge and context that AI needs to underst",
+      "categories": [],
+      "source": "Microsoft OneDrive Blog (Tech Community)",
+      "date": "2026-10-20T17:43:27.000Z"
+    },
     {
       "title": "Transform your storytelling with interactive slides in PowerPoint",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/transform-your-storytelling-with-interactive-slides-in/ba-p/4564287",
@@ -454,14 +462,6 @@
       "categories": [],
       "source": "Microsoft 365 Insider Blog (Tech Community)",
       "date": "2026-08-06T17:45:00.000Z"
-    },
-    {
-      "title": "Bring your organization’s data into Excel with new Copilot synced connectors",
-      "link": "https://techcommunity.microsoft.com/t5/excel-blog/bring-your-organization-s-data-into-excel-with-new-copilot/ba-p/4544682",
-      "description": "Excel is where people turn data into decisions. But the data you need often lives in other systems, like your engineering backlog, ticketing system, or CRM. Getting that data into Excel usually means exporting files, copying and pasting, or",
-      "categories": [],
-      "source": "Excel Blog (Tech Community)",
-      "date": "2026-08-06T17:30:08.000Z"
     }
   ]
 }
