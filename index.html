@@ -6,7 +6,7 @@
   <title>Microsoft 365 Copilot Announcements</title>
   <meta name="description" content="A running feed of Microsoft 365 Copilot announcements, plus the live Copilot roadmap and the latest official Copilot blog posts — refreshed daily." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="stylesheet" href="assets/css/styles.css?v=22" />
+  <link rel="stylesheet" href="assets/css/styles.css?v=23" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2312B8A6'/%3E%3Cstop offset='.4' stop-color='%232F6BFF'/%3E%3Cstop offset='.7' stop-color='%237C5CFC'/%3E%3Cstop offset='1' stop-color='%23E3458E'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath fill='url(%23g)' d='M50 8C28 8 12 24 12 46c0 8 2 13 5 18-3 5-4 9-4 14 0 0 9-3 14-6 6 4 14 6 23 6 22 0 38-16 38-38C88 24 72 8 50 8zm0 14a7 7 0 110 14 7 7 0 010-14zM34 50a5 5 0 015-5h22a5 5 0 015 5c0 8-7 15-16 15s-16-7-16-15z'/%3E%3C/svg%3E" />
 </head>
 <body>
@@ -30,6 +30,7 @@
     <button class="tab" role="tab" data-tab="timeline">Timeline</button>
     <button class="tab" role="tab" data-tab="updates">Roadmap</button>
     <button class="tab" role="tab" data-tab="blogs">Copilot Blogs</button>
+    <button class="tab" role="tab" data-tab="newsletter">Customer Newsletter</button>
     <button class="tab" role="tab" data-tab="resources">Resources</button>
   </nav>
 
@@ -167,6 +168,31 @@
       <p class="source-note">Sources: Microsoft 365 Blog, the Microsoft 365 Copilot Blog and Copilot Studio Blog (Tech Community), and the Microsoft Power Platform Blog. Auto-updated daily.</p>
     </section>
 
+    <!-- ============ CUSTOMER NEWSLETTER ============ -->
+    <section class="panel" id="newsletter" role="tabpanel">
+      <div class="mn-page-head">
+        <div>
+          <span class="kicker">Customer-ready &middot; refreshed daily</span>
+          <h1 class="compact">Copilot Monthly Newsletter</h1>
+          <p class="lead">A polished monthly update you can copy directly into Outlook, Teams, or your customer community. The current issue stays fresh as new announcements arrive, while prior months remain available in the archive.</p>
+        </div>
+        <div class="mn-how">
+          <strong>How to use it</strong>
+          <span>Open an edition, select <b>Copy newsletter</b>, then paste. Rich formatting and links are preserved where supported.</span>
+        </div>
+      </div>
+
+      <div class="updates-meta">
+        <div class="meta-counts" id="newsletterMeta"></div>
+        <div class="meta-updated" id="newsletterUpdated"></div>
+      </div>
+
+      <div id="newsletterList" class="monthly-newsletter-list" aria-live="polite">
+        <div class="rm-empty">Loading newsletter editions&hellip;</div>
+      </div>
+      <p class="source-note">Each edition is assembled from this site&rsquo;s official Microsoft announcements, blogs and roadmap data. The open month refreshes automatically; completed months are preserved as a stable archive.</p>
+    </section>
+
     <!-- ============ RESOURCES ============ -->
     <section class="panel" id="resources" role="tabpanel">
       <span class="kicker">Go deeper</span>
@@ -208,7 +234,7 @@
     <p>Microsoft, Microsoft 365, and Copilot are trademarks of the Microsoft group of companies. Announcement summaries reference public Microsoft sources and are provided for informational purposes only. Roadmap and blog feeds are sourced from public Microsoft endpoints and refreshed daily.</p>
   </footer>
 
-  <script src="assets/js/decks.config.js?v=22"></script>
-  <script src="assets/js/app.js?v=22"></script>
+  <script src="assets/js/decks.config.js?v=23"></script>
+  <script src="assets/js/app.js?v=23"></script>
 </body>
 </html>

@@ -1,0 +1,446 @@
+{
+  "generatedAt": "2026-10-21T20:04:53.946Z",
+  "count": 10,
+  "currentEdition": "2026-10",
+  "editions": [
+    {
+      "id": "2026-10",
+      "year": 2026,
+      "month": 10,
+      "monthLabel": "October 2026",
+      "subject": "Microsoft Copilot monthly update — October 2026",
+      "title": "October 2026 Copilot Update",
+      "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from October 2026.",
+      "feature": {
+        "title": "OneDrive Just Got a Major Upgrade: New Copilot Capabilities, Simpler Sharing, and Smarter Photos",
+        "summary": "Files have always been at the heart of how we work. They're where we create, collaborate, and share ideas. And now, with Copilot and agents, they're taking on an even bigger role, providing the knowledge and context that AI needs to underst",
+        "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-just-got-a-major-upgrade-new-copilot-capabilities/ba-p/4565995",
+        "date": "2026-10-20T17:43:27.000Z",
+        "label": "Microsoft OneDrive Blog (Tech Community)",
+        "kind": "blog"
+      },
+      "stories": [
+        {
+          "title": "Transform your storytelling with interactive slides in PowerPoint",
+          "summary": "The most powerful moments in a presentation are when you and your audience can explore an idea together. We're continuing to expand how PowerPoint helps you turn ideas, data, and institutional knowledge into compelling narratives with inter",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/transform-your-storytelling-with-interactive-slides-in/ba-p/4564287",
+          "date": "2026-10-19T16:14:07.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Delegate shared business processes to agents that are more persistent and proactive with Microsoft Copilot Studio",
+          "summary": "Build persistent agents in Microsoft Copilot Studio with agent accounts, memory, and triggers to run recurring business processes.",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/delegate-shared-business-processes-to-agents-that-are-more-persistent-and-proactive-with-microsoft-copilot-studio/",
+          "date": "2026-10-15T15:05:00.000Z",
+          "label": "Microsoft Copilot Studio Blog",
+          "kind": "blog"
+        },
+        {
+          "title": "Introducing Microsoft Copilot for legal",
+          "summary": "In legal work, the answer rarely sits neatly in one place. It may depend on precedent, organizational standards, or a regulatory consideration that changes the whole analysis. General-purpose AI can fall short: legal professionals need to u",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/introducing-microsoft-copilot-for-legal/ba-p/4564246",
+          "date": "2026-10-15T15:04:08.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        }
+      ],
+      "reads": [
+        {
+          "title": "Introducing a team knowledge base, curated by Copilot and agents",
+          "summary": "Collaboration is changing as teams of humans and agents now work together to get more done. That’s why we’ve evolved Copilot to empower these human-agent teams: just last month, we announced copilot​ in Teams, Autopilot as your digital team",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/introducing-a-team-knowledge-base-curated-by-copilot-and-agents/ba-p/4564203",
+          "date": "2026-10-14T13:00:15.000Z",
+          "label": "Microsoft SharePoint Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Building Trust-Aware Controls for AI: Differentiated handling of untrusted content",
+          "summary": "As organizations adopt generative AI into daily workflows, they face a new class of security challenges that do not fit traditional models of access control, identity, or data protection. One of the most important is indirect prompt injecti",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/building-trust-aware-controls-for-ai-differentiated-handling-of/ba-p/4562160",
+          "date": "2026-10-13T15:01:57.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Beyond Analysis: Copilot Gets to Work in Excel",
+          "summary": "Excel has always been where work gets done. The best outcomes in Excel rarely come from a single analysis. They come from bringing in the right data, preparing it with confidence, applying the processes you trust, and turning the result int",
+          "link": "https://techcommunity.microsoft.com/t5/excel-blog/beyond-analysis-copilot-gets-to-work-in-excel/ba-p/4517581",
+          "date": "2026-10-12T15:00:00.000Z",
+          "label": "Excel Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "What's New in Notebooks | October 2026",
+          "summary": "Copilot Notebooks is an AI-powered workspace for a project or topic to help individuals and teams move work forward. It brings your Microsoft 365 work context into one workspace where you can collect references, ask questions grounded in yo",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-notebooks-october-2026/ba-p/4559105",
+          "date": "2026-10-09T20:09:25.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        }
+      ],
+      "prompt": {
+        "title": "Create customer talking points",
+        "text": "Turn these updates into customer-ready talking points. For each major item, provide: a plain-language description, who benefits, a realistic example, and one question to ask the customer."
+      },
+      "roadmap": [
+        {
+          "title": "Microsoft Purview: Data Loss Prevention for Microsoft Cowork",
+          "description": "Microsoft Purview Data Loss Prevention (DLP) is expanding to Microsoft Cowork, enabling data security admins to use a single policy across Microsoft 365 Copilot and Cowork. The integration helps protect sensitive AI interactions by…",
+          "status": "Rolling out",
+          "availability": "October CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570845",
+          "product": "Microsoft Purview"
+        },
+        {
+          "title": "Edit your document with Copilot in PowerPoint in Government Clouds",
+          "description": "Copilot in PowerPoint helps you create, edit, and refine presentations through natural language—right inside your deck. Start a new presentation or build on an existing one by asking Copilot to generate slides, update content, improve…",
+          "status": "Rolling out",
+          "availability": "October CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566701",
+          "product": "PowerPoint"
+        },
+        {
+          "title": "Microsoft Viva: Agent metrics for custom reporting in Insights analyst workbench",
+          "description": "Unlock deeper insights into Copilot agent adoption with flexible, self-serve analytics. Insights global and partition analysts can access and combine granular agent usage metrics with agent and organizational attributes to uncover agent…",
+          "status": "Rolling out",
+          "availability": "September CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562412",
+          "product": "Microsoft Viva"
+        }
+      ]
+    },
+    {
+      "id": "2026-09",
+      "year": 2026,
+      "month": 9,
+      "monthLabel": "September 2026",
+      "subject": "Microsoft Copilot monthly update — September 2026",
+      "title": "September 2026 Copilot Update",
+      "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from September 2026.",
+      "feature": {
+        "title": "Copilot Wave 4 Announcements",
+        "summary": "Wave 4 reshapes Copilot around four modes of work — Chat, Cowork, Code, and Autopilot — with a new Copilot Home, live Office files inside the Copilot app, Work IQ Skills and Plugins reaching GA, automatic model routing, Copilot in SharePoint and OneDrive going GA, and…",
+        "link": "",
+        "date": "2026-09-25",
+        "label": "Agents",
+        "kind": "announcement"
+      },
+      "stories": [
+        {
+          "title": "Available today: OpenAI's GPT-6.1 Sol and Claude Sonnet 5.5 in Microsoft Copilot",
+          "summary": "Earlier this month, Anthropic's Claude Opus 5.5 and OpenAI's GPT-6 Sol joined model choice in Microsoft Copilot . Now, we're continuing to expand that choice by bringing GPT-6.1 Sol and Claude Sonnet 5.5 to Microsoft Copilot, giving users m",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-1-sol-and-claude-sonnet-5-5-in/ba-p/4560801",
+          "date": "2026-09-30T23:28:22.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Help your customers get answers and support with Teams Phone Agent",
+          "summary": "Your customers are your number one priority, and you want to be there whenever they call. But customer needs don’t follow a schedule. Questions and appointment changes can come during your busiest periods or after hours, and customers still",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/help-your-customers-get-answers-and-support-with-teams-phone/ba-p/4560840",
+          "date": "2026-09-30T15:38:55.000Z",
+          "label": "Microsoft Teams Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "What’s New in Microsoft Copilot | September 2026",
+          "summary": "Welcome to the September 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and e",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-september-2026/ba-p/4559107",
+          "date": "2026-09-30T15:30:00.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        }
+      ],
+      "reads": [
+        {
+          "title": "Introducing the plugin registry - one place to discover and govern plugins for Microsoft Copilot",
+          "summary": "On September 25, we introduced the new Microsoft Copilot to connect the tools people rely on with the next generation of capabilities they’ll need to build, customize and scale AI across work. Agents in Copilot already help you work with yo",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/introducing-the-plugin-registry-one-place-to-discover-and-govern/ba-p/4559682",
+          "date": "2026-09-30T13:00:00.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Change Management Best Practices to Drive Value with Agent Builder",
+          "summary": "Most organizations start in the same place: licenses are provisioned, a handful of enthusiasts begin experimenting, and excitement around AI is high. Yet for most employees, building and using agents remains largely unexplored. The technolo",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/change-management-best-practices-to-drive-value-with-agent/ba-p/4559753",
+          "date": "2026-09-28T15:00:00.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "SharePoint AI innovations hit GA, powering new Copilot app and agents",
+          "summary": "Today we announced the new Copilot app , bringing together how people assist, delegate, build, and automate work in one experience powered by Work IQ . Because Work IQ grounds these experiences in your work and organizational context, the q",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-ai-innovations-hit-ga-powering-new-copilot-app-and/ba-p/4555724",
+          "date": "2026-09-25T16:15:53.000Z",
+          "label": "Microsoft SharePoint Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Measuring the value of Cowork: From AI interactions to completed work",
+          "summary": "You have invested in Copilot. Adoption is climbing, prompt volume is up, and your dashboards are full of engagement charts. Yet the question leadership keeps asking is: How do we quantify the value of AI when it helps us across so many kind",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/measuring-the-value-of-cowork-from-ai-interactions-to-completed/ba-p/4554464",
+          "date": "2026-09-25T15:15:10.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        }
+      ],
+      "prompt": {
+        "title": "Map capabilities to outcomes",
+        "text": "Map these Copilot capabilities to the outcomes of productivity, quality, employee experience, revenue, and risk reduction. Identify the strongest evidence we should collect for each."
+      },
+      "roadmap": []
+    },
+    {
+      "id": "2026-08",
+      "year": 2026,
+      "month": 8,
+      "monthLabel": "August 2026",
+      "subject": "Microsoft Copilot monthly update — August 2026",
+      "title": "August 2026 Copilot Update",
+      "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from August 2026.",
+      "feature": {
+        "title": "SharePoint Showcase: 5 Ways Organizations Improve Business Processes with Copilot in SharePoint",
+        "summary": "AI becomes most impactful when it helps with the work teams already do every day. The challenge is rarely a lack of information. It is turning trusted information into a clear, repeatable process without starting from scratch each time. Tha",
+        "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-showcase-5-ways-organizations-improve-business/ba-p/4549704",
+        "date": "2026-08-27T16:28:53.000Z",
+        "label": "Microsoft SharePoint Blog (Tech Community)",
+        "kind": "blog"
+      },
+      "stories": [
+        {
+          "title": "What's New in Excel (August 2026)",
+          "summary": "Welcome to the August 2026 update. New this month for Copilot, chat history, chart/PivotTable skills, Python skill, as well as change history. Excel for Windows, Mac, and web: - Copilot in Excel: change history skill #FIA - Copilot in Excel",
+          "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-august-2026/ba-p/4527283",
+          "date": "2026-08-26T20:52:44.000Z",
+          "label": "Excel Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Turn conversations into code with GitHub Copilot in Microsoft Teams",
+          "summary": "Coding where context lives and collaboration happens The best prompt may be the conversation your team has already had or is currently having. Until now, using a coding agent often meant paying context and coordination taxes. Developers had",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/turn-conversations-into-code-with-github-copilot-in-microsoft/ba-p/4548305",
+          "date": "2026-08-21T23:19:49.000Z",
+          "label": "Microsoft Teams Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Copilot Notebooks now works with Markdown, plain-text, and rich-text files",
+          "summary": "Add your READMEs, wikis, logs, and transcripts to your notebook Your most useful project knowledge does not always live in a polished document. It might be captured in a README, project wiki, system log, meeting transcript, research export,",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652",
+          "date": "2026-08-13T16:00:00.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        }
+      ],
+      "reads": [
+        {
+          "title": "Co-create slides with Copilot in PowerPoint for iPad",
+          "summary": "I’m excited to introduce a feature many of you already use on desktop and the web to PowerPoint for iPad: the ability to co-create with Microsoft 365 Copilot directly in your presentation. What’s new Whether you ’ re building a first draft,",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/co-create-slides-with-copilot-in-powerpoint-for-ipad/ba-p/4546240",
+          "date": "2026-08-13T15:45:00.000Z",
+          "label": "Microsoft 365 Insider Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Register now for PPCC 2026: Come for the learning, stay for the community",
+          "summary": "Whether you’re exploring AI in your business, building with low code, developing professional solutions, or leading enterprise-wide transformation, PPCC is your best opportunity to return to work on Monday ready to make an impact. The post",
+          "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/13/register-now-for-ppcc-2026-come-for-the-learning-stay-for-the-community/",
+          "date": "2026-08-13T12:00:00.000Z",
+          "label": "Microsoft Power Platform Blog (Copilot Studio)",
+          "kind": "blog"
+        },
+        {
+          "title": "Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work",
+          "summary": "The tools that run a business rarely live in one place. For a small business owner, that means stepping out of the document you're writing to search for an attorney, digging through a folder for the LLC paperwork you half-remember filing, o",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016",
+          "date": "2026-08-12T16:00:00.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Turn meetings into momentum with Microsoft 365 Copilot",
+          "summary": "Most people don't need more meetings—they need meetings that lead to action. At their best, meetings drive decisions and keep work moving forward. But poorly managed meetings can actually slow progress. In fact, our Work Trend Index report",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/turn-meetings-into-momentum-with-microsoft-365-copilot/ba-p/4545675",
+          "date": "2026-08-11T15:59:45.000Z",
+          "label": "Microsoft Teams Blog (Tech Community)",
+          "kind": "blog"
+        }
+      ],
+      "prompt": {
+        "title": "Prepare a champion session",
+        "text": "Create a 30-minute Champion community session from these updates: opening message, three demos, discussion questions, a hands-on challenge, and a follow-up resource list."
+      },
+      "roadmap": []
+    },
+    {
+      "id": "2026-07",
+      "year": 2026,
+      "month": 7,
+      "monthLabel": "July 2026",
+      "subject": "Microsoft Copilot monthly update — July 2026",
+      "title": "July 2026 Copilot Update",
+      "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from July 2026.",
+      "feature": {
+        "title": "Claude Sonnet 5 in Microsoft 365 Copilot",
+        "summary": "Anthropic’s Claude Sonnet 5 is now available in Microsoft 365 Copilot, expanding multi-model choice — users can select it from the model picker across Copilot Chat, Researcher, and Copilot Studio, with admin opt-in required to enable Anthropic models.",
+        "link": "",
+        "date": "2026-07-02",
+        "label": "Models & Chat",
+        "kind": "announcement"
+      },
+      "stories": [],
+      "reads": [],
+      "prompt": {
+        "title": "Prioritize a pilot backlog",
+        "text": "Create a prioritized pilot backlog from these Copilot updates. Score each idea for user value, implementation effort, risk, and time to learn. Recommend the top three pilots and explain why."
+      },
+      "roadmap": []
+    },
+    {
+      "id": "2026-06",
+      "year": 2026,
+      "month": 6,
+      "monthLabel": "June 2026",
+      "subject": "Microsoft Copilot monthly update — June 2026",
+      "title": "June 2026 Copilot Update",
+      "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from June 2026.",
+      "feature": {
+        "title": "New Copilot in Excel Capabilities for Finance Workflows",
+        "summary": "New Copilot in Excel capabilities built for finance workflows help finance teams reconcile data, analyze variances, and turn results into presentation-ready reports — using natural-language prompts with enterprise-grade governance.",
+        "link": "",
+        "date": "2026-06-24",
+        "label": "Finance",
+        "kind": "announcement"
+      },
+      "stories": [],
+      "reads": [],
+      "prompt": {
+        "title": "Turn news into a leadership update",
+        "text": "Draft a concise leadership email summarizing these Copilot updates. Lead with the business impact, separate what is available now from what is coming, and end with three recommended next steps."
+      },
+      "roadmap": []
+    },
+    {
+      "id": "2026-05",
+      "year": 2026,
+      "month": 5,
+      "monthLabel": "May 2026",
+      "subject": "Microsoft Copilot monthly update — May 2026",
+      "title": "May 2026 Copilot Update",
+      "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from May 2026.",
+      "feature": {
+        "title": "Finance Agents (Gartner CFO Symposium)",
+        "summary": "Agentic AI purpose-built for finance, with a Finance Agent in Microsoft 365 Copilot and a finance-savvy chat workspace grounded in Work IQ.",
+        "link": "",
+        "date": "2026-05-27",
+        "label": "Finance",
+        "kind": "announcement"
+      },
+      "stories": [],
+      "reads": [],
+      "prompt": {
+        "title": "Create a role-based demo",
+        "text": "Design a 15-minute Copilot demo for [audience]. Choose three capabilities from these updates, write the demo storyline, sample prompts, expected outputs, and the business value to emphasize."
+      },
+      "roadmap": []
+    },
+    {
+      "id": "2026-04",
+      "year": 2026,
+      "month": 4,
+      "monthLabel": "April 2026",
+      "subject": "Microsoft Copilot monthly update — April 2026",
+      "title": "April 2026 Copilot Update",
+      "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from April 2026.",
+      "feature": {
+        "title": "Legal Agent for Word",
+        "summary": "A purpose-built, first-party agent in Word for contract review, redlining, and clause analysis with a deterministic redlining engine.",
+        "link": "",
+        "date": "2026-04-30",
+        "label": "Agents",
+        "kind": "announcement"
+      },
+      "stories": [],
+      "reads": [],
+      "prompt": {
+        "title": "Assess readiness and risk",
+        "text": "Review these Copilot capabilities as an IT and change-management lead. Create a readiness checklist covering licensing, data, security, governance, communications, training, and measurement."
+      },
+      "roadmap": []
+    },
+    {
+      "id": "2026-03",
+      "year": 2026,
+      "month": 3,
+      "monthLabel": "March 2026",
+      "subject": "Microsoft Copilot monthly update — March 2026",
+      "title": "March 2026 Copilot Update",
+      "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from March 2026.",
+      "feature": {
+        "title": "Cowork and Researcher Updates",
+        "summary": "Copilot Cowork arrives in Frontier and Researcher gains multi-model Critique and Council, pairing GPT and Claude for higher-quality deep research.",
+        "link": "",
+        "date": "2026-03-30",
+        "label": "Cowork & Research",
+        "kind": "announcement"
+      },
+      "stories": [],
+      "reads": [],
+      "prompt": {
+        "title": "Build an adoption campaign",
+        "text": "Turn these Copilot updates into a four-week adoption campaign. Include one weekly theme, a short Teams post, a live-demo idea, and one measurable behavior we want users to adopt."
+      },
+      "roadmap": []
+    },
+    {
+      "id": "2025-12",
+      "year": 2025,
+      "month": 12,
+      "monthLabel": "December 2025",
+      "subject": "Microsoft Copilot monthly update — December 2025",
+      "title": "December 2025 Copilot Update",
+      "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from December 2025.",
+      "feature": {
+        "title": "Chat GPT-5.2",
+        "summary": "GPT-5.2 brings Thinking and Instant models to Copilot Chat, connected to Work IQ for insights, research, and strategic planning.",
+        "link": "",
+        "date": "2025-12-11",
+        "label": "Models & Chat",
+        "kind": "announcement"
+      },
+      "stories": [],
+      "reads": [],
+      "prompt": {
+        "title": "Design a monthly impact review",
+        "text": "Using these updates, design a monthly Copilot impact review. Include adoption signals, qualitative feedback, business outcome measures, risks to watch, and decisions leaders should make."
+      },
+      "roadmap": []
+    },
+    {
+      "id": "2025-11",
+      "year": 2025,
+      "month": 11,
+      "monthLabel": "November 2025",
+      "subject": "Microsoft Copilot monthly update — November 2025",
+      "title": "November 2025 Copilot Update",
+      "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from November 2025.",
+      "feature": {
+        "title": "Microsoft Ignite 2025",
+        "summary": "Ignite delivers a sweeping Copilot wave: Work IQ, agentic Office and Outlook, new agents, Microsoft Agent 365, Windows 365 for Agents, and enterprise admin and security controls.",
+        "link": "",
+        "date": "2025-11-18",
+        "label": "Industry & Events",
+        "kind": "announcement"
+      },
+      "stories": [],
+      "reads": [],
+      "prompt": {
+        "title": "Plan enablement by audience",
+        "text": "Create an enablement plan for executives, end users, champions, makers, and IT based on these updates. Give each audience the message, demo, resource, and call to action they need."
+      },
+      "roadmap": []
+    }
+  ]
+}

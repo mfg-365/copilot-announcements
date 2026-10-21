@@ -11,6 +11,7 @@ function activate(id, keepHash) {
   if (id === "timeline") loadTimeline();
   if (id === "updates") loadRoadmap();
   if (id === "blogs") loadBlogs();
+  if (id === "newsletter") loadNewsletter();
 }
 
 tabs.forEach((t) => t.addEventListener("click", () => activate(t.dataset.tab)));
@@ -537,6 +538,248 @@ function renderRecentBlogs() {
   wrap.hidden = false;
 }
 
+// ----- Customer Newsletter (monthly, copy-ready + archive) -----
+let newsletterData = null;
+let newsletterLoading = null;
+
+function nlLink(item, cssClass = "") {
+  if (!item) return "";
+  const title = esc(item.title);
+  return item.link
+    ? `<a class="${cssClass}" href="${esc(item.link)}" target="_blank" rel="noopener">${title}</a>`
+    : `<span class="${cssClass}">${title}</span>`;
+}
+
+function newsletterPreview(ed) {
+  const feature = ed.feature
+    ? `<section class="mn-feature">
+        <span class="mn-section-label">Featured this month</span>
+        <h3>${nlLink(ed.feature)}</h3>
+        <p>${esc(ed.feature.summary)}</p>
+        <span class="mn-source">${esc(ed.feature.label || "")}</span>
+      </section>`
+    : "";
+  const stories = (ed.stories || []).length
+    ? `<section class="mn-section"><span class="mn-section-label">Top updates</span>
+        <div class="mn-story-grid">${ed.stories.map((item) => `<article class="mn-story">
+          <span>${esc(item.label || "Update")}</span>
+          <h4>${nlLink(item)}</h4>
+          <p>${esc(item.summary)}</p>
+        </article>`).join("")}</div>
+      </section>`
+    : "";
+  const reads = (ed.reads || []).length
+    ? `<section class="mn-section"><span class="mn-section-label">Worth a read</span>
+        <ul class="mn-link-list">${ed.reads.map((item) => `<li>${nlLink(item)}<span>${esc(item.label || "")}</span></li>`).join("")}</ul>
+      </section>`
+    : "";
+  const roadmap = (ed.roadmap || []).length
+    ? `<section class="mn-section"><span class="mn-section-label">Coming next</span>
+        <div class="mn-roadmap">${ed.roadmap.map((item) => `<article>
+          <div><span class="mn-status">${esc(item.status)}</span>${item.availability ? `<span class="mn-availability">${esc(item.availability)}</span>` : ""}</div>
+          <h4>${nlLink(item)}</h4>
+          <p>${esc(item.description)}</p>
+        </article>`).join("")}</div>
+      </section>`
+    : "";
+  const prompt = ed.prompt
+    ? `<section class="mn-prompt"><span class="mn-section-label">Try it this month</span>
+        <h3>${esc(ed.prompt.title)}</h3><p>&ldquo;${esc(ed.prompt.text)}&rdquo;</p>
+      </section>`
+    : "";
+  return `<div class="mn-email">
+    <header class="mn-email-hero">
+      <span>Microsoft Copilot monthly</span>
+      <h2>${esc(ed.title)}</h2>
+      <p>${esc(ed.intro)}</p>
+    </header>
+    <div class="mn-email-body">${feature}${stories}${prompt}${reads}${roadmap}
+      <footer class="mn-email-footer">Curated from official Microsoft sources. Availability may vary by tenant, license and release channel.</footer>
+    </div>
+  </div>`;
+}
+
+function newsletterCopyText(ed) {
+  const lines = [
+    ed.subject.toUpperCase(),
+    "",
+    ed.intro,
+  ];
+  if (ed.feature) {
+    lines.push("", `FEATURED THIS MONTH — ${ed.feature.title}`, ed.feature.summary);
+    if (ed.feature.link) lines.push(`Read more: ${ed.feature.link}`);
+  }
+  if (ed.stories && ed.stories.length) {
+    lines.push("", "TOP UPDATES");
+    ed.stories.forEach((item) => {
+      lines.push(`• ${item.title}`, item.summary);
+      if (item.link) lines.push(item.link);
+    });
+  }
+  if (ed.prompt) {
+    lines.push("", `TRY IT THIS MONTH — ${ed.prompt.title}`, `"${ed.prompt.text}"`);
+  }
+  if (ed.reads && ed.reads.length) {
+    lines.push("", "WORTH A READ");
+    ed.reads.forEach((item) => lines.push(`• ${item.title} — ${item.link}`));
+  }
+  if (ed.roadmap && ed.roadmap.length) {
+    lines.push("", "COMING NEXT");
+    ed.roadmap.forEach((item) => {
+      const timing = item.availability ? ` · ${item.availability}` : "";
+      lines.push(`• ${item.title} (${item.status}${timing})`, item.description, item.link);
+    });
+  }
+  lines.push("", "Curated from official Microsoft sources. Availability may vary by tenant, license and release channel.");
+  return lines.join("\n");
+}
+
+function newsletterCopyHtml(ed) {
+  const link = (item) => item.link
+    ? `<a href="${esc(item.link)}" style="color:#5b45d6;text-decoration:none;font-weight:700">${esc(item.title)}</a>`
+    : `<strong>${esc(item.title)}</strong>`;
+  const sectionTitle = (text) => `<p style="margin:24px 0 8px;font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#6b739b;font-weight:700">${text}</p>`;
+  const feature = ed.feature
+    ? `${sectionTitle("Featured this month")}<div style="padding:18px;background:#f4f6fc;border-left:5px solid #7c5cfc;border-radius:10px">
+        <h2 style="margin:0 0 8px;font-size:20px;color:#1a2150">${link(ed.feature)}</h2>
+        <p style="margin:0;color:#3a4374;line-height:1.55">${esc(ed.feature.summary)}</p>
+      </div>`
+    : "";
+  const stories = (ed.stories || []).length
+    ? `${sectionTitle("Top updates")}${ed.stories.map((item) => `<div style="padding:12px 0;border-bottom:1px solid #e2e7f4">
+        <h3 style="margin:0 0 5px;font-size:16px;color:#1a2150">${link(item)}</h3>
+        <p style="margin:0;color:#3a4374;line-height:1.5">${esc(item.summary)}</p>
+      </div>`).join("")}`
+    : "";
+  const prompt = ed.prompt
+    ? `${sectionTitle("Try it this month")}<div style="padding:16px 18px;background:#eef9f7;border-radius:10px">
+        <strong style="color:#1a2150">${esc(ed.prompt.title)}</strong>
+        <p style="margin:7px 0 0;color:#3a4374;line-height:1.55;font-style:italic">&ldquo;${esc(ed.prompt.text)}&rdquo;</p>
+      </div>`
+    : "";
+  const reads = (ed.reads || []).length
+    ? `${sectionTitle("Worth a read")}<ul style="margin:0;padding-left:20px;color:#3a4374">${ed.reads.map((item) => `<li style="margin:7px 0">${link(item)}</li>`).join("")}</ul>`
+    : "";
+  const roadmap = (ed.roadmap || []).length
+    ? `${sectionTitle("Coming next")}${ed.roadmap.map((item) => `<div style="padding:10px 0;border-bottom:1px solid #e2e7f4">
+        <p style="margin:0 0 4px;font-size:12px;color:#7c5cfc;font-weight:700;text-transform:uppercase">${esc(item.status)}${item.availability ? " · " + esc(item.availability) : ""}</p>
+        <h3 style="margin:0 0 5px;font-size:15px;color:#1a2150">${link(item)}</h3>
+        <p style="margin:0;color:#3a4374;line-height:1.5">${esc(item.description)}</p>
+      </div>`).join("")}`
+    : "";
+  return `<div style="max-width:720px;font-family:Segoe UI,Arial,sans-serif;color:#3a4374">
+    <div style="padding:28px 30px;background:#0a1130;border-top:6px solid #2f6bff;border-radius:12px 12px 0 0">
+      <p style="margin:0 0 6px;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:#5fe3d3;font-weight:700">Microsoft Copilot monthly</p>
+      <h1 style="margin:0 0 9px;font-size:28px;line-height:1.15;color:#fff">${esc(ed.title)}</h1>
+      <p style="margin:0;color:#c9d2f0;line-height:1.55">${esc(ed.intro)}</p>
+    </div>
+    <div style="padding:24px 30px;background:#fff;border:1px solid #e2e7f4;border-top:0">${feature}${stories}${prompt}${reads}${roadmap}
+      <p style="margin:26px 0 0;padding-top:14px;border-top:1px solid #e2e7f4;font-size:11px;color:#6b739b">Curated from official Microsoft sources. Availability may vary by tenant, license and release channel.</p>
+    </div>
+  </div>`;
+}
+
+async function copyNewsletter(ed, button) {
+  const text = newsletterCopyText(ed);
+  const html = newsletterCopyHtml(ed);
+  try {
+    if (navigator.clipboard && navigator.clipboard.write && window.ClipboardItem) {
+      await navigator.clipboard.write([
+        new ClipboardItem({
+          "text/html": new Blob([html], { type: "text/html" }),
+          "text/plain": new Blob([text], { type: "text/plain" }),
+        }),
+      ]);
+    } else if (navigator.clipboard) {
+      await navigator.clipboard.writeText(text);
+    } else {
+      throw new Error("clipboard unavailable");
+    }
+  } catch {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand("copy");
+    ta.remove();
+  }
+  const original = button.textContent;
+  button.textContent = "Copied ✓";
+  button.classList.add("copied");
+  setTimeout(() => { button.textContent = original; button.classList.remove("copied"); }, 1800);
+}
+
+function renderNewsletter() {
+  const list = document.getElementById("newsletterList");
+  if (!list || !newsletterData) return;
+  const editions = newsletterData.editions || [];
+  if (!editions.length) {
+    list.innerHTML = '<div class="rm-empty">No newsletter editions yet.</div>';
+    return;
+  }
+  list.innerHTML = editions.map((ed, index) => {
+    const current = ed.id === newsletterData.currentEdition;
+    return `<details class="mn-edition"${index === 0 ? " open" : ""}>
+      <summary>
+        <span class="mn-summary-main"><span class="mn-archive-label">${current ? "Current edition" : "Archive"}</span>
+          <strong>${esc(ed.monthLabel)}</strong><span>${esc(ed.subject)}</span></span>
+        <span class="mn-chevron" aria-hidden="true"></span>
+      </summary>
+      <div class="mn-edition-body">
+        <div class="mn-edition-actions">
+          <button class="copy-btn mn-copy" data-copy-newsletter="${index}">Copy newsletter</button>
+          <button class="mn-subject-btn" data-copy-subject="${index}">Copy subject line</button>
+        </div>
+        ${newsletterPreview(ed)}
+      </div>
+    </details>`;
+  }).join("");
+
+  list.querySelectorAll("[data-copy-newsletter]").forEach((button) => {
+    button.addEventListener("click", () => copyNewsletter(editions[+button.dataset.copyNewsletter], button));
+  });
+  list.querySelectorAll("[data-copy-subject]").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const ed = editions[+button.dataset.copySubject];
+      try { await navigator.clipboard.writeText(ed.subject); } catch {
+        const ta = document.createElement("textarea");
+        ta.value = ed.subject; document.body.appendChild(ta); ta.select(); document.execCommand("copy"); ta.remove();
+      }
+      const original = button.textContent;
+      button.textContent = "Subject copied ✓";
+      setTimeout(() => (button.textContent = original), 1500);
+    });
+  });
+}
+
+async function loadNewsletter() {
+  if (newsletterData) { renderNewsletter(); return; }
+  if (newsletterLoading) return newsletterLoading;
+  const list = document.getElementById("newsletterList");
+  newsletterLoading = (async () => {
+    try {
+      const data = await fetchJson("data/newsletters.json");
+      if (!data || !Array.isArray(data.editions)) throw new Error("unexpected data shape");
+      newsletterData = data;
+      document.getElementById("newsletterMeta").innerHTML =
+        `<span class="count-badge"><i class="dot-launch"></i>${data.count || 0} monthly editions</span>`;
+      const updated = data.generatedAt ? new Date(data.generatedAt) : null;
+      document.getElementById("newsletterUpdated").textContent = updated
+        ? "Current edition refreshed " + updated.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
+        : "";
+      renderNewsletter();
+    } catch {
+      list.innerHTML = "";
+      list.appendChild(errorBox("Couldn't load newsletter editions.", loadNewsletter));
+    } finally {
+      newsletterLoading = null;
+    }
+  })();
+  return newsletterLoading;
+}
+
 // ----- Spotlight (featured launch banner, config: window.SPOTLIGHT in decks.config.js) -----
 const SPOTLIGHT_ICONS = {
   home: '<path d="M3 11.2 12 4l9 7.2V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-8.8Z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/>',
@@ -587,5 +830,5 @@ if (document.getElementById(initial)) activate(initial, rawHash.startsWith("#a/"
 
 // Preload all data in the background so tab content is ready instantly.
 window.addEventListener("load", () => {
-  setTimeout(() => { loadAnnouncements(); loadRoadmap(); loadBlogs(); }, 150);
+  setTimeout(() => { loadAnnouncements(); loadRoadmap(); loadBlogs(); loadNewsletter(); }, 150);
 });
