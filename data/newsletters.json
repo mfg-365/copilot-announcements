@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T20:04:53.946Z",
+  "generatedAt": "2026-10-21T22:12:42.925Z",
   "count": 10,
   "currentEdition": "2026-10",
   "editions": [
@@ -85,6 +85,14 @@
       },
       "roadmap": [
         {
+          "title": "Word: Legal plugins in Copilot",
+          "description": "Legal plugins in Copilot provide purpose-built skills to help legal professionals summarize, draft, review, and redline legal documents. Available in Word and Cowork, these plugins can use work context from Microsoft 365 and connect to…",
+          "status": "Rolling out",
+          "availability": "October CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571884",
+          "product": "Word"
+        },
+        {
           "title": "Microsoft Purview: Data Loss Prevention for Microsoft Cowork",
           "description": "Microsoft Purview Data Loss Prevention (DLP) is expanding to Microsoft Cowork, enabling data security admins to use a single policy across Microsoft 365 Copilot and Cowork. The integration helps protect sensitive AI interactions by…",
           "status": "Rolling out",
@@ -99,14 +107,6 @@
           "availability": "October CY2026",
           "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566701",
           "product": "PowerPoint"
-        },
-        {
-          "title": "Microsoft Viva: Agent metrics for custom reporting in Insights analyst workbench",
-          "description": "Unlock deeper insights into Copilot agent adoption with flexible, self-serve analytics. Insights global and partition analysts can access and combine granular agent usage metrics with agent and organizational attributes to uncover agent…",
-          "status": "Rolling out",
-          "availability": "September CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562412",
-          "product": "Microsoft Viva"
         }
       ]
     },

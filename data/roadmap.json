@@ -1,13 +1,157 @@
 {
-  "generatedAt": "2026-10-20T22:10:48.146Z",
+  "generatedAt": "2026-10-21T22:12:41.999Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 811,
+  "totalCopilotFeatures": 814,
   "counts": {
     "inDevelopment": 65,
-    "rollingOut": 12,
-    "launched": 43
+    "rollingOut": 13,
+    "launched": 42
   },
   "items": [
+    {
+      "id": 577185,
+      "title": "Microsoft Dataverse: Enable semantic data understanding for agentic use",
+      "description": "Give AI agents and Copilot a true understanding of your business data — not just raw schema — so they can answer questions accurately with less manual configuration. Learns from the systems you already run — Automatically extracts semantic knowledge from views, forms, and metadata already defined in your Dataverse environment, reducing agent deployment from days of manual setup to near-zero effort. Full visibility for makers — View generated semantic knowledge per entity — including name, description, and sample questions — directly in the Power Apps maker portal. Search for understanding gaps and enrich missing context with a built-in glossary for domain-specific terms. Governance and privacy built in — Enable or disable semantic signals at the org level, or at the individual signal-type or table level, giving makers and admins granular control to meet compliance and privacy requirements without sacrificing agent quality. No manual schema mapping. No custom query logic. No disambiguation between what your data is called and what your business actually means.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Microsoft Dataverse"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "November CY2026",
+      "preview": "June CY2026",
+      "modified": "2026-10-20T23:00:34",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577185"
+    },
+    {
+      "id": 577184,
+      "title": "Dynamics 365 Customer Service: Manage intraday operations with AI agent",
+      "description": "Intraday Agent is an autonomous AI agent that helps manage intraday operational scenarios. The following are its high-level capabilities. Intraday queue tracking Continuously monitors queue volumes in real time. Detects anomalies when actual volume deviates significantly from forecasted demand. Automatically reforecasts in real time to assess current demand. Notifies supervisors with proactive alerts and recommendations. Automates corrective actions such as adjusting schedules, rescheduling breaks, or reallocating service representatives to maintain SLA performance. Supports customizable instructions to align mitigation actions with business needs. Intraday adherence tracking Monitors service representative adherence to scheduled shift activities in real time. Detects deviations such as late logins, extended breaks, or early logouts. Autonomously mitigates deviations through actions such as break rescheduling, shift extensions, overtime activation, or flexible channel reassignment. Supports customizable instructions to align mitigation actions with business needs.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Dynamics 365 Customer Service"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "March CY2027",
+      "preview": "September CY2026",
+      "modified": "2026-10-20T23:00:34",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577184"
+    },
+    {
+      "id": 577183,
+      "title": "Microsoft Power Platform governance and administration: Multi-grader comparison",
+      "description": "Multi-grader comparison enables makers to compare the results of multiple graders applied to the same evaluation. The experience highlights agreement, differences, and overall grading behavior. Core capabilities The core capabilities include: Compare graders side-by-side. Compare scores. Review explanations from each grader. Analyze grading consistency. Results experience Results include: Comparative score view. Pass / fail comparison. Grader explanations. Evidence supporting each evaluation.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Microsoft Power Platform governance and administration"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "September CY2026",
+      "modified": "2026-10-20T23:00:34",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577183"
+    },
+    {
+      "id": 571884,
+      "title": "Word: Legal plugins in Copilot",
+      "description": "Legal plugins in Copilot provide purpose-built skills to help legal professionals summarize, draft, review, and redline legal documents. Available in Word and Cowork, these plugins can use work context from Microsoft 365 and connect to supported third-party legal sources.",
+      "status": "Rolling out",
+      "products": [
+        "Word",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "April CY2026",
+      "modified": "2026-10-20T23:00:34",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571884"
+    },
+    {
+      "id": 560538,
+      "title": "Microsoft Viva: Copilot Analytics - Export metrics from Agent Dashboard",
+      "description": "Users can export de-identified, row-level agent metrics and attributes from the Agent Dashboard. Exported data provides detailed insights into agent usage and user-level agent interactions across the organization, with personal identifiers removed. #copilotcontrolsystem",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "November CY2026",
+      "preview": "May CY2026",
+      "modified": "2026-10-20T23:00:34",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560538"
+    },
+    {
+      "id": 555894,
+      "title": "Microsoft Copilot (Microsoft 365): Reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Agent Mode in PowerPoint",
+      "description": "You can now reference files saved in SharePoint libraries and OneDrive folders when creating a presentation with Copilot using Agent Mode in PowerPoint.",
+      "status": "Launched",
+      "products": [
+        "PowerPoint",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "June CY2026",
+      "preview": "",
+      "modified": "2026-10-20T23:00:34",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555894"
+    },
+    {
+      "id": 503570,
+      "title": "Microsoft Copilot (Microsoft 365): Support permission sync missed in incremental crawl",
+      "description": "Earlier, permissions were synced only in the periodic full crawl which generally ha a default frequency of 1 day for most of the connectors. Now, we have support for doing permission syncs more frequently in an incremental way.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "July CY2026",
+      "preview": "May CY2026",
+      "modified": "2026-10-20T23:00:34",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503570"
+    },
     {
       "id": 576709,
       "title": "Microsoft Viva: Enhanced Microsoft Copilot in Viva Engage",
@@ -1784,27 +1928,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570673"
     },
     {
-      "id": 571884,
-      "title": "Word: Legal plugins in Copilot",
-      "description": "Legal plugins in Copilot provide purpose-built skills to help legal professionals summarize, draft, review, and redline legal documents. Available in Word and Cowork, these plugins can use work context from Microsoft 365 and connect to supported third-party legal sources.",
-      "status": "In development",
-      "products": [
-        "Word",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "April CY2026",
-      "modified": "2026-10-13T23:01:05",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571884"
-    },
-    {
       "id": 566703,
       "title": "Microsoft Edge: Upgraded Copilot new tab page",
       "description": "Search, chat, and explore the web from one search box with Copilot-suggested actions and curated work content to help your users get things done faster on the Copilot new tab page. Users will see upgraded Copilot new tab page functionality and features.",
@@ -2331,129 +2454,6 @@
       "preview": "October CY2026",
       "modified": "2026-10-08T23:04:12",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573169"
-    },
-    {
-      "id": 570966,
-      "title": "Microsoft Copilot (Microsoft 365): Audio Overview updates in Copilot Notebooks",
-      "description": "We're rolling out new capabilities for Copilot Notebook audio overview that make it easier to navigate longer content with topic-based episodes, new audio formats such as Critique and Debate, support enterprise information protection with sensitivity labels, and expand audio overview context to more content types.",
-      "status": "In development",
-      "products": [
-        "Microsoft 365",
-        "OneNote",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-10-08T23:04:12",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570966"
-    },
-    {
-      "id": 561036,
-      "title": "Microsoft Purview: DSPM – New Microsoft Purview Data Security Posture Management Experience",
-      "description": "At Ignite, Microsoft is introducing a major evolution of Purview Data Security Posture Management (DSPM) to help organizations strengthen data security and confidently embrace AI. The new DSPM experience unifies visibility and control across traditional data and AI-driven environments, delivering outcome-based guided workflows that turn insights into actionable steps—so teams can prioritize risks and remediate faster. It brings AI observability, enhanced posture reporting, and intelligent Security Copilot agents to automate tasks like triage and policy management. Plus, Purview now extends coverage beyond Microsoft data with third-party signals from partners like BigID, Cyera, OneTrust, and Varonis, giving security teams a single, streamlined view of sensitive data across clouds and platforms. Together, these innovations make DSPM the central hub for managing data security posture in the era of AI. We are also extending Data Risk Assessments to Fabric and to item-level analysis with new remediation actions like bulk disabling of overshared SharePoint links.",
-      "status": "In development",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "January CY2027",
-      "preview": "",
-      "modified": "2026-10-08T23:04:12",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561036"
-    },
-    {
-      "id": 557170,
-      "title": "Microsoft Teams: Delete meeting generated content in recap",
-      "description": "Meeting organizers can now easily delete meeting generated content including recording, transcript, AI summary, and notes through the new delete button in recap page. Shared files in the meeting won't be deleted.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "May CY2026",
-      "preview": "",
-      "modified": "2026-10-08T23:04:12",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557170"
-    },
-    {
-      "id": 555886,
-      "title": "Microsoft Copilot (Microsoft 365): Reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation",
-      "description": "You can now reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation.",
-      "status": "Launched",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Mac"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "March CY2026",
-      "preview": "",
-      "modified": "2026-10-08T23:04:12",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=555886"
-    },
-    {
-      "id": 486696,
-      "title": "Outlook: Agents for Microsoft 365 Copilot available in Copilot Chat in Outlook for Mac",
-      "description": "We will be adding declarative agents support in Copilot Chat in Outlook. This roadmap item tracks availability in Outlook for Mac.",
-      "status": "Launched",
-      "products": [
-        "Outlook"
-      ],
-      "platforms": [
-        "Mac"
-      ],
-      "releasePhase": [
-        "Current Channel",
-        "General Availability"
-      ],
-      "availability": "March CY2026",
-      "preview": "",
-      "modified": "2026-10-08T23:04:12",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=486696"
-    },
-    {
-      "id": 570847,
-      "title": "Microsoft Viva: Copilot Analytics - Agent value insights in Agent 365 Dashboard",
-      "description": "Customers can now view value insights in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics). These insights help business leaders and change and adoption specialists understand not only whether agents are being used, but also the estimated assisted hours agents provide and the types of work contributing to that value. This update builds on the existing Agent 365 Dashboard adoption experience by connecting agent activity with a clearer view of the work agents support across the organization.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "December CY2026",
-      "preview": "November CY2026",
-      "modified": "2026-10-07T23:01:35",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570847"
     }
   ]
 }
