@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T22:12:42.925Z",
+  "generatedAt": "2026-10-22T22:13:06.351Z",
   "count": 10,
   "currentEdition": "2026-10",
   "editions": [
@@ -12,14 +12,48 @@
       "title": "October 2026 Copilot Update",
       "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from October 2026.",
       "feature": {
-        "title": "OneDrive Just Got a Major Upgrade: New Copilot Capabilities, Simpler Sharing, and Smarter Photos",
-        "summary": "Files have always been at the heart of how we work. They're where we create, collaborate, and share ideas. And now, with Copilot and agents, they're taking on an even bigger role, providing the knowledge and context that AI needs to underst",
-        "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-just-got-a-major-upgrade-new-copilot-capabilities/ba-p/4565995",
-        "date": "2026-10-20T17:43:27.000Z",
-        "label": "Microsoft OneDrive Blog (Tech Community)",
+        "title": "Publish rich and interactive content with HTML pages in SharePoint",
+        "summary": "We're excited to share that you can now create HTML pages in SharePoint. Describe what you want and let Copilot build it for you, or upload an HTML file you've already crafted . HTML pages live in the Site Pages library, right alongside you",
+        "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/publish-rich-and-interactive-content-with-html-pages-in/ba-p/4565918",
+        "date": "2026-10-22T10:03:12.000Z",
+        "label": "Microsoft SharePoint Blog (Tech Community)",
         "kind": "blog"
       },
       "stories": [
+        {
+          "title": "Copilot Code: Make the power of coding accessible to everyone",
+          "summary": "People closest to the problem often know exactly what would fix it: a tracker that stays current, a dashboard that speeds decisions, or a small tool that eliminates a recurring workaround. Copilot Code helps them turn those ideas into worki",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/copilot-code-make-the-power-of-coding-accessible-to-everyone/ba-p/4562358",
+          "date": "2026-10-21T22:09:06.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "What’s New in Cowork: Expanded plugins and role-based skills",
+          "summary": "Work today doesn’t happen in one app, and every role has repeatable tasks that take more than a quick prompt to complete. Cowork is built for that reality. With expanded connections to the systems you use every day, and role-based skills th",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-cowork-expanded-plugins-and-role-based-skills/ba-p/4566221",
+          "date": "2026-10-21T16:00:00.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Introducing the customer conversation harness in Microsoft Copilot Studio",
+          "summary": "By Omar Aftab, Vice President, Conversational AI The way customers interact with brands is fundamentally changing. More and more interactions are driven by conversational AI, and customers increasingly expect every interaction to be deeply",
+          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/introducing-the-customer-conversation-harness-in-microsoft/ba-p/4563954",
+          "date": "2026-10-21T15:00:19.000Z",
+          "label": "Copilot Studio Blog (Tech Community)",
+          "kind": "blog"
+        }
+      ],
+      "reads": [
+        {
+          "title": "OneDrive Just Got a Major Upgrade: New Copilot Capabilities, Simpler Sharing, and Smarter Photos",
+          "summary": "Files have always been at the heart of how we work. They're where we create, collaborate, and share ideas. And now, with Copilot and agents, they're taking on an even bigger role, providing the knowledge and context that AI needs to underst",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-just-got-a-major-upgrade-new-copilot-capabilities/ba-p/4565995",
+          "date": "2026-10-20T17:43:27.000Z",
+          "label": "Microsoft OneDrive Blog (Tech Community)",
+          "kind": "blog"
+        },
         {
           "title": "Transform your storytelling with interactive slides in PowerPoint",
           "summary": "The most powerful moments in a presentation are when you and your audience can explore an idea together. We're continuing to expand how PowerPoint helps you turn ideas, data, and institutional knowledge into compelling narratives with inter",
@@ -45,45 +79,19 @@
           "kind": "blog"
         }
       ],
-      "reads": [
-        {
-          "title": "Introducing a team knowledge base, curated by Copilot and agents",
-          "summary": "Collaboration is changing as teams of humans and agents now work together to get more done. That’s why we’ve evolved Copilot to empower these human-agent teams: just last month, we announced copilot​ in Teams, Autopilot as your digital team",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/introducing-a-team-knowledge-base-curated-by-copilot-and-agents/ba-p/4564203",
-          "date": "2026-10-14T13:00:15.000Z",
-          "label": "Microsoft SharePoint Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Building Trust-Aware Controls for AI: Differentiated handling of untrusted content",
-          "summary": "As organizations adopt generative AI into daily workflows, they face a new class of security challenges that do not fit traditional models of access control, identity, or data protection. One of the most important is indirect prompt injecti",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/building-trust-aware-controls-for-ai-differentiated-handling-of/ba-p/4562160",
-          "date": "2026-10-13T15:01:57.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Beyond Analysis: Copilot Gets to Work in Excel",
-          "summary": "Excel has always been where work gets done. The best outcomes in Excel rarely come from a single analysis. They come from bringing in the right data, preparing it with confidence, applying the processes you trust, and turning the result int",
-          "link": "https://techcommunity.microsoft.com/t5/excel-blog/beyond-analysis-copilot-gets-to-work-in-excel/ba-p/4517581",
-          "date": "2026-10-12T15:00:00.000Z",
-          "label": "Excel Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "What's New in Notebooks | October 2026",
-          "summary": "Copilot Notebooks is an AI-powered workspace for a project or topic to help individuals and teams move work forward. It brings your Microsoft 365 work context into one workspace where you can collect references, ask questions grounded in yo",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-notebooks-october-2026/ba-p/4559105",
-          "date": "2026-10-09T20:09:25.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        }
-      ],
       "prompt": {
         "title": "Create customer talking points",
         "text": "Turn these updates into customer-ready talking points. For each major item, provide: a plain-language description, who benefits, a realistic example, and one question to ask the customer."
       },
       "roadmap": [
+        {
+          "title": "Microsoft Teams: AI-powered notes for in-person meetings with Facilitator in Teams Rooms on Windows",
+          "description": "In addition to capturing real-time notes and meeting outcomes during scheduled or hybrid meetings, the Facilitator agent assists you with notes, decisions and actions for in-person meetings in Teams Rooms on Windows. Simply invite…",
+          "status": "Rolling out",
+          "availability": "October CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560318",
+          "product": "Microsoft Copilot (Microsoft 365)"
+        },
         {
           "title": "Word: Legal plugins in Copilot",
           "description": "Legal plugins in Copilot provide purpose-built skills to help legal professionals summarize, draft, review, and redline legal documents. Available in Word and Cowork, these plugins can use work context from Microsoft 365 and connect to…",
@@ -99,14 +107,6 @@
           "availability": "October CY2026",
           "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570845",
           "product": "Microsoft Purview"
-        },
-        {
-          "title": "Edit your document with Copilot in PowerPoint in Government Clouds",
-          "description": "Copilot in PowerPoint helps you create, edit, and refine presentations through natural language—right inside your deck. Start a new presentation or build on an existing one by asking Copilot to generate slides, update content, improve…",
-          "status": "Rolling out",
-          "availability": "October CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566701",
-          "product": "PowerPoint"
         }
       ]
     },

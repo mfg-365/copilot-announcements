@@ -1,13 +1,159 @@
 {
-  "generatedAt": "2026-10-21T22:12:41.999Z",
+  "generatedAt": "2026-10-22T22:13:05.651Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 814,
+  "totalCopilotFeatures": 818,
   "counts": {
     "inDevelopment": 65,
     "rollingOut": 13,
     "launched": 42
   },
   "items": [
+    {
+      "id": 573700,
+      "title": "Microsoft Copilot (Microsoft 365): Sales Development Agent is now available",
+      "description": "Autonomous agent that researches, qualifies, engages with leads, scaling sales capacity 24/7.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "January CY2027",
+      "preview": "October CY2026",
+      "modified": "2026-10-21T23:02:10",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573700"
+    },
+    {
+      "id": 573261,
+      "title": "Dynamics 365 Business Central: Expense Agent - Use Expense Manager role center",
+      "description": "The Expense Manager Role Center is updated to provide a more focused and efficient experience for managing vendor and expense-related activities. The enhancements align the workspace with typical expense management workflows, ensuring that key information and actions are readily accessible. Where relevant, other Role Centers are also updated to include access to expense management features.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "December CY2026",
+      "preview": "December CY2026",
+      "modified": "2026-10-21T23:02:10",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573261"
+    },
+    {
+      "id": 573260,
+      "title": "Dynamics 365 Business Central: Expense Agent - Add an interim approver when you submit an expense report",
+      "description": "This feature introduces support for a simple interim approval scenario for expense reports. When someone submits an expense report, organizations can designate an interim approver to review and approve expenses before the final approver can review and approve. Interim approver must review expense reports to confirm whether they're complete and compliant before final approver.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "November CY2026",
+      "preview": "November CY2026",
+      "modified": "2026-10-21T23:02:10",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573260"
+    },
+    {
+      "id": 573257,
+      "title": "Dynamics 365 Business Central: Expense Agent - Create expense reports per trip automatically",
+      "description": "Expense Agent can automatically create expense reports based on identified business trips. You just need to configure the feature on the Expense Agent Setup page. Instead of manually collecting and organizing individual expense entries, you can use the agent to group relevant expenses and generate a dedicated expense report for each trip. Key capabilities include: Administrators can specify whether the company wants to group expenses by trip and not only by period. Automated expense report creation without requiring you to manually start and organize reports after a travel requisition is approved. Automatic trip-based expense grouping associates eligible expenses with the correct business trip based on information in the travel requisition. The agent automatically groups not only expenses based on the location, but uses intelligence to group all expenses based on the context. Non-trip related expenses keep existing period-based grouping in expense reports.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "November CY2026",
+      "preview": "November CY2026",
+      "modified": "2026-10-21T23:02:10",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573257"
+    },
+    {
+      "id": 567302,
+      "title": "Microsoft Teams: Ability for IT admins to customize the user notification messages for recording and transcription in calls",
+      "description": "This feature enables IT admins to customize a portion of the user notification messages for recording and transcription during Teams calls.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-10-21T23:02:10",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567302"
+    },
+    {
+      "id": 567315,
+      "title": "Planner: Capabilities in Microsoft Cowork",
+      "description": "You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your Planner tasks across Microsoft 365, such as drafting and sending emails, scheduling meetings, posting updates to Teams, and working with files. It can then write progress back to Planner with your approval. You can move from planning your work to getting it done in one place.",
+      "status": "In development",
+      "products": [
+        "Planner",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Teams and Surface Devices",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "November CY2026",
+      "preview": "October CY2026",
+      "modified": "2026-10-21T23:02:10",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567315"
+    },
+    {
+      "id": 560318,
+      "title": "Microsoft Teams: AI-powered notes for in-person meetings with Facilitator in Teams Rooms on Windows",
+      "description": "In addition to capturing real-time notes and meeting outcomes during scheduled or hybrid meetings, the Facilitator agent assists you with notes, decisions and actions for in-person meetings in Teams Rooms on Windows. Simply invite Facilitator with one tap of the room console. Meeting notes appear on the front of room display or touch board, are available via meeting recap when shared, and deleted if no one selected. Rest assured no data remains in the room. Available with Teams Rooms Pro.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Microsoft Teams"
+      ],
+      "platforms": [
+        "Teams and Surface Devices"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-21T23:02:10",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560318"
+    },
     {
       "id": 577185,
       "title": "Microsoft Dataverse: Enable semantic data understanding for agentic use",
@@ -2314,146 +2460,6 @@
       "preview": "",
       "modified": "2026-10-09T22:04:35",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573220"
-    },
-    {
-      "id": 570669,
-      "title": "Microsoft Copilot Studio: Discover and use shared plugins in Copilot Studio",
-      "description": "Copilot Studio now connects to Microsoft's shared plugin registry, making it easier for makers to discover and use plugins, connectors, and other available capabilities. This integration provides a more consistent way to extend agents with capabilities across Microsoft's AI ecosystem.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot Studio"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-10-09T22:04:35",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570669"
-    },
-    {
-      "id": 569930,
-      "title": "Microsoft Copilot Studio: Conversational configuration of connectors in Copilot Studio",
-      "description": "Configure the connectors your agent needs, with a simple in-chat sign-in instead of a full settings experience.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft Copilot Studio"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-10-09T22:04:35",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569930"
-    },
-    {
-      "id": 552592,
-      "title": "Microsoft Copilot (Microsoft 365): Simplifying Content in the Input Box",
-      "description": "When users insert content in a prompt using 'Add Work Content' under the Plus menu, the content will only appear as a pill in the Input Box UI and will not be repeated as part of the user's prompt. This helps to simplify the Input Box and reserve it for prompt creation. Updated April 22, 2026: We are moving this item back to In Development and will be relaunching after further updates. We apologize for any inconvenience.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "May CY2026",
-      "preview": "",
-      "modified": "2026-10-09T22:04:35",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=552592"
-    },
-    {
-      "id": 499898,
-      "title": "Microsoft Copilot (Microsoft 365): Viva Engage - Community Agent",
-      "description": "Community Agent helps members get answers to questions in Viva Engage communities using community knowledge and connected sources. Community admins can choose to require human review before answers are posted or allow automatic posting.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "September CY2025",
-      "modified": "2026-10-09T22:04:35",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=499898"
-    },
-    {
-      "id": 574106,
-      "title": "SharePoint: AI input widget and content preview in Copilot",
-      "description": "With this new capability, users of Copilot in SharePoint will be able to view saved and unsaved preview content side by side with chat. Users will also be able to interact with created HTML forms and confirm responses to send to chat.",
-      "status": "In development",
-      "products": [
-        "SharePoint"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-10-08T23:04:12",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=574106"
-    },
-    {
-      "id": 573446,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot Chat in OneNote can create, edit, and refine content",
-      "description": "Copilot in OneNote can generate new content and directly edit when in edit mode. In this mode you can create, rename, and delete pages, sections, or notebooks as well as add or edit content in pages. Copilot can bring content from across WorkIQ as well as complete actions across other workflows such as creating Word, Excel, and PowerPoint files.",
-      "status": "In development",
-      "products": [
-        "OneNote",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-10-08T23:04:12",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573446"
-    },
-    {
-      "id": 573169,
-      "title": "Microsoft Viva: Expanded agent coverage in Agent Dashboard",
-      "description": "Customers can now view reporting for agents from third-party platforms in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics). This expanded coverage provides a more comprehensive view of agent activity across their organization.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-10-08T23:04:12",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573169"
     }
   ]
 }

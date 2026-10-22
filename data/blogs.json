@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T22:12:42.846Z",
+  "generatedAt": "2026-10-22T22:13:06.292Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -48,6 +48,38 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "Publish rich and interactive content with HTML pages in SharePoint",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/publish-rich-and-interactive-content-with-html-pages-in/ba-p/4565918",
+      "description": "We're excited to share that you can now create HTML pages in SharePoint. Describe what you want and let Copilot build it for you, or upload an HTML file you've already crafted . HTML pages live in the Site Pages library, right alongside you",
+      "categories": [],
+      "source": "Microsoft SharePoint Blog (Tech Community)",
+      "date": "2026-10-22T10:03:12.000Z"
+    },
+    {
+      "title": "Copilot Code: Make the power of coding accessible to everyone",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/copilot-code-make-the-power-of-coding-accessible-to-everyone/ba-p/4562358",
+      "description": "People closest to the problem often know exactly what would fix it: a tracker that stays current, a dashboard that speeds decisions, or a small tool that eliminates a recurring workaround. Copilot Code helps them turn those ideas into worki",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-10-21T22:09:06.000Z"
+    },
+    {
+      "title": "What’s New in Cowork: Expanded plugins and role-based skills",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-cowork-expanded-plugins-and-role-based-skills/ba-p/4566221",
+      "description": "Work today doesn’t happen in one app, and every role has repeatable tasks that take more than a quick prompt to complete. Cowork is built for that reality. With expanded connections to the systems you use every day, and role-based skills th",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-10-21T16:00:00.000Z"
+    },
+    {
+      "title": "Introducing the customer conversation harness in Microsoft Copilot Studio",
+      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/introducing-the-customer-conversation-harness-in-microsoft/ba-p/4563954",
+      "description": "By Omar Aftab, Vice President, Conversational AI The way customers interact with brands is fundamentally changing. More and more interactions are driven by conversational AI, and customers increasingly expect every interaction to be deeply ",
+      "categories": [],
+      "source": "Copilot Studio Blog (Tech Community)",
+      "date": "2026-10-21T15:00:19.000Z"
+    },
     {
       "title": "OneDrive Just Got a Major Upgrade: New Copilot Capabilities, Simpler Sharing, and Smarter Photos",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-just-got-a-major-upgrade-new-copilot-capabilities/ba-p/4565995",
@@ -430,38 +462,6 @@
       "categories": [],
       "source": "Microsoft Power Platform Blog (Copilot Studio)",
       "date": "2026-08-13T12:00:00.000Z"
-    },
-    {
-      "title": "Built for business: How Microsoft 365 Copilot keeps you in the flow of legal work",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/built-for-business-how-microsoft-365-copilot-keeps-you-in-the/ba-p/4546016",
-      "description": "The tools that run a business rarely live in one place. For a small business owner, that means stepping out of the document you're writing to search for an attorney, digging through a folder for the LLC paperwork you half-remember filing, o",
-      "categories": [],
-      "source": "Microsoft Copilot Blog (Tech Community)",
-      "date": "2026-08-12T16:00:00.000Z"
-    },
-    {
-      "title": "Turn meetings into momentum with Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/turn-meetings-into-momentum-with-microsoft-365-copilot/ba-p/4545675",
-      "description": "Most people don't need more meetings—they need meetings that lead to action. At their best, meetings drive decisions and keep work moving forward. But poorly managed meetings can actually slow progress. In fact, our Work Trend Index report ",
-      "categories": [],
-      "source": "Microsoft Teams Blog (Tech Community)",
-      "date": "2026-08-11T15:59:45.000Z"
-    },
-    {
-      "title": "What’s New in Microsoft Teams | July 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-july-2026/ba-p/4542510",
-      "description": "I hope everyone is having a great summer - July has flown by. As we head into the second half of the year, we're continuing to innovate in Teams to help people collaborate with people and AI to get work done more efficiently. This month's u",
-      "categories": [],
-      "source": "Microsoft Teams Blog (Tech Community)",
-      "date": "2026-08-10T16:23:16.000Z"
-    },
-    {
-      "title": "Take back-to-school tasks off your plate with Microsoft Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/take-back-to-school-tasks-off-your-plate-with-microsoft-copilot/ba-p/4544759",
-      "description": "Back-to-school planning doesn’t stop after the first day of classes. By the second week, your to-do list is already packed with an early dismissal, a practice change, and a form someone forgot to mention until bedtime. The hard part usually",
-      "categories": [],
-      "source": "Microsoft 365 Insider Blog (Tech Community)",
-      "date": "2026-08-06T17:45:00.000Z"
     }
   ]
 }
