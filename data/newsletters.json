@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T22:13:06.351Z",
+  "generatedAt": "2026-10-23T21:56:43.538Z",
   "count": 10,
   "currentEdition": "2026-10",
   "editions": [
@@ -12,14 +12,30 @@
       "title": "October 2026 Copilot Update",
       "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from October 2026.",
       "feature": {
-        "title": "Publish rich and interactive content with HTML pages in SharePoint",
-        "summary": "We're excited to share that you can now create HTML pages in SharePoint. Describe what you want and let Copilot build it for you, or upload an HTML file you've already crafted . HTML pages live in the Site Pages library, right alongside you",
-        "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/publish-rich-and-interactive-content-with-html-pages-in/ba-p/4565918",
-        "date": "2026-10-22T10:03:12.000Z",
-        "label": "Microsoft SharePoint Blog (Tech Community)",
+        "title": "Explore user feedback with Microsoft 365 Insights Agent",
+        "summary": "Once people start using an agent you've built, their experience becomes an important guide to what you do next. Usage can tell you whether the agent is gaining traction but deciding how to improve it takes more than a count of active users.",
+        "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/explore-user-feedback-with-microsoft-365-insights-agent/ba-p/4565981",
+        "date": "2026-10-22T16:00:00.000Z",
+        "label": "Microsoft Copilot Blog (Tech Community)",
         "kind": "blog"
       },
       "stories": [
+        {
+          "title": "Microsoft named a Leader in two evaluations of next-generation app development platforms",
+          "summary": "Discover how Microsoft Power Platform and Microsoft Copilot Studio are shaping the next generation of business software with AI-powered development, agents, apps, workflows, and enterprise governance. Learn why Microsoft was recognized as a",
+          "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/22/microsoft-named-a-leader-in-two-evaluations-of-next-generation-app-development-platforms/",
+          "date": "2026-10-22T12:00:00.000Z",
+          "label": "Microsoft Power Platform Blog (Copilot Studio)",
+          "kind": "blog"
+        },
+        {
+          "title": "Publish rich and interactive content with HTML pages in SharePoint",
+          "summary": "We're excited to share that you can now create HTML pages in SharePoint. Describe what you want and let Copilot build it for you, or upload an HTML file you've already crafted . HTML pages live in the Site Pages library, right alongside you",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/publish-rich-and-interactive-content-with-html-pages-in/ba-p/4565918",
+          "date": "2026-10-22T10:03:12.000Z",
+          "label": "Microsoft SharePoint Blog (Tech Community)",
+          "kind": "blog"
+        },
         {
           "title": "Copilot Code: Make the power of coding accessible to everyone",
           "summary": "People closest to the problem often know exactly what would fix it: a tracker that stays current, a dashboard that speeds decisions, or a small tool that eliminates a recurring workaround. Copilot Code helps them turn those ideas into worki",
@@ -27,7 +43,9 @@
           "date": "2026-10-21T22:09:06.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
           "kind": "blog"
-        },
+        }
+      ],
+      "reads": [
         {
           "title": "What’s New in Cowork: Expanded plugins and role-based skills",
           "summary": "Work today doesn’t happen in one app, and every role has repeatable tasks that take more than a quick prompt to complete. Cowork is built for that reality. With expanded connections to the systems you use every day, and role-based skills th",
@@ -43,9 +61,7 @@
           "date": "2026-10-21T15:00:19.000Z",
           "label": "Copilot Studio Blog (Tech Community)",
           "kind": "blog"
-        }
-      ],
-      "reads": [
+        },
         {
           "title": "OneDrive Just Got a Major Upgrade: New Copilot Capabilities, Simpler Sharing, and Smarter Photos",
           "summary": "Files have always been at the heart of how we work. They're where we create, collaborate, and share ideas. And now, with Copilot and agents, they're taking on an even bigger role, providing the knowledge and context that AI needs to underst",
@@ -59,22 +75,6 @@
           "summary": "The most powerful moments in a presentation are when you and your audience can explore an idea together. We're continuing to expand how PowerPoint helps you turn ideas, data, and institutional knowledge into compelling narratives with inter",
           "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/transform-your-storytelling-with-interactive-slides-in/ba-p/4564287",
           "date": "2026-10-19T16:14:07.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Delegate shared business processes to agents that are more persistent and proactive with Microsoft Copilot Studio",
-          "summary": "Build persistent agents in Microsoft Copilot Studio with agent accounts, memory, and triggers to run recurring business processes.",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/delegate-shared-business-processes-to-agents-that-are-more-persistent-and-proactive-with-microsoft-copilot-studio/",
-          "date": "2026-10-15T15:05:00.000Z",
-          "label": "Microsoft Copilot Studio Blog",
-          "kind": "blog"
-        },
-        {
-          "title": "Introducing Microsoft Copilot for legal",
-          "summary": "In legal work, the answer rarely sits neatly in one place. It may depend on precedent, organizational standards, or a regulatory consideration that changes the whole analysis. General-purpose AI can fall short: legal professionals need to u",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/introducing-microsoft-copilot-for-legal/ba-p/4564246",
-          "date": "2026-10-15T15:04:08.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
           "kind": "blog"
         }

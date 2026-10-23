@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T22:13:06.292Z",
+  "generatedAt": "2026-10-23T21:56:43.492Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -48,6 +48,22 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "Explore user feedback with Microsoft 365 Insights Agent",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/explore-user-feedback-with-microsoft-365-insights-agent/ba-p/4565981",
+      "description": "Once people start using an agent you've built, their experience becomes an important guide to what you do next. Usage can tell you whether the agent is gaining traction but deciding how to improve it takes more than a count of active users.",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-10-22T16:00:00.000Z"
+    },
+    {
+      "title": "Microsoft named a Leader in two evaluations of next-generation app development platforms",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/22/microsoft-named-a-leader-in-two-evaluations-of-next-generation-app-development-platforms/",
+      "description": "Discover how Microsoft Power Platform and Microsoft Copilot Studio are shaping the next generation of business software with AI-powered development, agents, apps, workflows, and enterprise governance. Learn why Microsoft was recognized as a",
+      "categories": [],
+      "source": "Microsoft Power Platform Blog (Copilot Studio)",
+      "date": "2026-10-22T12:00:00.000Z"
+    },
     {
       "title": "Publish rich and interactive content with HTML pages in SharePoint",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/publish-rich-and-interactive-content-with-html-pages-in/ba-p/4565918",
@@ -446,22 +462,6 @@
       "categories": [],
       "source": "Microsoft Copilot Blog (Tech Community)",
       "date": "2026-08-13T16:00:00.000Z"
-    },
-    {
-      "title": "Co-create slides with Copilot in PowerPoint for iPad",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/co-create-slides-with-copilot-in-powerpoint-for-ipad/ba-p/4546240",
-      "description": "I’m excited to introduce a feature many of you already use on desktop and the web to PowerPoint for iPad: the ability to co-create with Microsoft 365 Copilot directly in your presentation. What’s new Whether you ’ re building a first draft,",
-      "categories": [],
-      "source": "Microsoft 365 Insider Blog (Tech Community)",
-      "date": "2026-08-13T15:45:00.000Z"
-    },
-    {
-      "title": "Register now for PPCC 2026: Come for the learning, stay for the community",
-      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/13/register-now-for-ppcc-2026-come-for-the-learning-stay-for-the-community/",
-      "description": "Whether you’re exploring AI in your business, building with low code, developing professional solutions, or leading enterprise-wide transformation, PPCC is your best opportunity to return to work on Monday ready to make an impact. The post ",
-      "categories": [],
-      "source": "Microsoft Power Platform Blog (Copilot Studio)",
-      "date": "2026-08-13T12:00:00.000Z"
     }
   ]
 }
