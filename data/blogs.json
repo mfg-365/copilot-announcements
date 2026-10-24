@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T21:56:43.492Z",
+  "generatedAt": "2026-10-24T21:27:19.136Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -48,6 +48,22 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "Turn GitHub notifications into code with GitHub Copilot in Microsoft Teams",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/turn-github-notifications-into-code-with-github-copilot-in/ba-p/4566408",
+      "description": "GitHub can now bring repository updates into a channel, group chat, or private chat. When an update needs action, reply to the notification and @mention GitHub with the task you want GitHub Copilot to carry out. GitHub Copilot uses the issu",
+      "categories": [],
+      "source": "Microsoft Teams Blog (Tech Community)",
+      "date": "2026-10-23T23:39:10.000Z"
+    },
+    {
+      "title": "From Pilots to Programs: A Structured Approach to Scaling AI and Agents for Real Business Value",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/from-pilots-to-programs-a-structured-approach-to-scaling-ai-and/ba-p/4566921",
+      "description": "Many enterprises don’t have an AI problem. They have a science-project problem: pilots of Copilot, agents, and AI apps everywhere, too few in production, and more agents than they can easily see or govern. Even after a good pilot, one quest",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-10-23T19:25:10.000Z"
+    },
     {
       "title": "Explore user feedback with Microsoft 365 Insights Agent",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/explore-user-feedback-with-microsoft-365-insights-agent/ba-p/4565981",
@@ -446,22 +462,6 @@
       "categories": [],
       "source": "Excel Blog (Tech Community)",
       "date": "2026-08-26T20:52:44.000Z"
-    },
-    {
-      "title": "Turn conversations into code with GitHub Copilot in Microsoft Teams",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/turn-conversations-into-code-with-github-copilot-in-microsoft/ba-p/4548305",
-      "description": "Coding where context lives and collaboration happens The best prompt may be the conversation your team has already had or is currently having. Until now, using a coding agent often meant paying context and coordination taxes. Developers had",
-      "categories": [],
-      "source": "Microsoft Teams Blog (Tech Community)",
-      "date": "2026-08-21T23:19:49.000Z"
-    },
-    {
-      "title": "Copilot Notebooks now works with Markdown, plain-text, and rich-text files",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/copilot-notebooks-now-works-with-markdown-plain-text-and-rich/ba-p/4545652",
-      "description": "Add your READMEs, wikis, logs, and transcripts to your notebook Your most useful project knowledge does not always live in a polished document. It might be captured in a README, project wiki, system log, meeting transcript, research export,",
-      "categories": [],
-      "source": "Microsoft Copilot Blog (Tech Community)",
-      "date": "2026-08-13T16:00:00.000Z"
     }
   ]
 }
