@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T21:33:52.775Z",
+  "generatedAt": "2026-10-26T23:04:16.343Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -48,6 +48,22 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "Frontier expands to more Microsoft 365 public previews",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/frontier-expands-to-more-microsoft-365-public-previews/ba-p/4567243",
+      "description": "Starting in November, the Frontier program will include eligible public preview features for new Outlook for Windows, OneDrive, SharePoint, and Microsoft Teams, giving organizations one place to try what's coming across Microsoft 365. Until",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-10-26T17:21:05.000Z"
+    },
+    {
+      "title": "Introducing the Power Platform Admin Plugin in Cowork: Agentic Governance with Natural Language",
+      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/introducing-the-power-platform-admin-plugin-in-cowork-agentic/ba-p/4567557",
+      "description": "Ask a Copilot Studio or Power Platform admin a simple question: Which business-critical assets are owned by people who have left the organization? Answering it often means checking multiple admin views, the user directory, connector lists, ",
+      "categories": [],
+      "source": "Copilot Studio Blog (Tech Community)",
+      "date": "2026-10-26T00:42:49.000Z"
+    },
     {
       "title": "Turn GitHub notifications into code with GitHub Copilot in Microsoft Teams",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/turn-github-notifications-into-code-with-github-copilot-in/ba-p/4566408",
@@ -446,22 +462,6 @@
       "categories": [],
       "source": "Excel Blog (Tech Community)",
       "date": "2026-09-01T13:00:00.000Z"
-    },
-    {
-      "title": "SharePoint Showcase: 5 Ways Organizations Improve Business Processes with Copilot in SharePoint",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-showcase-5-ways-organizations-improve-business/ba-p/4549704",
-      "description": "AI becomes most impactful when it helps with the work teams already do every day. The challenge is rarely a lack of information. It is turning trusted information into a clear, repeatable process without starting from scratch each time. Tha",
-      "categories": [],
-      "source": "Microsoft SharePoint Blog (Tech Community)",
-      "date": "2026-08-27T16:28:53.000Z"
-    },
-    {
-      "title": "What's New in Excel (August 2026)",
-      "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-august-2026/ba-p/4527283",
-      "description": "Welcome to the August 2026 update. New this month for Copilot, chat history, chart/PivotTable skills, Python skill, as well as change history. Excel for Windows, Mac, and web: - Copilot in Excel: change history skill #FIA - Copilot in Excel",
-      "categories": [],
-      "source": "Excel Blog (Tech Community)",
-      "date": "2026-08-26T20:52:44.000Z"
     }
   ]
 }

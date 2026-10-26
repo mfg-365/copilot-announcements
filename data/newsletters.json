@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T21:33:52.823Z",
+  "generatedAt": "2026-10-26T23:04:16.386Z",
   "count": 10,
   "currentEdition": "2026-10",
   "editions": [
@@ -12,14 +12,30 @@
       "title": "October 2026 Copilot Update",
       "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from October 2026.",
       "feature": {
-        "title": "Turn GitHub notifications into code with GitHub Copilot in Microsoft Teams",
-        "summary": "GitHub can now bring repository updates into a channel, group chat, or private chat. When an update needs action, reply to the notification and @mention GitHub with the task you want GitHub Copilot to carry out. GitHub Copilot uses the issu",
-        "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/turn-github-notifications-into-code-with-github-copilot-in/ba-p/4566408",
-        "date": "2026-10-23T23:39:10.000Z",
-        "label": "Microsoft Teams Blog (Tech Community)",
+        "title": "Frontier expands to more Microsoft 365 public previews",
+        "summary": "Starting in November, the Frontier program will include eligible public preview features for new Outlook for Windows, OneDrive, SharePoint, and Microsoft Teams, giving organizations one place to try what's coming across Microsoft 365. Until",
+        "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/frontier-expands-to-more-microsoft-365-public-previews/ba-p/4567243",
+        "date": "2026-10-26T17:21:05.000Z",
+        "label": "Microsoft Copilot Blog (Tech Community)",
         "kind": "blog"
       },
       "stories": [
+        {
+          "title": "Introducing the Power Platform Admin Plugin in Cowork: Agentic Governance with Natural Language",
+          "summary": "Ask a Copilot Studio or Power Platform admin a simple question: Which business-critical assets are owned by people who have left the organization? Answering it often means checking multiple admin views, the user directory, connector lists,",
+          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/introducing-the-power-platform-admin-plugin-in-cowork-agentic/ba-p/4567557",
+          "date": "2026-10-26T00:42:49.000Z",
+          "label": "Copilot Studio Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Turn GitHub notifications into code with GitHub Copilot in Microsoft Teams",
+          "summary": "GitHub can now bring repository updates into a channel, group chat, or private chat. When an update needs action, reply to the notification and @mention GitHub with the task you want GitHub Copilot to carry out. GitHub Copilot uses the issu",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/turn-github-notifications-into-code-with-github-copilot-in/ba-p/4566408",
+          "date": "2026-10-23T23:39:10.000Z",
+          "label": "Microsoft Teams Blog (Tech Community)",
+          "kind": "blog"
+        },
         {
           "title": "From Pilots to Programs: A Structured Approach to Scaling AI and Agents for Real Business Value",
           "summary": "Many enterprises don’t have an AI problem. They have a science-project problem: pilots of Copilot, agents, and AI apps everywhere, too few in production, and more agents than they can easily see or govern. Even after a good pilot, one quest",
@@ -27,7 +43,9 @@
           "date": "2026-10-23T19:25:10.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
           "kind": "blog"
-        },
+        }
+      ],
+      "reads": [
         {
           "title": "Explore user feedback with Microsoft 365 Insights Agent",
           "summary": "Once people start using an agent you've built, their experience becomes an important guide to what you do next. Usage can tell you whether the agent is gaining traction but deciding how to improve it takes more than a count of active users.",
@@ -43,9 +61,7 @@
           "date": "2026-10-22T12:00:00.000Z",
           "label": "Microsoft Power Platform Blog (Copilot Studio)",
           "kind": "blog"
-        }
-      ],
-      "reads": [
+        },
         {
           "title": "Publish rich and interactive content with HTML pages in SharePoint",
           "summary": "We're excited to share that you can now create HTML pages in SharePoint. Describe what you want and let Copilot build it for you, or upload an HTML file you've already crafted . HTML pages live in the Site Pages library, right alongside you",
@@ -60,22 +76,6 @@
           "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/copilot-code-make-the-power-of-coding-accessible-to-everyone/ba-p/4562358",
           "date": "2026-10-21T22:09:06.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "What’s New in Cowork: Expanded plugins and role-based skills",
-          "summary": "Work today doesn’t happen in one app, and every role has repeatable tasks that take more than a quick prompt to complete. Cowork is built for that reality. With expanded connections to the systems you use every day, and role-based skills th",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-cowork-expanded-plugins-and-role-based-skills/ba-p/4566221",
-          "date": "2026-10-21T16:00:00.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Introducing the customer conversation harness in Microsoft Copilot Studio",
-          "summary": "By Omar Aftab, Vice President, Conversational AI The way customers interact with brands is fundamentally changing. More and more interactions are driven by conversational AI, and customers increasingly expect every interaction to be deeply",
-          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/introducing-the-customer-conversation-harness-in-microsoft/ba-p/4563954",
-          "date": "2026-10-21T15:00:19.000Z",
-          "label": "Copilot Studio Blog (Tech Community)",
           "kind": "blog"
         }
       ],
