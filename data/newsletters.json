@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T23:04:16.386Z",
+  "generatedAt": "2026-10-27T22:54:01.924Z",
   "count": 10,
   "currentEdition": "2026-10",
   "editions": [
@@ -85,6 +85,14 @@
       },
       "roadmap": [
         {
+          "title": "Excel: Get and transform data with Copilot in Excel",
+          "description": "Get your data ready, just by asking. Describe the data you need and how you want it prepared, and the new get data skill handles the rest. It can connect and transform your data, then load the results into your workbook using Power Query,…",
+          "status": "Rolling out",
+          "availability": "October CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577745",
+          "product": "Excel"
+        },
+        {
           "title": "Outlook: Copilot Chat pop-out for Outlook for Mac and iPad",
           "description": "Copilot Chat remains accessible within an Outlook app window but now can also be popped out to float over the main Outlook app window. Popping out Copilot Chat allows people to switch contexts or have more space for what they are working…",
           "status": "Rolling out",
@@ -99,14 +107,6 @@
           "availability": "October CY2026",
           "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560318",
           "product": "Microsoft Copilot (Microsoft 365)"
-        },
-        {
-          "title": "Word: Legal plugins in Copilot",
-          "description": "Legal plugins in Copilot provide purpose-built skills to help legal professionals summarize, draft, review, and redline legal documents. Available in Word and Cowork, these plugins can use work context from Microsoft 365 and connect to…",
-          "status": "Rolling out",
-          "availability": "October CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571884",
-          "product": "Word"
         }
       ]
     },

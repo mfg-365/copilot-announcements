@@ -1,13 +1,220 @@
 {
-  "generatedAt": "2026-10-26T23:04:15.420Z",
+  "generatedAt": "2026-10-27T22:54:00.971Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 845,
+  "totalCopilotFeatures": 850,
   "counts": {
-    "inDevelopment": 58,
-    "rollingOut": 8,
+    "inDevelopment": 57,
+    "rollingOut": 9,
     "launched": 54
   },
   "items": [
+    {
+      "id": 577891,
+      "title": "Dynamics 365 Finance: Expand localization in LATAM countries for Argentina",
+      "description": "With the release of Argentina, we are finalizing the LATAM expansion. Out-of-the-box localization is now available for 14 countries in the region through the cross-LATAM localization framework, in addition to Brazil and Mexico. The country localization indicated below is provisional and may change prior to general availability. Additionally, not all of the following capabilities might be available for preview. The Argentina-specific scope for this release includes: Sales tax (VAT and provincial taxes): tax determination and calculation, import of taxpayer registers (padrones), and certificate of tax situation for customers. Withholding tax (vendor payments): withholding tax determination and calculation. Regulatory reporting: Argentina tax reports moved to Electronic Reporting (ER). ARCA VAT reports required by IVA Simple, covering sales, purchases, imports, other fiscal debit and credit items, withholdings, and perceptions, to register VAT operations monthly and submit the VAT return through Portal IVA SICORE : National Withholding and Perception Tax Transactions TXT/excel file SIRE (SUSS) : SUSS Withholdings (Retenciones de Seguridad Social) TXT/excel file. SIFERE : Withholding tax (Retenciones) TXT/excel - Perceptions (Percepciones) TXT/excel - Bank Collections Recaudaciones Bancarias) TXT/excel - Customs Perceptions (Percepciones Aduaneras) TXT/excel SIRCAR : Gross Income Tax Withholdings TXT /excel file. Gross Income Tax Perceptions TXT /excel file. E-ARCIBA : Gross Income Tax Withholdings/Tax Collections (Perceptions) file. ARBA Tax Collection Agents : IIBB Perceptions (Percepciones) TXT/excel file. IIBB Withholdings (Retenciones) TXT/excel file. Electronic invoicing: Out of scope for the preview release",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Finance"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "March CY2027",
+      "preview": "October CY2026",
+      "modified": "2026-10-26T23:15:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577891"
+    },
+    {
+      "id": 577745,
+      "title": "Excel: Get and transform data with Copilot in Excel",
+      "description": "Get your data ready, just by asking. Describe the data you need and how you want it prepared, and the new get data skill handles the rest. It can connect and transform your data, then load the results into your workbook using Power Query, giving you a query you can inspect, edit, and refresh without having to build it yourself. Depending on the data source, authentication may be required.",
+      "status": "Rolling out",
+      "products": [
+        "Excel"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-26T23:15:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577745"
+    },
+    {
+      "id": 577743,
+      "title": "Microsoft Copilot (Microsoft 365): App Blocks",
+      "description": "App Blocks enables M365 Copilot Chat users to turn their requests and data into rich, interactive experiences directly within the conversation, including calculators, dashboards, forms, planners, visualizations, simulations, comparison tools, and other interactive apps. It helps users move beyond static responses to explore data, adjust inputs, visualize outcomes, and simulate workflows in place, while supporting grounded scenarios where current information can be retrieved and then rendered into an interactive experience.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-26T23:15:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577743"
+    },
+    {
+      "id": 577177,
+      "title": "Excel: Edit with Copilot in Excel on iPhone",
+      "description": "Edit with Copilot makes it easier to edit and transform your Excel workbooks on your phone using natural language. Copilot can continue working on your task even when you move away from the app, so you can come back when the work is ready. Chat mode also remains available when you want to ask questions and get insights without making changes to your workbook.",
+      "status": "In development",
+      "products": [
+        "Excel"
+      ],
+      "platforms": [
+        "iOS"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-26T23:15:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577177"
+    },
+    {
+      "id": 576708,
+      "title": "Microsoft Copilot (Microsoft 365): SharePoint Site Builder",
+      "description": "This feature enables users to easily create new SharePoint sites with Copilot. Users can review and confirm a clear site plan before Copilot builds the site.",
+      "status": "In development",
+      "products": [
+        "SharePoint",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "December CY2026",
+      "preview": "October CY2026",
+      "modified": "2026-10-26T23:15:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576708"
+    },
+    {
+      "id": 562353,
+      "title": "Microsoft Copilot (Microsoft 365): Session and Response Sharing in M365 Copilot",
+      "description": "Session and Response Sharing let Microsoft 365 Copilot users share Copilot chat content through a link. Session Sharing shares a full chat session, while Response Sharing shares a single Copilot response. The shared content opens as a read-only view, and recipients can continue from it in their own Copilot chat. This gives Copilot users an easier and more controlled way to share useful Copilot outputs with coworkers instead of copying and pasting. It helps teams reuse work, share context, and collaborate more efficiently while keeping sharing within organizational controls.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "Mac",
+        "Teams and Surface Devices",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "August CY2026",
+      "preview": "",
+      "modified": "2026-10-26T23:15:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562353"
+    },
+    {
+      "id": 566998,
+      "title": "Microsoft Copilot Studio: Invoke agents as workflow steps with the agent node",
+      "description": "The agent node lets you embed reasoning directly into your workflow. This means fewer manual handoffs, faster processing times, and workflows that can handle nuanced decisions without additional development effort, helping teams automate more of their end-to-end processes and reduce operational overhead.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Microsoft Copilot Studio"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "September CY2026",
+      "preview": "April CY2026",
+      "modified": "2026-10-26T23:15:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566998"
+    },
+    {
+      "id": 562648,
+      "title": "Microsoft Viva: Copilot Analytics - Identifiable Export metrics in the Copilot Dashboard",
+      "description": "This enables users to export Identifiable row-level Copilot metrics from the Copilot Dashboard for reporting and deeper analysis. This capability can be tuned On by Admins in a tenant.",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "November CY2026",
+      "preview": "",
+      "modified": "2026-10-26T23:15:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562648"
+    },
+    {
+      "id": 545896,
+      "title": "Microsoft Copilot (Microsoft 365): Structured Document Generation with Forms",
+      "description": "Structured Document Generation with Forms enables organizations to create, manage, and generate standardized documents at scale with built-in governance and compliance in SharePoint. Business process owners can centrally build and maintain form-driven templates -- such as contracts, agreements, proposals, and HR documents -- ensuring content stays accurate and up to date. Users can then generate the right document every time by just filling out the form, without manual formatting, versioning issues, or compliance risk, simplifying high-volume, structured document workflows across the organization.",
+      "status": "Launched",
+      "products": [
+        "SharePoint",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-26T23:15:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=545896"
+    },
+    {
+      "id": 420335,
+      "title": "Microsoft Edge: Rewrite by Copilot in Edge is being upgraded to include enterprise data protection compliance standards",
+      "description": "Rewrite by Copilot in Edge, which lets users edit typed text for tone, format, and length within an open page in Microsoft Edge, is being updated to include enterprise data protection for commercial customers. Once Rewrite is available, users signed in with a Microsoft Entra ID will have enterprise data protection when using the feature in Microsoft Edge. Updated March 20, 2026: We have paused release of this feature temporarily and will announce new release timelines soon. We apologize for any inconvenience.",
+      "status": "In development",
+      "products": [
+        "Microsoft Edge"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-10-26T23:15:50",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=420335"
+    },
     {
       "id": 576607,
       "title": "Dynamics 365 Contact Center: Unified routing - Use overflow actions to protect customer experience for direct inward calls",
@@ -1294,29 +1501,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570427"
     },
     {
-      "id": 562353,
-      "title": "Microsoft Copilot (Microsoft 365): Session and Response Sharing in M365 Copilot",
-      "description": "Session and Response Sharing let Microsoft 365 Copilot users share Copilot chat content through a link. Session Sharing shares a full chat session, while Response Sharing shares a single Copilot response. The shared content opens as a read-only view, and recipients can continue from it in their own Copilot chat. This gives Copilot users an easier and more controlled way to share useful Copilot outputs with coworkers instead of copying and pasting. It helps teams reuse work, share context, and collaborate more efficiently while keeping sharing within organizational controls.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "Mac",
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562353"
-    },
-    {
       "id": 566701,
       "title": "Microsoft Copilot (Microsoft 365): Edit your document with Copilot in PowerPoint in Government Clouds",
       "description": "Copilot in PowerPoint helps you create, edit, and refine presentations through natural language—right inside your deck. Start a new presentation or build on an existing one by asking Copilot to generate slides, update content, improve layouts, and polish design, all while preserving your formatting, structure, and branding. Copilot can also connect to your brand kit to apply branded templates, insert brand-approved images, and check for brand compliance. Available to Microsoft 365 Copilot (Premium) users.",
@@ -2278,190 +2462,6 @@
       "preview": "July CY2026",
       "modified": "2026-10-16T19:08:38",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576754"
-    },
-    {
-      "id": 576752,
-      "title": "Microsoft Dataverse: Microsoft 365 collaboration - Discover, build, customize, and extend with management MCP server",
-      "description": "The management MCP server is a build surface and registry for agent-ready tools available within a customer's environment. It exposes an addressable endpoint where developers and agents can discover, assemble, and deploy MCP servers made from trusted components including connector actions, tools from other MCP servers, and custom APIs. Discover available tools and servers Find MCP servers authored, hosted, or certified by Microsoft Query and explore over 1,470 connectors and their individual actions Discover custom APIs available in your organization or from partner teams Create and customize MCP servers Build new MCP servers by selecting connector actions, APIs, and reusable tools Clone an existing MCP server, such as a Dataverse MCP, and tailor it by adding or removing tools to match your scenario Use MCP servers as modular, scenario-focused endpoints that can be reused across agents Endpoint driven developer experience Accessible as a simple environment scoped URL—no UI required Use in Visual Studio Code, Claude, or any agent or tool that supports HTTP Compose, publish, and maintain MCP servers entirely through API calls Enterprise ready governance and control Enforce data loss prevention (DLP) policies Apply access controls at both the MCP server and individual tool level The management MCP server gives you everything you need to build and scale agents using tools you already trust, no interface required, just secure, extensible control from the systems you already manage. Business Value: The management Model Context Protocol (MCP) server gives developers and system integrators a central API-based foundation to discover and build custom MCP servers. Through a single environment scoped endpoint, teams can find Microsoft certified or internal MCP servers, search across 1,470 connector actions and APIs, and create new or customized MCP servers with the exact tools their agents need. This capability reduces redundant development and enables a flexible, secure path from prototype to production across platforms like Visual Studio Code and Claude. Enabled for: Enabled for admins/makers/marketers automatically",
-      "status": "In development",
-      "products": [
-        "Microsoft Dataverse"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "December CY2026",
-      "preview": "March CY2026",
-      "modified": "2026-10-16T19:08:36",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576752"
-    },
-    {
-      "id": 576748,
-      "title": "Dynamics 365 Customer Service: Workforce engagement management - Monitor intraday performance against the forecast",
-      "description": "The intraday performance report provides supervisors with an interval-level view of performance against the forecast. In Copilot Service workspace, go to Workforce management to access the report. Compare forecast and actual contact volume and average handle time. Variances appear as values and percentages, making outliers easier to identify. Compare forecast, required, and scheduled staffing levels to identify understaffed and overstaffed intervals. Review service level, occupancy, and schedule adherence alongside volume and staffing data in a single report. View data in 15-, 30-, or 60-minute intervals to match how your organization manages intraday performance. Filter the report by planning group and shift plan to focus on the areas you manage. Access and prerequisites To use Workforce Management capabilities, an administrator must install the Workforce Management for Customer Service package from the Power Platform admin center. Business Value: Contact center forecasts and schedules are built days or weeks in advance, but demand rarely arrives exactly as planned. When volume spikes, handle times run long, or agents are absent, supervisors often don't see the gap until service levels have already slipped and the interval is gone. The intraday performance report closes that gap by showing plan versus actual as the day unfolds. Supervisors can see which intervals are under- or over-staffed and act while there's still time by moving agents between queues, adjusting break and training schedules, or opening overtime only where it's genuinely needed. That protects service level and abandonment targets on the days that matter most, and it curbs the two costs that quietly compound in every contact center: paying for idle capacity in over-forecasted intervals and paying premium rates to recover from under-forecasted ones. Enabled for: Enabled by admins/makers/marketers for end users",
-      "status": "In development",
-      "products": [
-        "Dynamics 365 Customer Service"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "August CY2026",
-      "modified": "2026-10-16T19:08:32",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576748"
-    },
-    {
-      "id": 576746,
-      "title": "Dynamics 365 Contact Center: Unified routing - Assign conversation to expert who engaged with the customer previously",
-      "description": "Assign to a previously engaged or preferred expert leverages historical interaction context, queue membership alignment, and expert availability, to ensure customers are reconnected with experts who already understand their issue. When the previous or preferred expert is unavailable, assignments seamlessly fall back to the next best qualified expert, preserving service levels and reliability. This capability reduces repeat explanations, accelerates resolution times, and improves customer satisfaction, helping businesses lower cost to serve while delivering more consistent, personalized support experiences at scale. Administrators define assignment logic using natural language-based playbooks in conversation orchestration, with configurable lookback period to determine the time range until when the system should look for a previously engaged expert. For asynchronous conversations, administrators can also choose to reconnect customers with the same expert by checking the expert’s current presence status and honoring active conversation limits, ensuring returning conversations are assigned only when the expert has capacity to engage. Business Value: By automatically assigning customers to a previous or preferred expert, you deliver faster, more personalized support. By routing repeat or follow up conversations to the most recent or preferred expert within configurable time windows, you reduce customer repetition, improve continuity, and accelerate resolution. When the previous expert is unavailable, the system intelligently falls back to the next best qualified expert, ensuring service levels are maintained. This leads to lower handling times, higher customer satisfaction, and improved expert efficiency. Enabled for: Enabled by admins/makers/marketers for end users",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Dynamics 365 Contact Center"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "June CY2026",
-      "modified": "2026-10-16T19:08:30",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576746"
-    },
-    {
-      "id": 576741,
-      "title": "Dynamics 365 Finance: Core financials - Enable import of customer payment remittance advice for processing and settlement",
-      "description": "This feature includes the following functionalities: Automated customer payment and remittance advice import, scanning, and mapping using AI processing in the integrated Power Platform environment. Matching remittance advice data with data in Dynamics 365 Finance. Seamless integration of remittance advice details into Dynamics 365 Finance customer payment journals and the settlement process. Reports that provide insights into payment and settlement statuses, outstanding invoices, and overall cash flow. Business Value: The ability to import remittance advice streamlines the accounts receivable process by enabling businesses to efficiently manage and reconcile payments from customers. By automating the import, scanning, and consumption of remittance advice data, businesses save valuable time and resources. This capability improves cash flow management and financial reporting. Enabled for: Enabled by admins/makers/marketers for end users",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Dynamics 365 Finance"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "June CY2027",
-      "preview": "March CY2027",
-      "modified": "2026-10-16T19:08:26",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576741"
-    },
-    {
-      "id": 576739,
-      "title": "Dynamics 365 Sales: Opportunity acceleration - Enable custom source onboarding in Recommended Action",
-      "description": "This feature enables admins to register custom external insight sources through a step-by-step guided onboarding wizard. Once onboarded, the custom source appears alongside out-of-the-box agents in the Recommended Action Sources list and is governed by the same enable/disable controls. Actions from custom sources are normalized into action cards, ranked alongside built-in actions, and follow consistent UI patterns, execution flows, and prioritization models, ensuring a seamless and unified seller experience. The feature isn't enabled automatically. Admins must complete the guided registration flow by providing a source name and description, after which the system generates a unique source ID and registers the source for action ingestion and governance. Admins can enable or disable the custom source's participation in Recommended Action as needed, maintaining relevant governance and control. Business Value: You get a unified system that consolidates all seller actions from both built-in and custom sources, creating a single list of prioritized actions that the sellers need to focus on. This improves your sellers' productivity by prioritizing what to do next, saving time and reducing decision fatigue. It also enhances governance and visibility, helping your business operate more efficiently and with greater trust in the insights provided. Enabled for: Enabled for admins/makers/marketers automatically",
-      "status": "Launched",
-      "products": [
-        "Dynamics 365 Sales"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "June CY2026",
-      "modified": "2026-10-16T19:08:25",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576739"
-    },
-    {
-      "id": 576640,
-      "title": "Dynamics 365 Sales: Lead management - Prioritize your hottest leads first with next best actions",
-      "description": "Get the next best actions for leads right on your Dynamics 365 leads grid, and navigate to see Sales Qualification Agent's research and pregenerated email suggestions. The actions show a preview of the lead, a summary of why it's a hot or high-intent lead, and the topic that the lead is interested in. Business Value: Sales Qualification Agent meticulously researches every lead and identifies which ones are hot, warm or cold. When configured to autonomously engage, it identifies the ones that explicitly state their purchase intent. Now, you can see hot and high-intent leads prominently on your leads grid in Dynamics 365 Sales so that you can immediately focus on the next best actions you need to take to build a pipeline. With Sales Qualification Agent, your best move is now right at your fingertips. Enabled for: Enabled for end users automatically",
-      "status": "Launched",
-      "products": [
-        "Dynamics 365 Sales"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "August CY2026",
-      "modified": "2026-10-16T17:39:54",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576640"
-    },
-    {
-      "id": 576637,
-      "title": "Dynamics 365 Sales: Seller experiences - Clone and share Sales Development agent configuration across teams",
-      "description": "As a sales leader, you can configure a Sales Development agent once, then share or clone its configuration across your organization. Distribute the agent’s playbook, guidelines, guardrails, and settings to other business units to provide a consistent experience across sales teams. The feature supports these capabilities: Export a configuration : In Teams, ask the source agent to package its configuration into a file. For example, enter Export your configuration. Import a configuration : Attach the exported file to a new agent, then ask the agent to apply the configuration. Create a one-time copy : The copied configuration is a snapshot, not a synchronized connection. Changes made later to the source agent aren’t automatically applied to the target agent. Knowledge sources, such as uploaded documents, FAQs, and URLs, aren’t included in the exported configuration. Add them directly to the target agent after importing the configuration. Business Value: Scaling your sales operations just got easier. Instead of manually configuring each Sales Development agent from scratch, you can now set up an agent once with your organization's best practices and guardrails, then share or clone it across your entire team. This means faster deployment, consistent outreach to prospects, and more time for your sellers to build relationships instead of repetitive work. Whether you're expanding to new markets or rolling out agents across multiple business units, you'll maintain quality and compliance while reducing the time it takes to get your agent up and running. Enabled for: Enabled by admins/makers/marketers for end users",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Dynamics 365 Sales"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "April CY2027",
-      "preview": "August CY2026",
-      "modified": "2026-10-16T17:39:50",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576637"
-    },
-    {
-      "id": 576636,
-      "title": "Dynamics 365 Contact Center: Copilot and AI innovation - Use agentic simulations to evaluate contact center setup",
-      "description": "Agentic simulations are an AI-driven capability of Service Operations Agent that enable organizations to evaluate how their contact center behaves under realistic customer conditions before those conditions occur in production. Administrators define simulation scenarios using natural-language prompts. Agentic simulations then generate realistic synthetic conversations, runs them end-to-end through the configured contact center, and calculates the contact center KPIs. What problems it helps solve Readiness of self-service experiences : Assess how AI agents handle real customer intents, variations in behavior, and edge cases. Effectiveness of assisted service flows : Validate routing, assignment logic, and service representative experience in human-assisted scenarios. Confidence in scale and load readiness : Understand how configurations and operations perform under realistic volume and fix any reliability and latency issues. Preparedness of service representatives : Enable safe practice and evaluation using realistic customer interactions without impacting live customers. Key capabilities Natural-language prompt interface for defining simulation scenarios Simulation of varied customer intents, personas, and behaviors End-to-end execution across AI agents, routing, and configurations Out-of-the-box KPI dashboards and scorecards Reusable and saved prompts, including canned scenarios Safe, pre-production execution with no impact on live customers Agentic simulations are currently available for the voice channel in the English language only. They support flows without Dual-Tone Multi-Frequency (DTMF)-based menu interactions and up to five conversations in a simulation. Business Value: Every contact center decision, such as deploying an AI agent, adjusting routing, onboarding new staff, or preparing for higher volumes, ultimately answers the same question: “Will this work as expected when real customers arrive?” Agentic simulations provide a clear, data-backed answer before changes reach production. By generating realistic customer conversations and running them end-to-end through the contact center, organizations can see how their self-service, assisted service, and operational setup behave under real-world conditions. Instead of relying on assumptions, limited testing, or post-go-live corrections, teams gain measurable insight into experience quality, readiness, and scale. This feature transforms how contact centers operate: Experience quality improves because AI agents and service representatives are evaluated against realistic scenarios. Operational risk decreases because configuration and routing issues are identified early. Time to value accelerates because onboarding, training, and change validation happen faster. Scale becomes predictable because load behavior is understood before demand increases. Agentic simulations turn uncertainty into confidence, helping organizations ship changes faster, train teams better, and deliver consistent customer experiences at scale. Enabled for: Enabled for admins/makers/marketers automatically",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Dynamics 365 Contact Center"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "June CY2027",
-      "preview": "July CY2026",
-      "modified": "2026-10-16T17:39:48",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576636"
-    },
-    {
-      "id": 576634,
-      "title": "Dynamics 365 Contact Center: Administrator experiences - Use industry templates to set up autonomous contact centers",
-      "description": "This release introduces industry-specific templates that simplify the creation and deployment of autonomous contact centers. Organizations can start with a preconfigured template in Copilot Service admin center > Service Operations Agent and deploy an autonomous customer service experience in just a few clicks, significantly reducing the setup effort required to design agents, workflows, and service journeys from the ground up. The templates are built around common industry scenarios and best practices, helping organizations quickly establish operational autonomous contact centers while maintaining flexibility for customization as business needs evolve. Users can leverage these templates as a foundation and extend them to meet their specific customer service requirements. These templates enable organizations to rapidly launch autonomous contact centers, reduce implementation complexity, and begin delivering AI-powered customer support with minimal configuration effort. In this release, templates are available for the retail and telecom industries. Business Value: Accelerate the deployment of autonomous contact centers with prebuilt industry templates designed to help organizations get up and running in minutes rather than weeks. These ready-to-use templates reduce the complexity of designing autonomous customer service experiences from scratch, enabling businesses to quickly realize the benefits of AI-powered customer engagement, automated issue resolution, and around-the-clock service availability. Enabled for: Enabled for admins/makers/marketers automatically",
-      "status": "In development",
-      "products": [
-        "Dynamics 365 Contact Center"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "June CY2027",
-      "preview": "July CY2026",
-      "modified": "2026-10-16T17:39:44",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576634"
     }
   ]
 }
