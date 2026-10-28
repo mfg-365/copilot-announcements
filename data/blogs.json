@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T22:54:01.877Z",
+  "generatedAt": "2026-10-28T23:02:13.597Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -48,6 +48,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "What's New in Excel (October 2026)",
+      "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-october-2026/ba-p/4549758",
+      "description": "Welcome to the October 2026 update. This month, Excel for Windows lets you name tables as you create them. Copilot in Excel adds five capabilities, from bringing in and cleaning data to saving repeatable workflows and sharing the results. F",
+      "categories": [],
+      "source": "Excel Blog (Tech Community)",
+      "date": "2026-10-27T13:00:00.000Z"
+    },
     {
       "title": "Frontier expands to more Microsoft 365 public previews",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/frontier-expands-to-more-microsoft-365-public-previews/ba-p/4567243",
@@ -454,14 +462,6 @@
       "categories": [],
       "source": "Microsoft Copilot Blog (Tech Community)",
       "date": "2026-09-02T15:16:45.000Z"
-    },
-    {
-      "title": "Copilot in Excel: Bringing clarity to collaborative workbooks",
-      "link": "https://techcommunity.microsoft.com/t5/excel-blog/copilot-in-excel-bringing-clarity-to-collaborative-workbooks/ba-p/4552007",
-      "description": "Spreadsheets rarely stay still. Numbers get updated, formulas change, teammates make edits, and Copilot helps move work forward. But when you come back to a workbook, one question can be surprisingly hard to answer: What changed? Until now,",
-      "categories": [],
-      "source": "Excel Blog (Tech Community)",
-      "date": "2026-09-01T13:00:00.000Z"
     }
   ]
 }
