@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T23:02:13.817Z",
+  "generatedAt": "2026-10-29T23:10:21.963Z",
   "count": 10,
   "currentEdition": "2026-10",
   "editions": [
@@ -12,14 +12,40 @@
       "title": "October 2026 Copilot Update",
       "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from October 2026.",
       "feature": {
-        "title": "What's New in Excel (October 2026)",
-        "summary": "Welcome to the October 2026 update. This month, Excel for Windows lets you name tables as you create them. Copilot in Excel adds five capabilities, from bringing in and cleaning data to saving repeatable workflows and sharing the results. F",
-        "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-october-2026/ba-p/4549758",
-        "date": "2026-10-27T13:00:00.000Z",
-        "label": "Excel Blog (Tech Community)",
+        "title": "Built by makers: Five years of Power Platform Community Conference",
+        "summary": "Five years in, PPCC is still built by makers. Explore the ideas, innovations, and community moments that shaped this year’s event. The post Built by makers: Five years of Power Platform Community Conference appeared first on Microsoft Power",
+        "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/29/built-by-makers-five-years-of-power-platform-community-conference/",
+        "date": "2026-10-29T12:00:00.000Z",
+        "label": "Microsoft Power Platform Blog (Copilot Studio)",
         "kind": "blog"
       },
       "stories": [
+        {
+          "title": "The GitHub Copilot harness in Copilot Studio is now the Microsoft Copilot harness",
+          "summary": "See how the Microsoft Copilot harness is helping Copilot Studio makers build more capable, reliable agents for complex business challenges. The post The GitHub Copilot harness in Copilot Studio is now the Microsoft Copilot harness appeared",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/the-github-copilot-harness-in-copilot-studio-is-now-the-microsoft-copilot-harness/",
+          "date": "2026-10-28T17:00:00.000Z",
+          "label": "Microsoft Copilot Studio Blog",
+          "kind": "blog"
+        },
+        {
+          "title": "What's New in Excel (October 2026)",
+          "summary": "Welcome to the October 2026 update. This month, Excel for Windows lets you name tables as you create them. Copilot in Excel adds five capabilities, from bringing in and cleaning data to saving repeatable workflows and sharing the results. F",
+          "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-october-2026/ba-p/4549758",
+          "date": "2026-10-27T13:00:00.000Z",
+          "label": "Excel Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "The AI advantage your company can keep",
+          "summary": "New research across more than 200 enterprises looks at how shared knowledge can help companies coordinate their agents—and turn lessons from their work into an operational edge. The post The AI advantage your company can keep appeared first",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/",
+          "date": "2026-10-27T12:00:00.000Z",
+          "label": "Microsoft 365 Blog",
+          "kind": "blog"
+        }
+      ],
+      "reads": [
         {
           "title": "Frontier expands to more Microsoft 365 public previews",
           "summary": "Starting in November, the Frontier program will include eligible public preview features for new Outlook for Windows, OneDrive, SharePoint, and Microsoft Teams, giving organizations one place to try what's coming across Microsoft 365. Until",
@@ -43,39 +69,13 @@
           "date": "2026-10-23T23:39:10.000Z",
           "label": "Microsoft Teams Blog (Tech Community)",
           "kind": "blog"
-        }
-      ],
-      "reads": [
+        },
         {
           "title": "From Pilots to Programs: A Structured Approach to Scaling AI and Agents for Real Business Value",
           "summary": "Many enterprises don’t have an AI problem. They have a science-project problem: pilots of Copilot, agents, and AI apps everywhere, too few in production, and more agents than they can easily see or govern. Even after a good pilot, one quest",
           "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/from-pilots-to-programs-a-structured-approach-to-scaling-ai-and/ba-p/4566921",
           "date": "2026-10-23T19:25:10.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Explore user feedback with Microsoft 365 Insights Agent",
-          "summary": "Once people start using an agent you've built, their experience becomes an important guide to what you do next. Usage can tell you whether the agent is gaining traction but deciding how to improve it takes more than a count of active users.",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/explore-user-feedback-with-microsoft-365-insights-agent/ba-p/4565981",
-          "date": "2026-10-22T16:00:00.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Microsoft named a Leader in two evaluations of next-generation app development platforms",
-          "summary": "Discover how Microsoft Power Platform and Microsoft Copilot Studio are shaping the next generation of business software with AI-powered development, agents, apps, workflows, and enterprise governance. Learn why Microsoft was recognized as a",
-          "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/22/microsoft-named-a-leader-in-two-evaluations-of-next-generation-app-development-platforms/",
-          "date": "2026-10-22T12:00:00.000Z",
-          "label": "Microsoft Power Platform Blog (Copilot Studio)",
-          "kind": "blog"
-        },
-        {
-          "title": "Publish rich and interactive content with HTML pages in SharePoint",
-          "summary": "We're excited to share that you can now create HTML pages in SharePoint. Describe what you want and let Copilot build it for you, or upload an HTML file you've already crafted . HTML pages live in the Site Pages library, right alongside you",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/publish-rich-and-interactive-content-with-html-pages-in/ba-p/4565918",
-          "date": "2026-10-22T10:03:12.000Z",
-          "label": "Microsoft SharePoint Blog (Tech Community)",
           "kind": "blog"
         }
       ],
@@ -85,28 +85,28 @@
       },
       "roadmap": [
         {
-          "title": "SharePoint: Changes to the FAQ web part authoring experience",
-          "description": "The SharePoint FAQ web part will provide a standard, non-AI experience for manually creating, editing, and managing FAQs. The AI-assisted FAQ creation and import will move to the Copilot in SharePoint authoring experience, where authors…",
+          "title": "Dynamics 365 Contact Center: Use bullseye routing with user groups to orchestrate conversations",
+          "description": "Bullseye routing with user groups enables a tiered assignment strategy that automatically expands the pool of eligible representatives as conversation wait time increases. Rather than assigning from a fixed pool or waiting for overflow…",
           "status": "Rolling out",
           "availability": "October CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570647",
-          "product": "SharePoint"
-        },
-        {
-          "title": "Microsoft Teams: Copilot Chat for chats, channels, calls, and meetings in GCC, GCC High, and DoD",
-          "description": "Copilot Chat will soon be available across chats, channels, calls, and meetings, helping users stay informed and catch up quickly.",
-          "status": "Rolling out",
-          "availability": "October CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569214",
-          "product": "Microsoft Teams"
-        },
-        {
-          "title": "Use Agent 365 agents within Microsoft 365 Copilot Chat and Declarative Agents",
-          "description": "Agents that are published to Agents 365 are already managed in the Microsoft 365 Admin Center. If the agent implements the Agent2Agent protocol, it can be used as a connected agent for the agents that users build in Agent Builder or…",
-          "status": "Rolling out",
-          "availability": "August CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567670",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576606",
           "product": "Microsoft Copilot (Microsoft 365)"
+        },
+        {
+          "title": "Microsoft Contact Center Intelligence: Universal connector for self-service omnichannel agents",
+          "description": "Bring Microsoft AI to the contact center platform of your choice with the Universal Connector. Organizations can now integrate Microsoft self-service voice and chat agents with virtually any contact center using a simple API-based…",
+          "status": "Rolling out",
+          "availability": "November CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575278",
+          "product": "Microsoft Contact Center Intelligence"
+        },
+        {
+          "title": "Dynamics 365 Contact Center: Historical analytics",
+          "description": "Contact Center historical analytics provides out-of-box historical reporting for Dynamics 365 Contact Center, built on a shared analytics foundation. It moves reporting from heavier workload-specific Power BI models toward a shared…",
+          "status": "Rolling out",
+          "availability": "October CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=574113",
+          "product": "Dynamics 365 Contact Center"
         }
       ]
     },

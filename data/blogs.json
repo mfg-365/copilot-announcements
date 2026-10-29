@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T23:02:13.597Z",
+  "generatedAt": "2026-10-29T23:10:21.916Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -49,12 +49,36 @@
   "count": 50,
   "items": [
     {
+      "title": "Built by makers: Five years of Power Platform Community Conference",
+      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/10/29/built-by-makers-five-years-of-power-platform-community-conference/",
+      "description": "Five years in, PPCC is still built by makers. Explore the ideas, innovations, and community moments that shaped this year’s event. The post Built by makers: Five years of Power Platform Community Conference appeared first on Microsoft Power",
+      "categories": [],
+      "source": "Microsoft Power Platform Blog (Copilot Studio)",
+      "date": "2026-10-29T12:00:00.000Z"
+    },
+    {
+      "title": "The GitHub Copilot harness in Copilot Studio is now the Microsoft Copilot harness",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/the-github-copilot-harness-in-copilot-studio-is-now-the-microsoft-copilot-harness/",
+      "description": "See how the Microsoft Copilot harness is helping Copilot Studio makers build more capable, reliable agents for complex business challenges. The post The GitHub Copilot harness in Copilot Studio is now the Microsoft Copilot harness appeared ",
+      "categories": [],
+      "source": "Microsoft Copilot Studio Blog",
+      "date": "2026-10-28T17:00:00.000Z"
+    },
+    {
       "title": "What's New in Excel (October 2026)",
       "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-october-2026/ba-p/4549758",
       "description": "Welcome to the October 2026 update. This month, Excel for Windows lets you name tables as you create them. Copilot in Excel adds five capabilities, from bringing in and cleaning data to saving repeatable workflows and sharing the results. F",
       "categories": [],
       "source": "Excel Blog (Tech Community)",
       "date": "2026-10-27T13:00:00.000Z"
+    },
+    {
+      "title": "The AI advantage your company can keep",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/",
+      "description": "New research across more than 200 enterprises looks at how shared knowledge can help companies coordinate their agents—and turn lessons from their work into an operational edge. The post The AI advantage your company can keep appeared first",
+      "categories": [],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-10-27T12:00:00.000Z"
     },
     {
       "title": "Frontier expands to more Microsoft 365 public previews",
@@ -220,12 +244,36 @@
       "date": "2026-10-08T18:18:59.000Z"
     },
     {
+      "title": "Bringing CRM into the flow of work and agents into business process for sales and service teams",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/",
+      "description": "The traditional boundaries of business applications are disappearing. For decades, people went to their customer relationship management (CRM) to find customer context, take action, and move work forward. AI is inverting that model. This sh",
+      "categories": [],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "title": "New and improved: Build apps, extend agents, and transform business processes in Microsoft Copilot Studio",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-build-apps-extend-agents-and-transform-business-processes-in-microsoft-copilot-studio/",
+      "description": "Discover what's new in Copilot Studio, September 2026: new capabilities that bring apps, workflows, and agents together to transform business processes. The post New and improved: Build apps, extend agents, and transform business processes ",
+      "categories": [],
+      "source": "Microsoft Copilot Studio Blog",
+      "date": "2026-10-07T15:30:00.000Z"
+    },
+    {
       "title": "What’s new in Copilot in SharePoint: October 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/what-s-new-in-copilot-in-sharepoint-october-2026/ba-p/4535423",
       "description": "Your monthly roundup of what's new in Copilot in SharePoint. Copilot in SharePoint general availability rollout started on September 30 — read the announcement blog for the full story. But general availability isn't the finish line, and thi",
       "categories": [],
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "date": "2026-10-01T17:44:11.000Z"
+    },
+    {
+      "title": "4 ways to learn how to build with Microsoft Copilot Studio",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/4-ways-to-learn-how-to-build-with-microsoft-copilot-studio/",
+      "description": "Find your path to Copilot Studio skills with guided learning, hands-on training, community events, and resources for your role and your goals. The post 4 ways to learn how to build with Microsoft Copilot Studio appeared first on Microsoft C",
+      "categories": [],
+      "source": "Microsoft Copilot Studio Blog",
+      "date": "2026-10-01T15:30:00.000Z"
     },
     {
       "title": "Available today: OpenAI's GPT-6.1 Sol and Claude Sonnet 5.5 in Microsoft Copilot",
@@ -310,7 +358,7 @@
     {
       "title": "Building the system for AI at work",
       "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
-      "description": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+      "description": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
       "categories": [],
       "source": "Microsoft 365 Blog",
       "date": "2026-09-23T12:00:00.000Z"
@@ -349,8 +397,8 @@
     },
     {
       "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
-      "description": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on AI ",
+      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+      "description": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on Mic",
       "categories": [
         "AI"
       ],
@@ -376,7 +424,7 @@
     {
       "title": "Build apps in Copilot Cowork and Copilot Studio",
       "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
-      "description": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
+      "description": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
       "categories": [
         "AI",
         "Copilot Cowork"
@@ -387,7 +435,7 @@
     {
       "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
       "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
-      "description": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog",
+      "description": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on Microsoft Copil",
       "categories": [
         "Agents",
         "AI"
@@ -410,58 +458,6 @@
       "categories": [],
       "source": "Microsoft Copilot Blog (Tech Community)",
       "date": "2026-09-04T20:28:50.000Z"
-    },
-    {
-      "title": "What’s New in Microsoft Copilot | August 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-august-2026/ba-p/4551960",
-      "description": "Welcome to the August 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and effi",
-      "categories": [],
-      "source": "Microsoft Copilot Blog (Tech Community)",
-      "date": "2026-09-03T16:04:01.000Z"
-    },
-    {
-      "title": "White paper: Choosing between the GitHub Copilot and Standard harnesses in Copilot Studio",
-      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/white-paper-choosing-between-the-github-copilot-and-standard/ba-p/4552385",
-      "description": "The Standard harness and GitHub Copilot harness are two authoring and runtime options within Microsoft Copilot Studio. A harness is the operating layer between the model and the agent’s configuration. It determines how the model receives co",
-      "categories": [],
-      "source": "Copilot Studio Blog (Tech Community)",
-      "date": "2026-09-03T12:06:59.000Z"
-    },
-    {
-      "title": "PPCC 2026: Bringing AI and your business processes together",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
-      "description": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Bringing AI and your business processes toge",
-      "categories": [
-        "Agents",
-        "AI",
-        "Work IQ"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-09-03T12:00:00.000Z"
-    },
-    {
-      "title": "What's New in Copilot in SharePoint: September 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/what-s-new-in-copilot-in-sharepoint-september-2026/ba-p/4535422",
-      "description": "Your monthly roundup of what's new in Copilot in SharePoint. Copilot in SharePoint helps you do more with your content — ask questions, run workflows, and create sites, pages, interactive reports, and Office files using natural language. Th",
-      "categories": [],
-      "source": "Microsoft SharePoint Blog (Tech Community)",
-      "date": "2026-09-02T23:26:40.000Z"
-    },
-    {
-      "title": "New and improved: GitHub Copilot harness, agent skills, and richer context",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-github-copilot-harness-agent-skills-and-richer-context/",
-      "description": "Explore the latest Copilot Studio updates, including the GitHub Copilot harness and new ways for agents to use skills, enterprise knowledge, and more. The post New and improved: GitHub Copilot harness, agent skills, and richer context appea",
-      "categories": [],
-      "source": "Microsoft Copilot Studio Blog",
-      "date": "2026-09-02T17:30:00.000Z"
-    },
-    {
-      "title": "Available today: Anthropic Claude Fable 5.1 in Microsoft Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-1-in-microsoft-copilot/ba-p/4551974",
-      "description": "Claude Fable 5.1 is now joining the frontier models available in Copilot Cowork and Copilot Studio, giving customers more choice as they delegate more complex tasks to AI. Fable 5.1 is designed for long-running work, financial analysis, and",
-      "categories": [],
-      "source": "Microsoft Copilot Blog (Tech Community)",
-      "date": "2026-09-02T15:16:45.000Z"
     }
   ]
 }
