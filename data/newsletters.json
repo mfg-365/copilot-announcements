@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T23:10:21.963Z",
+  "generatedAt": "2026-10-30T22:52:09.579Z",
   "count": 10,
   "currentEdition": "2026-10",
   "editions": [
@@ -30,7 +30,7 @@
         },
         {
           "title": "What's New in Excel (October 2026)",
-          "summary": "Welcome to the October 2026 update. This month, Excel for Windows lets you name tables as you create them. Copilot in Excel adds five capabilities, from bringing in and cleaning data to saving repeatable workflows and sharing the results. F",
+          "summary": "Welcome to the October 2026 update. This month, Excel for Windows and Excel for Mac lets you name tables as you create them. Copilot in Excel adds five capabilities, from bringing in and cleaning data to saving repeatable workflows and shar",
           "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-october-2026/ba-p/4549758",
           "date": "2026-10-27T13:00:00.000Z",
           "label": "Excel Blog (Tech Community)",
@@ -85,28 +85,28 @@
       },
       "roadmap": [
         {
-          "title": "Dynamics 365 Contact Center: Use bullseye routing with user groups to orchestrate conversations",
-          "description": "Bullseye routing with user groups enables a tiered assignment strategy that automatically expands the pool of eligible representatives as conversation wait time increases. Rather than assigning from a fixed pool or waiting for overflow…",
+          "title": "[Education] Create multi-week unit plans with Teach",
+          "description": "Educators can use Teach in Microsoft 365 Copilot to create structured unit plans that span multiple lessons or weeks. They can customize the plan components to organize connected lesson plans and quizzes across a unit. #education",
           "status": "Rolling out",
           "availability": "October CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576606",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577392",
           "product": "Microsoft Copilot (Microsoft 365)"
         },
         {
-          "title": "Microsoft Contact Center Intelligence: Universal connector for self-service omnichannel agents",
-          "description": "Bring Microsoft AI to the contact center platform of your choice with the Universal Connector. Organizations can now integrate Microsoft self-service voice and chat agents with virtually any contact center using a simple API-based…",
+          "title": "Planner capabilities in Copilot chat (M365 Copilot)",
+          "description": "We will support creating Planner tasks and plans querying Planner information in M365 Copilot chat, allowing users to manage their tasks and plans between Copilot and Planner seamlessly.",
           "status": "Rolling out",
-          "availability": "November CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575278",
-          "product": "Microsoft Contact Center Intelligence"
+          "availability": "September CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516577",
+          "product": "Planner"
         },
         {
-          "title": "Dynamics 365 Contact Center: Historical analytics",
-          "description": "Contact Center historical analytics provides out-of-box historical reporting for Dynamics 365 Contact Center, built on a shared analytics foundation. It moves reporting from heavier workload-specific Power BI models toward a shared…",
+          "title": "Microsoft Contact Center Intelligence: Biometric authentication",
+          "description": "Voice biometric authentication delivers business value by reducing fraud and agent operating costs in contact centers. Voice-based verification improves identity assurance shortens call durations reduces customer service rep effort and…",
           "status": "Rolling out",
-          "availability": "October CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=574113",
-          "product": "Dynamics 365 Contact Center"
+          "availability": "November CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575280",
+          "product": "Microsoft Contact Center Intelligence"
         }
       ]
     },
