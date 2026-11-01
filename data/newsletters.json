@@ -1,8 +1,57 @@
 {
-  "generatedAt": "2026-10-31T22:22:37.698Z",
-  "count": 10,
-  "currentEdition": "2026-10",
+  "generatedAt": "2026-11-01T23:23:45.407Z",
+  "count": 11,
+  "currentEdition": "2026-11",
   "editions": [
+    {
+      "id": "2026-11",
+      "year": 2026,
+      "month": 11,
+      "monthLabel": "November 2026",
+      "subject": "Microsoft Copilot monthly update — November 2026",
+      "title": "November 2026 Copilot Update",
+      "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from November 2026.",
+      "feature": {
+        "title": "What’s New in Microsoft Copilot | October 2026",
+        "summary": "Welcome to the October 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and eff",
+        "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528",
+        "date": "2026-10-30T18:46:01.000Z",
+        "label": "Microsoft Copilot Blog (Tech Community)",
+        "kind": "blog"
+      },
+      "stories": [],
+      "reads": [],
+      "prompt": {
+        "title": "Plan enablement by audience",
+        "text": "Create an enablement plan for executives, end users, champions, makers, and IT based on these updates. Give each audience the message, demo, resource, and call to action they need."
+      },
+      "roadmap": [
+        {
+          "title": "[Education] Create multi-week unit plans with Teach",
+          "description": "Educators can use Teach in Microsoft 365 Copilot to create structured unit plans that span multiple lessons or weeks. They can customize the plan components to organize connected lesson plans and quizzes across a unit. #education",
+          "status": "Rolling out",
+          "availability": "October CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577392",
+          "product": "Microsoft Copilot (Microsoft 365)"
+        },
+        {
+          "title": "Planner capabilities in Copilot chat (M365 Copilot)",
+          "description": "We will support creating Planner tasks and plans querying Planner information in M365 Copilot chat, allowing users to manage their tasks and plans between Copilot and Planner seamlessly.",
+          "status": "Rolling out",
+          "availability": "September CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516577",
+          "product": "Planner"
+        },
+        {
+          "title": "Microsoft Contact Center Intelligence: Biometric authentication",
+          "description": "Voice biometric authentication delivers business value by reducing fraud and agent operating costs in contact centers. Voice-based verification improves identity assurance shortens call durations reduces customer service rep effort and…",
+          "status": "Rolling out",
+          "availability": "November CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575280",
+          "product": "Microsoft Contact Center Intelligence"
+        }
+      ]
+    },
     {
       "id": "2026-10",
       "year": 2026,
