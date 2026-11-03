@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T23:23:45.407Z",
+  "generatedAt": "2026-11-03T02:02:07.818Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -27,6 +27,14 @@
       },
       "roadmap": [
         {
+          "title": "Planner: Capabilities in Microsoft Cowork",
+          "description": "You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your…",
+          "status": "Rolling out",
+          "availability": "November CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567315",
+          "product": "Planner"
+        },
+        {
           "title": "[Education] Create multi-week unit plans with Teach",
           "description": "Educators can use Teach in Microsoft 365 Copilot to create structured unit plans that span multiple lessons or weeks. They can customize the plan components to organize connected lesson plans and quizzes across a unit. #education",
           "status": "Rolling out",
@@ -41,14 +49,6 @@
           "availability": "September CY2026",
           "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516577",
           "product": "Planner"
-        },
-        {
-          "title": "Microsoft Contact Center Intelligence: Biometric authentication",
-          "description": "Voice biometric authentication delivers business value by reducing fraud and agent operating costs in contact centers. Voice-based verification improves identity assurance shortens call durations reduces customer service rep effort and…",
-          "status": "Rolling out",
-          "availability": "November CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575280",
-          "product": "Microsoft Contact Center Intelligence"
         }
       ]
     },

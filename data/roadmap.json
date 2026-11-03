@@ -1,13 +1,181 @@
 {
-  "generatedAt": "2026-11-01T23:23:45.020Z",
+  "generatedAt": "2026-11-03T02:02:07.480Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 864,
+  "totalCopilotFeatures": 866,
   "counts": {
-    "inDevelopment": 63,
+    "inDevelopment": 66,
     "rollingOut": 21,
-    "launched": 36
+    "launched": 33
   },
   "items": [
+    {
+      "id": 578898,
+      "title": "Dynamics 365 Sales: Autonomously generate quotes and drive sales with Sales Development Agent",
+      "description": "Sales Development Agent (SDA) can take leads from qualified opportunities to closed deals. Key capabilities include: Generating quotes through D365S as well as 1P/3P systems and sharing them with customers to company branded templates. Connectivity to quoting and transaction systems managed through Agent 365 MCP registry. Answer questions about the quote and adjust details based on customer feedback. Facilitate customers completing self-service transactions. Escalating to human sellers when customers are blocked and need human intervention. Configuration through interactive chat experience with each agent instance.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Sales"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "March CY2027",
+      "preview": "",
+      "modified": "2026-11-03T00:14:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=578898"
+    },
+    {
+      "id": 573170,
+      "title": "Microsoft Copilot (Microsoft 365): New Microsoft 365 Copilot usage reports for Copilot Search, Connectors, and Agents for US Government customers",
+      "description": "We are introducing new Microsoft 365 Copilot usage reports for Copilot Search, Copilot Connectors, and Copilot Agents for US Government customers across GCC Moderate, GCC High, and DoD environments. These reports will provide administrators with organization-level and user-level insights to help them understand usage and adoption of these Copilot capabilities.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Microsoft 365 admin center"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "December CY2026",
+      "preview": "",
+      "modified": "2026-11-03T00:14:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573170"
+    },
+    {
+      "id": 569612,
+      "title": "Microsoft Purview: Data Lifecycle Management – Retention for Copilot Memory",
+      "description": "Configure retention for Microsoft 365 Copilot memory to help preserve historical versions of memory items for security, compliance, and investigation scenarios. Copilot memory includes saved memories and details inferred from chat history that enable more personalized and context-aware Copilot experiences. Copilot memory items are stored in a hidden folder in the user’s Exchange mailbox. This capability will enable retention and versioning support for inactive memory items so that administrators can maintain visibility into memory changes while active memory continues to be managed by the Copilot experience.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "September CY2026",
+      "preview": "",
+      "modified": "2026-11-03T00:14:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569612"
+    },
+    {
+      "id": 567315,
+      "title": "Planner: Capabilities in Microsoft Cowork",
+      "description": "You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your Planner tasks across Microsoft 365, such as drafting and sending emails, scheduling meetings, posting updates to Teams, and working with files. It can then write progress back to Planner with your approval. You can move from planning your work to getting it done in one place.",
+      "status": "Rolling out",
+      "products": [
+        "Planner",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Teams and Surface Devices",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "November CY2026",
+      "preview": "October CY2026",
+      "modified": "2026-11-03T00:14:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567315"
+    },
+    {
+      "id": 566314,
+      "title": "Planner: Save AI-generated filters in Planner Agent chat",
+      "description": "Save AI-filters generated by the Planner Agent for future use on your plans.",
+      "status": "In development",
+      "products": [
+        "Planner",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview",
+        "Targeted Release"
+      ],
+      "availability": "November CY2026",
+      "preview": "July CY2026",
+      "modified": "2026-11-03T00:14:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566314"
+    },
+    {
+      "id": 566702,
+      "title": "Microsoft Copilot (Microsoft 365): Edit your document with Copilot in PowerPoint in Government Clouds",
+      "description": "Copilot in PowerPoint helps you create, edit, and refine presentations through natural language—right inside your deck. Start a new presentation or build on an existing one by asking Copilot to generate slides, update content, improve layouts, and polish design, all while preserving your formatting, structure, and branding. Copilot can also connect to your brand kit to apply branded templates, insert brand-approved images, and check for brand compliance. Available to Microsoft 365 Copilot (Premium) users.",
+      "status": "Launched",
+      "products": [
+        "PowerPoint",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-11-03T00:14:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566702"
+    },
+    {
+      "id": 558933,
+      "title": "Microsoft Teams: AI-generated meeting memory for knowledge retention (formerly AI-generated meeting archive)",
+      "description": "Teams will store AI-generated meeting memory files for meetings where Intelligent Recap was turned on, allowing Copilot (and Facilitator) to retain key insights from meetings beyond transcript retention periods and when a transcript was not saved. This enables Copilot to continue answering questions about past meetings even after the transcript expires or the meeting is over. Admins can also configure how long this AI-generated meeting memory file is stored.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "January CY2027",
+      "preview": "",
+      "modified": "2026-11-03T00:14:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558933"
+    },
+    {
+      "id": 542181,
+      "title": "Microsoft Copilot (Microsoft 365): Edit with Copilot in Excel (Web, Win32, Mac) - GCC",
+      "description": "Edit with Copilot lets you build and edit workbooks side by side with Copilot. When you're updating budgets, creating financial models, or analyzing data, Copilot uses Excel's most powerful tools like tables, charts, PivotTables, and formulas to help you get the job done.",
+      "status": "Launched",
+      "products": [
+        "Excel",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-11-03T00:14:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=542181"
+    },
     {
       "id": 578225,
       "title": "Microsoft 365: Frontier expands to public previews in Teams, Outlook, OneDrive, and SharePoint",
@@ -1779,29 +1947,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567302"
     },
     {
-      "id": 567315,
-      "title": "Planner: Capabilities in Microsoft Cowork",
-      "description": "You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your Planner tasks across Microsoft 365, such as drafting and sending emails, scheduling meetings, posting updates to Teams, and working with files. It can then write progress back to Planner with your approval. You can move from planning your work to getting it done in one place.",
-      "status": "In development",
-      "products": [
-        "Planner",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-10-21T23:02:10",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567315"
-    },
-    {
       "id": 560318,
       "title": "Microsoft Teams: AI-powered notes for in-person meetings with Facilitator in Teams Rooms on Windows",
       "description": "In addition to capturing real-time notes and meeting outcomes during scheduled or hybrid meetings, the Facilitator agent assists you with notes, decisions and actions for in-person meetings in Teams Rooms on Windows. Simply invite Facilitator with one tap of the room console. Meeting notes appear on the front of room display or touch board, are available via meeting recap when shared, and deleted if no one selected. Rest assured no data remains in the room. Available with Teams Rooms Pro.",
@@ -2195,28 +2340,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561322"
     },
     {
-      "id": 542181,
-      "title": "Microsoft Copilot (Microsoft 365): Edit with Copilot in Excel (Web, Win32, Mac) - GCC",
-      "description": "Edit with Copilot lets you build and edit workbooks side by side with Copilot. When you're updating budgets, creating financial models, or analyzing data, Copilot uses Excel's most powerful tools like tables, charts, PivotTables, and formulas to help you get the job done.",
-      "status": "Rolling out",
-      "products": [
-        "Excel",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=542181"
-    },
-    {
       "id": 536576,
       "title": "Microsoft Purview: Compliance Manager-Purview Compliance Manager integration with Microsoft Foundry for automated mapping of AI regulations and evaluation of Compliance controls for Foundry Agents",
       "description": "This feature in Purview Compliance Manager shall enable customers to automatically access the compliance posture of Agents created in AI Foundry. Customers can map Agents being created in AI Foundry to compliance regulations and assessments in Purview Compliance Manager and get to know the compliance status and improvement actions to be innovative and compliant.",
@@ -2359,121 +2482,6 @@
       "preview": "June CY2026",
       "modified": "2026-10-16T19:10:11",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576884"
-    },
-    {
-      "id": 576876,
-      "title": "Microsoft Dataverse: Build your low code hyperscale backend on Dataverse - Build your agentic flows with Dataverse SDK for Python",
-      "description": "The Microsoft Dataverse SDK for Python empowers data scientists and developers to build intelligent, compliant, and scalable agentic flows that integrate seamlessly with Dataverse. In the agentic age, where autonomous agents orchestrate workflows and act on behalf of users, the SDK provides the essential tools to interact programmatically with enterprise data platforms. The SDK supports structured data access, composable APIs, and governance features that are critical for building trustworthy and efficient agents. Key capabilities can include: Autonomous data agents that can query, update, and evaluate data quality Form prediction and autofill Support for agentic primitives like Model Context Protocol (MCP) and Agent-to-Agent (A2A) collaboration The SDK for Python offers a streamlined developer experience with support for common Create, Retrieve, Update, and Delete (CRUD) operations, bulk data processing, metadata access, and observability tools. SDK Python packages are to be published on PyPI.org with open-source support. The SDK is strategically positioned to enable agent-native development with semantic modeling, secure impersonation, and compliance built-in. Business Value: Enables data scientists and developers to create, access, and manage Dataverse business data using Python programming. The Dataverse SDK for Python implements common Python programming paradigms and best practices, provides a more natural Python interface to Dataverse, and supports community contributions. Enabled for: Enabled for admins/makers/marketers automatically",
-      "status": "Launched",
-      "products": [
-        "Microsoft Dataverse"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "June CY2026",
-      "preview": "November CY2025",
-      "modified": "2026-10-16T19:10:05",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576876"
-    },
-    {
-      "id": 576875,
-      "title": "Dynamics 365 Contact Center: Service representative experiences - Use pinned contacts and queues during consult and transfer",
-      "description": "In the Copilot Service admin center, administrators configure and manage pinned contacts and queues for representatives as follows: Enable pins in the Customer settings > Manage pins > Admin pins page so that representatives pin their contacts and queues. Pin specific contacts and queues for representatives. Display pinned items to representatives based on business units. Business Value: This feature streamlines your team’s workflow by removing the hassle of tracking multiple consult and transfer targets, so that your service representatives focus on delivering faster, more reliable support. Enabled for: Enabled by admins/makers/marketers for end users",
-      "status": "Launched",
-      "products": [
-        "Dynamics 365 Contact Center"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-10-16T19:10:04",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576875"
-    },
-    {
-      "id": 576864,
-      "title": "Dynamics 365 Business Central: Reporting and data analysis - Use new APIs for analyzing approval workflows for auditors and IT staff",
-      "description": "In this release wave, we're introducing read-only APIs on the (workflow) approval system. This allows for establishing security and auditing analytics and reporting outside Business Central—for example, creating reports with Power BI or agents with Microsoft Copilot Studio and MCP Server for Business Central. The APIs are read-only and allow querying for: Workflow Workflow and User mappings Workflow, User, and Action history We're also introducing a new permission set that allows a user to use approval APIs. This shouldn't be granted to standard users, but might be included in security-related permission sets. Business Value: This feature enhances transparency and control by enabling secure, read-only access to approval workflows and user actions. Businesses can leverage these APIs to build advanced auditing and compliance reports in tools like Power BI, ensuring stronger governance and accountability. Additionally, integration with Microsoft Copilot Studio and MCP Server opens opportunities for intelligent automation and analytics, driving efficiency and insight. By isolating permissions for API access, organizations maintain robust security while empowering authorized teams to innovate confidently. Enabled for: Enabled for end users automatically",
-      "status": "Launched",
-      "products": [
-        "Dynamics 365 Business Central"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "June CY2026",
-      "preview": "",
-      "modified": "2026-10-16T19:09:56",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576864"
-    },
-    {
-      "id": 576855,
-      "title": "Dynamics 365 Customer Service: Workforce engagement management - Filter the adherence tracker by planning group",
-      "description": "This feature provides the following capabilities: The adherence tracker includes a planning group filter that supervisors can use to scope the view to a specific planning group. The planning group filter works with the existing shift plan and service representative filters, so supervisors can combine filters to refine a single view. The tracker displays representatives based on the planning groups associated with their scheduled shifts. This behavior keeps the tracker aligned with the shift plan used to calculate adherence. The tracker saves each supervisor’s filter selections across sessions and opens with their previous scope. The tracker recalculates adherence percentages and out-of-adherence counts for the filtered scope, providing a planning group-level view of intraday adherence. In Copilot Service workspace, go to Workforce management > Adherence tracker . Access and prerequisites To use Workforce Management capabilities, an administrator must install the Workforce Management for Customer Service package from the Power Platform admin center. Business Value: Supervising large contact centers is tough when you have to scan endless lists to find your team. Now, with planning group support, you can filter the adherence tracker to just the groups you manage. That means you spot issues faster and act right away, keeping service levels on track in real time instead of fixing problems after the fact. This feature scales for enterprise operations with hundreds of representatives and aligns with the same planning group structure you already use for forecasting, staffing, and scheduling. It saves time, reduces complexity, and helps you stay focused on what matters most: delivering consistent service. Enabled for: Enabled by admins/makers/marketers for end users",
-      "status": "Launched",
-      "products": [
-        "Dynamics 365 Customer Service"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-10-16T19:09:50",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576855"
-    },
-    {
-      "id": 576854,
-      "title": "Dynamics 365 Customer Service: Workforce engagement management - Filter adherence historical analytics by planning group",
-      "description": "This feature provides the following capabilities: The adherence historical analytics report includes a planning group filter that workforce managers can use to scope results to one or more planning groups. The planning group filter works with the report’s existing filters, allowing managers to combine planning groups, date ranges, and other report parameters in a single view. The report recalculates adherence metrics for the filtered scope, providing a group-level view of adherence performance instead of a contact center-wide aggregate. The report associates representatives with planning groups through their scheduled shifts. This behavior keeps historical reporting aligned with the shift plans used to calculate adherence. Planning groups must be configured and have assigned representatives before the filter returns results. In Copilot Service workspace, go to Workforce management . Access and prerequisites To use Workforce Management capabilities, an administrator must install the Workforce Management for Customer Service package from the Power Platform admin center. Business Value: Adherence only matters when it reflects how your work is organized. Until now, historical adherence reports didn’t account for planning groups, making it hard to see if performance dips came from a single under-supported queue or were spread across the operation. With planning group support, you can focus your analysis on the groups that matter and compare adherence across them for the same time period. This gives you clearer insights and helps you make smarter staffing decisions. Enabled for: Enabled by admins/makers/marketers for end users",
-      "status": "Launched",
-      "products": [
-        "Dynamics 365 Customer Service"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-10-16T19:09:50",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576854"
-    },
-    {
-      "id": 576853,
-      "title": "Dynamics 365 Customer Service: Workforce engagement management - Associate forecast scenarios with planning groups",
-      "description": "This feature provides the following capabilities: When creating or editing a forecast scenario, forecasters can optionally select a planning group. When a planning group is selected, the Timezone , Channel , and Queue values are populated from the planning group definition and become read-only. This behavior keeps the scenario aligned with its planning group. When no planning group is selected, forecasters can manually edit the Timezone , Channel , and Queue values. Existing scenario creation workflows remain unchanged. The forecast scenario list includes a Planning group column that forecasters can use to sort and filter scenarios. Capacity plans created from a forecast scenario inherit the scenario’s planning group. For a capacity plan created from an uploaded file, forecasters can select the planning group manually. Access and prerequisites To use Workforce Management capabilities, an administrator must install the Workforce Management for Customer Service package from the Power Platform admin center. Business Value: Contact center demand rarely aligns perfectly with a single queue. Most lines of business, sites, or skill pools rely on multiple queues and channels that share the same agents and service goals. Planning group support brings these queues and channels together so you can forecast them as one unit. Instead of juggling separate scenarios, you work with a single view where volume and average handle time reflect the actual demand pool your team staffs. This means you can pass accurate numbers straight to capacity planning and scheduling without extra steps. You save time, reduce errors, and measure performance at the level your business truly operates. If you manage dozens of queues across multiple lines of business, this feature shifts forecasting from a queue-by-queue task to planning at the scale of your entire operation. Enabled for: Enabled by admins/makers/marketers for end users",
-      "status": "Launched",
-      "products": [
-        "Dynamics 365 Customer Service"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "August CY2026",
-      "preview": "",
-      "modified": "2026-10-16T19:09:49",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576853"
     }
   ]
 }
