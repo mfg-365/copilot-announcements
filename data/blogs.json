@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T00:25:26.149Z",
+  "generatedAt": "2026-11-05T00:45:34.089Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -48,6 +48,38 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "OneDrive and SharePoint at Microsoft Ignite 2026: What to Expect",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-and-sharepoint-at-microsoft-ignite-2026-what-to-expect/ba-p/4570020",
+      "description": "Microsoft Ignite returns November 17–20, 2026, at Moscone Center in San Francisco and online. OneDrive and SharePoint are the knowledge platform for Copilot and agents. This year at Ignite we're excited to show you how this foundational pla",
+      "categories": [],
+      "source": "Microsoft OneDrive Blog (Tech Community)",
+      "date": "2026-11-04T17:15:00.000Z"
+    },
+    {
+      "title": "White paper: Choosing between the GitHub Copilot and Standard harnesses in Copilot Studio",
+      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/white-paper-choosing-between-the-github-copilot-and-standard/ba-p/4552385",
+      "description": "Editors' note: The GitHub Copilot harness is now the Microsoft Copilot harness. Learn more . The Standard harness and GitHub Copilot harness are two authoring and runtime options within Microsoft Copilot Studio. A harness is the operating l",
+      "categories": [],
+      "source": "Copilot Studio Blog (Tech Community)",
+      "date": "2026-11-03T20:13:54.000Z"
+    },
+    {
+      "title": "More powerful agents and workflows for autonomous business processes: Introducing a new harness for Copilot Studio",
+      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/more-powerful-agents-and-workflows-for-autonomous-business/ba-p/4542969",
+      "description": "Editors' note: The GitHub Copilot harness is now the Microsoft Copilot harness. Learn more . Over the past two months, we’ve been previewing a new capability within Copilot Studio that lets you build agents capable of taking on more complex",
+      "categories": [],
+      "source": "Copilot Studio Blog (Tech Community)",
+      "date": "2026-11-03T20:13:26.000Z"
+    },
+    {
+      "title": "Introducing SharePoint tools in Work IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/introducing-sharepoint-tools-in-work-iq/ba-p/4569917",
+      "description": "Today, SharePoint tools in Work IQ enter public preview , helping agents complete more SharePoint work with higher success rates and fewer tokens. The preview adds more than 60 native SharePoint operations through the Work IQ MCP server, ex",
+      "categories": [],
+      "source": "Microsoft SharePoint Blog (Tech Community)",
+      "date": "2026-11-03T18:59:59.000Z"
+    },
     {
       "title": "What’s New in Microsoft Copilot | October 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528",
@@ -246,7 +278,7 @@
     {
       "title": "Are bigger agents better? How to design agents that scale",
       "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/are-bigger-agents-better-how-to-design-agents-that-scale/ba-p/4559073",
-      "description": "There is a moment every maker hits. An agent works, so you add another tool. Then another knowledge source. Then instructions for an exception that appeared last week or an entirely new use case you want your agent to be able to tackle. Eac",
+      "description": "Editors' note: The GitHub Copilot harness is now the Microsoft Copilot harness. Learn more . There is a moment every maker hits. An agent works, so you add another tool. Then another knowledge source. Then instructions for an exception that",
       "categories": [],
       "source": "Copilot Studio Blog (Tech Community)",
       "date": "2026-10-08T18:18:59.000Z"
@@ -420,44 +452,6 @@
       "categories": [],
       "source": "Microsoft Copilot Blog (Tech Community)",
       "date": "2026-09-15T00:41:27.000Z"
-    },
-    {
-      "title": "Brand Kit and Skills in Copilot in PowerPoint",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/brand-kit-and-skills-in-copilot-in-powerpoint/ba-p/4554932",
-      "description": "You have a presentation to finish by the end of the day, but instead of focusing on the story, you are searching for the latest template, fixing fonts and colors, and repeating the same review steps you completed last time. What should be a",
-      "categories": [],
-      "source": "Microsoft Copilot Blog (Tech Community)",
-      "date": "2026-09-14T15:00:00.000Z"
-    },
-    {
-      "title": "Build apps in Copilot Cowork and Copilot Studio",
-      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
-      "description": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on AI at Work Blog .",
-      "categories": [
-        "AI",
-        "Copilot Cowork"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-09-10T15:00:00.000Z"
-    },
-    {
-      "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
-      "description": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together appeared first on AI at Work Blog",
-      "categories": [
-        "Agents",
-        "AI"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-09-10T12:00:00.000Z"
-    },
-    {
-      "title": "SharePoint AI page authoring: Select, describe, and refine",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-ai-page-authoring-select-describe-and-refine/ba-p/4553193",
-      "description": "Creating and refining SharePoint pages is becoming more intuitive. Instead of describing where content lives on the page, authors can now simply select a section or web part and tell Copilot what they want to change. Watch the demo Featured",
-      "categories": [],
-      "source": "Microsoft SharePoint Blog (Tech Community)",
-      "date": "2026-09-10T11:32:05.000Z"
     }
   ]
 }

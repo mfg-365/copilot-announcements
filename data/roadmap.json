@@ -1,13 +1,401 @@
 {
-  "generatedAt": "2026-11-04T00:25:25.474Z",
+  "generatedAt": "2026-11-05T00:45:33.665Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 866,
+  "totalCopilotFeatures": 879,
   "counts": {
-    "inDevelopment": 66,
-    "rollingOut": 21,
-    "launched": 33
+    "inDevelopment": 65,
+    "rollingOut": 18,
+    "launched": 37
   },
   "items": [
+    {
+      "id": 578859,
+      "title": "Microsoft Teams: Copilot in the Queues app on Mobile",
+      "description": "Agents and supervisors can use Copilot in the Queues app on Mobile to quickly understand and follow up on customer conversations. From shared call history, users can ask questions about a past call and use Copilot to surface relevant information and insights from the conversation, helping them get up to speed and take the next step without having to review the entire call",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams"
+      ],
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "December CY2026",
+      "preview": "",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=578859"
+    },
+    {
+      "id": 577893,
+      "title": "Dynamics 365 Commerce: Design POS screen layouts in a modern browser designer",
+      "description": "Create and preview POS screen layouts in headquarters with a modern web designer that simplifies configuration and reduces design iterations. The Screen layout designer is modernized as a React-based web experience embedded in Commerce headquarters, with a JSON-based layout backbone replacing the legacy XML representation. The feature applies to Store Commerce point of sale (POS). The modernization includes these core capabilities: Visual layout and button-grid authoring: Arrange and resize supported POS components on a drag-and-drop canvas, configure properties, and edit associated button grids and POS operation mappings in a unified experience. Live preview: Inspect layouts and their associated button-grid operations while designing, and preview supported device sizes and orientations without distributing every design iteration to stores. Existing layout migration: Bring existing screen layouts and button-grid configurations into the modern designer rather than recreate them from scratch. Reusable configuration: Reuse layout templates with store-specific overrides to reduce the need to maintain duplicate layouts. Modern usability: Work with contextual properties, familiar Fluent UI controls, and inline validation. Administrators enable or disable the modern designer through feature management in headquarters. Authorized users open Retail and Commerce > Channel setup > POS setup > POS > Screen layouts , select a layout, and open the designer. They configure the layout and button grids, inspect the preview, and save changes to headquarters. Administrators distribute the saved configuration to stores through the existing Commerce data distribution process. Previewing changes does not replace the distribution needed to update Store Commerce. Setup is performed by a Commerce administrator, who enables the feature, grants appropriate headquarters permissions, and manages layout assignments and distribution. No separate ClickOnce designer installation or Copilot license is required for manual design.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Commerce"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "June CY2027",
+      "preview": "January CY2027",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577893"
+    },
+    {
+      "id": 577746,
+      "title": "Dynamics 365 Customer Insights - Journeys: Marketing tools, skills and plugin are now available in Copilot Cowork",
+      "description": "The Customer Insights plugin brings Dynamics 365 Customer Insights context, actions, and guided workflows to Copilot Cowork. Marketers and other customer-facing teams can understand customer profiles, author brand-compliant content, and prepare consent-aware outreach using existing segments directly in the flow of work, reducing the need to switch to Dynamics 365 Customer Insights. The native Customer Insights skills (Customer Brief & Value Metrics, Email Content Advisor, and Customer Outreach) invoke tools published through the Dynamics 365 MCP server to retrieve unified customer profile and journey context and to perform supported actions in Customer Insights – Journeys. These tools respect Dynamics 365 business logic and the user's existing permissions on each call. The skills are included in the Customer Insights plugin, providing administrators with a governed way to deploy and manage the capabilities.",
+      "status": "Launched",
+      "products": [
+        "Dynamics 365 Customer Insights - Data",
+        "Dynamics 365 Customer Insights - Journeys"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577746"
+    },
+    {
+      "id": 573618,
+      "title": "Dynamics 365 Business Central: USA - Automate employee payments with ACH bank integration",
+      "description": "Organizations in the United States can simplify employee expense reimbursements by paying approved claims directly to employees’ bank accounts through ACH. When used with the Expense Agent, approved reimbursements can be processed automatically, reducing manual payment handling and helping employees get reimbursed faster and more accurately.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "February CY2027",
+      "preview": "December CY2026",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573618"
+    },
+    {
+      "id": 573610,
+      "title": "Dynamics 365 Business Central: Expense Agent - Use tags to mark processed emails",
+      "description": "Quickly see which expense-related emails have already been processed by Expense Agent, helping you distinguish processed from unprocessed messages with confidence. Expense Agent adds a **Processed by Expense Agent **tag in Outlook after a relevant email has been successfully processed. Benefits • Automatically marks successfully processed expense-related emails. • Provides a clear processing-status indicator in Outlook, reducing the need to verify status manually. • Makes it easier to distinguish processed from unprocessed expense-related emails.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "Preview"
+      ],
+      "availability": "April CY2027",
+      "preview": "February CY2027",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573610"
+    },
+    {
+      "id": 573609,
+      "title": "Dynamics 365 Business Central: Expense Agent - Adding invited guests from calendar as participants to your expense",
+      "description": "Spend less time manually adding attendees to meal-related business expenses. Expense Agent can match the expense to the relevant Outlook calendar event and add invited guests as expense participants, helping keep participant information aligned with the meeting invitation. Benefits • Automatically identifies relevant Outlook calendar meetings when expense participants are required. • Retrieves invited attendees from the matching calendar invitation. • Adds invited guests as expense participants without manual entry.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "April CY2027",
+      "preview": "January CY2027",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573609"
+    },
+    {
+      "id": 573608,
+      "title": "Dynamics 365 Business Central: Expense Agent - Change companies and environments in the web app",
+      "description": "Manage expenses across multiple Business Central companies and environments more efficiently with the Expense Agent web app. Switch between the companies and environments you’re authorized to access within a single session, without restarting the app or signing in again. Benefits • Access multiple authorized Business Central environments from the Expense Agent web app. • Switch directly between companies while managing expenses. • Reduce context switching when working across multiple organizations, business units, or legal entities.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "April CY2027",
+      "preview": "January CY2027",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573608"
+    },
+    {
+      "id": 573607,
+      "title": "Dynamics 365 Business Central: Expense Agent - Set expense spend limits in Expense Management",
+      "description": "Take control of employee spending earlier in the expense process with configurable spend limits. Define thresholds that reflect your organization’s expense policies and apply them by time period for individual employees, teams, or the whole company. Expenses that exceed predefined limits can be prevented or flagged, with immediate feedback during expense creation. Benefits • Proactively manage expenses before reimbursement and accounting processes begin. • Reduce approval rework by giving employees immediate feedback when expenses exceed defined thresholds. • Support budget adherence across employees, teams, and the organization with configurable spending limits.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "April CY2027",
+      "preview": "January CY2027",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573607"
+    },
+    {
+      "id": 573606,
+      "title": "Dynamics 365 Business Central: Expense Agent - Add tags for expenses as submitter",
+      "description": "Make expenses easier to organize and categorize by adding relevant tags when you create or edit expenses in the web application. Add one or more custom tags to capture business, project, event, or other dimensional context beyond standard expense fields. Benefits • Add one or more custom tags while creating or editing an expense. • Capture relevant business, project, event, or other dimensional context with expense records. • Organize and categorize expenses beyond standard expense fields.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "April CY2027",
+      "preview": "February CY2027",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573606"
+    },
+    {
+      "id": 573605,
+      "title": "Dynamics 365 Business Central: Expense Agent - Enable approving limits and alternate approvers when primary is not available",
+      "description": "Keep expense approvals moving when primary approvers are unavailable or when requests exceed their approval limits. Organizations can set a maximum approval amount—or unlimited approval authority—for each approver, designate a next approver for requests above that limit, and assign alternate approvers as temporary or scheduled backups. Approval requests can route to an alternate approver during periods of unavailability while following the same approval processes and controls. Benefits • Set approval limits for each approver and route requests that exceed those limits to a designated next approver. • Assign alternate approvers for ad hoc needs or planned periods of absence to help maintain approval continuity. • Reduce delays for employees submitting expenses by keeping approval requests moving when the primary approver is unavailable.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "February CY2027",
+      "preview": "December CY2026",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573605"
+    },
+    {
+      "id": 573604,
+      "title": "Dynamics 365 Business Central: Expense Agent - Create expense with no attachment",
+      "description": "Save time when recording lower-value expenses by creating them in Expense Agent without an attachment when the amount is below the limit you set on the Expense Agent Setup page. This gives you the flexibility to record qualifying expenses even when a receipt or supporting document isn’t available. Benefits • Create qualifying expenses without requiring an attachment at the time of submission. • Set the amount limit that determines when an attachment isn’t required. • Record expenses below the configured limit even when a receipt or supporting document isn’t available.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "April CY2027",
+      "preview": "December CY2026",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573604"
+    },
+    {
+      "id": 573603,
+      "title": "Dynamics 365 Business Central: Expense Agent - Log the expense in a case of lost receipt",
+      "description": "Expense Agent helps employees keep expense submissions moving when an original receipt is unavailable. It guides employees through providing the information needed to support the expense, generates supporting documentation from those details, and enables them to continue the reimbursement process without manually creating replacement documentation. Benefits • Provides a guided process for documenting expenses when receipts are lost or unavailable. • Reduces manual effort by automatically generating supporting documentation from employee-provided information. • Creates a more consistent lost-receipt process for employees and finance teams.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "February CY2027",
+      "preview": "December CY2026",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573603"
+    },
+    {
+      "id": 573602,
+      "title": "Dynamics 365 Business Central: Expense Agent - Split your expenses",
+      "description": "Split a single expense across multiple allocations so costs are accurately assigned to the appropriate expense user, project, department, customer, or expense category. Expense Agent helps you define the split and ensures the allocations add up to the original expense amount. Each allocation is recorded separately for reporting and accounting while remaining linked to the original expense. Benefits • Accurately distribute expenses across multiple users, projects, departments, customers, or expense categories. • Define expense splits with help from Expense Agent while keeping allocations aligned with the original expense total. • Maintain separate allocation records for reporting and accounting while preserving the connection to the original expense.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "April CY2027",
+      "preview": "December CY2026",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573602"
+    },
+    {
+      "id": 577399,
+      "title": "Microsoft Teams: Enhanced Copilot and AI controls for meetings",
+      "description": "Teams Meetings offer enhanced AI controls for Copilot and AI experiences. Organizers manage who can enable and access AI, while IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences. These updates provide more predictable administration and greater flexibility for compliance and governance scenarios.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "December CY2026",
+      "preview": "",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577399"
+    },
+    {
+      "id": 571299,
+      "title": "Microsoft Teams: Ask Copilot from Search on Mobile",
+      "description": "Get answers without leaving search. As you type in the Teams search bar, you'll see an option to ask Copilot alongside search results. You can also select Ask Copilot from the search results page to turn your query into a Copilot conversation, helping you quickly find information, get answers, and ask follow-up questions in context.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft Teams"
+      ],
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "November CY2026",
+      "preview": "",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571299"
+    },
+    {
+      "id": 561026,
+      "title": "Microsoft Copilot (Microsoft 365): Generate documents using forms in SharePoint with Power Automate",
+      "description": "We are introducing a new Power Automate action that enables automated document generation using document generation (DocGen) forms in SharePoint. Generate document from form (Preview) allows customers to create documents from a template by mapping data inputs to predefined template fields. Documents are generated as part of an automated flow and stored in SharePoint. This capability supports scenarios such as creating contracts, invoices, letters, or reports using structured templates and form-driven inputs. The action works by mapping input data to template fields and returns the generated document along with file metadata such as location and status.",
+      "status": "Launched",
+      "products": [
+        "Power Automate",
+        "SharePoint",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "October CY2026",
+      "preview": "May CY2026",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561026"
+    },
+    {
+      "id": 558286,
+      "title": "Microsoft Teams: Intelligent meeting recap available without saving transcript",
+      "description": "Intelligent recap can now be generated without retaining a transcript after the meeting. Meeting organizers can choose this setting from the meeting options before the meeting, or organizers and eligible participants can enable it during the meeting. After the meeting, the AI Summary will be available, but other elements of the recap may not be available (Chapters, Topics, Mentions, Audio recap).",
+      "status": "Launched",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558286"
+    },
+    {
+      "id": 545063,
+      "title": "Microsoft Purview: Insider Risk Management- Insider risk management for agents",
+      "description": "As AI agents become deeply embedded in enterprise ecosystems, they are evolving beyond simple tools or workflows into a digital workforce. These agents can interpret intent, access and manipulate enterprise data, execute actions and even make real-time decisions. In many ways, they operate like human insiders only with machine-speed data processing capabilities. To govern and protect these agents effectively, Microsoft Purview Insider Risk Management is being expanded to agents, with specific indicators and insider risk score built for agents based on agentic activities. Microsoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage, and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance, and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "October CY2026",
+      "preview": "",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=545063"
+    },
+    {
+      "id": 503571,
+      "title": "Microsoft Copilot (Microsoft 365): Support for refining query filters for Confluence Copilot connectors",
+      "description": "This feature enhances and standardizes query filtering across both Confluence Cloud and Confluence On-premises connectors. For Confluence Cloud connector, it introduces simplified options to filter pages by page id, creation date/time and last update date/time, helping improve productivity and reduce human errors. For Confluence On-premises connector, it adds support for advanced CQL-based filtering, enabling more complex and flexible filtering scenarios.",
+      "status": "Launched",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "May CY2026",
+      "preview": "March CY2026",
+      "modified": "2026-11-04T00:02:09",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503571"
+    },
     {
       "id": 578898,
       "title": "Dynamics 365 Sales: Autonomously generate quotes and drive sales with Sales Development Agent",
@@ -1300,29 +1688,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576285"
     },
     {
-      "id": 577399,
-      "title": "Microsoft Teams: Enhanced Copilot and AI controls for meetings",
-      "description": "Teams Meetings offer enhanced AI controls for Copilot and AI experiences. Organizers manage who can enable and access AI, while IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences. These updates provide more predictable administration and greater flexibility for compliance and governance scenarios.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-10-23T21:59:27",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577399"
-    },
-    {
       "id": 569211,
       "title": "Microsoft Copilot (Microsoft 365): JPG and PNG references in Copilot Notebooks",
       "description": "Copilot Notebooks now supports JPG and PNG files as knowledge sources, allowing users to bring images directly into their projects alongside traditional documents. Copilot can use the content within these images, including text, charts, diagrams, and other visuals, as grounding context to help generate more relevant presentations, reports, and briefs.",
@@ -2109,379 +2474,6 @@
       "preview": "May CY2026",
       "modified": "2026-10-20T23:00:34",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503570"
-    },
-    {
-      "id": 576709,
-      "title": "Microsoft Viva: Enhanced Microsoft Copilot in Viva Engage",
-      "description": "Introducing the Enhanced Microsoft 365 Copilot Experience in Viva Engage! Powered by Engage MCP, this enhanced experience takes Copilot in Engage beyond catch-ups and summaries, helping users explore conversations more deeply, synthesize discussions, and uncover meaningful insights. It's also more deeply connected across Microsoft 365. For example, you can ask Copilot to analyze feedback on a leader's post, identify key themes, and turn those insights into a reusable PowerPoint deck. With Work IQ integration, Copilot also has a better understanding of you and your work context, connecting conversations in Engage to your broader work across Microsoft 365. Engage MCP expands both the breadth and depth of Engage scenarios Copilot can support, making it more useful for understanding conversations and insights across your Engage network. This update also brings Copilot in Engage closer to the broader Microsoft 365 Copilot experience, with your Microsoft 365 agents now accessible directly within Copilot in Engage.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576709"
-    },
-    {
-      "id": 571305,
-      "title": "Microsoft Copilot Studio: Support for sensitive documents protected with Microsoft Purview Information Protection (MPIP)",
-      "description": "Unblock users from upload files with Microsoft Purview Information Protection (MPIP) sensitivity labels to Copilot Studio agents deployed on the M365 channel. With this support agents can process content based on the user's/agents account permissions, with label protections enforced end-to-end.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot Studio"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571305"
-    },
-    {
-      "id": 570672,
-      "title": "Work IQ: Human in the loop",
-      "description": "Allow agents and agent flows to pause for human input or approval before continuing.",
-      "status": "In development",
-      "products": [
-        "Work IQ",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "January CY2027",
-      "preview": "November CY2026",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570672"
-    },
-    {
-      "id": 570652,
-      "title": "Work IQ: Agent Policy Governance",
-      "description": "Provide administrators with policy-based controls for governing agents and their capabilities at scale.",
-      "status": "In development",
-      "products": [
-        "Work IQ",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "January CY2027",
-      "preview": "November CY2026",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570652"
-    },
-    {
-      "id": 570651,
-      "title": "Work IQ: Real Time Transcripts",
-      "description": "Enable applications and agents to access Microsoft Teams meeting transcripts in real time for assistance and insights.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)",
-        "Work IQ"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "September CY2026",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570651"
-    },
-    {
-      "id": 570845,
-      "title": "Microsoft Purview: Data Loss Prevention for Microsoft Cowork",
-      "description": "Microsoft Purview Data Loss Prevention (DLP) is expanding to Microsoft Cowork, enabling data security admins to use a single policy across Microsoft 365 Copilot and Cowork. The integration helps protect sensitive AI interactions by preventing the use of labeled knowledge sources, blocking prompts that contain supported sensitive information types, and restricting sensitive prompts from being sent to Bing for web search.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "September CY2026",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570845"
-    },
-    {
-      "id": 570427,
-      "title": "Microsoft Teams: Meeting Shared Files",
-      "description": "The new Meeting Shared Files feature allows users to add relevant files and links to their meeting for easy access and to automatically share that content with all meeting participants. AI in the meeting, like the Facilitator agent, uses these files for targeted grounding to answer questions and enhance skill functionality.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "January CY2027",
-      "preview": "",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570427"
-    },
-    {
-      "id": 566701,
-      "title": "Microsoft Copilot (Microsoft 365): Edit your document with Copilot in PowerPoint in Government Clouds",
-      "description": "Copilot in PowerPoint helps you create, edit, and refine presentations through natural language—right inside your deck. Start a new presentation or build on an existing one by asking Copilot to generate slides, update content, improve layouts, and polish design, all while preserving your formatting, structure, and branding. Copilot can also connect to your brand kit to apply branded templates, insert brand-approved images, and check for brand compliance. Available to Microsoft 365 Copilot (Premium) users.",
-      "status": "Rolling out",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566701"
-    },
-    {
-      "id": 562345,
-      "title": "Microsoft Purview: Archive SharePoint files under retention policies",
-      "description": "With the introduction of file archiving support in SharePoint Online, administrators are looking to seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins want to now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SPO. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
-      "status": "In development",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "December CY2026",
-      "preview": "",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562345"
-    },
-    {
-      "id": 562412,
-      "title": "Microsoft Viva: Agent metrics for custom reporting in Insights analyst workbench",
-      "description": "Unlock deeper insights into Copilot agent adoption with flexible, self-serve analytics. Insights global and partition analysts can access and combine granular agent usage metrics with agent and organizational attributes to uncover agent adoption trends, export and customize reporting, and drive more informed decisions, without relying on predefined dashboards.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "September CY2026",
-      "preview": "July CY2026",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562412"
-    },
-    {
-      "id": 561322,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot in PowerPoint for Government clouds",
-      "description": "Copilot in PowerPoint lets you create, edit, and refine presentations through natural conversation, directly in your presentation. You can start a new presentation or build on an existing one, asking Copilot to generate slides, update content, improve layouts, and polish design—while preserving formatting, structure, and branding. Copilot uses your files, meetings, emails, and more to help shape content and iterate quickly, and it connects to your brand kit so you can apply branded templates, insert brand approved images, and check for brand compliance. Available to Microsoft 365 Copilot–licensed users.",
-      "status": "Rolling out",
-      "products": [
-        "PowerPoint",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561322"
-    },
-    {
-      "id": 536576,
-      "title": "Microsoft Purview: Compliance Manager-Purview Compliance Manager integration with Microsoft Foundry for automated mapping of AI regulations and evaluation of Compliance controls for Foundry Agents",
-      "description": "This feature in Purview Compliance Manager shall enable customers to automatically access the compliance posture of Agents created in AI Foundry. Customers can map Agents being created in AI Foundry to compliance regulations and assessments in Purview Compliance Manager and get to know the compliance status and improvement actions to be innovative and compliant.",
-      "status": "In development",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "January CY2027",
-      "preview": "December CY2025",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=536576"
-    },
-    {
-      "id": 534609,
-      "title": "Microsoft Purview: Purview SDK embedded in Agent Framework SDK",
-      "description": "Purview SDK embedded in Agent Framework SDK enables developers to seamlessly integrate enterprise-grade security, compliance, and governance into the AI agents they build. This integration enables automatic classification and protection of sensitive data, prevents data leaks and oversharing, and provides visibility and control for regulatory compliance—empowering organizations to confidently and securely adopt AI agents in complex environments.",
-      "status": "In development",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "March CY2027",
-      "preview": "November CY2025",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=534609"
-    },
-    {
-      "id": 502525,
-      "title": "Microsoft Teams: Simplified device settings for voice and face recognition on Teams Rooms on Android",
-      "description": "It's easier for admins to enable the benefits of intelligent audio and video and Copilot for users in Teams Rooms through a new user interface and admin settings. These new settings, on the device and in the Pro Management portal, simplify configuration and remove the requirement to use PowerShell, offering improved visibility across rooms.",
-      "status": "Launched",
-      "products": [
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2025",
-      "preview": "",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=502525"
-    },
-    {
-      "id": 575292,
-      "title": "Microsoft Viva: Copilot Analytics - Agent 365 reporting availability for Microsoft platform agents",
-      "description": "Customers can now view agent insights in the Agent 365 Dashboard in Microsoft Viva Insights (Copilot Analytics) without an Agent 365 license. Customers will be able to view reporting on their Microsoft platform-built agents in one consolidated picture, along with context on who built each agent and why.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-10-16T22:00:35",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575292"
-    },
-    {
-      "id": 557561,
-      "title": "Microsoft Edge: Auto-open Copilot side pane for Outlook links",
-      "description": "When users open links from Outlook, Microsoft Edge can automatically open the Copilot side pane to provide contextual insights and actionable suggestion chips based on email and destination content - such as highlighting key points, and recommending next actions - without disrupting the browsing flow. This experience helps users quickly understand content, take action with fewer steps, and get more value from Copilot while extending productive browsing time in Edge. Admins can control availability to this feature using the M365LinksAutoOpenCopilotEnabled policy.",
-      "status": "In development",
-      "products": [
-        "Microsoft Edge"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "December CY2026",
-      "preview": "",
-      "modified": "2026-10-16T22:00:35",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=557561"
-    },
-    {
-      "id": 519571,
-      "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
-      "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This report provides insights into overall connector activity, and connector powered response patterns over time, along with detailed user-level connectors adoption data. With these analytics, admins can monitor adoption, identify usage patterns, and optimize Copilot experiences to drive greater value across their organization. #copilotcontrolsystem",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft 365 admin center"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "June CY2026",
-      "modified": "2026-10-16T22:00:35",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571"
-    },
-    {
-      "id": 576884,
-      "title": "Dynamics 365 Field Service: Optimize resource scheduling - Optimize multiple resources with Scheduling Operations Agent",
-      "description": "This release expands the optimization capabilities of the Scheduling Operations Agent to include multiple resources. The agent considers the availability of the resources, their current schedules, and unscheduled requirements. It suggests a schedule that honors configured constraints and optimizes it according to the selected goal. Dispatchers can review and compare the proposed schedules with the current schedules before applying changes. New capabilities include: Optimize schedules for up to 5 resources directly from the schedule board. Optimize schedules for up to 30 resources using an optimization plan. Create custom goals and weight objectives. Create custom optimization scopes to use with your optimization plans. These capabilities build on the existing public preview of the Scheduling Operations Agent and will be automatically enabled for all organizations that have the agent enabled. Learn more at Scheduling Operations Agent documentation . Business Value: Optimize multiple resources with the Scheduling Operations Agent (SOA). Schedule up to five resources directly from the schedule board or Copilot or perform ad-hoc optimizations for up to 30 resources using an optimization plan. This feature streamlines scheduling, improves efficiency, and supports better resource management. Enabled for: Enabled by admins/makers/marketers for end users",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Dynamics 365 Field Service"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "March CY2027",
-      "preview": "June CY2026",
-      "modified": "2026-10-16T19:10:11",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=576884"
     }
   ]
 }

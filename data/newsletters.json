@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T00:25:26.190Z",
+  "generatedAt": "2026-11-05T00:45:34.126Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -12,20 +12,53 @@
       "title": "November 2026 Copilot Update",
       "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from November 2026.",
       "feature": {
-        "title": "What’s New in Microsoft Copilot | October 2026",
-        "summary": "Welcome to the October 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and eff",
-        "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528",
-        "date": "2026-10-30T18:46:01.000Z",
-        "label": "Microsoft Copilot Blog (Tech Community)",
+        "title": "OneDrive and SharePoint at Microsoft Ignite 2026: What to Expect",
+        "summary": "Microsoft Ignite returns November 17–20, 2026, at Moscone Center in San Francisco and online. OneDrive and SharePoint are the knowledge platform for Copilot and agents. This year at Ignite we're excited to show you how this foundational pla",
+        "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-and-sharepoint-at-microsoft-ignite-2026-what-to-expect/ba-p/4570020",
+        "date": "2026-11-04T17:15:00.000Z",
+        "label": "Microsoft OneDrive Blog (Tech Community)",
         "kind": "blog"
       },
-      "stories": [],
+      "stories": [
+        {
+          "title": "White paper: Choosing between the GitHub Copilot and Standard harnesses in Copilot Studio",
+          "summary": "Editors' note: The GitHub Copilot harness is now the Microsoft Copilot harness. Learn more . The Standard harness and GitHub Copilot harness are two authoring and runtime options within Microsoft Copilot Studio. A harness is the operating l",
+          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/white-paper-choosing-between-the-github-copilot-and-standard/ba-p/4552385",
+          "date": "2026-11-03T20:13:54.000Z",
+          "label": "Copilot Studio Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "More powerful agents and workflows for autonomous business processes: Introducing a new harness for Copilot Studio",
+          "summary": "Editors' note: The GitHub Copilot harness is now the Microsoft Copilot harness. Learn more . Over the past two months, we’ve been previewing a new capability within Copilot Studio that lets you build agents capable of taking on more complex",
+          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/more-powerful-agents-and-workflows-for-autonomous-business/ba-p/4542969",
+          "date": "2026-11-03T20:13:26.000Z",
+          "label": "Copilot Studio Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Introducing SharePoint tools in Work IQ",
+          "summary": "Today, SharePoint tools in Work IQ enter public preview , helping agents complete more SharePoint work with higher success rates and fewer tokens. The preview adds more than 60 native SharePoint operations through the Work IQ MCP server, ex",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/introducing-sharepoint-tools-in-work-iq/ba-p/4569917",
+          "date": "2026-11-03T18:59:59.000Z",
+          "label": "Microsoft SharePoint Blog (Tech Community)",
+          "kind": "blog"
+        }
+      ],
       "reads": [],
       "prompt": {
         "title": "Plan enablement by audience",
         "text": "Create an enablement plan for executives, end users, champions, makers, and IT based on these updates. Give each audience the message, demo, resource, and call to action they need."
       },
       "roadmap": [
+        {
+          "title": "Microsoft Teams: Ask Copilot from Search on Mobile",
+          "description": "Get answers without leaving search. As you type in the Teams search bar, you'll see an option to ask Copilot alongside search results. You can also select Ask Copilot from the search results page to turn your query into a Copilot…",
+          "status": "Rolling out",
+          "availability": "November CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571299",
+          "product": "Microsoft Teams"
+        },
         {
           "title": "Planner: Capabilities in Microsoft Cowork",
           "description": "You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your…",
@@ -41,14 +74,6 @@
           "availability": "October CY2026",
           "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577392",
           "product": "Microsoft Copilot (Microsoft 365)"
-        },
-        {
-          "title": "Planner capabilities in Copilot chat (M365 Copilot)",
-          "description": "We will support creating Planner tasks and plans querying Planner information in M365 Copilot chat, allowing users to manage their tasks and plans between Copilot and Planner seamlessly.",
-          "status": "Rolling out",
-          "availability": "September CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=516577",
-          "product": "Planner"
         }
       ]
     },
