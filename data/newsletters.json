@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:45:34.126Z",
+  "generatedAt": "2026-11-06T00:49:42.640Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -12,14 +12,22 @@
       "title": "November 2026 Copilot Update",
       "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from November 2026.",
       "feature": {
-        "title": "OneDrive and SharePoint at Microsoft Ignite 2026: What to Expect",
-        "summary": "Microsoft Ignite returns November 17–20, 2026, at Moscone Center in San Francisco and online. OneDrive and SharePoint are the knowledge platform for Copilot and agents. This year at Ignite we're excited to show you how this foundational pla",
-        "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-and-sharepoint-at-microsoft-ignite-2026-what-to-expect/ba-p/4570020",
+        "title": "SharePoint and OneDrive at Microsoft Ignite 2026: What to Expect",
+        "summary": "Microsoft Ignite returns November 17–20, 2026, at Moscone Center in San Francisco and online. SharePoint and OneDrive are the knowledge platform for Copilot and agents. This year at Ignite we're excited to show you how this foundational pla",
+        "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-and-onedrive-at-microsoft-ignite-2026-what-to-expect/ba-p/4570019",
         "date": "2026-11-04T17:15:00.000Z",
-        "label": "Microsoft OneDrive Blog (Tech Community)",
+        "label": "Microsoft SharePoint Blog (Tech Community)",
         "kind": "blog"
       },
       "stories": [
+        {
+          "title": "OneDrive and SharePoint at Microsoft Ignite 2026: What to Expect",
+          "summary": "Microsoft Ignite returns November 17–20, 2026, at Moscone Center in San Francisco and online. OneDrive and SharePoint are the knowledge platform for Copilot and agents. This year at Ignite we're excited to show you how this foundational pla",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-and-sharepoint-at-microsoft-ignite-2026-what-to-expect/ba-p/4570020",
+          "date": "2026-11-04T17:15:00.000Z",
+          "label": "Microsoft OneDrive Blog (Tech Community)",
+          "kind": "blog"
+        },
         {
           "title": "White paper: Choosing between the GitHub Copilot and Standard harnesses in Copilot Studio",
           "summary": "Editors' note: The GitHub Copilot harness is now the Microsoft Copilot harness. Learn more . The Standard harness and GitHub Copilot harness are two authoring and runtime options within Microsoft Copilot Studio. A harness is the operating l",
@@ -35,7 +43,9 @@
           "date": "2026-11-03T20:13:26.000Z",
           "label": "Copilot Studio Blog (Tech Community)",
           "kind": "blog"
-        },
+        }
+      ],
+      "reads": [
         {
           "title": "Introducing SharePoint tools in Work IQ",
           "summary": "Today, SharePoint tools in Work IQ enter public preview , helping agents complete more SharePoint work with higher success rates and fewer tokens. The preview adds more than 60 native SharePoint operations through the Work IQ MCP server, ex",
@@ -45,12 +55,19 @@
           "kind": "blog"
         }
       ],
-      "reads": [],
       "prompt": {
         "title": "Plan enablement by audience",
         "text": "Create an enablement plan for executives, end users, champions, makers, and IT based on these updates. Give each audience the message, demo, resource, and call to action they need."
       },
       "roadmap": [
+        {
+          "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
+          "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This…",
+          "status": "Rolling out",
+          "availability": "November CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571",
+          "product": "Microsoft Copilot (Microsoft 365)"
+        },
         {
           "title": "Microsoft Teams: Ask Copilot from Search on Mobile",
           "description": "Get answers without leaving search. As you type in the Teams search bar, you'll see an option to ask Copilot alongside search results. You can also select Ask Copilot from the search results page to turn your query into a Copilot…",
@@ -66,14 +83,6 @@
           "availability": "November CY2026",
           "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567315",
           "product": "Planner"
-        },
-        {
-          "title": "[Education] Create multi-week unit plans with Teach",
-          "description": "Educators can use Teach in Microsoft 365 Copilot to create structured unit plans that span multiple lessons or weeks. They can customize the plan components to organize connected lesson plans and quizzes across a unit. #education",
-          "status": "Rolling out",
-          "availability": "October CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577392",
-          "product": "Microsoft Copilot (Microsoft 365)"
         }
       ]
     },

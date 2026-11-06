@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T00:45:34.089Z",
+  "generatedAt": "2026-11-06T00:49:42.594Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -48,6 +48,14 @@
   ],
   "count": 50,
   "items": [
+    {
+      "title": "SharePoint and OneDrive at Microsoft Ignite 2026: What to Expect",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-and-onedrive-at-microsoft-ignite-2026-what-to-expect/ba-p/4570019",
+      "description": "Microsoft Ignite returns November 17–20, 2026, at Moscone Center in San Francisco and online. SharePoint and OneDrive are the knowledge platform for Copilot and agents. This year at Ignite we're excited to show you how this foundational pla",
+      "categories": [],
+      "source": "Microsoft SharePoint Blog (Tech Community)",
+      "date": "2026-11-04T17:15:00.000Z"
+    },
     {
       "title": "OneDrive and SharePoint at Microsoft Ignite 2026: What to Expect",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-and-sharepoint-at-microsoft-ignite-2026-what-to-expect/ba-p/4570020",
@@ -398,7 +406,7 @@
     {
       "title": "Building the system for AI at work",
       "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
-      "description": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+      "description": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
       "categories": [],
       "source": "Microsoft 365 Blog",
       "date": "2026-09-23T12:00:00.000Z"
@@ -437,21 +445,13 @@
     },
     {
       "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
-      "description": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on AI ",
+      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+      "description": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on Mic",
       "categories": [
         "AI"
       ],
       "source": "Microsoft 365 Blog",
       "date": "2026-09-15T15:00:00.000Z"
-    },
-    {
-      "title": "Expanding model choice in Copilot with Grok",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/expanding-model-choice-in-copilot-with-grok/ba-p/4555749",
-      "description": "Today we are expanding model choice in Copilot with the addition of Grok models from SpaceXAI 1 . This continues our commitment to bring the latest AI innovation in the industry to Copilot, tuned for work and tailored to business needs. Add",
-      "categories": [],
-      "source": "Microsoft Copilot Blog (Tech Community)",
-      "date": "2026-09-15T00:41:27.000Z"
     }
   ]
 }
