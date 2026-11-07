@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T23:58:08.209Z",
+  "generatedAt": "2026-11-07T23:28:19.594Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
@@ -406,7 +406,7 @@
     {
       "title": "Building the system for AI at work",
       "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
-      "description": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+      "description": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
       "categories": [],
       "source": "Microsoft 365 Blog",
       "date": "2026-09-23T12:00:00.000Z"
@@ -445,8 +445,8 @@
     },
     {
       "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
-      "description": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on AI ",
+      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+      "description": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead appeared first on Mic",
       "categories": [
         "AI"
       ],

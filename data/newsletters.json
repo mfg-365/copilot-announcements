@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T23:58:08.263Z",
+  "generatedAt": "2026-11-07T23:28:19.641Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -61,28 +61,28 @@
       },
       "roadmap": [
         {
+          "title": "App Blocks",
+          "description": "App Blocks enables M365 Copilot Chat users to turn their requests and data into rich, interactive experiences directly within the conversation, including calculators, dashboards, forms, planners, visualizations, simulations, comparison…",
+          "status": "Rolling out",
+          "availability": "November CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577743",
+          "product": "Microsoft Copilot (Microsoft 365)"
+        },
+        {
+          "title": "Planner: AI-generated Status Reports in Planner Agent",
+          "description": "AI-powered Status Report in Planner Agent turns your plan data into a polished, stakeholder-ready update in minutes. Just ask Planner Agent for a status report and it pulls your task data and transforms it into a clear narrative covering…",
+          "status": "Rolling out",
+          "availability": "October CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567886",
+          "product": "Planner"
+        },
+        {
           "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
           "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This…",
           "status": "Rolling out",
           "availability": "November CY2026",
           "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571",
           "product": "Microsoft Copilot (Microsoft 365)"
-        },
-        {
-          "title": "Microsoft Teams: Ask Copilot from Search on Mobile",
-          "description": "Get answers without leaving search. As you type in the Teams search bar, you'll see an option to ask Copilot alongside search results. You can also select Ask Copilot from the search results page to turn your query into a Copilot…",
-          "status": "Rolling out",
-          "availability": "November CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571299",
-          "product": "Microsoft Teams"
-        },
-        {
-          "title": "Planner: Capabilities in Microsoft Cowork",
-          "description": "You’ll soon be able to bring your Microsoft Planner into Microsoft Cowork. In Cowork, you can view, create, and update your plans, buckets, goals, and tasks without switching apps. Cowork goes a step further by helping you execute your…",
-          "status": "Rolling out",
-          "availability": "November CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567315",
-          "product": "Planner"
         }
       ]
     },
