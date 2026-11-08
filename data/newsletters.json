@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T23:28:19.641Z",
+  "generatedAt": "2026-11-08T23:27:03.979Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -12,14 +12,22 @@
       "title": "November 2026 Copilot Update",
       "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from November 2026.",
       "feature": {
-        "title": "SharePoint and OneDrive at Microsoft Ignite 2026: What to Expect",
-        "summary": "Microsoft Ignite returns November 17–20, 2026, at Moscone Center in San Francisco and online. SharePoint and OneDrive are the knowledge platform for Copilot and agents. This year at Ignite we're excited to show you how this foundational pla",
-        "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-and-onedrive-at-microsoft-ignite-2026-what-to-expect/ba-p/4570019",
-        "date": "2026-11-04T17:15:00.000Z",
-        "label": "Microsoft SharePoint Blog (Tech Community)",
+        "title": "Paper: How utilizing the Microsoft Copilot harness in Copilot Studio enabled complex task execution",
+        "summary": "Abstract: Copilot Studio's Standard harness is built for conversation: several isolated model calls per turn, a reply within seconds, and control handed back to the user as soon as a step needs input. Many business tasks are not simple Q&A.",
+        "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot/ba-p/4571157",
+        "date": "2026-11-07T17:42:49.000Z",
+        "label": "Copilot Studio Blog (Tech Community)",
         "kind": "blog"
       },
       "stories": [
+        {
+          "title": "SharePoint and OneDrive at Microsoft Ignite 2026: What to Expect",
+          "summary": "Microsoft Ignite returns November 17–20, 2026, at Moscone Center in San Francisco and online. SharePoint and OneDrive are the knowledge platform for Copilot and agents. This year at Ignite we're excited to show you how this foundational pla",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-and-onedrive-at-microsoft-ignite-2026-what-to-expect/ba-p/4570019",
+          "date": "2026-11-04T17:15:00.000Z",
+          "label": "Microsoft SharePoint Blog (Tech Community)",
+          "kind": "blog"
+        },
         {
           "title": "OneDrive and SharePoint at Microsoft Ignite 2026: What to Expect",
           "summary": "Microsoft Ignite returns November 17–20, 2026, at Moscone Center in San Francisco and online. OneDrive and SharePoint are the knowledge platform for Copilot and agents. This year at Ignite we're excited to show you how this foundational pla",
@@ -35,7 +43,9 @@
           "date": "2026-11-03T20:13:54.000Z",
           "label": "Copilot Studio Blog (Tech Community)",
           "kind": "blog"
-        },
+        }
+      ],
+      "reads": [
         {
           "title": "More powerful agents and workflows for autonomous business processes: Introducing a new harness for Copilot Studio",
           "summary": "Editors' note: The GitHub Copilot harness is now the Microsoft Copilot harness. Learn more . Over the past two months, we’ve been previewing a new capability within Copilot Studio that lets you build agents capable of taking on more complex",
@@ -43,9 +53,7 @@
           "date": "2026-11-03T20:13:26.000Z",
           "label": "Copilot Studio Blog (Tech Community)",
           "kind": "blog"
-        }
-      ],
-      "reads": [
+        },
         {
           "title": "Introducing SharePoint tools in Work IQ",
           "summary": "Today, SharePoint tools in Work IQ enter public preview , helping agents complete more SharePoint work with higher success rates and fewer tokens. The preview adds more than 60 native SharePoint operations through the Work IQ MCP server, ex",
