@@ -9,7 +9,7 @@ window.DECK_LINKS = {
 // so readers know how current the downloadable PowerPoint is. Update this
 // whenever a new version of the deck is published.
 window.DECK_UPDATED = {
-  announcements: "2026-09-26"
+  announcements: "2026-11-11"
 };
 
 function formatDeckDate(iso) {

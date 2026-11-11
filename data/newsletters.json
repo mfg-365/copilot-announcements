@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T14:27:01.635Z",
+  "generatedAt": "2026-11-11T18:25:58.369Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -12,14 +12,22 @@
       "title": "November 2026 Copilot Update",
       "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from November 2026.",
       "feature": {
-        "title": "Use connected financial intelligence with Copilot in real financial workflows",
-        "summary": "How specialist financial intelligence and organizational context come together in practical financial workflows. A client review is approaching. The latest financial data is only part of the picture. The team also needs to understand what h",
-        "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/use-connected-financial-intelligence-with-copilot-in-real/ba-p/4571099",
-        "date": "2026-11-10T17:37:34.000Z",
-        "label": "Microsoft Copilot Blog (Tech Community)",
-        "kind": "blog"
+        "title": "November 9-13 Updates",
+        "summary": "This week highlighted two workflow-focused updates: connector write capabilities became generally available in Copilot Chat and Cowork, and Microsoft outlined new connected financial intelligence workflows that combine specialist finance context with organizational data.",
+        "link": "",
+        "date": "2026-11-09",
+        "label": "Platform & SDK",
+        "kind": "announcement"
       },
       "stories": [
+        {
+          "title": "Use connected financial intelligence with Copilot in real financial workflows",
+          "summary": "How specialist financial intelligence and organizational context come together in practical financial workflows. A client review is approaching. The latest financial data is only part of the picture. The team also needs to understand what h",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/use-connected-financial-intelligence-with-copilot-in-real/ba-p/4571099",
+          "date": "2026-11-10T17:37:34.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
         {
           "title": "Turn Copilot insights into action with connector write capabilities",
           "summary": "Copilot connectors write actions are now generally available across Copilot Chat and Cowork, helping you turn insights from your conversations into action in connected applications. With hundreds of Microsoft-, partner- and custom-built con",
@@ -35,7 +43,9 @@
           "date": "2026-11-09T16:30:00.000Z",
           "label": "Microsoft Copilot Studio Blog",
           "kind": "blog"
-        },
+        }
+      ],
+      "reads": [
         {
           "title": "Paper: How utilizing the Microsoft Copilot harness in Copilot Studio enabled complex task execution",
           "summary": "Abstract: Copilot Studio's Standard harness is built for conversation: several isolated model calls per turn, a reply within seconds, and control handed back to the user as soon as a step needs input. Many business tasks are not simple Q&A.",
@@ -43,9 +53,7 @@
           "date": "2026-11-07T17:42:49.000Z",
           "label": "Copilot Studio Blog (Tech Community)",
           "kind": "blog"
-        }
-      ],
-      "reads": [
+        },
         {
           "title": "Bringing Claude models in Microsoft Copilot into the EU Data Boundary",
           "summary": "Greater model choice, consistent protection. Claude models are coming to the EU Data Boundary in Microsoft Copilot. The post Bringing Claude models in Microsoft Copilot into the EU Data Boundary appeared first on Microsoft Copilot Blog .",
@@ -68,14 +76,6 @@
           "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-and-sharepoint-at-microsoft-ignite-2026-what-to-expect/ba-p/4570020",
           "date": "2026-11-04T17:15:00.000Z",
           "label": "Microsoft OneDrive Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "New and improved: Agents that are persistent, agents for customer conversations, and improved maker experience in Microsoft Copilot Studio",
-          "summary": "Discover what’s new in Copilot Studio, October 2026: new capabilities for building persistent agents and connecting workflows, customer interactions, and business data. The post New and improved: Agents that are persistent, agents for custo",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-agents-that-are-persistent-agents-for-customer-conversations-and-improved-maker-experience-in-microsoft-copilot-studio/",
-          "date": "2026-11-04T16:30:00.000Z",
-          "label": "Microsoft Copilot Studio Blog",
           "kind": "blog"
         }
       ],

@@ -27,6 +27,23 @@
       ],
       "details": [
         {
+          "heading": "Connected financial intelligence in Copilot",
+          "status": "Provider availability varies",
+          "points": [
+            "Copilot connectors bring specialist financial research and data from providers such as Moody's, LSEG, and FactSet together with organizational context from Work IQ.",
+            "Financial teams can use the combined context for workflows including credit briefings, portfolio reviews, investment analysis, and client preparation across Chat, Cowork, Excel, Word, and PowerPoint.",
+            "Users authenticate with their own provider accounts and remain limited to their existing permissions and entitlements; administrators can control connector availability through Microsoft Entra ID groups.",
+            "Federated connectors retrieve source information without indexing external provider data into Microsoft 365, while citations and source dates support professional review and judgment."
+          ],
+          "links": [
+            {
+              "title": "Use connected financial intelligence with Copilot in real financial workflows",
+              "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/use-connected-financial-intelligence-with-copilot-in-real-financial-workflows/4571099"
+            }
+          ],
+          "images": []
+        },
+        {
           "heading": "Connector write capabilities",
           "status": "Generally Available",
           "points": [
