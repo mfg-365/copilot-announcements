@@ -398,8 +398,7 @@ async function loadRoadmap() {
       const c = roadmapData.counts || {};
       document.getElementById("metaCounts").innerHTML =
         `<span class="count-badge"><i class="dot-dev"></i>${c.inDevelopment || 0} in development</span>` +
-        `<span class="count-badge"><i class="dot-roll"></i>${c.rollingOut || 0} rolling out</span>` +
-        `<span class="count-badge"><i class="dot-launch"></i>${c.launched || 0} launched</span>`;
+        `<span class="count-badge"><i class="dot-roll"></i>${c.rollingOut || 0} rolling out</span>`;
       const d = roadmapData.generatedAt ? new Date(roadmapData.generatedAt) : null;
       document.getElementById("metaUpdated").textContent = d
         ? "Last updated " + d.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })

@@ -8,7 +8,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(__dirname, "..", "data", "blogs.json");
-const MAX_ITEMS = 50;
+const MAX_ITEMS = 100;
 
 function readJson(file, fallback) {
   try {
@@ -170,8 +170,15 @@ const COPILOT_RE = /copilot|cowork|autopilot|work iq|\bagent(ic|s)?\b|\bAI\b/i;
 
 async function fetchFeed(feed) {
   try {
-    const res = await fetch(feed.url, {
-      headers: { "User-Agent": "copilot-frontier-site/1.0", Accept: "application/rss+xml, application/xml, text/xml" },
+    const url = feed.url + (feed.url.includes("?") ? "&" : "?") + "_mfg365=" + Date.now();
+    const res = await fetch(url, {
+      cache: "no-store",
+      headers: {
+        "User-Agent": "mfg-365-feed-crawler/2.0",
+        Accept: "application/rss+xml, application/xml, text/xml",
+        "Cache-Control": "no-cache",
+        Pragma: "no-cache",
+      },
     });
     if (!res.ok) {
       console.warn(`Feed ${feed.url} -> HTTP ${res.status}`);
@@ -274,9 +281,15 @@ async function main() {
     return;
   }
 
+  const checkedAt = new Date().toISOString();
   const payload = {
-    generatedAt: new Date().toISOString(),
-    sources: FEEDS.map((f) => ({ source: f.source, url: f.url })),
+    generatedAt: checkedAt,
+    sources: FEEDS.map((f, index) => ({
+      source: f.source,
+      url: f.url,
+      itemCount: results[index].length,
+      checkedAt,
+    })),
     count: items.length,
     items,
   };

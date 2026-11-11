@@ -115,7 +115,7 @@ function storyFrom(item, kind) {
 }
 
 function pickRoadmap(items) {
-  const order = { "Rolling out": 0, "In development": 1, Launched: 2 };
+  const order = { "Rolling out": 0, "In development": 1 };
   const sorted = [...items].sort((a, b) => {
     const status = (order[a.status] ?? 9) - (order[b.status] ?? 9);
     return status || dateValue(b) - dateValue(a);

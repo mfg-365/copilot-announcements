@@ -1,5 +1,5 @@
 // Fetches the public Microsoft 365 Roadmap, filters for Copilot features that are
-// in development or recently rolled out, and writes data/roadmap.json.
+// in development or rolling out, and writes data/roadmap.json.
 // Runs daily via GitHub Actions (and on demand).
 
 import fs from "node:fs";
@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.join(__dirname, "..", "data", "roadmap.json");
 const API = "https://www.microsoft.com/releasecommunications/api/v1/m365";
-const MAX_ITEMS = 120;
+const MAX_ITEMS = 200;
 
 function monthKey(v) {
   // publicDisclosureAvailabilityDate looks like "July CY2026" or "Q3 CY2026"
@@ -61,7 +61,7 @@ async function main() {
 
   const items = all
     .filter(isCopilot)
-    .filter((f) => ["In development", "Rolling out", "Launched"].includes(f.status))
+    .filter((f) => ["In development", "Rolling out"].includes(f.status))
     .map((f) => ({
       id: f.id,
       title: clean(f.title),
@@ -87,7 +87,6 @@ async function main() {
     counts: {
       inDevelopment: byStatus("In development"),
       rollingOut: byStatus("Rolling out"),
-      launched: byStatus("Launched"),
     },
     items,
   };

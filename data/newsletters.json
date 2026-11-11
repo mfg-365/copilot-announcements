@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T00:26:20.049Z",
+  "generatedAt": "2026-11-11T14:27:01.635Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -12,20 +12,46 @@
       "title": "November 2026 Copilot Update",
       "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from November 2026.",
       "feature": {
-        "title": "Turn Copilot insights into action with connector write capabilities",
-        "summary": "Copilot connectors write actions are now generally available across Copilot Chat and Cowork, helping you turn insights from your conversations into action in connected applications. With hundreds of Microsoft-, partner- and custom-built con",
-        "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/turn-copilot-insights-into-action-with-connector-write/ba-p/4571160",
-        "date": "2026-11-09T20:51:51.000Z",
+        "title": "Use connected financial intelligence with Copilot in real financial workflows",
+        "summary": "How specialist financial intelligence and organizational context come together in practical financial workflows. A client review is approaching. The latest financial data is only part of the picture. The team also needs to understand what h",
+        "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/use-connected-financial-intelligence-with-copilot-in-real/ba-p/4571099",
+        "date": "2026-11-10T17:37:34.000Z",
         "label": "Microsoft Copilot Blog (Tech Community)",
         "kind": "blog"
       },
       "stories": [
+        {
+          "title": "Turn Copilot insights into action with connector write capabilities",
+          "summary": "Copilot connectors write actions are now generally available across Copilot Chat and Cowork, helping you turn insights from your conversations into action in connected applications. With hundreds of Microsoft-, partner- and custom-built con",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/turn-copilot-insights-into-action-with-connector-write/ba-p/4571160",
+          "date": "2026-11-09T20:51:51.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "How the Microsoft Copilot harness in Copilot Studio helps agents finish the job",
+          "summary": "Go inside the Microsoft Copilot harness in Copilot Studio and learn how agents complete complex work while navigating failures and uncertainty. The post How the Microsoft Copilot harness in Copilot Studio helps agents finish the job appeare",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/how-the-microsoft-copilot-harness-in-copilot-studio-helps-agents-finish-the-job/",
+          "date": "2026-11-09T16:30:00.000Z",
+          "label": "Microsoft Copilot Studio Blog",
+          "kind": "blog"
+        },
         {
           "title": "Paper: How utilizing the Microsoft Copilot harness in Copilot Studio enabled complex task execution",
           "summary": "Abstract: Copilot Studio's Standard harness is built for conversation: several isolated model calls per turn, a reply within seconds, and control handed back to the user as soon as a step needs input. Many business tasks are not simple Q&A.",
           "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot/ba-p/4571157",
           "date": "2026-11-07T17:42:49.000Z",
           "label": "Copilot Studio Blog (Tech Community)",
+          "kind": "blog"
+        }
+      ],
+      "reads": [
+        {
+          "title": "Bringing Claude models in Microsoft Copilot into the EU Data Boundary",
+          "summary": "Greater model choice, consistent protection. Claude models are coming to the EU Data Boundary in Microsoft Copilot. The post Bringing Claude models in Microsoft Copilot into the EU Data Boundary appeared first on Microsoft Copilot Blog .",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary/",
+          "date": "2026-11-05T12:00:00.000Z",
+          "label": "Microsoft 365 Blog",
           "kind": "blog"
         },
         {
@@ -43,31 +69,13 @@
           "date": "2026-11-04T17:15:00.000Z",
           "label": "Microsoft OneDrive Blog (Tech Community)",
           "kind": "blog"
-        }
-      ],
-      "reads": [
-        {
-          "title": "White paper: Choosing between the GitHub Copilot and Standard harnesses in Copilot Studio",
-          "summary": "Editors' note: The GitHub Copilot harness is now the Microsoft Copilot harness. Learn more . The Standard harness and GitHub Copilot harness are two authoring and runtime options within Microsoft Copilot Studio. A harness is the operating l",
-          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/white-paper-choosing-between-the-github-copilot-and-standard/ba-p/4552385",
-          "date": "2026-11-03T20:13:54.000Z",
-          "label": "Copilot Studio Blog (Tech Community)",
-          "kind": "blog"
         },
         {
-          "title": "More powerful agents and workflows for autonomous business processes: Introducing a new harness for Copilot Studio",
-          "summary": "Editors' note: The GitHub Copilot harness is now the Microsoft Copilot harness. Learn more . Over the past two months, we’ve been previewing a new capability within Copilot Studio that lets you build agents capable of taking on more complex",
-          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/more-powerful-agents-and-workflows-for-autonomous-business/ba-p/4542969",
-          "date": "2026-11-03T20:13:26.000Z",
-          "label": "Copilot Studio Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Introducing SharePoint tools in Work IQ",
-          "summary": "Today, SharePoint tools in Work IQ enter public preview , helping agents complete more SharePoint work with higher success rates and fewer tokens. The preview adds more than 60 native SharePoint operations through the Work IQ MCP server, ex",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/introducing-sharepoint-tools-in-work-iq/ba-p/4569917",
-          "date": "2026-11-03T18:59:59.000Z",
-          "label": "Microsoft SharePoint Blog (Tech Community)",
+          "title": "New and improved: Agents that are persistent, agents for customer conversations, and improved maker experience in Microsoft Copilot Studio",
+          "summary": "Discover what’s new in Copilot Studio, October 2026: new capabilities for building persistent agents and connecting workflows, customer interactions, and business data. The post New and improved: Agents that are persistent, agents for custo",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/new-and-improved-agents-that-are-persistent-agents-for-customer-conversations-and-improved-maker-experience-in-microsoft-copilot-studio/",
+          "date": "2026-11-04T16:30:00.000Z",
+          "label": "Microsoft Copilot Studio Blog",
           "kind": "blog"
         }
       ],
@@ -76,6 +84,14 @@
         "text": "Create an enablement plan for executives, end users, champions, makers, and IT based on these updates. Give each audience the message, demo, resource, and call to action they need."
       },
       "roadmap": [
+        {
+          "title": "SharePoint: HTML pages",
+          "description": "Create HTML with Copilot in SharePoint or upload your own HTML from another source. Once stored in the pages library, you can render HTML as a page in SharePoint, make additional edits, and share with your audience. HTML gives you new…",
+          "status": "Rolling out",
+          "availability": "October CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569208",
+          "product": "SharePoint"
+        },
         {
           "title": "App Blocks",
           "description": "App Blocks enables M365 Copilot Chat users to turn their requests and data into rich, interactive experiences directly within the conversation, including calculators, dashboards, forms, planners, visualizations, simulations, comparison…",
@@ -91,14 +107,6 @@
           "availability": "October CY2026",
           "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567886",
           "product": "Planner"
-        },
-        {
-          "title": "Microsoft 365 admin center: Usage reports – Microsoft 365 Copilot Connectors",
-          "description": "A new usage report will be available in the Microsoft 365 admin center for Copilot Connectors in Microsoft 365 Copilot, designed to give organizations a detailed view of how connectors are being used within Microsoft 365 Copilot. This…",
-          "status": "Rolling out",
-          "availability": "November CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=519571",
-          "product": "Microsoft Copilot (Microsoft 365)"
         }
       ]
     },
