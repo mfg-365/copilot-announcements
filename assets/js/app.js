@@ -11,6 +11,7 @@ function activate(id, keepHash) {
   if (id === "timeline") loadTimeline();
   if (id === "updates") loadRoadmap();
   if (id === "blogs") loadBlogs();
+  if (id === "events") loadEvents();
   if (id === "newsletter") loadNewsletter();
 }
 
@@ -537,6 +538,217 @@ function renderRecentBlogs() {
   wrap.hidden = false;
 }
 
+// ----- Events (sanitized static export; no runtime connection to the private List) -----
+let eventData = null;
+let eventLoading = null;
+let eventStatus = "all";
+let eventShowAll = false;
+
+function eventMatches(event, query) {
+  if (!query) return true;
+  const hay = [
+    event.title, event.summary, event.type, event.audience,
+    ...(event.speakers || []), ...(event.tags || []),
+  ].join(" ").toLowerCase();
+  return hay.includes(query);
+}
+
+function eventDateParts(event) {
+  const start = new Date(event.start);
+  const end = event.end ? new Date(event.end) : null;
+  const date = start.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric", year: "numeric" });
+  const startTime = start.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
+  const endTime = end && !isNaN(end) ? end.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit", timeZoneName: "short" }) : "";
+  return {
+    month: start.toLocaleDateString(undefined, { month: "short" }).toUpperCase(),
+    day: start.toLocaleDateString(undefined, { day: "2-digit" }),
+    date,
+    time: endTime ? `${startTime} – ${endTime}` : startTime,
+  };
+}
+
+function eventActionLinks(event, featured = false) {
+  const links = [];
+  if (event.status === "upcoming" && event.registrationUrl) {
+    links.push(`<a class="btn btn-primary" href="${esc(event.registrationUrl)}" target="_blank" rel="noopener">Register now &rarr;</a>`);
+  } else if (event.recordingUrl) {
+    links.push(`<a class="btn btn-primary" href="${esc(event.recordingUrl)}" target="_blank" rel="noopener">&#9654;&nbsp; Watch recording</a>`);
+  } else if (event.registrationUrl) {
+    links.push(`<a class="btn btn-outline" href="${esc(event.registrationUrl)}" target="_blank" rel="noopener">Event details &rarr;</a>`);
+  }
+  if (event.status === "upcoming") {
+    links.push(`<button class="btn ${featured ? "btn-ghost" : "btn-outline"} ev-calendar-btn" data-event-calendar="${esc(event.id)}">Add to calendar</button>`);
+  }
+  if (event.slidesUrl) {
+    links.push(`<a class="btn ${featured ? "btn-ghost" : "btn-outline"}" href="${esc(event.slidesUrl)}" target="_blank" rel="noopener">Resources</a>`);
+  }
+  return links.join("");
+}
+
+function eventCard(event, compact = false) {
+  const when = eventDateParts(event);
+  const speakers = (event.speakers || []).length
+    ? `<p class="ev-speakers"><span aria-hidden="true">&#9673;</span>${esc(event.speakers.join(" · "))}</p>`
+    : "";
+  const image = event.imageUrl && !compact
+    ? `<div class="ev-card-image"><img loading="lazy" src="${esc(event.imageUrl)}" alt="" onerror="this.parentElement.remove()" /></div>`
+    : "";
+  const status = event.status === "onDemand"
+    ? '<span class="ev-status ev-status-demand">&#9654; On demand</span>'
+    : event.status === "awaitingRecording"
+      ? '<span class="ev-status ev-status-pending">Recording coming soon</span>'
+      : "";
+  return `<article class="ev-card${compact ? " is-compact" : ""}">
+    ${image}
+    <div class="ev-card-body">
+      <div class="ev-card-top">
+        <div class="ev-date-badge"><span>${when.month}</span><strong>${when.day}</strong></div>
+        <div class="ev-card-badges"><span class="ev-type">${esc(event.type)}</span><span class="ev-audience">${esc(event.audience)}</span>${status}</div>
+      </div>
+      <h3>${esc(event.title)}</h3>
+      <p class="ev-when">${esc(when.date)} <span>&middot;</span> ${esc(when.time)}</p>
+      <p class="ev-summary">${esc(event.summary)}</p>
+      ${speakers}
+      <div class="ev-actions">${eventActionLinks(event)}</div>
+    </div>
+  </article>`;
+}
+
+function renderFeaturedEvent(event) {
+  const wrap = document.getElementById("eventFeatured");
+  if (!wrap || !event) { if (wrap) wrap.hidden = true; return; }
+  const when = eventDateParts(event);
+  const speakers = (event.speakers || []).length
+    ? `<p class="ev-feature-speakers">${esc(event.speakers.join(" · "))}</p>` : "";
+  const imageStyle = event.imageUrl ? ` style="background-image:url('${esc(event.imageUrl)}')"` : "";
+  wrap.innerHTML = `<div class="ev-feature-copy">
+      <span class="ev-feature-kicker"><i></i>Featured event</span>
+      <div class="ev-feature-badges"><span>${esc(event.type)}</span><span>${esc(event.audience)}</span></div>
+      <h2>${esc(event.title)}</h2>
+      <p class="ev-feature-time">${esc(when.date)} &middot; ${esc(when.time)}</p>
+      <p class="ev-feature-summary">${esc(event.summary)}</p>
+      ${speakers}
+      <div class="ev-feature-actions">${eventActionLinks(event, true)}</div>
+    </div>
+    <div class="ev-feature-art"${imageStyle}>
+      <div class="ev-feature-date"><span>${when.month}</span><strong>${when.day}</strong><small>Live online</small></div>
+    </div>`;
+  wrap.hidden = false;
+}
+
+function renderEvents() {
+  if (!eventData) return;
+  const query = (document.getElementById("eventSearch").value || "").trim().toLowerCase();
+  let matches = (eventData.events || []).filter((event) => eventMatches(event, query));
+  if (eventStatus !== "all") matches = matches.filter((event) => event.status === eventStatus);
+
+  const upcoming = matches.filter((event) => event.status === "upcoming");
+  const pending = matches.filter((event) => event.status === "awaitingRecording");
+  const onDemand = matches.filter((event) => event.status === "onDemand");
+  const featured = upcoming.find((event) => event.featured) || (eventStatus !== "onDemand" ? upcoming[0] : null);
+  renderFeaturedEvent(featured);
+
+  const upcomingCards = featured ? upcoming.filter((event) => event.id !== featured.id) : upcoming;
+  document.getElementById("eventUpcomingList").innerHTML = upcomingCards.map((event) => eventCard(event)).join("");
+  document.getElementById("eventPendingList").innerHTML = pending.map((event) => eventCard(event, true)).join("");
+  const showAllRecordings = eventShowAll || eventStatus === "onDemand" || !!query;
+  const visibleOnDemand = showAllRecordings ? onDemand : onDemand.slice(0, 6);
+  document.getElementById("eventOnDemandList").innerHTML = visibleOnDemand.map((event) => eventCard(event, true)).join("");
+  document.getElementById("eventUpcomingCount").textContent = `${upcoming.length} event${upcoming.length === 1 ? "" : "s"}`;
+  document.getElementById("eventPendingCount").textContent = `${pending.length} event${pending.length === 1 ? "" : "s"}`;
+  document.getElementById("eventOnDemandCount").textContent = `${onDemand.length} recording${onDemand.length === 1 ? "" : "s"}`;
+
+  document.getElementById("eventUpcomingSection").hidden = !upcoming.length;
+  document.getElementById("eventPendingSection").hidden = !pending.length;
+  document.getElementById("eventOnDemandSection").hidden = !onDemand.length;
+  document.getElementById("eventEmpty").hidden = !!matches.length;
+  const showAllButton = document.getElementById("eventShowAll");
+  showAllButton.hidden = showAllRecordings || onDemand.length <= 6;
+  showAllButton.textContent = `Show all ${onDemand.length} recordings`;
+
+  document.querySelectorAll(".ev-calendar-btn").forEach((button) => {
+    button.addEventListener("click", () => downloadEventCalendar(button.dataset.eventCalendar));
+  });
+}
+
+function icsEscape(value) {
+  return String(value || "").replace(/\\/g, "\\\\").replace(/\n/g, "\\n").replace(/([,;])/g, "\\$1");
+}
+
+function icsDate(value) {
+  return new Date(value).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
+}
+
+function downloadEventCalendar(id) {
+  const event = (eventData && eventData.events || []).find((item) => item.id === id);
+  if (!event) return;
+  const description = [event.summary, event.registrationUrl ? `Event link: ${event.registrationUrl}` : ""].filter(Boolean).join("\n\n");
+  const ics = [
+    "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//MFG-365//Copilot Events//EN",
+    "BEGIN:VEVENT", `UID:${icsEscape(event.id)}@mfg-365.com`,
+    `DTSTAMP:${icsDate(new Date())}`, `DTSTART:${icsDate(event.start)}`,
+    `DTEND:${icsDate(event.end || new Date(Date.parse(event.start) + 3600000))}`,
+    `SUMMARY:${icsEscape(event.title)}`, `DESCRIPTION:${icsEscape(description)}`,
+    event.registrationUrl ? `URL:${event.registrationUrl}` : "",
+    "END:VEVENT", "END:VCALENDAR",
+  ].filter(Boolean).join("\r\n");
+  const url = URL.createObjectURL(new Blob([ics], { type: "text/calendar;charset=utf-8" }));
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `${event.title.replace(/[^a-z0-9]+/gi, "-").replace(/^-|-$/g, "").toLowerCase() || "event"}.ics`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
+async function loadEvents() {
+  if (eventData) { renderEvents(); return; }
+  if (eventLoading) return eventLoading;
+  eventLoading = (async () => {
+    try {
+      const data = await fetchJson("data/events.json");
+      if (!data || !Array.isArray(data.events)) throw new Error("unexpected data shape");
+      eventData = data;
+      const counts = data.counts || {};
+      document.getElementById("eventMeta").innerHTML =
+        `<span class="count-badge"><i class="dot-dev"></i>${counts.upcoming || 0} upcoming</span>` +
+        `<span class="count-badge"><i class="dot-launch"></i>${counts.onDemand || 0} on demand</span>` +
+        (counts.awaitingRecording ? `<span class="count-badge"><i class="dot-roll"></i>${counts.awaitingRecording} recordings pending</span>` : "");
+      const updated = data.generatedAt ? new Date(data.generatedAt) : null;
+      document.getElementById("eventUpdated").textContent = updated
+        ? "Event catalog refreshed " + updated.toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" })
+        : "";
+      renderEvents();
+    } catch {
+      document.getElementById("eventFeatured").hidden = true;
+      document.getElementById("eventUpcomingSection").hidden = true;
+      document.getElementById("eventPendingSection").hidden = true;
+      document.getElementById("eventOnDemandSection").hidden = true;
+      const empty = document.getElementById("eventEmpty");
+      empty.hidden = false;
+      empty.textContent = "Couldn't load event data.";
+    } finally {
+      eventLoading = null;
+    }
+  })();
+  return eventLoading;
+}
+
+document.getElementById("eventSearch").addEventListener("input", renderEvents);
+document.getElementById("eventShowAll").addEventListener("click", () => {
+  eventShowAll = true;
+  renderEvents();
+});
+document.querySelectorAll("#eventStatusFilter .chip").forEach((chip) => {
+  chip.addEventListener("click", () => {
+    document.querySelectorAll("#eventStatusFilter .chip").forEach((item) => item.classList.remove("is-active"));
+    chip.classList.add("is-active");
+    eventStatus = chip.dataset.eventStatus;
+    renderEvents();
+  });
+});
+
 // ----- Customer Newsletter (monthly, copy-ready + archive) -----
 let newsletterData = null;
 let newsletterLoading = null;
@@ -829,5 +1041,5 @@ if (document.getElementById(initial)) activate(initial, rawHash.startsWith("#a/"
 
 // Preload all data in the background so tab content is ready instantly.
 window.addEventListener("load", () => {
-  setTimeout(() => { loadAnnouncements(); loadRoadmap(); loadBlogs(); loadNewsletter(); }, 150);
+  setTimeout(() => { loadAnnouncements(); loadRoadmap(); loadBlogs(); loadEvents(); loadNewsletter(); }, 150);
 });

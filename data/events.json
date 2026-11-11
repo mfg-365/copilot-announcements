@@ -1,0 +1,784 @@
+{
+  "generatedAt": "2026-11-11T19:25:44.359Z",
+  "count": 33,
+  "counts": {
+    "upcoming": 10,
+    "onDemand": 21,
+    "awaitingRecording": 2
+  },
+  "events": [
+    {
+      "id": "evt-10oz81zuwfy",
+      "title": "Put Cowork to Work - Driving Business Outcomes",
+      "summary": "Turn a selected business task into a working Cowork workflow. Prepare a clear brief, build and refine the workflow with authorized inputs, identify human review and approval points, retain a reusable asset, and consider Copilot Credit usage.",
+      "start": "2026-11-16T18:00:00Z",
+      "end": "2026-11-16T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Training",
+      "audience": "Business users",
+      "registrationUrl": "https://aka.ms/Cowork.Value.Realization.S2.Nov.16",
+      "recordingUrl": "",
+      "slidesUrl": "https://aka.ms/Cowork.Value.Realization.Recordings",
+      "imageUrl": "",
+      "speakers": [
+        "Zackary Harwood — Sr Cloud Solution Architect",
+        "Sukanta Majumdar — Sr Cloud Solution Architect",
+        "Matt Ruma — Principal Cloud Solution Architect",
+        "Sara Hiatt — Principal Solution Engineer"
+      ],
+      "tags": [
+        "Microsoft 365 Copilot",
+        "Copilot Cowork",
+        "Value realization",
+        "Manufacturing and Mobility"
+      ],
+      "featured": true,
+      "cancelled": false,
+      "status": "upcoming"
+    },
+    {
+      "id": "evt-19e7767vukh",
+      "title": "Put Cowork to Work - Driving Business Outcomes",
+      "summary": "Turn a selected business task into a working Cowork workflow. Prepare a clear brief, build and refine the workflow with authorized inputs, identify human review and approval points, retain a reusable asset, and consider Copilot Credit usage.",
+      "start": "2026-11-18T18:00:00Z",
+      "end": "2026-11-18T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Training",
+      "audience": "Business users",
+      "registrationUrl": "https://aka.ms/Cowork.Value.Realization.S2.Nov.18",
+      "recordingUrl": "",
+      "slidesUrl": "https://aka.ms/Cowork.Value.Realization.Recordings",
+      "imageUrl": "",
+      "speakers": [
+        "Zackary Harwood — Sr Cloud Solution Architect",
+        "Sukanta Majumdar — Sr Cloud Solution Architect",
+        "Matt Ruma — Principal Cloud Solution Architect",
+        "Sara Hiatt — Principal Solution Engineer"
+      ],
+      "tags": [
+        "Microsoft 365 Copilot",
+        "Copilot Cowork",
+        "Value realization",
+        "Manufacturing and Mobility"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "upcoming"
+    },
+    {
+      "id": "evt-183ida40rv5",
+      "title": "Scale Cowork with Confidence - Billing to Value",
+      "summary": "Evaluate whether and how to scale a Cowork workload. Examine outcomes and costs, assess governance and production readiness, define an evidence-review loop, and document a scale, refine, or wait decision.",
+      "start": "2026-11-30T18:00:00Z",
+      "end": "2026-11-30T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Training",
+      "audience": "Executives",
+      "registrationUrl": "https://aka.ms/Cowork.Value.Realization.S3.Nov.30",
+      "recordingUrl": "",
+      "slidesUrl": "https://aka.ms/Cowork.Value.Realization.Recordings",
+      "imageUrl": "",
+      "speakers": [
+        "Zackary Harwood — Sr Cloud Solution Architect",
+        "Sukanta Majumdar — Sr Cloud Solution Architect",
+        "Matt Ruma — Principal Cloud Solution Architect",
+        "Sara Hiatt — Principal Solution Engineer"
+      ],
+      "tags": [
+        "Microsoft 365 Copilot",
+        "Copilot Cowork",
+        "Value realization",
+        "Manufacturing and Mobility"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "upcoming"
+    },
+    {
+      "id": "evt-yp5r4avjg5",
+      "title": "Launch Cowork with Purpose - What's your Why?",
+      "summary": "Learn where Cowork fits, identify a high-value recurring business process, and establish sponsorship, success criteria, ownership, access, billing, budget, and readiness for a first workflow.",
+      "start": "2026-12-02T18:00:00Z",
+      "end": "2026-12-02T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Training",
+      "audience": "Executives",
+      "registrationUrl": "https://aka.ms/Cowork.Value.Realization.S1.Dec.2",
+      "recordingUrl": "",
+      "slidesUrl": "https://aka.ms/Cowork.Value.Realization.Recordings",
+      "imageUrl": "",
+      "speakers": [
+        "Zackary Harwood — Sr Cloud Solution Architect",
+        "Sukanta Majumdar — Sr Cloud Solution Architect",
+        "Matt Ruma — Principal Cloud Solution Architect",
+        "Sara Hiatt — Principal Solution Engineer"
+      ],
+      "tags": [
+        "Microsoft 365 Copilot",
+        "Copilot Cowork",
+        "Value realization",
+        "Manufacturing and Mobility"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "upcoming"
+    },
+    {
+      "id": "evt-3iawps1w1o",
+      "title": "AI at Work: Copilot and Agents Inside Finance",
+      "summary": "Finance teams can use Copilot and agents to reduce routine matching and answering, bring planning inputs together, flag anomalies, and create more capacity for forecasting, risk insight, and strategic partnership. Join Microsoft leaders and practitioners to see how they use Microsoft 365 Copilot and agents in real workflows, promote long-term adoption, identify high-value opportunities, and measure results. Includes live demonstrations, practical prompts, and guidance on choosing between everyday assistance, reusable prompts, Cowork, first-party agents, and custom agents.",
+      "start": "2026-12-03T18:00:00Z",
+      "end": "2026-12-03T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "Business users",
+      "registrationUrl": "https://msevents.microsoft.com/event?id=731298994",
+      "recordingUrl": "",
+      "slidesUrl": "",
+      "imageUrl": "",
+      "speakers": [
+        "Cory Hrncirik — Senior Director, Office of the CFO, Microsoft"
+      ],
+      "tags": [
+        "Microsoft 365 Copilot",
+        "Agents",
+        "Finance"
+      ],
+      "featured": true,
+      "cancelled": false,
+      "status": "upcoming"
+    },
+    {
+      "id": "evt-2cjit0vx2fe",
+      "title": "Put Cowork to Work - Driving Business Outcomes",
+      "summary": "Turn a selected business task into a working Cowork workflow. Prepare a clear brief, build and refine the workflow with authorized inputs, identify human review and approval points, retain a reusable asset, and consider Copilot Credit usage.",
+      "start": "2026-12-07T18:00:00Z",
+      "end": "2026-12-07T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Training",
+      "audience": "Business users",
+      "registrationUrl": "https://aka.ms/Cowork.Value.Realization.S2.Dec.7",
+      "recordingUrl": "",
+      "slidesUrl": "https://aka.ms/Cowork.Value.Realization.Recordings",
+      "imageUrl": "",
+      "speakers": [
+        "Zackary Harwood — Sr Cloud Solution Architect",
+        "Sukanta Majumdar — Sr Cloud Solution Architect",
+        "Matt Ruma — Principal Cloud Solution Architect",
+        "Sara Hiatt — Principal Solution Engineer"
+      ],
+      "tags": [
+        "Microsoft 365 Copilot",
+        "Copilot Cowork",
+        "Value realization",
+        "Manufacturing and Mobility"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "upcoming"
+    },
+    {
+      "id": "evt-1kivguo9n68",
+      "title": "AI at Work: Copilot and Agents Inside Executive Leadership",
+      "summary": "Business leaders will learn how to move from AI pilots to durable AI-enabled operating models, redesign high-value workflows, guide adoption, and demonstrate measurable value. Join Microsoft leaders and practitioners to see how they use Microsoft 365 Copilot and agents in real workflows, promote long-term adoption, identify high-value opportunities, and measure results. Includes live demonstrations, practical prompts, and guidance on choosing between everyday assistance, reusable prompts, Cowork, first-party agents, and custom agents.",
+      "start": "2026-12-09T18:00:00Z",
+      "end": "2026-12-09T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "Executives",
+      "registrationUrl": "https://msevents.microsoft.com/event?id=1227853097",
+      "recordingUrl": "",
+      "slidesUrl": "",
+      "imageUrl": "",
+      "speakers": [
+        "Samson Fanta — General Manager, Supply Chain & Engineering, Microsoft"
+      ],
+      "tags": [
+        "Microsoft 365 Copilot",
+        "Agents",
+        "Executive leadership"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "upcoming"
+    },
+    {
+      "id": "evt-jkocj2q2mz",
+      "title": "Scale Cowork with Confidence - Billing to Value",
+      "summary": "Evaluate whether and how to scale a Cowork workload. Examine outcomes and costs, assess governance and production readiness, define an evidence-review loop, and document a scale, refine, or wait decision.",
+      "start": "2026-12-14T18:00:00Z",
+      "end": "2026-12-14T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Training",
+      "audience": "Executives",
+      "registrationUrl": "https://aka.ms/Cowork.Value.Realization.S3.Dec.14",
+      "recordingUrl": "",
+      "slidesUrl": "https://aka.ms/Cowork.Value.Realization.Recordings",
+      "imageUrl": "",
+      "speakers": [
+        "Zackary Harwood — Sr Cloud Solution Architect",
+        "Sukanta Majumdar — Sr Cloud Solution Architect",
+        "Matt Ruma — Principal Cloud Solution Architect",
+        "Sara Hiatt — Principal Solution Engineer"
+      ],
+      "tags": [
+        "Microsoft 365 Copilot",
+        "Copilot Cowork",
+        "Value realization",
+        "Manufacturing and Mobility"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "upcoming"
+    },
+    {
+      "id": "evt-1m4vzrk0f46",
+      "title": "AI at Work: Copilot and Agents Inside HR",
+      "summary": "Explore how Copilot and agents can strengthen employee self-service, recruiting, career development, policy and benefits support, and workforce insight—while helping HR lead responsible AI adoption across the organization. Join Microsoft leaders and practitioners to see how they use Microsoft 365 Copilot and agents in real workflows, promote long-term adoption, identify high-value opportunities, and measure results. Includes live demonstrations, practical prompts, and guidance on choosing between everyday assistance, reusable prompts, Cowork, first-party agents, and custom agents.",
+      "start": "2026-12-15T18:00:00Z",
+      "end": "2026-12-15T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "Business users",
+      "registrationUrl": "https://msevents.microsoft.com/event?id=377545204",
+      "recordingUrl": "",
+      "slidesUrl": "",
+      "imageUrl": "",
+      "speakers": [
+        "Michael Kennedy — Principal AI Architect and Strategist, Microsoft"
+      ],
+      "tags": [
+        "Microsoft 365 Copilot",
+        "Agents",
+        "Human resources"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "upcoming"
+    },
+    {
+      "id": "evt-2d424y2ra9",
+      "title": "AI at Work: Copilot and Agents Inside Legal",
+      "summary": "See how Copilot and agents can accelerate contract and document review, surface issues earlier, and analyze large document sets with grounding, data protection, human oversight, and legal judgment kept in the loop. Join Microsoft leaders and practitioners to see how they use Microsoft 365 Copilot and agents in real workflows, promote long-term adoption, identify high-value opportunities, and measure results. Includes live demonstrations, practical prompts, and guidance on choosing between everyday assistance, reusable prompts, Cowork, first-party agents, and custom agents.",
+      "start": "2026-12-17T18:00:00Z",
+      "end": "2026-12-17T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "Business users",
+      "registrationUrl": "https://msevents.microsoft.com/event?id=33800555",
+      "recordingUrl": "",
+      "slidesUrl": "",
+      "imageUrl": "",
+      "speakers": [
+        "Nicholas Austin — Senior Corporate Counsel, Microsoft"
+      ],
+      "tags": [
+        "Microsoft 365 Copilot",
+        "Agents",
+        "Legal"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "upcoming"
+    },
+    {
+      "id": "evt-rmpomll0xc",
+      "title": "Launch Cowork with Purpose - What's your Why?",
+      "summary": "Learn where Cowork fits, identify a high-value recurring business process, and establish sponsorship, success criteria, ownership, access, billing, budget, and readiness for a first workflow.",
+      "start": "2026-11-11T18:00:00Z",
+      "end": "2026-11-11T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Training",
+      "audience": "Executives",
+      "registrationUrl": "https://aka.ms/Cowork.Value.Realization.S1.Nov.11",
+      "recordingUrl": "",
+      "slidesUrl": "https://aka.ms/Cowork.Value.Realization.Recordings",
+      "imageUrl": "",
+      "speakers": [
+        "Zackary Harwood — Sr Cloud Solution Architect",
+        "Sukanta Majumdar — Sr Cloud Solution Architect",
+        "Matt Ruma — Principal Cloud Solution Architect",
+        "Sara Hiatt — Principal Solution Engineer"
+      ],
+      "tags": [
+        "Microsoft 365 Copilot",
+        "Copilot Cowork",
+        "Value realization",
+        "Manufacturing and Mobility"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "awaitingRecording"
+    },
+    {
+      "id": "evt-18f4ymn21vl",
+      "title": "Strategic Insights from the Power Platform Community Conference",
+      "summary": "Experts at the 2026 Power Platform Community Conference agree: the combination of Microsoft Power Platform, Microsoft Copilot Studio, and AI-powered agents is transforming how organizations automate processes, improve productivity, and drive business innovation. Dive deeper into the strategic insights and key takeaways from this year's conference and discover how organizations are using low-code, no-code, and agentic AI solutions to modernize operations, streamline workflows, and accelerate digital transformation. Whether you attended Power Platform Community Conference and want to revisit the biggest announcements or couldn't attend and want a curated recap of the most impactful sessions, we invite you to join this interactive Ask the…",
+      "start": "2026-11-10T18:00:00Z",
+      "end": "2026-11-10T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/PPCC-2026-Recap",
+      "recordingUrl": "https://aka.ms/MasterSeries/PPCC-2026-Recap",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/fbf6843a-58c6-f111-aaaf-0022483291bc?ts=0",
+      "speakers": [],
+      "tags": [
+        "Power Platform; Copilot Studio; Power Apps; Power Automate; Power Pages; Power Platform - Governance"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-mc2sb5udlf",
+      "title": "Launch Cowork with Purpose - What's your Why?",
+      "summary": "Learn where Cowork fits, identify a high-value recurring business process, and establish sponsorship, success criteria, ownership, access, billing, budget, and readiness for a first workflow.",
+      "start": "2026-11-09T18:00:00Z",
+      "end": "2026-11-09T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Training",
+      "audience": "Executives",
+      "registrationUrl": "https://aka.ms/Cowork.Value.Realization.S1.Nov.9",
+      "recordingUrl": "",
+      "slidesUrl": "https://aka.ms/Cowork.Value.Realization.Recordings",
+      "imageUrl": "",
+      "speakers": [
+        "Zackary Harwood — Sr Cloud Solution Architect",
+        "Sukanta Majumdar — Sr Cloud Solution Architect",
+        "Matt Ruma — Principal Cloud Solution Architect",
+        "Sara Hiatt — Principal Solution Engineer"
+      ],
+      "tags": [
+        "Microsoft 365 Copilot",
+        "Copilot Cowork",
+        "Value realization",
+        "Manufacturing and Mobility"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "awaitingRecording"
+    },
+    {
+      "id": "evt-2794h6fm3e8",
+      "title": "Beyond Automation: Agentic Decision Support",
+      "summary": "Part 1 showed how agents process a submission. Part 2 is about what happens once they start reasoning about it. Verifying a document and flagging a missing form is automation. Deciding what a submission actually means, how risky it really is, and what an underwriter should tackle first, that takes judgment, and judgment is where most agentic AI conversations stop short. This session doesn't stop short. Amy Caine and Lauren Smith introduce the Underwriter Insights and Assistant Agent, built in Copilot Studio and Cowork, and walk through what it does with a submission once the paperwork is in order: evaluating the file against risk and compliance signals, surfacing concerns before they become problems later in the process, and helping an…",
+      "start": "2026-10-22T17:00:00Z",
+      "end": "2026-10-22T18:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/UnderwriterInsights",
+      "recordingUrl": "https://youtu.be/rcNejADC3CE",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/1f5dc4be-f2a6-f111-b8de-0022483291bc?ts=0",
+      "speakers": [],
+      "tags": [
+        "Copilot Studio; Microsoft 365 Copilot"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-28xxxq5jd9",
+      "title": "When Everyone Has One: Scaling Cowork and What Comes Next",
+      "summary": "You've hired one. This session is about hiring four hundred. Sessions 1 through 4 followed a single teammate: it arrived, learned your job, took a real assignment, and finally got a set of rules and a budget. Every one of those hours quietly assumed one person working with one AI. This is the session where that stops being true. Getting from a pilot to a population Rollouts are where good AI programs quietly die — not from technical failure, but because the second hundred people never got the support the first ten did. Sequencing — who goes next, and why the order matters more than the pace The support model — what champions actually do, and what happens when there aren't any Measuring adoption honestly — the difference between licenses…",
+      "start": "2026-10-13T18:00:00Z",
+      "end": "2026-10-13T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/CoworkAtScale",
+      "recordingUrl": "https://aka.ms/MasterSeries/CoworkAtScale",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/11c67e48-3aa6-f111-b8de-70a8a58bc580?ts=0",
+      "speakers": [],
+      "tags": [
+        "Microsoft 365 Copilot"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-19qx4z3ws96",
+      "title": "No Surprises: Governance and Cost Estimation for Cowork",
+      "summary": "The pilot worked. Now somebody wants a number. Sessions 1 through 3 got you a working teammate — introduced, taught your job, and handed a real assignment. What follows is rarely a celebration. It's two questions from people who weren't in the room: who is allowed to build these, and what is this going to cost us? Why this one is different Sessions 1 through 3 ran separately for energy and for manufacturing, because the work genuinely differs. This one doesn't. Nobody has an oil and gas answer to \"who approves this,\" or a manufacturing answer to \"what's the monthly run rate.\" From here we're in the same room — both tracks, one conversation, and the two presenters who led them. What we'll cover Who builds, and who reviews — environment…",
+      "start": "2026-10-06T18:00:00Z",
+      "end": "2026-10-06T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/CoworkGovernance",
+      "recordingUrl": "https://youtu.be/gD_GZ6bPRfI",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/5c169886-20a6-f111-b8de-002248329693?ts=0",
+      "speakers": [],
+      "tags": [
+        "Microsoft 365 Copilot"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-1suk0w4si0l",
+      "title": "First Real Assignment: High-Impact Cowork Use Cases for Manufacturing",
+      "summary": "Saving twenty minutes has never won a budget argument. That's the problem with most AI use-case sessions, and it's why this one is built differently. Every scenario we show carries a consequence — a containment that starts late, a supplier commitment that slips into a line stoppage, a quality escalation that reaches your customer before it reaches you. What you'll see Three use cases, live, end to end. Not a catalogue of twenty things Cowork might theoretically do — three things manufacturing and mobility organizations do every week, done properly, with the rough edges left in. We'll work through quality non-conformance, turning findings into a structured first-pass report while the trail is still warm. Supplier correspondence, where…",
+      "start": "2026-09-29T18:00:00Z",
+      "end": "2026-09-29T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/CoworkUseCases-MFM",
+      "recordingUrl": "https://youtu.be/XZQ-L6qAJFw",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/213fb5c8-3fa5-f111-b8de-002248329fea?ts=0",
+      "speakers": [],
+      "tags": [
+        "Microsoft 365 Copilot"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-qenz1t2vmb",
+      "title": "First Real Assignment: High-Impact Cowork Use Cases for Oil, Gas & Energy",
+      "summary": "Saving twenty minutes has never won a budget argument. That's the problem with most AI use-case sessions, and it's why this one is built differently. Every scenario we show carries a consequence — a response deadline that gets missed, a notice that becomes public record, a turnaround day that costs more than a year of licenses. What you'll see Three use cases, live, end to end. Not a catalogue of twenty things Cowork might theoretically do — three things energy organizations do every week, done properly, with the rough edges left in. We'll work through regulatory correspondence that arrives as unstructured narrative and has to be triaged against a response clock. Shift handover, where the quality of the brief quietly degrades across the…",
+      "start": "2026-09-29T18:00:00Z",
+      "end": "2026-09-29T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/CoworkUseCases-OGE",
+      "recordingUrl": "https://youtu.be/4yzwib-o2DQ",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/5d4ba8c6-42a5-f111-b8de-002248329fea?ts=0",
+      "speakers": [],
+      "tags": [
+        "Microsoft 365 Copilot"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-1c8lg1tv3l0",
+      "title": "Training Day: Building Cowork Skills for Manufacturing",
+      "summary": "Your new teammate arrived knowing how to work. It does not yet know where you work. Session 1 introduced Cowork as a teammate that shows up ready to take assignments. This session covers the part nobody explains well: what happens when the out-of-the-box capability runs out, and what it actually takes to close that gap. What we'll cover This is a definitions session, deliberately so. Extensibility gets talked about constantly and defined rarely, which is why teams spend money in the wrong place. We'll draw clean lines between the pieces: Skills — what they are, what a skill can and cannot reach, and where they live Plugins and connections — how Cowork reaches into the systems where the…",
+      "start": "2026-09-24T18:00:00Z",
+      "end": "2026-09-24T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://masterseries.powerappsportals.com/catalog",
+      "recordingUrl": "https://youtu.be/-B_mqkDzKQI",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/40441a14-d8a4-f111-b8de-0022483291bc?ts=0",
+      "speakers": [],
+      "tags": [
+        "Microsoft 365 Copilot"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-g9bedxsyq0",
+      "title": "Training Day: Building Cowork Skills for Oil, Gas & Energy",
+      "summary": "Your new teammate arrived knowing how to work. It does not yet know where you work. Session 1 introduced Cowork as a teammate that shows up ready to take assignments. This session covers the part nobody explains well: what happens when the out-of-the-box capability runs out, and what it actually takes to close that gap. What we'll cover This is a definitions session, deliberately so. Extensibility gets talked about constantly and defined rarely, which is why teams spend money in the wrong place. We'll draw clean lines between the pieces: Skills — what they are, what a skill can and cannot reach, and where they live Plugins and connections — how Cowork reaches into the systems where the real work sits The decision — when extending is worth…",
+      "start": "2026-09-24T18:00:00Z",
+      "end": "2026-09-24T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/CoworkSkills-OGE",
+      "recordingUrl": "https://youtu.be/4yzwib-o2DQ",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/41ab81e1-3ba5-f111-b8de-70a8a58bc3d2?ts=0",
+      "speakers": [],
+      "tags": [
+        "Microsoft 365 Copilot"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-k76m5eyyc8",
+      "title": "Your New Crew Member: Cowork 101 for Oil, Gas & Energy",
+      "summary": "Every energy organization has the same bottleneck: work that only moves when one specific person has one specific hour free. Shift handover notes that get thinner as the week goes on. Permit reviews stacked behind someone's PTO. The production summary nobody has time to write twice. Microsoft Cowork changes that math — and it's genuinely different from what came before. What you'll learn Cowork isn't a chat window with a better model behind it. It's an AI teammate you assign work to. You brief it the way you'd brief a colleague, it picks up the context around the task, and it hands back a finished deliverable — not a suggestion you still have to rewrite. This session starts at zero. We'll…",
+      "start": "2026-09-22T18:00:00Z",
+      "end": "2026-09-22T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://masterseries.powerappsportals.com/catalog",
+      "recordingUrl": "https://youtu.be/o4FELzz80PQ",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/e634547f-d6a4-f111-b8de-70a8a58bc580?ts=0",
+      "speakers": [],
+      "tags": [
+        "Microsoft 365 Copilot"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-22rjx7qgof5",
+      "title": "Your Newest Hire on the Floor: Cowork 101 for Manufacturing",
+      "summary": "A new hire takes six weeks to become useful. Your newest one is ready before lunch. That's not a slogan — it's the practical difference between prompting a chatbot and assigning work to Microsoft Cowork. What you'll learn Cowork is an AI teammate, not a smarter search box. You brief it the way you'd brief a colleague: here's the task, here's the context, here's what \"done\" looks like. It works the problem and hands back a finished deliverable. This session assumes nothing. We'll cover what Cowork is, how it differs from the M365 Copilot already sitting in your tenant, and when each one is the right tool. You'll see the complete first-run experience, so your day one is boring in the best…",
+      "start": "2026-09-22T18:00:00Z",
+      "end": "2026-09-22T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://masterseries.powerappsportals.com/catalog",
+      "recordingUrl": "https://youtu.be/mIoqX8c0CqU",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/3051e837-d6a4-f111-b8de-70a8a58bc3d2?ts=0",
+      "speakers": [],
+      "tags": [
+        "Microsoft 365 Copilot"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-1tw1ja3u2s4",
+      "title": "Next-Gen Hospitality: The Agentic Shift",
+      "summary": "Guest expectations are rising while labor pressure, fragmented systems, and margin scrutiny keep getting tougher. For hospitality leaders across casinos, hotels, and airlines, the question is no longer whether AI matters — it's where agents can make a measurable difference first, and how to move fast enough to matter. In this Master Series session, Microsoft leaders Nick Fratello, Lisa Clark, and James Connelly show how agentic AI is starting to reshape hospitality operations and customer engagement. You'll learn how AI-powered agents can support contact center teams, improve front-office service, reduce back-office friction, and help brands create more responsive guest experiences —…",
+      "start": "2026-09-09T14:00:00Z",
+      "end": "2026-09-09T15:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://masterseries.powerappsportals.com/catalog",
+      "recordingUrl": "https://youtu.be/k_bWuZWCtUg",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/c5a4da4b-0590-f111-8077-6045bdfe24a8?ts=0",
+      "speakers": [],
+      "tags": [
+        "Copilot Studio; Microsoft 365 Copilot; Dynamics 365 for Customer Service"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-26ddekbvvm9",
+      "title": "Marriott’s AI Journey with Copilot Studio Agents",
+      "summary": "Organizations across industries are moving beyond AI experimentation and into real-world, business-critical use cases—but what does that journey actually look like?Organizations across industries are moving beyond AI experimentation and into real-world, business-critical use cases—but what does that journey actually look like? Join us for an upcoming Master Series session featuring Marriott International , where they’ll share how they partnered with Microsoft to bring their AI vision to life using Copilot Studio . In this session, Marriott will walk through how they are transforming internal knowledge and employee enablement with AI-powered agents. By leveraging Copilot Studio, they’ve built solutions that make it easier for employees to…",
+      "start": "2026-06-25T17:00:00Z",
+      "end": "2026-06-25T18:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/MarriottAIAgents",
+      "recordingUrl": "https://youtu.be/hy-BQyb95fY",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/5e0223df-d65d-f111-a826-0022482d225f?ts=639159280965400659",
+      "speakers": [],
+      "tags": [
+        "Copilot Studio"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-cv1230r82c",
+      "title": "Scaling AI Across the Enterprise: Regal Rexnord’s Copilot Studio Journey",
+      "summary": "Organizations across industries are moving beyond AI pilots and into enterprise-scale adoption—but how do you make that transition successfully? In this session, Regal Rexnord shares their journey of going all in on Microsoft Copilot Studio to build and deploy AI-powered agents across the business. As a global manufacturer, Regal Rexnord set out to increase productivity and improve customer experiences through AI. By leveraging Copilot Studio, they were able to connect agents to multiple knowledge sources and systems—including enterprise platforms—enabling more intelligent and contextual responses. Today, their AI agents are delivering measurable impact: An enterprise agent helps employees access information and handles thousands of…",
+      "start": "2026-06-18T18:00:00Z",
+      "end": "2026-06-18T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/RegalAIAgents",
+      "recordingUrl": "https://youtu.be/HcVkFDG7iiU",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/efcbe0f9-a053-f111-bec5-0022482d225f?ts=639148054392046587",
+      "speakers": [],
+      "tags": [
+        "Copilot Studio"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-1jwzvegudly",
+      "title": "Your AI Co-Author: Copilot for Word, Excel & PowerPoint",
+      "summary": "What if you never had to start from a blank page again? In this session of the Master Series, we explore how Microsoft 365 Copilot is transforming the way knowledge workers create, edit, and refine content across the apps they use every day — Word, Excel, and PowerPoint . Whether you're drafting a business proposal, building a data-driven spreadsheet, or designing a compelling presentation, Copilot acts as your intelligent co-author — helping you work faster, think clearer, and produce polished results in a fraction of the time. 🎯 What You'll Learn How to use Copilot in Word to draft, summarize, rewrite, and refine documents with ease How Copilot in Excel can help you analyze data, generate formulas, and surface insights without the…",
+      "start": "2026-05-14T17:00:00Z",
+      "end": "2026-05-14T18:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/EditWithCopilot",
+      "recordingUrl": "https://youtu.be/Uc4-dQEnMwc",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/45f16d17-653e-f111-88b3-0022482d225f?ts=639124707435146639",
+      "speakers": [],
+      "tags": [
+        "Microsoft 365 Copilot"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-zqslc4nwbb",
+      "title": "Real-time Voice Agents for a Modern Customer Experience",
+      "summary": "a { text-decoration: none; color: #464feb; } tr th, tr td { border: 1px solid #e6e6e6; } tr th { background-color: #f5f5f5; } Today’s customers expect fast, natural, and personalized support—especially when they pick up the phone. Yet traditional IVR systems and legacy voice platforms still rely on rigid menus, disconnected systems, and limited context, creating friction for customers and agents alike. In this Master Series session, we’ll explore how real-time voice agents in Dynamics 365 are transforming the customer service experience. You’ll see how real‑time voice agents leverage generative AI, intent understanding, and unified customer data to deliver more natural conversations, automate routine calls, and seamlessly assist human…",
+      "start": "2026-05-07T17:00:00Z",
+      "end": "2026-05-07T18:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/VoiceAgents",
+      "recordingUrl": "https://youtu.be/G5BPgQvVF68",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/463ddd2b-9739-f111-88b3-0022482d225f?ts=639119424926330695",
+      "speakers": [],
+      "tags": [
+        "Dynamics 365 for Customer Service"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-21xvbvtrq9d",
+      "title": "Beyond Low-Code: Agentic Apps for Health & Life Sciences",
+      "summary": "Health and Life Sciences companies are increasingly blending low‑code speed with pro‑code precision to deliver smarter, more adaptive solutions. In this Master Series session, we explore how vibe coding creates a new development experience—one that bridges makers and developers while enabling intelligent, agent‑driven applications built for regulated, high‑impact environments. You’ll see how platforms like vibe.powerapps , combined with VS Code integrations , extend traditional low‑code patterns into a true agentic development workflow. Rather than stopping at forms, flows, and automations, this approach enables applications that can reason, orchestrate actions, and adapt using AI—while still operating within enterprise guardrails for…",
+      "start": "2026-04-29T17:00:00Z",
+      "end": "2026-04-29T18:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/VibeCode",
+      "recordingUrl": "https://youtu.be/_zI-wSJDRtE",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/6d8cd69a-a323-f111-8341-000d3a189482?ts=639095289098189986",
+      "speakers": [],
+      "tags": [
+        "Power Platform; Copilot Studio"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-miz9qx3vqn",
+      "title": "The Master Series | Agentic Engineering in Copilot Studio",
+      "summary": "Agentic engineering represents a shift from prompt ‑ driven assistants to systems that can reason, plan, and act using tools. Instead of single responses, agents decompose problems, invoke capabilities, and iteratively work toward outcomes. This approach enables more reliable, scalable AI solutions that move beyond chat and into real execution. In this session, we’ll explore how agentic engineering principles can be applied in Copilot Studio using SharePoint and Microsoft Graph as a live agent workspace. You’ll see how enterprise data becomes both context and capability—supporting recursive tool use, tenant ‑ aware queries, and controlled actions across files and lists. The focus is on practical design patterns for building agents that…",
+      "start": "2026-04-22T17:00:00Z",
+      "end": "2026-04-22T18:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/AgenticEngineering",
+      "recordingUrl": "https://youtu.be/WvN3-OJs3ec",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/8ad3cf49-6412-f111-8406-7ced8d1a2dc8?ts=639076325469121714",
+      "speakers": [],
+      "tags": [
+        "Copilot Studio; Azure AI Foundry"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-po05a3w9kn",
+      "title": "AI Agents for Modern Finance & Operations",
+      "summary": "Finance and Operations teams are under constant pressure to move faster, reduce manual effort, and make better decisions with increasingly complex data. AI agents are changing how work gets done—shifting from passive insights to intelligent, goal‑driven execution. In this session, we’ll explore how Finance & Operations (F&O) agents help automate routine processes, surface actionable intelligence, and free teams to focus on higher‑value work. We’ll dive into what makes agentic capabilities different from traditional automation and where they’re already delivering value across core F&O scenarios—including financial operations, operational workflows, exception handling, and decision support. You’ll gain a practical understanding of how…",
+      "start": "2026-04-09T17:00:00Z",
+      "end": "2026-04-09T18:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/AIAgentsFinOps",
+      "recordingUrl": "https://youtu.be/kI693qNk410",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/10fb6330-3717-f111-8341-000d3a11fbd0?ts=639081629336442156",
+      "speakers": [],
+      "tags": [
+        "Copilot Studio; Microsoft 365 Copilot; Other; Dynamics 365 for Finance"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-fi6tlinokg",
+      "title": "Your Personal Data Scientist: Researcher & Analyst in M365 Copilot",
+      "summary": "a { text-decoration: none; color: #464feb; } tr th, tr td { border: 1px solid #e6e6e6; } tr th { background-color: #f5f5f5; } Today’s knowledge workers are expected to research topics, synthesize information, analyze data, and make confident decisions—often without access to a dedicated analyst or data science team. In this session, we’ll explore how the Researcher and Analyst agents in Microsoft 365 Copilot act as a personal data scientist , accelerating discovery, reasoning over information, and transforming questions into decision‑ready insights. You’ll learn how these agents work individually and together to turn raw information into structured outputs such as summaries, comparisons, recommendations, and executive‑ready artifacts.…",
+      "start": "2026-03-26T17:00:00Z",
+      "end": "2026-03-26T18:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/ResearcherAnalyst",
+      "recordingUrl": "https://youtu.be/-3NaWEwyt7k",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/875ab68c-6816-f111-8341-7ced8d1a2dc8?ts=639080741817756694",
+      "speakers": [],
+      "tags": [
+        "Microsoft 365 Copilot"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-1pkdejter6c",
+      "title": "Microsoft’s Agentic Sales and Service Capabilities",
+      "summary": "Join us for an exclusive webinar exploring Microsoft’s new Agentic Sales and Service capabilities —designed to transform how sellers and service teams work across Dynamics 365, Salesforce.com, and Microsoft 365 Copilot . Microsoft’s next generation of AI agents go beyond copilots. These intelligent, goal-driven agents can reason, take action, and collaborate across Outlook, Teams, Microsoft Office — helping teams close deals faster, resolve cases smarter, and deliver exceptional customer experiences. What You’ll Learn An overview of Microsoft Agentic Sales & Service and what makes these agents different How these new agents accelerate Lead research, Qualification, Customer Outreach, and Case resolution to drive revenue and improve CSAT…",
+      "start": "2026-02-26T18:00:00Z",
+      "end": "2026-02-26T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://aka.ms/MasterSeries/FSI-AgenticSales",
+      "recordingUrl": "https://youtu.be/yTsoSVuHomU",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/31016c47-0512-f111-8406-000d3a14ba1e?ts=639075917407596260",
+      "speakers": [],
+      "tags": [
+        "Dynamics 365 for Sales; Dynamics 365 for Customer Service"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    },
+    {
+      "id": "evt-105nfkua6qe",
+      "title": "Getting Governance Right: Considerations for Enterprise Agent Adoption",
+      "summary": "Governing agents introduces a unique set of challenges, especially as organizations begin to rely on them for increasingly complex and autonomous tasks. Teams often struggle with visibility into what agents can access, how they behave, and where unexpected risks may emerge. Without clear oversight, misconfigurations, data exposure, and unpredictable agent actions can quickly become real organizational concerns. A strong governance approach provides a structured way to bring order, safety, and clarity to agent adoption. By defining policies, implementing guardrails, and establishing a solid environment strategy, organizations can ensure agents operate within controlled boundaries. This…",
+      "start": "2026-01-27T18:00:00Z",
+      "end": "2026-01-27T19:00:00Z",
+      "timeZone": "America/New_York",
+      "type": "Webinar",
+      "audience": "All audiences",
+      "registrationUrl": "https://masterseries.powerappsportals.com/catalog",
+      "recordingUrl": "https://youtu.be/Z7s8CysQB00",
+      "slidesUrl": "",
+      "imageUrl": "https://assets-usa.mkt.dynamics.com/0d4cf229-6048-ef11-bfdf-002248282d3e/digitalassets/images/a6292287-836f-f111-ab0d-000d3a15f04e?ts=639178714221453661",
+      "speakers": [],
+      "tags": [
+        "Copilot Studio; Microsoft 365 Copilot; Power Platform - Governance"
+      ],
+      "featured": false,
+      "cancelled": false,
+      "status": "onDemand"
+    }
+  ]
+}
