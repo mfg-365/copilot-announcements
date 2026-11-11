@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T02:34:44.473Z",
+  "generatedAt": "2026-11-11T00:26:20.049Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -12,14 +12,22 @@
       "title": "November 2026 Copilot Update",
       "intro": "A customer-ready roundup of the most important Microsoft Copilot news, practical ideas and upcoming capabilities from November 2026.",
       "feature": {
-        "title": "Paper: How utilizing the Microsoft Copilot harness in Copilot Studio enabled complex task execution",
-        "summary": "Abstract: Copilot Studio's Standard harness is built for conversation: several isolated model calls per turn, a reply within seconds, and control handed back to the user as soon as a step needs input. Many business tasks are not simple Q&A.",
-        "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot/ba-p/4571157",
-        "date": "2026-11-07T17:42:49.000Z",
-        "label": "Copilot Studio Blog (Tech Community)",
+        "title": "Turn Copilot insights into action with connector write capabilities",
+        "summary": "Copilot connectors write actions are now generally available across Copilot Chat and Cowork, helping you turn insights from your conversations into action in connected applications. With hundreds of Microsoft-, partner- and custom-built con",
+        "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/turn-copilot-insights-into-action-with-connector-write/ba-p/4571160",
+        "date": "2026-11-09T20:51:51.000Z",
+        "label": "Microsoft Copilot Blog (Tech Community)",
         "kind": "blog"
       },
       "stories": [
+        {
+          "title": "Paper: How utilizing the Microsoft Copilot harness in Copilot Studio enabled complex task execution",
+          "summary": "Abstract: Copilot Studio's Standard harness is built for conversation: several isolated model calls per turn, a reply within seconds, and control handed back to the user as soon as a step needs input. Many business tasks are not simple Q&A.",
+          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot/ba-p/4571157",
+          "date": "2026-11-07T17:42:49.000Z",
+          "label": "Copilot Studio Blog (Tech Community)",
+          "kind": "blog"
+        },
         {
           "title": "SharePoint and OneDrive at Microsoft Ignite 2026: What to Expect",
           "summary": "Microsoft Ignite returns November 17–20, 2026, at Moscone Center in San Francisco and online. SharePoint and OneDrive are the knowledge platform for Copilot and agents. This year at Ignite we're excited to show you how this foundational pla",
@@ -35,7 +43,9 @@
           "date": "2026-11-04T17:15:00.000Z",
           "label": "Microsoft OneDrive Blog (Tech Community)",
           "kind": "blog"
-        },
+        }
+      ],
+      "reads": [
         {
           "title": "White paper: Choosing between the GitHub Copilot and Standard harnesses in Copilot Studio",
           "summary": "Editors' note: The GitHub Copilot harness is now the Microsoft Copilot harness. Learn more . The Standard harness and GitHub Copilot harness are two authoring and runtime options within Microsoft Copilot Studio. A harness is the operating l",
@@ -43,9 +53,7 @@
           "date": "2026-11-03T20:13:54.000Z",
           "label": "Copilot Studio Blog (Tech Community)",
           "kind": "blog"
-        }
-      ],
-      "reads": [
+        },
         {
           "title": "More powerful agents and workflows for autonomous business processes: Introducing a new harness for Copilot Studio",
           "summary": "Editors' note: The GitHub Copilot harness is now the Microsoft Copilot harness. Learn more . Over the past two months, we’ve been previewing a new capability within Copilot Studio that lets you build agents capable of taking on more complex",
