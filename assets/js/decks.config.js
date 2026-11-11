@@ -2,7 +2,7 @@
 // Paste the share URL of the Copilot Announcements deck below.
 // Leave it empty to keep the card as a non-clickable label.
 window.DECK_LINKS = {
-  announcements: "https://livesend.microsoft.com/i/QA50DnJHqqsstg2J6mhGcltXSOtXZ6OxxwO___N5Y3weQUmhkCM1ae9oUPZLmVwWrtcJnislDEEmUZHA1qoQKo4IgUW7Vcg9C0W___cW5ban___dejDOcP8xXZXWC26eJtTm3m"
+  announcements: "https://livesend.microsoft.com/i/QA50DnJHqqsstg2J6mhGcltXSOtXZ6OxxwO___N5Y3weRsYallCBFcWy0mYQw8i7___nKzixGtQ7vYGRLpQD8PbbzQ9R27bC5mmZX4T04GG1mF6XpoZ___fvwMFX___MPLUSSIGNuR3XfKz"
 };
 
 // Date the source deck itself was last updated. Shown on the deck callout blocks
