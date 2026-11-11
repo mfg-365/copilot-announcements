@@ -543,6 +543,9 @@ let eventData = null;
 let eventLoading = null;
 let eventStatus = "all";
 let eventShowAll = false;
+let eventFeaturedGroups = [];
+let eventFeaturedIndex = 0;
+let eventFeaturedTimer = null;
 
 function eventMatches(event, query) {
   if (!query) return true;
@@ -556,6 +559,19 @@ function eventMatches(event, query) {
 function eventDateParts(event) {
   const start = new Date(event.start);
   const end = event.end ? new Date(event.end) : null;
+  if (event.allDay) {
+    const timeZone = event.timeZone || "UTC";
+    const displayEnd = end && !isNaN(end) ? new Date(end.getTime() - 1) : start;
+    const opts = { weekday: "short", month: "short", day: "numeric", year: "numeric", timeZone };
+    const startLabel = start.toLocaleDateString(undefined, opts);
+    const endLabel = displayEnd.toLocaleDateString(undefined, opts);
+    return {
+      month: start.toLocaleDateString(undefined, { month: "short", timeZone }).toUpperCase(),
+      day: start.toLocaleDateString(undefined, { day: "2-digit", timeZone }),
+      date: startLabel === endLabel ? startLabel : `${startLabel} – ${endLabel}`,
+      time: startLabel === endLabel ? "All-day event" : "Multi-day event",
+    };
+  }
   const date = start.toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric", year: "numeric" });
   const startTime = start.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit" });
   const endTime = end && !isNaN(end) ? end.toLocaleTimeString(undefined, { hour: "numeric", minute: "2-digit", timeZoneName: "short" }) : "";
@@ -567,7 +583,54 @@ function eventDateParts(event) {
   };
 }
 
+function groupEvents(events) {
+  const groups = new Map();
+  events.forEach((event) => {
+    const key = event.title.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(event);
+  });
+  return [...groups.entries()].map(([key, occurrences]) => {
+    occurrences.sort((a, b) => a.status === "upcoming"
+      ? Date.parse(a.start) - Date.parse(b.start)
+      : Date.parse(b.start) - Date.parse(a.start));
+    const primary = occurrences[0];
+    return {
+      ...primary,
+      groupKey: key,
+      occurrences,
+      featured: occurrences.some((event) => event.featured),
+      speakers: [...new Set(occurrences.flatMap((event) => event.speakers || []))],
+      tags: [...new Set(occurrences.flatMap((event) => event.tags || []))],
+      slidesUrl: occurrences.find((event) => event.slidesUrl)?.slidesUrl || "",
+      imageUrl: occurrences.find((event) => event.imageUrl)?.imageUrl || "",
+    };
+  });
+}
+
 function eventActionLinks(event, featured = false) {
+  const occurrences = event.occurrences || [event];
+  if (occurrences.length > 1) {
+    const options = occurrences.map((occurrence) => {
+      const when = eventDateParts(occurrence);
+      const dateLabel = `${when.date} · ${when.time}`;
+      if (event.status === "upcoming" && occurrence.registrationUrl) {
+        return `<div class="ev-session-option">
+          <a href="${esc(occurrence.registrationUrl)}" target="_blank" rel="noopener"><span>${esc(dateLabel)}</span><strong>Register &rarr;</strong></a>
+          <button class="ev-session-calendar ev-calendar-btn" data-event-calendar="${esc(occurrence.id)}" aria-label="Add ${esc(dateLabel)} to calendar">Calendar</button>
+        </div>`;
+      }
+      if (occurrence.recordingUrl) {
+        return `<div class="ev-session-option"><a href="${esc(occurrence.recordingUrl)}" target="_blank" rel="noopener"><span>${esc(when.date)}</span><strong>&#9654;&nbsp; Watch</strong></a></div>`;
+      }
+      return `<div class="ev-session-option is-pending">${occurrence.registrationUrl
+        ? `<a href="${esc(occurrence.registrationUrl)}" target="_blank" rel="noopener"><span>${esc(when.date)}</span><strong>Event details</strong></a>`
+        : `<span>${esc(when.date)}</span>`}<em>Recording pending</em></div>`;
+    }).join("");
+    const resources = event.slidesUrl
+      ? `<a class="ev-series-resource" href="${esc(event.slidesUrl)}" target="_blank" rel="noopener">Series resources &rarr;</a>` : "";
+    return `<div class="ev-session-picker"><span class="ev-session-label">${event.status === "upcoming" ? "Choose a session" : event.status === "onDemand" ? "Choose a recording" : "Session history"}</span>${options}${resources}</div>`;
+  }
   const links = [];
   if (event.status === "upcoming" && event.registrationUrl) {
     links.push(`<a class="btn btn-primary" href="${esc(event.registrationUrl)}" target="_blank" rel="noopener">Register now &rarr;</a>`);
@@ -587,6 +650,7 @@ function eventActionLinks(event, featured = false) {
 
 function eventCard(event, compact = false) {
   const when = eventDateParts(event);
+  const occurrenceCount = (event.occurrences || [event]).length;
   const speakers = (event.speakers || []).length
     ? `<p class="ev-speakers"><span aria-hidden="true">&#9673;</span>${esc(event.speakers.join(" · "))}</p>`
     : "";
@@ -602,11 +666,11 @@ function eventCard(event, compact = false) {
     ${image}
     <div class="ev-card-body">
       <div class="ev-card-top">
-        <div class="ev-date-badge"><span>${when.month}</span><strong>${when.day}</strong></div>
+        <div class="ev-date-badge"><span>${when.month}</span><strong>${when.day}</strong>${occurrenceCount > 1 ? `<small>+${occurrenceCount - 1}</small>` : ""}</div>
         <div class="ev-card-badges"><span class="ev-type">${esc(event.type)}</span><span class="ev-audience">${esc(event.audience)}</span>${status}</div>
       </div>
       <h3>${esc(event.title)}</h3>
-      <p class="ev-when">${esc(when.date)} <span>&middot;</span> ${esc(when.time)}</p>
+      <p class="ev-when">${occurrenceCount > 1 ? `${occurrenceCount} session dates available` : `${esc(when.date)} <span>&middot;</span> ${esc(when.time)}`}</p>
       <p class="ev-summary">${esc(event.summary)}</p>
       ${speakers}
       <div class="ev-actions">${eventActionLinks(event)}</div>
@@ -614,26 +678,73 @@ function eventCard(event, compact = false) {
   </article>`;
 }
 
-function renderFeaturedEvent(event) {
+function stopEventCarousel() {
+  if (eventFeaturedTimer) clearInterval(eventFeaturedTimer);
+  eventFeaturedTimer = null;
+}
+
+function startEventCarousel() {
+  stopEventCarousel();
+  if (eventFeaturedGroups.length < 2 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  eventFeaturedTimer = setInterval(() => {
+    eventFeaturedIndex = (eventFeaturedIndex + 1) % eventFeaturedGroups.length;
+    renderFeaturedEvent(eventFeaturedGroups[eventFeaturedIndex], eventFeaturedIndex, eventFeaturedGroups.length);
+  }, 7000);
+}
+
+function showFeaturedEvent(index, restart = true) {
+  if (!eventFeaturedGroups.length) return;
+  eventFeaturedIndex = (index + eventFeaturedGroups.length) % eventFeaturedGroups.length;
+  renderFeaturedEvent(eventFeaturedGroups[eventFeaturedIndex], eventFeaturedIndex, eventFeaturedGroups.length);
+  if (restart) startEventCarousel();
+}
+
+function renderFeaturedEvent(event, index = 0, total = 1) {
   const wrap = document.getElementById("eventFeatured");
   if (!wrap || !event) { if (wrap) wrap.hidden = true; return; }
   const when = eventDateParts(event);
+  const occurrenceCount = (event.occurrences || [event]).length;
   const speakers = (event.speakers || []).length
     ? `<p class="ev-feature-speakers">${esc(event.speakers.join(" · "))}</p>` : "";
   const imageStyle = event.imageUrl ? ` style="background-image:url('${esc(event.imageUrl)}')"` : "";
+  const carouselControls = total > 1
+    ? `<div class="ev-carousel-controls" aria-label="Featured events">
+        <button class="ev-carousel-arrow" data-carousel-prev aria-label="Previous featured event">&larr;</button>
+        <div class="ev-carousel-dots">${Array.from({ length: total }, (_, dot) =>
+          `<button class="ev-carousel-dot${dot === index ? " is-active" : ""}" data-carousel-index="${dot}" aria-label="Show featured event ${dot + 1}" aria-current="${dot === index ? "true" : "false"}"></button>`
+        ).join("")}</div>
+        <button class="ev-carousel-arrow" data-carousel-next aria-label="Next featured event">&rarr;</button>
+        <span class="ev-carousel-position">${index + 1} / ${total}</span>
+      </div>`
+    : "";
   wrap.innerHTML = `<div class="ev-feature-copy">
       <span class="ev-feature-kicker"><i></i>Featured event</span>
       <div class="ev-feature-badges"><span>${esc(event.type)}</span><span>${esc(event.audience)}</span></div>
       <h2>${esc(event.title)}</h2>
-      <p class="ev-feature-time">${esc(when.date)} &middot; ${esc(when.time)}</p>
+      <p class="ev-feature-time">${occurrenceCount > 1 ? `${occurrenceCount} live session dates available` : `${esc(when.date)} &middot; ${esc(when.time)}`}</p>
       <p class="ev-feature-summary">${esc(event.summary)}</p>
       ${speakers}
       <div class="ev-feature-actions">${eventActionLinks(event, true)}</div>
+      ${carouselControls}
     </div>
     <div class="ev-feature-art"${imageStyle}>
-      <div class="ev-feature-date"><span>${when.month}</span><strong>${when.day}</strong><small>Live online</small></div>
+      <div class="ev-feature-date"><span>${when.month}</span><strong>${when.day}</strong><small>${occurrenceCount > 1 ? `${occurrenceCount} dates` : "Live online"}</small></div>
     </div>`;
   wrap.hidden = false;
+  wrap.onmouseenter = stopEventCarousel;
+  wrap.onmouseleave = startEventCarousel;
+  wrap.onfocusin = stopEventCarousel;
+  wrap.onfocusout = (ev) => { if (!wrap.contains(ev.relatedTarget)) startEventCarousel(); };
+  const previous = wrap.querySelector("[data-carousel-prev]");
+  const next = wrap.querySelector("[data-carousel-next]");
+  if (previous) previous.addEventListener("click", () => showFeaturedEvent(index - 1));
+  if (next) next.addEventListener("click", () => showFeaturedEvent(index + 1));
+  wrap.querySelectorAll("[data-carousel-index]").forEach((button) => {
+    button.addEventListener("click", () => showFeaturedEvent(+button.dataset.carouselIndex));
+  });
+  wrap.querySelectorAll(".ev-calendar-btn").forEach((button) => {
+    button.addEventListener("click", () => downloadEventCalendar(button.dataset.eventCalendar));
+  });
 }
 
 function renderEvents() {
@@ -645,26 +756,37 @@ function renderEvents() {
   const upcoming = matches.filter((event) => event.status === "upcoming");
   const pending = matches.filter((event) => event.status === "awaitingRecording");
   const onDemand = matches.filter((event) => event.status === "onDemand");
-  const featured = upcoming.find((event) => event.featured) || (eventStatus !== "onDemand" ? upcoming[0] : null);
-  renderFeaturedEvent(featured);
+  const upcomingGroups = groupEvents(upcoming);
+  const pendingGroups = groupEvents(pending);
+  const onDemandGroups = groupEvents(onDemand);
+  eventFeaturedGroups = upcomingGroups.filter((event) => event.featured);
+  if (!eventFeaturedGroups.length && eventStatus !== "onDemand" && upcomingGroups.length) eventFeaturedGroups = [upcomingGroups[0]];
+  if (eventFeaturedIndex >= eventFeaturedGroups.length) eventFeaturedIndex = 0;
+  const featured = eventFeaturedGroups[eventFeaturedIndex] || null;
+  renderFeaturedEvent(featured, eventFeaturedIndex, eventFeaturedGroups.length);
+  startEventCarousel();
 
-  const upcomingCards = featured ? upcoming.filter((event) => event.id !== featured.id) : upcoming;
+  const featuredKeys = new Set(eventFeaturedGroups.map((event) => event.groupKey));
+  const upcomingCards = upcomingGroups.filter((event) => !featuredKeys.has(event.groupKey));
   document.getElementById("eventUpcomingList").innerHTML = upcomingCards.map((event) => eventCard(event)).join("");
-  document.getElementById("eventPendingList").innerHTML = pending.map((event) => eventCard(event, true)).join("");
+  document.getElementById("eventPendingList").innerHTML = pendingGroups.map((event) => eventCard(event, true)).join("");
   const showAllRecordings = eventShowAll || eventStatus === "onDemand" || !!query;
-  const visibleOnDemand = showAllRecordings ? onDemand : onDemand.slice(0, 6);
+  const visibleOnDemand = showAllRecordings ? onDemandGroups : onDemandGroups.slice(0, 6);
   document.getElementById("eventOnDemandList").innerHTML = visibleOnDemand.map((event) => eventCard(event, true)).join("");
-  document.getElementById("eventUpcomingCount").textContent = `${upcoming.length} event${upcoming.length === 1 ? "" : "s"}`;
-  document.getElementById("eventPendingCount").textContent = `${pending.length} event${pending.length === 1 ? "" : "s"}`;
-  document.getElementById("eventOnDemandCount").textContent = `${onDemand.length} recording${onDemand.length === 1 ? "" : "s"}`;
+  const countLabel = (groups, sessions, noun) => groups.length === sessions.length
+    ? `${groups.length} ${noun}${groups.length === 1 ? "" : "s"}`
+    : `${groups.length} ${noun}${groups.length === 1 ? "" : "s"} · ${sessions.length} sessions`;
+  document.getElementById("eventUpcomingCount").textContent = countLabel(upcomingGroups, upcoming, "event");
+  document.getElementById("eventPendingCount").textContent = countLabel(pendingGroups, pending, "event");
+  document.getElementById("eventOnDemandCount").textContent = countLabel(onDemandGroups, onDemand, "recording");
 
   document.getElementById("eventUpcomingSection").hidden = !upcoming.length;
   document.getElementById("eventPendingSection").hidden = !pending.length;
   document.getElementById("eventOnDemandSection").hidden = !onDemand.length;
   document.getElementById("eventEmpty").hidden = !!matches.length;
   const showAllButton = document.getElementById("eventShowAll");
-  showAllButton.hidden = showAllRecordings || onDemand.length <= 6;
-  showAllButton.textContent = `Show all ${onDemand.length} recordings`;
+  showAllButton.hidden = showAllRecordings || onDemandGroups.length <= 6;
+  showAllButton.textContent = `Show all ${onDemandGroups.length} on-demand events`;
 
   document.querySelectorAll(".ev-calendar-btn").forEach((button) => {
     button.addEventListener("click", () => downloadEventCalendar(button.dataset.eventCalendar));
@@ -679,6 +801,17 @@ function icsDate(value) {
   return new Date(value).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}Z$/, "Z");
 }
 
+function icsAllDayDate(value, timeZone, exclusiveEnd = false) {
+  const date = new Date(value);
+  if (exclusiveEnd) date.setMilliseconds(date.getMilliseconds() - 1);
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: timeZone || "UTC", year: "numeric", month: "2-digit", day: "2-digit",
+  }).formatToParts(date);
+  const map = Object.fromEntries(parts.filter((part) => part.type !== "literal").map((part) => [part.type, part.value]));
+  const day = new Date(Date.UTC(+map.year, +map.month - 1, +map.day + (exclusiveEnd ? 1 : 0)));
+  return day.toISOString().slice(0, 10).replace(/-/g, "");
+}
+
 function downloadEventCalendar(id) {
   const event = (eventData && eventData.events || []).find((item) => item.id === id);
   if (!event) return;
@@ -686,8 +819,9 @@ function downloadEventCalendar(id) {
   const ics = [
     "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//MFG-365//Copilot Events//EN",
     "BEGIN:VEVENT", `UID:${icsEscape(event.id)}@mfg-365.com`,
-    `DTSTAMP:${icsDate(new Date())}`, `DTSTART:${icsDate(event.start)}`,
-    `DTEND:${icsDate(event.end || new Date(Date.parse(event.start) + 3600000))}`,
+    `DTSTAMP:${icsDate(new Date())}`,
+    event.allDay ? `DTSTART;VALUE=DATE:${icsAllDayDate(event.start, event.timeZone)}` : `DTSTART:${icsDate(event.start)}`,
+    event.allDay ? `DTEND;VALUE=DATE:${icsAllDayDate(event.end || event.start, event.timeZone, true)}` : `DTEND:${icsDate(event.end || new Date(Date.parse(event.start) + 3600000))}`,
     `SUMMARY:${icsEscape(event.title)}`, `DESCRIPTION:${icsEscape(description)}`,
     event.registrationUrl ? `URL:${event.registrationUrl}` : "",
     "END:VEVENT", "END:VCALENDAR",
