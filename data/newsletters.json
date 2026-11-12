@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T18:25:58.369Z",
+  "generatedAt": "2026-11-12T01:49:05.688Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -20,6 +20,32 @@
         "kind": "announcement"
       },
       "stories": [
+        {
+          "title": "Where do I govern my Copilot Studio agents?",
+          "summary": "Copilot Studio agents are becoming more action-oriented and autonomous, and taking on more complex work. With agent user accounts, supported Copilot Studio agents can have their own Microsoft 365 account , directory profile, and org-chart r",
+          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
+          "date": "2026-11-11T22:56:24.000Z",
+          "label": "Copilot Studio Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Available today: Anthropic Claude Fable 5.2 in Microsoft Copilot",
+          "summary": "Claude Fable 5.2, the latest version of Anthropic’s Fable model, is now rolling out in Copilot Cowork and Copilot Studio. It expands the choice of frontier models in Copilot, so your teams can match the model to the work as they hand more c",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-2-in-microsoft-copilot/ba-p/4571829",
+          "date": "2026-11-11T19:34:04.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Microsoft Copilot Connectors Update: October 2026",
+          "summary": "Your organization's knowledge doesn't live in one place. It's spread across project boards, CRM records, knowledge bases, wikis and specialist research. Microsoft Copilot Connectors bring all of it into Microsoft Copilot, so people get answ",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/microsoft-copilot-connectors-update-october-2026/ba-p/4572240",
+          "date": "2026-11-11T16:03:15.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        }
+      ],
+      "reads": [
         {
           "title": "Use connected financial intelligence with Copilot in real financial workflows",
           "summary": "How specialist financial intelligence and organizational context come together in practical financial workflows. A client review is approaching. The latest financial data is only part of the picture. The team also needs to understand what h",
@@ -43,39 +69,13 @@
           "date": "2026-11-09T16:30:00.000Z",
           "label": "Microsoft Copilot Studio Blog",
           "kind": "blog"
-        }
-      ],
-      "reads": [
+        },
         {
           "title": "Paper: How utilizing the Microsoft Copilot harness in Copilot Studio enabled complex task execution",
           "summary": "Abstract: Copilot Studio's Standard harness is built for conversation: several isolated model calls per turn, a reply within seconds, and control handed back to the user as soon as a step needs input. Many business tasks are not simple Q&A.",
           "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot/ba-p/4571157",
           "date": "2026-11-07T17:42:49.000Z",
           "label": "Copilot Studio Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Bringing Claude models in Microsoft Copilot into the EU Data Boundary",
-          "summary": "Greater model choice, consistent protection. Claude models are coming to the EU Data Boundary in Microsoft Copilot. The post Bringing Claude models in Microsoft Copilot into the EU Data Boundary appeared first on Microsoft Copilot Blog .",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/11/05/bringing-claude-models-in-microsoft-copilot-into-the-eu-data-boundary/",
-          "date": "2026-11-05T12:00:00.000Z",
-          "label": "Microsoft 365 Blog",
-          "kind": "blog"
-        },
-        {
-          "title": "SharePoint and OneDrive at Microsoft Ignite 2026: What to Expect",
-          "summary": "Microsoft Ignite returns November 17–20, 2026, at Moscone Center in San Francisco and online. SharePoint and OneDrive are the knowledge platform for Copilot and agents. This year at Ignite we're excited to show you how this foundational pla",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-and-onedrive-at-microsoft-ignite-2026-what-to-expect/ba-p/4570019",
-          "date": "2026-11-04T17:15:00.000Z",
-          "label": "Microsoft SharePoint Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "OneDrive and SharePoint at Microsoft Ignite 2026: What to Expect",
-          "summary": "Microsoft Ignite returns November 17–20, 2026, at Moscone Center in San Francisco and online. OneDrive and SharePoint are the knowledge platform for Copilot and agents. This year at Ignite we're excited to show you how this foundational pla",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-and-sharepoint-at-microsoft-ignite-2026-what-to-expect/ba-p/4570020",
-          "date": "2026-11-04T17:15:00.000Z",
-          "label": "Microsoft OneDrive Blog (Tech Community)",
           "kind": "blog"
         }
       ],

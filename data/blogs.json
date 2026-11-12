@@ -1,75 +1,99 @@
 {
-  "generatedAt": "2026-11-11T14:26:29.946Z",
+  "generatedAt": "2026-11-12T01:49:05.641Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-11T14:26:29.946Z"
+      "checkedAt": "2026-11-12T01:49:05.641Z"
     },
     {
       "source": "Microsoft Copilot Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-copilot-blog",
       "itemCount": 20,
-      "checkedAt": "2026-11-11T14:26:29.946Z"
+      "checkedAt": "2026-11-12T01:49:05.641Z"
     },
     {
       "source": "Copilot Studio Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog",
-      "itemCount": 17,
-      "checkedAt": "2026-11-11T14:26:29.946Z"
+      "itemCount": 18,
+      "checkedAt": "2026-11-12T01:49:05.641Z"
     },
     {
       "source": "Microsoft Power Platform Blog (Copilot Studio)",
       "url": "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/",
       "itemCount": 10,
-      "checkedAt": "2026-11-11T14:26:29.946Z"
+      "checkedAt": "2026-11-12T01:49:05.641Z"
     },
     {
       "source": "Microsoft AI at Work Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-11T14:26:29.946Z"
+      "checkedAt": "2026-11-12T01:49:05.641Z"
     },
     {
       "source": "Microsoft Copilot Studio Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-11T14:26:29.946Z"
+      "checkedAt": "2026-11-12T01:49:05.641Z"
     },
     {
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SPBlog",
       "itemCount": 13,
-      "checkedAt": "2026-11-11T14:26:29.946Z"
+      "checkedAt": "2026-11-12T01:49:05.641Z"
     },
     {
       "source": "Excel Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ExcelBlog",
-      "itemCount": 15,
-      "checkedAt": "2026-11-11T14:26:29.946Z"
+      "itemCount": 0,
+      "checkedAt": "2026-11-12T01:49:05.641Z"
     },
     {
       "source": "Microsoft 365 Insider Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365InsiderBlog",
       "itemCount": 6,
-      "checkedAt": "2026-11-11T14:26:29.946Z"
+      "checkedAt": "2026-11-12T01:49:05.641Z"
     },
     {
       "source": "Microsoft Teams Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog",
       "itemCount": 7,
-      "checkedAt": "2026-11-11T14:26:29.946Z"
+      "checkedAt": "2026-11-12T01:49:05.641Z"
     },
     {
       "source": "Microsoft OneDrive Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=onedriveblog",
       "itemCount": 7,
-      "checkedAt": "2026-11-11T14:26:29.946Z"
+      "checkedAt": "2026-11-12T01:49:05.641Z"
     }
   ],
   "count": 100,
   "items": [
+    {
+      "title": "Where do I govern my Copilot Studio agents?",
+      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
+      "description": "Copilot Studio agents are becoming more action-oriented and autonomous, and taking on more complex work. With agent user accounts, supported Copilot Studio agents can have their own Microsoft 365 account , directory profile, and org-chart r",
+      "categories": [],
+      "source": "Copilot Studio Blog (Tech Community)",
+      "date": "2026-11-11T22:56:24.000Z"
+    },
+    {
+      "title": "Available today: Anthropic Claude Fable 5.2 in Microsoft Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-2-in-microsoft-copilot/ba-p/4571829",
+      "description": "Claude Fable 5.2, the latest version of Anthropic’s Fable model, is now rolling out in Copilot Cowork and Copilot Studio. It expands the choice of frontier models in Copilot, so your teams can match the model to the work as they hand more c",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-11-11T19:34:04.000Z"
+    },
+    {
+      "title": "Microsoft Copilot Connectors Update: October 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/microsoft-copilot-connectors-update-october-2026/ba-p/4572240",
+      "description": "Your organization's knowledge doesn't live in one place. It's spread across project boards, CRM records, knowledge bases, wikis and specialist research. Microsoft Copilot Connectors bring all of it into Microsoft Copilot, so people get answ",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-11-11T16:03:15.000Z"
+    },
     {
       "title": "Use connected financial intelligence with Copilot in real financial workflows",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/use-connected-financial-intelligence-with-copilot-in-real/ba-p/4571099",
@@ -869,30 +893,6 @@
       "categories": [],
       "source": "Copilot Studio Blog (Tech Community)",
       "date": "2026-05-12T17:00:00.000Z"
-    },
-    {
-      "title": "Bringing Transparency to Copilot Edits in Excel",
-      "link": "https://techcommunity.microsoft.com/t5/excel-blog/bringing-transparency-to-copilot-edits-in-excel/ba-p/4518605",
-      "description": "Hi all! My name is Gabi Augustin, a Product Manager on the Excel team. I'm excited to share that changes made with Copilot are now visible within the Show Changes pane, available now in Excel for the web. As agentic tools become more integr",
-      "categories": [],
-      "source": "Excel Blog (Tech Community)",
-      "date": "2026-05-12T16:00:00.000Z"
-    },
-    {
-      "title": "NEW UPDATES: Administering and Governing Agents whitepaper v3.2",
-      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/new-updates-administering-and-governing-agents-whitepaper-v3-2/ba-p/4517044",
-      "description": "As AI agents move from pilot to production across organizations of every size, the question IT administrators are asking isn't just \"How do we build agents?\" It's \"How do we govern them, at scale, without slowing the business down?\" That's ",
-      "categories": [],
-      "source": "Copilot Studio Blog (Tech Community)",
-      "date": "2026-05-11T19:50:47.000Z"
-    },
-    {
-      "title": "Work IQ API public preview: Build Copilot powered agents with A2A",
-      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/work-iq-api-public-preview-build-copilot-powered-agents-with-a2a/ba-p/4516286",
-      "description": "Today, the Work IQ API is available in public preview, expanding access to the same underlying intelligence capabilities used by Microsoft 365 Copilot for developers and partners. Work IQ gives developers programmatic access to Copilot so y",
-      "categories": [],
-      "source": "Copilot Studio Blog (Tech Community)",
-      "date": "2026-05-11T19:44:43.000Z"
     }
   ]
 }
