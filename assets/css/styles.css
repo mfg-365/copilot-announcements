@@ -387,9 +387,14 @@ a.driver-card:hover{text-decoration:none}
 .det-shot:hover img{transform:scale(1.01)}
 
 /* Timeline */
-.tl-scroll{overflow-x:auto;overflow-y:hidden;padding:1rem 0 1.4rem;cursor:grab;-webkit-overflow-scrolling:touch}
+.timeline-head{max-width:var(--maxw);margin:0 auto}
+#timeline{width:100%}
+.tl-scroll{width:100vw;margin-left:calc(50% - 50vw);overflow-x:auto;overflow-y:hidden;
+  padding:1rem max(0px,calc((100vw - var(--maxw))/2)) 1.4rem;cursor:grab;-webkit-overflow-scrolling:touch;
+  scrollbar-gutter:stable both-edges}
 .tl-scroll.grabbing{cursor:grabbing}
 .tl-track{position:relative;display:flex;align-items:center;gap:1.6rem;min-height:720px;padding:0 2rem;width:max-content}
+.timeline-tip{width:100vw;margin-left:calc(50% - 50vw);padding:0 max(clamp(1rem,4vw,1.6rem),calc((100vw - var(--maxw))/2 + 1.6rem))}
 .tl-axis{position:absolute;left:0;right:0;top:50%;height:4px;background:var(--grad);border-radius:4px}
 .tl-node{position:relative;flex:0 0 auto;width:270px;height:720px;display:flex;flex-direction:column;
   align-items:center;justify-content:center;text-decoration:none;color:inherit}
