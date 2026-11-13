@@ -1,12 +1,77 @@
 {
-  "generatedAt": "2026-11-12T01:49:04.024Z",
+  "generatedAt": "2026-11-13T00:54:57.044Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 874,
+  "totalCopilotFeatures": 875,
   "counts": {
     "inDevelopment": 170,
     "rollingOut": 30
   },
   "items": [
+    {
+      "id": 566523,
+      "title": "Microsoft Teams: Facilitator follow-up mode",
+      "description": "Chat naturally with Facilitator without tagging it each time.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "December CY2026",
+      "preview": "",
+      "modified": "2026-11-12T01:50:56",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566523"
+    },
+    {
+      "id": 569425,
+      "title": "Microsoft Copilot (Microsoft M365): Delegated prompt publishing for organization prompts",
+      "description": "This release follows the availability of organization prompts, providing admins the ability to upload custom prompts for their organization in the Copilot app home screen. Now, admins can delegate organization prompt publishing to users, AAD security groups, and distribution groups. These delegated users and groups will be able to create, edit and delete organization prompts at the tenant level through the Prompt Lab, without having to access the Microsoft 365 Admin Center. Admins can continue to monitor and provide oversight through the current experience in the Microsoft 365 Admin Center.",
+      "status": "In development",
+      "products": [
+        "Microsoft 365 admin center",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "December CY2026",
+      "preview": "",
+      "modified": "2026-11-12T01:50:56",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569425"
+    },
+    {
+      "id": 579897,
+      "title": "Outlook: Copilot Chat Sheet UX Update for Mobile",
+      "description": "Copilot Chat in Outlook on iOS and Android is getting updated! You'll notice smoother animations, improved strings, and some small changes to the header, such as the new/temporary chat button being moved behind the ... button.",
+      "status": "In development",
+      "products": [
+        "Outlook"
+      ],
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "December CY2026",
+      "preview": "",
+      "modified": "2026-11-12T01:35:00",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579897"
+    },
     {
       "id": 577895,
       "title": "Dynamics 365 Contact Center: Quality Evaluation Agent - Review historical quality metrics in a unified dashboard",
@@ -318,26 +383,6 @@
       "preview": "October CY2026",
       "modified": "2026-11-06T23:04:41",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570670"
-    },
-    {
-      "id": 566523,
-      "title": "Microsoft Teams: Facilitator follow-up mode",
-      "description": "Chat naturally with Facilitator without tagging it each time.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "December CY2026",
-      "preview": "",
-      "modified": "2026-11-06T23:04:41",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566523"
     },
     {
       "id": 577743,
@@ -4033,27 +4078,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570853"
     },
     {
-      "id": 569425,
-      "title": "Microsoft Copilot (Microsoft M365): Delegated prompt publishing for organization prompts",
-      "description": "This release follows the availability of organization prompts, providing admins the ability to upload custom prompts for their organization in the Copilot app home screen. Now, admins can delegate organization prompt publishing to users, AAD security groups, and distribution groups. These delegated users and groups will be able to create, edit and delete organization prompts at the tenant level through the Prompt Lab, without having to access the Microsoft 365 Admin Center. Admins can continue to monitor and provide oversight through the current experience in the Microsoft 365 Admin Center.",
-      "status": "In development",
-      "products": [
-        "Microsoft 365 admin center",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-09-29T23:05:21",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569425"
-    },
-    {
       "id": 570963,
       "title": "Microsoft Clipchamp: Copilot video creation updates",
       "description": "Copilot brings agentic video creation to Clipchamp Video Hub. Users can generate, edit, and refine videos from prompts—grounded in explicit documents or implicit WorkIQ knowledge. Preview and playback video directly in chat, then continue iterating towards a finished video.",
@@ -4093,26 +4117,6 @@
       "preview": "",
       "modified": "2026-09-28T22:58:08",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569608"
-    },
-    {
-      "id": 570967,
-      "title": "Microsoft Power Platform governance and administration: Maker Guidelines",
-      "description": "The Maker guidelines feature gives organizations a direct way to share guidance with Copilot Studio makers in the flow of work. Administrators can explain which tools, models, connectors, and channels are approved for an environment and point makers to the right policy, request process, or support contact. The message appears in the Review pane alongside the agent's blockers and warnings and remains available when the agent has no issues. This gives makers a consistent place to understand organizational expectations and find help without leaving Copilot Studio.",
-      "status": "In development",
-      "products": [
-        "Microsoft Power Platform governance and administration"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "September CY2026",
-      "modified": "2026-09-25T22:37:50",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570967"
     }
   ]
 }

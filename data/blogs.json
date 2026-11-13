@@ -1,75 +1,83 @@
 {
-  "generatedAt": "2026-11-12T01:49:05.641Z",
+  "generatedAt": "2026-11-13T00:54:58.597Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-12T01:49:05.641Z"
+      "checkedAt": "2026-11-13T00:54:58.597Z"
     },
     {
       "source": "Microsoft Copilot Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-copilot-blog",
       "itemCount": 20,
-      "checkedAt": "2026-11-12T01:49:05.641Z"
+      "checkedAt": "2026-11-13T00:54:58.597Z"
     },
     {
       "source": "Copilot Studio Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog",
       "itemCount": 18,
-      "checkedAt": "2026-11-12T01:49:05.641Z"
+      "checkedAt": "2026-11-13T00:54:58.597Z"
     },
     {
       "source": "Microsoft Power Platform Blog (Copilot Studio)",
       "url": "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/",
       "itemCount": 10,
-      "checkedAt": "2026-11-12T01:49:05.641Z"
+      "checkedAt": "2026-11-13T00:54:58.597Z"
     },
     {
       "source": "Microsoft AI at Work Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-12T01:49:05.641Z"
+      "checkedAt": "2026-11-13T00:54:58.597Z"
     },
     {
       "source": "Microsoft Copilot Studio Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-12T01:49:05.641Z"
+      "checkedAt": "2026-11-13T00:54:58.597Z"
     },
     {
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SPBlog",
       "itemCount": 13,
-      "checkedAt": "2026-11-12T01:49:05.641Z"
+      "checkedAt": "2026-11-13T00:54:58.597Z"
     },
     {
       "source": "Excel Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ExcelBlog",
-      "itemCount": 0,
-      "checkedAt": "2026-11-12T01:49:05.641Z"
+      "itemCount": 15,
+      "checkedAt": "2026-11-13T00:54:58.597Z"
     },
     {
       "source": "Microsoft 365 Insider Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365InsiderBlog",
       "itemCount": 6,
-      "checkedAt": "2026-11-12T01:49:05.641Z"
+      "checkedAt": "2026-11-13T00:54:58.597Z"
     },
     {
       "source": "Microsoft Teams Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog",
       "itemCount": 7,
-      "checkedAt": "2026-11-12T01:49:05.641Z"
+      "checkedAt": "2026-11-13T00:54:58.597Z"
     },
     {
       "source": "Microsoft OneDrive Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=onedriveblog",
       "itemCount": 7,
-      "checkedAt": "2026-11-12T01:49:05.641Z"
+      "checkedAt": "2026-11-13T00:54:58.597Z"
     }
   ],
   "count": 100,
   "items": [
+    {
+      "title": "Plugins at Microsoft Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/plugins-at-microsoft-ignite-2026/ba-p/4569951",
+      "description": "Plugins are becoming a common way across the industry to bring reusable AI capabilities together, and they’re central to how users extend Microsoft Copilot. By bringing skills, tools, and agents into a connected offering, plugins help users",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-11-12T18:46:59.000Z"
+    },
     {
       "title": "Where do I govern my Copilot Studio agents?",
       "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
@@ -885,14 +893,6 @@
       "categories": [],
       "source": "Copilot Studio Blog (Tech Community)",
       "date": "2026-05-13T17:28:08.000Z"
-    },
-    {
-      "title": "4 ways to build a curated Agent Store and scale agent adoption",
-      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/4-ways-to-build-a-curated-agent-store-and-scale-agent-adoption/ba-p/4518575",
-      "description": "The agent adoption gap is real Agents are quickly becoming a core part of enterprise AI strategy. The 2026 Work Trend Index shows 58% of employees are now producing work they couldn’t do a year ago, and AI is increasingly used for analysis,",
-      "categories": [],
-      "source": "Copilot Studio Blog (Tech Community)",
-      "date": "2026-05-12T17:00:00.000Z"
     }
   ]
 }

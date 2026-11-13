@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T01:49:05.688Z",
+  "generatedAt": "2026-11-13T00:54:58.644Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -21,6 +21,14 @@
       },
       "stories": [
         {
+          "title": "Plugins at Microsoft Ignite 2026",
+          "summary": "Plugins are becoming a common way across the industry to bring reusable AI capabilities together, and they’re central to how users extend Microsoft Copilot. By bringing skills, tools, and agents into a connected offering, plugins help users",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/plugins-at-microsoft-ignite-2026/ba-p/4569951",
+          "date": "2026-11-12T18:46:59.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
           "title": "Where do I govern my Copilot Studio agents?",
           "summary": "Copilot Studio agents are becoming more action-oriented and autonomous, and taking on more complex work. With agent user accounts, supported Copilot Studio agents can have their own Microsoft 365 account , directory profile, and org-chart r",
           "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
@@ -35,7 +43,9 @@
           "date": "2026-11-11T19:34:04.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
           "kind": "blog"
-        },
+        }
+      ],
+      "reads": [
         {
           "title": "Microsoft Copilot Connectors Update: October 2026",
           "summary": "Your organization's knowledge doesn't live in one place. It's spread across project boards, CRM records, knowledge bases, wikis and specialist research. Microsoft Copilot Connectors bring all of it into Microsoft Copilot, so people get answ",
@@ -43,9 +53,7 @@
           "date": "2026-11-11T16:03:15.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
           "kind": "blog"
-        }
-      ],
-      "reads": [
+        },
         {
           "title": "Use connected financial intelligence with Copilot in real financial workflows",
           "summary": "How specialist financial intelligence and organizational context come together in practical financial workflows. A client review is approaching. The latest financial data is only part of the picture. The team also needs to understand what h",
@@ -68,14 +76,6 @@
           "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/how-the-microsoft-copilot-harness-in-copilot-studio-helps-agents-finish-the-job/",
           "date": "2026-11-09T16:30:00.000Z",
           "label": "Microsoft Copilot Studio Blog",
-          "kind": "blog"
-        },
-        {
-          "title": "Paper: How utilizing the Microsoft Copilot harness in Copilot Studio enabled complex task execution",
-          "summary": "Abstract: Copilot Studio's Standard harness is built for conversation: several isolated model calls per turn, a reply within seconds, and control handed back to the user as soon as a step needs input. Many business tasks are not simple Q&A.",
-          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/paper-how-utilizing-the-microsoft-copilot-harness-in-copilot/ba-p/4571157",
-          "date": "2026-11-07T17:42:49.000Z",
-          "label": "Copilot Studio Blog (Tech Community)",
           "kind": "blog"
         }
       ],
