@@ -1,12 +1,118 @@
 {
-  "generatedAt": "2026-11-13T00:54:57.044Z",
+  "generatedAt": "2026-11-14T00:43:03.883Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 875,
+  "totalCopilotFeatures": 877,
   "counts": {
     "inDevelopment": 170,
     "rollingOut": 30
   },
   "items": [
+    {
+      "id": 579980,
+      "title": "Dynamics 365 Business Central: Copilot and agents - Fill forms faster with Autofill - Auto paste",
+      "description": "Save time entering information into Business Central with Auto paste. Building on Autofill, Auto paste uses AI to identify relevant information from text or HTML copied to your clipboard and map it to the appropriate fields on a Business Central page. Benefits Reduce manual data entry when bringing information from external sources into Business Central. Populate multiple relevant fields from copied content instead of copying and pasting individual values. Extend AI-assisted data entry to more everyday Business Central workflows.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Business Central"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "April CY2027",
+      "preview": "December CY2026",
+      "modified": "2026-11-13T23:01:18",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579980"
+    },
+    {
+      "id": 570846,
+      "title": "Microsoft Teams: Express face enrollment",
+      "description": "Express face enrollment makes it easier for users to create a face profile in Teams by using their camera during eligible meetings, after they opt in. Once enrolled, users can be recognized in supported Teams Rooms experiences, helping identify who is in the room and improving downstream meeting experiences such as Copilot and recap. Admins can enable or disable the feature for their organization.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "February CY2027",
+      "preview": "",
+      "modified": "2026-11-13T19:41:44",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570846"
+    },
+    {
+      "id": 558341,
+      "title": "Microsoft Teams: Facilitator detects and answers questions",
+      "description": "Facilitator now automatically detects open questions raised during a Teams meeting and offers to help answer them using web search. When a participant asks a question (e.g., “What is an LLM?”) and no one answers, Facilitator posts a prompt offering to find an answer. Participants can select “Yes” to have the agent retrieve and share the information.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "February CY2027",
+      "preview": "",
+      "modified": "2026-11-13T19:41:44",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558341"
+    },
+    {
+      "id": 508526,
+      "title": "Microsoft Copilot (Microsoft 365): Microsoft 365 Copilot Search Supports SharePoint Online Custom Properties Search",
+      "description": "Discover and find people through Microsoft 365 Copilot Search based on your company's custom profile properties from SharePoint Online.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "June CY2027",
+      "preview": "",
+      "modified": "2026-11-13T19:41:44",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=508526"
+    },
+    {
+      "id": 579977,
+      "title": "Microsoft Copilot (Microsoft 365): Discover and act on recommended lead and opportunity actions in Sales agent",
+      "description": "Sellers can discover and act on lead and opportunity recommendations that are already prioritized for them in Sales agent. A single prioritized list helps sellers see what needs attention without monitoring each agent separately or prioritizing the actions themselves. Sellers can review each recommended action, understand its details and business context, and take action from the same experience. The initial release focuses on lead outreach actions from Sales qualification agent and opportunity risk actions from Sales opportunity agent. Sellers can discover leads that need outreach and opportunities that need attention, review the recommended next step and its context, and act to move customer conversations and opportunities forward. Recommended actions will be turned on by default. Additional agents, including custom agents, are a future direction and are not part of this initial release commitment.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "November CY2026",
+      "preview": "",
+      "modified": "2026-11-13T19:37:39",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579977"
+    },
     {
       "id": 566523,
       "title": "Microsoft Teams: Facilitator follow-up mode",
@@ -2846,31 +2952,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569424"
     },
     {
-      "id": 558341,
-      "title": "Microsoft Teams: Facilitator detects and answers questions",
-      "description": "Facilitator now automatically detects open questions raised during a Teams meeting and offers to help answer them using web search. When a participant asks a question (e.g., “What is an LLM?”) and no one answers, Facilitator posts a prompt offering to find an answer. Participants can select “Yes” to have the agent retrieve and share the information.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "December CY2026",
-      "preview": "",
-      "modified": "2026-10-15T22:47:30",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=558341"
-    },
-    {
       "id": 500872,
       "title": "Microsoft Copilot (Microsoft 365): Export Copilot metrics in the Copilot Dashboard",
       "description": "This enables users to export row-level Copilot metrics from the Copilot Dashboard for reporting and deeper analysis.",
@@ -2911,29 +2992,6 @@
       "preview": "",
       "modified": "2026-10-14T23:01:02",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573168"
-    },
-    {
-      "id": 570846,
-      "title": "Microsoft Teams: Express face enrollment",
-      "description": "Express face enrollment makes it easier for users to create a face profile in Teams by using their camera during eligible meetings, after they opt in. Once enrolled, users can be recognized in supported Teams Rooms experiences, helping identify who is in the room and improving downstream meeting experiences such as Copilot and recap. Admins can enable or disable the feature for their organization.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "December CY2026",
-      "preview": "",
-      "modified": "2026-10-14T23:01:02",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570846"
     },
     {
       "id": 575298,
@@ -4055,68 +4113,6 @@
       "preview": "October CY2026",
       "modified": "2026-09-29T23:05:21",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570854"
-    },
-    {
-      "id": 570853,
-      "title": "Work IQ: Custom agents + 3P calls",
-      "description": "Enable Work IQ to invoke custom agents and agents that call supported third-party tools.",
-      "status": "In development",
-      "products": [
-        "Work IQ",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-09-29T23:05:21",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570853"
-    },
-    {
-      "id": 570963,
-      "title": "Microsoft Clipchamp: Copilot video creation updates",
-      "description": "Copilot brings agentic video creation to Clipchamp Video Hub. Users can generate, edit, and refine videos from prompts—grounded in explicit documents or implicit WorkIQ knowledge. Preview and playback video directly in chat, then continue iterating towards a finished video.",
-      "status": "In development",
-      "products": [
-        "Microsoft Clipchamp",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "January CY2027",
-      "preview": "December CY2026",
-      "modified": "2026-09-28T22:58:08",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570963"
-    },
-    {
-      "id": 569608,
-      "title": "Microsoft Teams: Enable agents for existing applications in your organization",
-      "description": "For third-party applications already being used in your organization, admins can now discover and enable the corresponding Teams agents from within the Teams Admin Center. Admins receive recommendations for high-value agents and gain visibility into any required configuration changes during the enablement workflow. These agents increase employee productivity by bringing their everyday applications into the flow of work in Teams. This helps organizations get more value from their existing software investments and unlocks more surfaces for the tools their users already rely on.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-09-28T22:58:08",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569608"
     }
   ]
 }
