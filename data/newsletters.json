@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T02:48:18.584Z",
+  "generatedAt": "2026-11-17T22:04:59.878Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -21,61 +21,61 @@
       },
       "stories": [
         {
-          "title": "Copilot that understands your organization: Introducing people and org context in Work IQ",
-          "summary": "Every organization runs on its people—who they are, how teams are structured, what skills they bring, and how work flows between them. Yet when people ask AI about their organization, the answers can fall short when relying on generic knowl",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/copilot-that-understands-your-organization-introducing-people/ba-p/4573356",
-          "date": "2026-11-16T21:21:50.000Z",
+          "title": "What's new in Copilot Cowork at Ignite 2026",
+          "summary": "Copilot Cowork is changing how work gets done. Sellers turn a quarter of account activity into a business review deck and follow-up plan. Finance teams pull forecasts from several workbooks into a board-ready variance memo. HR and learning",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-copilot-cowork-at-ignite-2026/ba-p/4572242",
+          "date": "2026-11-17T22:00:37.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
           "kind": "blog"
         },
         {
-          "title": "FinanceBench: The loop that continually improves Copilot in Excel for Finance work",
-          "summary": "Welcome to “Raising the Bar,” a new series exploring how rigorous evaluation helps us continuously improve Microsoft Copilot. We’re kicking off with a deep dive into FinanceBench and the loop behind it: learning from real finance work, buil",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/financebench-the-loop-that-continually-improves-copilot-in-excel/ba-p/4573279",
-          "date": "2026-11-16T17:29:58.000Z",
+          "title": "Home: Your starting place for work in the Microsoft Copilot app",
+          "summary": "Work rarely begins and ends with a single request. A quick question turns into a document, a launch plan grows into a weeks-long project, and some tasks need to keep moving after you step away. As AI takes on more of that work, using it sho",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/ba-p/4573945",
+          "date": "2026-11-17T21:04:54.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
           "kind": "blog"
         },
         {
-          "title": "What AI at work really costs",
-          "summary": "What does AI at work really cost? New research compares the total cost of leading enterprise AI options and explores the factors that can shape the cost of everyday and advanced AI work. The post What AI at work really costs appeared first",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs/",
-          "date": "2026-11-16T12:00:00.000Z",
-          "label": "Microsoft 365 Blog",
+          "title": "Office at Ignite 2026: From apps to agentic system of work",
+          "summary": "Work no longer happens in a silo. A single project can start as a question in an AI chat, become a Word draft, turn into a PowerPoint deck, and end as a decision in an email thread. People expect their context, and their AI, to come along a",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/office-at-ignite-2026-from-apps-to-agentic-system-of-work/ba-p/4572226",
+          "date": "2026-11-17T20:17:59.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
           "kind": "blog"
         }
       ],
       "reads": [
         {
-          "title": "Plugins at Microsoft Ignite 2026",
-          "summary": "Plugins are becoming a common way across the industry to bring reusable AI capabilities together, and they’re central to how users extend Microsoft Copilot. By bringing skills, tools, and agents into a connected offering, plugins help users",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/plugins-at-microsoft-ignite-2026/ba-p/4569951",
-          "date": "2026-11-12T18:46:59.000Z",
+          "title": "SharePoint and OneDrive at Microsoft Ignite 2026: Putting AI-powered content to work",
+          "summary": "Microsoft Ignite is officially underway, and this week we’re showing what’s next for SharePoint and OneDrive in the AI era. If you’re joining us at Ignite, check out our SharePoint and OneDrive at Microsoft Ignite 2026 guide for the full li",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-and-onedrive-at-microsoft-ignite-2026-putting-ai/ba-p/4535416",
+          "date": "2026-11-17T18:01:36.000Z",
+          "label": "Microsoft SharePoint Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "Learning Agent: Build AI and Copilot skills through everyday work",
+          "summary": "Earlier this year, we introduced Learning Agent in Microsoft 365 Copilot as the enterprise learning front door to help employees build their AI fluency in the flow of work. Since then, we have seen customers roll out Learning Agent alongsid",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/learning-agent-build-ai-and-copilot-skills-through-everyday-work/ba-p/4573000",
+          "date": "2026-11-17T18:00:00.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
           "kind": "blog"
         },
         {
-          "title": "Where do I govern my Copilot Studio agents?",
-          "summary": "Copilot Studio agents are becoming more action-oriented and autonomous, and taking on more complex work. With agent user accounts, supported Copilot Studio agents can have their own Microsoft 365 account , directory profile, and org-chart r",
-          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/where-do-i-govern-my-copilot-studio-agents/ba-p/4572592",
-          "date": "2026-11-11T22:56:24.000Z",
-          "label": "Copilot Studio Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Available today: Anthropic Claude Fable 5.2 in Microsoft Copilot",
-          "summary": "Claude Fable 5.2, the latest version of Anthropic’s Fable model, is now rolling out in Copilot Cowork and Copilot Studio. It expands the choice of frontier models in Copilot, so your teams can match the model to the work as they hand more c",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-2-in-microsoft-copilot/ba-p/4571829",
-          "date": "2026-11-11T19:34:04.000Z",
+          "title": "Autopilot: meet your trusted personal teammate",
+          "summary": "I call my Autopilot Sebastian. I work with Sebastian in Teams and Outlook. I ask him to help prepare for my day, work through conversations that need a reply, and coordinate meetings. Some jobs are one-time requests. Others run on a routine",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/autopilot-meet-your-trusted-personal-teammate/ba-p/4572611",
+          "date": "2026-11-17T18:00:00.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
           "kind": "blog"
         },
         {
-          "title": "Microsoft Copilot Connectors Update: October 2026",
-          "summary": "Your organization's knowledge doesn't live in one place. It's spread across project boards, CRM records, knowledge bases, wikis and specialist research. Microsoft Copilot Connectors bring all of it into Microsoft Copilot, so people get answ",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/microsoft-copilot-connectors-update-october-2026/ba-p/4572240",
-          "date": "2026-11-11T16:03:15.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
+          "title": "Microsoft 365 Copilot and AI Agent readiness and resiliency with SharePoint Content Governance",
+          "summary": "In the AI era, governance isn't a barrier to innovation. It's what makes innovation possible at scale. Winning with Copilot and AI agents takes more than speed and scale. It requires readiness to embrace AI and resilience to recover when th",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/microsoft-365-copilot-and-ai-agent-readiness-and-resiliency-with/ba-p/4573034",
+          "date": "2026-11-17T17:00:00.000Z",
+          "label": "Microsoft SharePoint Blog (Tech Community)",
           "kind": "blog"
         }
       ],
@@ -85,28 +85,28 @@
       },
       "roadmap": [
         {
-          "title": "SharePoint: HTML pages",
-          "description": "Create HTML with Copilot in SharePoint or upload your own HTML from another source. Once stored in the pages library, you can render HTML as a page in SharePoint, make additional edits, and share with your audience. HTML gives you new…",
-          "status": "Rolling out",
-          "availability": "October CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569208",
-          "product": "SharePoint"
-        },
-        {
-          "title": "App Blocks",
-          "description": "App Blocks enables M365 Copilot Chat users to turn their requests and data into rich, interactive experiences directly within the conversation, including calculators, dashboards, forms, planners, visualizations, simulations, comparison…",
+          "title": "Dynamics 365 Contact Center: Biometric authentication and fraud detection",
+          "description": "Together, voice biometric authentication and fraud detection deliver business value by reducing fraud and agent operating costs in contact centers (note: these two capabilities can be used independently or together). Voice biometric…",
           "status": "Rolling out",
           "availability": "November CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577743",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575281",
+          "product": "Dynamics 365 Contact Center"
+        },
+        {
+          "title": "Copilot app mode handoffs",
+          "description": "The Chat experience in the Copilot app will suggest a better-fit mode based on the user's prompt, if applicable. For example, it will suggest Cowork or other supported modes as they become available. Users will see a suggestion card after…",
+          "status": "Rolling out",
+          "availability": "November CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577841",
           "product": "Microsoft Copilot (Microsoft 365)"
         },
         {
-          "title": "Planner: AI-generated Status Reports in Planner Agent",
-          "description": "AI-powered Status Report in Planner Agent turns your plan data into a polished, stakeholder-ready update in minutes. Just ask Planner Agent for a status report and it pulls your task data and transforms it into a clear narrative covering…",
+          "title": "Dynamics 365 Sales: Choose the data sources AI-powered Data Enrichment uses, including CRM notes",
+          "description": "AI-powered Data Enrichment now lets admins choose which data sources the agent uses to enrich records. Outlook emails, Teams meetings, and the new CRM notes source each have their own control toggle, and the agent keeps running as long as…",
           "status": "Rolling out",
           "availability": "October CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=567886",
-          "product": "Planner"
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=574364",
+          "product": "Dynamics 365 Sales"
         }
       ]
     },
