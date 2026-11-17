@@ -651,6 +651,9 @@ function eventActionLinks(event, featured = false) {
 function eventCard(event, compact = false) {
   const when = eventDateParts(event);
   const occurrenceCount = (event.occurrences || [event]).length;
+  const featured = event.featured
+    ? '<span class="ev-status ev-status-featured">&#9733; Featured</span>'
+    : "";
   const speakers = (event.speakers || []).length
     ? `<p class="ev-speakers"><span aria-hidden="true">&#9673;</span>${esc(event.speakers.join(" · "))}</p>`
     : "";
@@ -664,12 +667,12 @@ function eventCard(event, compact = false) {
     : event.status === "awaitingRecording"
       ? '<span class="ev-status ev-status-pending">Recording coming soon</span>'
       : "";
-  return `<article class="ev-card${compact ? " is-compact" : ""}">
+  return `<article class="ev-card${compact ? " is-compact" : ""}${event.featured ? " is-featured" : ""}">
     ${image}
     <div class="ev-card-body">
       <div class="ev-card-top">
         <div class="ev-date-badge"><span>${when.month}</span><strong>${when.day}</strong>${occurrenceCount > 1 ? `<small>+${occurrenceCount - 1}</small>` : ""}</div>
-        <div class="ev-card-badges"><span class="ev-type">${esc(event.type)}</span><span class="ev-audience">${esc(event.audience)}</span>${status}</div>
+        <div class="ev-card-badges"><span class="ev-type">${esc(event.type)}</span><span class="ev-audience">${esc(event.audience)}</span>${featured}${status}</div>
       </div>
       <h3>${esc(event.title)}</h3>
       <p class="ev-when">${occurrenceCount > 1 ? `${occurrenceCount} session dates available` : `${esc(when.date)} <span>&middot;</span> ${esc(when.time)}`}</p>
@@ -772,8 +775,7 @@ function renderEvents() {
   renderFeaturedEvent(featured, eventFeaturedIndex, eventFeaturedGroups.length);
   startEventCarousel();
 
-  const featuredKeys = new Set(eventFeaturedGroups.map((event) => event.groupKey));
-  const upcomingCards = upcomingGroups.filter((event) => !featuredKeys.has(event.groupKey));
+  const upcomingCards = upcomingGroups;
   document.getElementById("eventUpcomingList").innerHTML = upcomingCards.map((event) => eventCard(event)).join("");
   document.getElementById("eventPendingList").innerHTML = pendingGroups.map((event) => eventCard(event, true)).join("");
   const showAllRecordings = eventShowAll || eventStatus === "onDemand" || !!query;

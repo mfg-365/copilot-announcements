@@ -623,6 +623,7 @@ a.driver-card:hover{text-decoration:none}
 .ev-grid-compact{grid-template-columns:repeat(3,minmax(0,1fr))}
 .ev-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--hair);border-radius:var(--radius);
   box-shadow:var(--shadow);overflow:hidden;transition:transform .14s,box-shadow .14s}
+.ev-card.is-featured{border-top:4px solid var(--teal)}
 .ev-card:hover{transform:translateY(-3px);box-shadow:0 15px 34px rgba(26,33,80,.14)}
 .ev-card-image{height:150px;background:var(--light);overflow:hidden}.ev-card-image img{width:100%;height:100%;object-fit:cover}
 .ev-card-body{display:flex;flex-direction:column;flex:1;padding:1.15rem}
@@ -636,6 +637,7 @@ a.driver-card:hover{text-decoration:none}
 .ev-type,.ev-audience,.ev-status{font-size:.64rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;
   border-radius:20px;padding:.22rem .55rem;white-space:nowrap}
 .ev-type{background:rgba(47,107,255,.1);color:var(--blue)}.ev-audience{background:rgba(124,92,252,.1);color:var(--purple)}
+.ev-status-featured{background:rgba(18,184,166,.13);color:#0C7E72}
 .ev-status-demand{background:rgba(18,184,166,.13);color:#0C7E72}.ev-status-pending{background:rgba(244,183,64,.18);color:#966D17}
 .ev-card h3{color:var(--ink);font-size:1.08rem;line-height:1.3;margin-bottom:.4rem}
 .ev-when{color:var(--purple);font-size:.8rem;font-weight:700;margin-bottom:.65rem}.ev-when span{color:var(--hair);margin:0 .2rem}
