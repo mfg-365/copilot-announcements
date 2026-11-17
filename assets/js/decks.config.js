@@ -70,43 +70,42 @@ function formatDeckDate(iso) {
 window.SPOTLIGHT = {
   enabled: true,
   pinBlog: true, // also pin this post to the top of the Blogs tab
-  kicker: "Spotlight",
-  date: "2026-09-25",
-  title: "Introducing the new Copilot",
-  lead: "Chat, Cowork, Code, Autopilot and Office \u2014 together in one app.",
-  link: "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-  source: "Official Microsoft Blog",
-  blogTitle: "Introducing the new Copilot with Home, Code and Autopilot",
+  kicker: "Featured from Microsoft Ignite",
+  date: "2026-11-17",
+  title: "Copilot at Microsoft Ignite",
+  lead: "Expanding what\u2019s possible with intelligence built for work.",
+  link: "https://www.microsoft.com/en-us/copilot/blog/2026/11/17/copilot-at-microsoft-ignite-expanding-whats-possible-with-intelligence-built-for-work/",
+  source: "Microsoft Copilot Blog",
+  blogTitle: "Copilot at Microsoft Ignite: Expanding what\u2019s possible with intelligence built for work",
   blogDescription:
-    "Microsoft introduces the new Copilot: Home brings Chat, Cowork and Office together; Code lets anyone build apps, dashboards and automations; and Autopilot is a persistent, proactive agent that keeps working even when you\u2019re not.",
-  video: { label: "Watch the video", url: "https://www.youtube.com/watch?v=OgInADh5Tcs" },
+    "Explore the Microsoft Ignite 2026 announcements for Copilot, including Home, Office, Autopilot, Workspaces, Code, Work IQ, and new business-focused plugins and skills.",
   pillars: [
     {
       icon: "home",
       name: "Home",
-      text: "Your new starting point, where Chat, Cowork and the full power of Word, Excel and PowerPoint come together.",
-      status: "Frontier \u00b7 coming weeks",
+      text: "Chat, Cowork and Office come together in one starting place for work, powered by intelligent Auto routing.",
+      status: "Generally available",
+      tone: "available"
+    },
+    {
+      icon: "autopilot",
+      name: "Autopilot",
+      text: "A trusted autonomous agent that can follow through on recurring work across Teams, Outlook and documents.",
+      status: "Rolling out to Frontier",
       tone: "frontier"
     },
     {
       icon: "code",
       name: "Code",
-      text: "Describe an app, dashboard or automation in plain language and Copilot builds it, running safely in your tenant.",
-      status: "Frontier \u00b7 end of month",
-      tone: "frontier"
-    },
-    {
-      icon: "autopilot",
-      name: "Autopilot",
-      text: "A persistent, proactive agent with its own identity and memory that keeps working even when you\u2019re not.",
-      status: "Private preview",
-      tone: "preview"
+      text: "Build apps, dashboards and automations in natural language, hosted securely with Copilot Managed Runtime.",
+      status: "Generally available soon",
+      tone: "available"
     }
   ],
   alsoNew: [
-    "FinOps for AI",
-    "Copilot Managed Runtime",
-    "Unified plugin registry",
-    "Fabric IQ + Dynamics 365 grounding"
+    "Workspaces",
+    "Dynamics 365 in Copilot",
+    "Salesforce in Copilot",
+    "Expanded Agent 365"
   ]
 };

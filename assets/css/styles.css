@@ -468,6 +468,7 @@ a.driver-card:hover{text-decoration:none}
 .sp-pillar p{color:#C9D2F0;font-size:.88rem;line-height:1.5;flex:1}
 .sp-status{align-self:flex-start;font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
   padding:.24rem .65rem;border-radius:20px;margin-top:.2rem}
+.sp-available{background:rgba(47,107,255,.16);color:#8EB1FF;border:1px solid rgba(47,107,255,.4)}
 .sp-frontier{background:rgba(18,184,166,.16);color:#5FE3D3;border:1px solid rgba(18,184,166,.4)}
 .sp-preview{background:rgba(227,69,142,.16);color:#F58DBC;border:1px solid rgba(227,69,142,.4)}
 .sp-also{display:flex;flex-wrap:wrap;align-items:center;gap:.45rem;margin-top:1.2rem}
