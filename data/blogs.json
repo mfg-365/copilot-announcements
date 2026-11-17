@@ -1,75 +1,101 @@
 {
-  "generatedAt": "2026-11-15T23:47:51.360Z",
+  "generatedAt": "2026-11-17T02:48:18.544Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-15T23:47:51.360Z"
+      "checkedAt": "2026-11-17T02:48:18.544Z"
     },
     {
       "source": "Microsoft Copilot Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-copilot-blog",
       "itemCount": 20,
-      "checkedAt": "2026-11-15T23:47:51.360Z"
+      "checkedAt": "2026-11-17T02:48:18.544Z"
     },
     {
       "source": "Copilot Studio Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog",
       "itemCount": 18,
-      "checkedAt": "2026-11-15T23:47:51.360Z"
+      "checkedAt": "2026-11-17T02:48:18.544Z"
     },
     {
       "source": "Microsoft Power Platform Blog (Copilot Studio)",
       "url": "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/",
       "itemCount": 10,
-      "checkedAt": "2026-11-15T23:47:51.360Z"
+      "checkedAt": "2026-11-17T02:48:18.544Z"
     },
     {
       "source": "Microsoft AI at Work Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-15T23:47:51.360Z"
+      "checkedAt": "2026-11-17T02:48:18.544Z"
     },
     {
       "source": "Microsoft Copilot Studio Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-15T23:47:51.360Z"
+      "checkedAt": "2026-11-17T02:48:18.544Z"
     },
     {
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SPBlog",
       "itemCount": 13,
-      "checkedAt": "2026-11-15T23:47:51.360Z"
+      "checkedAt": "2026-11-17T02:48:18.544Z"
     },
     {
       "source": "Excel Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ExcelBlog",
       "itemCount": 15,
-      "checkedAt": "2026-11-15T23:47:51.360Z"
+      "checkedAt": "2026-11-17T02:48:18.544Z"
     },
     {
       "source": "Microsoft 365 Insider Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365InsiderBlog",
       "itemCount": 6,
-      "checkedAt": "2026-11-15T23:47:51.360Z"
+      "checkedAt": "2026-11-17T02:48:18.544Z"
     },
     {
       "source": "Microsoft Teams Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog",
       "itemCount": 7,
-      "checkedAt": "2026-11-15T23:47:51.360Z"
+      "checkedAt": "2026-11-17T02:48:18.544Z"
     },
     {
       "source": "Microsoft OneDrive Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=onedriveblog",
       "itemCount": 7,
-      "checkedAt": "2026-11-15T23:47:51.360Z"
+      "checkedAt": "2026-11-17T02:48:18.544Z"
     }
   ],
   "count": 100,
   "items": [
+    {
+      "title": "Copilot that understands your organization: Introducing people and org context in Work IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/copilot-that-understands-your-organization-introducing-people/ba-p/4573356",
+      "description": "Every organization runs on its people—who they are, how teams are structured, what skills they bring, and how work flows between them. Yet when people ask AI about their organization, the answers can fall short when relying on generic knowl",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-11-16T21:21:50.000Z"
+    },
+    {
+      "title": "FinanceBench: The loop that continually improves Copilot in Excel for Finance work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/financebench-the-loop-that-continually-improves-copilot-in-excel/ba-p/4573279",
+      "description": "Welcome to “Raising the Bar,” a new series exploring how rigorous evaluation helps us continuously improve Microsoft Copilot. We’re kicking off with a deep dive into FinanceBench and the loop behind it: learning from real finance work, buil",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-11-16T17:29:58.000Z"
+    },
+    {
+      "title": "What AI at work really costs",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs/",
+      "description": "What does AI at work really cost? New research compares the total cost of leading enterprise AI options and explores the factors that can shape the cost of everyday and advanced AI work. The post What AI at work really costs appeared first ",
+      "categories": [
+        "Work IQ"
+      ],
+      "source": "Microsoft 365 Blog",
+      "date": "2026-11-16T12:00:00.000Z"
+    },
     {
       "title": "Plugins at Microsoft Ignite 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/plugins-at-microsoft-ignite-2026/ba-p/4569951",
@@ -578,13 +604,10 @@
     },
     {
       "title": "Build apps in Copilot Cowork and Copilot Studio",
-      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
-      "description": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
-      "categories": [
-        "AI",
-        "Copilot Cowork"
-      ],
-      "source": "Microsoft 365 Blog",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
+      "description": "Introducing app building in Copilot Cowork and Copilot Studio. Create full-stack business apps through conversation, grounded in your data. The post Build apps in Copilot Cowork and Copilot Studio appeared first on Microsoft Copilot Blog .",
+      "categories": [],
+      "source": "Microsoft Copilot Studio Blog",
       "date": "2026-09-10T15:00:00.000Z"
     },
     {
@@ -869,30 +892,6 @@
       "categories": [],
       "source": "Excel Blog (Tech Community)",
       "date": "2026-05-28T15:53:53.000Z"
-    },
-    {
-      "title": "What's New in Excel (May 2026)",
-      "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-may-2026/ba-p/4502700",
-      "description": "Welcome to the May 2026 update. This month brings new Copilot entry points, smart suggestions, and a keyboard-first design to help you work more efficiently. We're also introducing Show Changes, a new experience that offers greater transpar",
-      "categories": [],
-      "source": "Excel Blog (Tech Community)",
-      "date": "2026-05-26T16:00:00.000Z"
-    },
-    {
-      "title": "What's New in Excel (April 2026)",
-      "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-april-2026/ba-p/4502696",
-      "description": "Welcome to the April 2026 update. In broader Microsoft 365 news, Copilot's Agentic capabilities are now generally available , and Copilot Cowork , which is an agentic AI capability that acts like a digital teammate— turning your goals into ",
-      "categories": [],
-      "source": "Excel Blog (Tech Community)",
-      "date": "2026-05-21T15:44:17.000Z"
-    },
-    {
-      "title": "Computer-using agents in Microsoft Copilot Studio are now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/computer-using-agents-in-microsoft-copilot-studio-are-now/ba-p/4519427",
-      "description": "The next chapter of enterprise AI isn't about chatting with assistants—it's about agents that actually do the work. Until now, automating long-tail, UI-driven business processes meant either building and maintaining brittle RPA scripts or w",
-      "categories": [],
-      "source": "Copilot Studio Blog (Tech Community)",
-      "date": "2026-05-13T17:28:08.000Z"
     }
   ]
 }

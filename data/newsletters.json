@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T23:47:51.413Z",
+  "generatedAt": "2026-11-17T02:48:18.584Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -20,6 +20,32 @@
         "kind": "announcement"
       },
       "stories": [
+        {
+          "title": "Copilot that understands your organization: Introducing people and org context in Work IQ",
+          "summary": "Every organization runs on its people—who they are, how teams are structured, what skills they bring, and how work flows between them. Yet when people ask AI about their organization, the answers can fall short when relying on generic knowl",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/copilot-that-understands-your-organization-introducing-people/ba-p/4573356",
+          "date": "2026-11-16T21:21:50.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "FinanceBench: The loop that continually improves Copilot in Excel for Finance work",
+          "summary": "Welcome to “Raising the Bar,” a new series exploring how rigorous evaluation helps us continuously improve Microsoft Copilot. We’re kicking off with a deep dive into FinanceBench and the loop behind it: learning from real finance work, buil",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/financebench-the-loop-that-continually-improves-copilot-in-excel/ba-p/4573279",
+          "date": "2026-11-16T17:29:58.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "What AI at work really costs",
+          "summary": "What does AI at work really cost? New research compares the total cost of leading enterprise AI options and explores the factors that can shape the cost of everyday and advanced AI work. The post What AI at work really costs appeared first",
+          "link": "https://www.microsoft.com/en-us/copilot/blog/2026/11/16/what-ai-at-work-really-costs/",
+          "date": "2026-11-16T12:00:00.000Z",
+          "label": "Microsoft 365 Blog",
+          "kind": "blog"
+        }
+      ],
+      "reads": [
         {
           "title": "Plugins at Microsoft Ignite 2026",
           "summary": "Plugins are becoming a common way across the industry to bring reusable AI capabilities together, and they’re central to how users extend Microsoft Copilot. By bringing skills, tools, and agents into a connected offering, plugins help users",
@@ -43,39 +69,13 @@
           "date": "2026-11-11T19:34:04.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
           "kind": "blog"
-        }
-      ],
-      "reads": [
+        },
         {
           "title": "Microsoft Copilot Connectors Update: October 2026",
           "summary": "Your organization's knowledge doesn't live in one place. It's spread across project boards, CRM records, knowledge bases, wikis and specialist research. Microsoft Copilot Connectors bring all of it into Microsoft Copilot, so people get answ",
           "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/microsoft-copilot-connectors-update-october-2026/ba-p/4572240",
           "date": "2026-11-11T16:03:15.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Use connected financial intelligence with Copilot in real financial workflows",
-          "summary": "How specialist financial intelligence and organizational context come together in practical financial workflows. A client review is approaching. The latest financial data is only part of the picture. The team also needs to understand what h",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/use-connected-financial-intelligence-with-copilot-in-real/ba-p/4571099",
-          "date": "2026-11-10T17:37:34.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Turn Copilot insights into action with connector write capabilities",
-          "summary": "Copilot connectors write actions are now generally available across Copilot Chat and Cowork, helping you turn insights from your conversations into action in connected applications. With hundreds of Microsoft-, partner- and custom-built con",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/turn-copilot-insights-into-action-with-connector-write/ba-p/4571160",
-          "date": "2026-11-09T20:51:51.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "How the Microsoft Copilot harness in Copilot Studio helps agents finish the job",
-          "summary": "Go inside the Microsoft Copilot harness in Copilot Studio and learn how agents complete complex work while navigating failures and uncertainty. The post How the Microsoft Copilot harness in Copilot Studio helps agents finish the job appeare",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/how-the-microsoft-copilot-harness-in-copilot-studio-helps-agents-finish-the-job/",
-          "date": "2026-11-09T16:30:00.000Z",
-          "label": "Microsoft Copilot Studio Blog",
           "kind": "blog"
         }
       ],
