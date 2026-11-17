@@ -641,6 +641,8 @@ a.driver-card:hover{text-decoration:none}
 .ev-summary{color:var(--body);font-size:.87rem;line-height:1.5;display:-webkit-box;-webkit-line-clamp:5;
   -webkit-box-orient:vertical;overflow:hidden}
 .ev-speakers{display:flex;gap:.35rem;color:var(--muted);font-size:.74rem;line-height:1.4;margin-top:.45rem}
+.ev-location{display:flex;gap:.35rem;color:var(--ink);font-size:.76rem;font-weight:600;line-height:1.4;margin-top:.55rem}
+.ev-feature-location{display:flex;gap:.4rem;color:#E3E8FA;font-size:.82rem;font-weight:600;line-height:1.4;margin-top:.65rem}
 .ev-actions{display:flex;gap:.45rem;flex-wrap:wrap;margin-top:auto;padding-top:1rem}
 .ev-actions .btn{font-size:.78rem;padding:.52rem .8rem;text-decoration:none}.ev-actions .btn:hover{text-decoration:none}
 .ev-session-picker{display:grid;gap:.45rem;width:100%}

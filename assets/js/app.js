@@ -550,7 +550,7 @@ let eventFeaturedTimer = null;
 function eventMatches(event, query) {
   if (!query) return true;
   const hay = [
-    event.title, event.summary, event.type, event.audience,
+    event.title, event.summary, event.location, event.type, event.audience,
     ...(event.speakers || []), ...(event.tags || []),
   ].join(" ").toLowerCase();
   return hay.includes(query);
@@ -654,6 +654,8 @@ function eventCard(event, compact = false) {
   const speakers = (event.speakers || []).length
     ? `<p class="ev-speakers"><span aria-hidden="true">&#9673;</span>${esc(event.speakers.join(" · "))}</p>`
     : "";
+  const location = event.location
+    ? `<p class="ev-location"><span aria-hidden="true">&#9906;</span>${esc(event.location)}</p>` : "";
   const image = event.imageUrl && !compact
     ? `<div class="ev-card-image"><img loading="lazy" src="${esc(event.imageUrl)}" alt="" onerror="this.parentElement.remove()" /></div>`
     : "";
@@ -672,6 +674,7 @@ function eventCard(event, compact = false) {
       <h3>${esc(event.title)}</h3>
       <p class="ev-when">${occurrenceCount > 1 ? `${occurrenceCount} session dates available` : `${esc(when.date)} <span>&middot;</span> ${esc(when.time)}`}</p>
       <p class="ev-summary">${esc(event.summary)}</p>
+      ${location}
       ${speakers}
       <div class="ev-actions">${eventActionLinks(event)}</div>
     </div>
@@ -706,6 +709,8 @@ function renderFeaturedEvent(event, index = 0, total = 1) {
   const occurrenceCount = (event.occurrences || [event]).length;
   const speakers = (event.speakers || []).length
     ? `<p class="ev-feature-speakers">${esc(event.speakers.join(" · "))}</p>` : "";
+  const location = event.location
+    ? `<p class="ev-feature-location"><span aria-hidden="true">&#9906;</span>${esc(event.location)}</p>` : "";
   const imageStyle = event.imageUrl ? ` style="background-image:url('${esc(event.imageUrl)}')"` : "";
   const carouselControls = total > 1
     ? `<div class="ev-carousel-controls" aria-label="Featured events">
@@ -723,6 +728,7 @@ function renderFeaturedEvent(event, index = 0, total = 1) {
       <h2>${esc(event.title)}</h2>
       <p class="ev-feature-time">${occurrenceCount > 1 ? `${occurrenceCount} live session dates available` : `${esc(when.date)} &middot; ${esc(when.time)}`}</p>
       <p class="ev-feature-summary">${esc(event.summary)}</p>
+      ${location}
       ${speakers}
       <div class="ev-feature-actions">${eventActionLinks(event, true)}</div>
       ${carouselControls}
@@ -823,6 +829,7 @@ function downloadEventCalendar(id) {
     event.allDay ? `DTSTART;VALUE=DATE:${icsAllDayDate(event.start, event.timeZone)}` : `DTSTART:${icsDate(event.start)}`,
     event.allDay ? `DTEND;VALUE=DATE:${icsAllDayDate(event.end || event.start, event.timeZone, true)}` : `DTEND:${icsDate(event.end || new Date(Date.parse(event.start) + 3600000))}`,
     `SUMMARY:${icsEscape(event.title)}`, `DESCRIPTION:${icsEscape(description)}`,
+    event.location ? `LOCATION:${icsEscape(event.location)}` : "",
     event.registrationUrl ? `URL:${event.registrationUrl}` : "",
     "END:VEVENT", "END:VCALENDAR",
   ].filter(Boolean).join("\r\n");
