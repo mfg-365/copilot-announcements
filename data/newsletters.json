@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T22:04:59.878Z",
+  "generatedAt": "2026-11-18T02:10:02.124Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -85,11 +85,11 @@
       },
       "roadmap": [
         {
-          "title": "Dynamics 365 Contact Center: Biometric authentication and fraud detection",
-          "description": "Together, voice biometric authentication and fraud detection deliver business value by reducing fraud and agent operating costs in contact centers (note: these two capabilities can be used independently or together). Voice biometric…",
+          "title": "Dynamics 365 Contact Center: Use after conversation presence status for wrap-up activities",
+          "description": "After conversation work presence is a system-generated status that's automatically set when a customer service representative is finishing tasks after a customer interaction, such as writing notes, updating records, selecting…",
           "status": "Rolling out",
-          "availability": "November CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575281",
+          "availability": "October CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577396",
           "product": "Dynamics 365 Contact Center"
         },
         {
