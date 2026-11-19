@@ -1,12 +1,165 @@
 {
-  "generatedAt": "2026-11-18T02:10:00.372Z",
+  "generatedAt": "2026-11-19T01:44:54.836Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 898,
+  "totalCopilotFeatures": 900,
   "counts": {
-    "inDevelopment": 167,
-    "rollingOut": 33
+    "inDevelopment": 166,
+    "rollingOut": 34
   },
   "items": [
+    {
+      "id": 579889,
+      "title": "Microsoft Copilot (Microsoft 365): Copilot Workspaces updates",
+      "description": "With new Copilot Workspaces updates, Work IQ can suggest relevant workspaces based on current workstreams to help people get started quickly. Once in a workspace, team members can work together on shared documents while Copilot connects the dots across the work, surfacing what changed, what remains unresolved, and which actions need attention so everyone can quickly catch up and keep the work moving.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mobile",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "December CY2026",
+      "preview": "November CY2026",
+      "modified": "2026-11-19T00:53:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579889"
+    },
+    {
+      "id": 566523,
+      "title": "Microsoft Teams: Facilitator follow-up mode",
+      "description": "Chat naturally with Facilitator without tagging it each time.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "January CY2027",
+      "preview": "",
+      "modified": "2026-11-19T00:53:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566523"
+    },
+    {
+      "id": 577399,
+      "title": "Microsoft Teams: Enhanced Copilot and AI controls for meetings",
+      "description": "Teams Meetings offer enhanced AI controls for Copilot and AI experiences. Organizers manage who can enable and access AI, while IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences. These updates provide more predictable administration and greater flexibility for compliance and governance scenarios.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "availability": "January CY2027",
+      "preview": "",
+      "modified": "2026-11-19T00:53:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577399"
+    },
+    {
+      "id": 577173,
+      "title": "Microsoft 365: [Education] Provide a Copilot starter prompt in Teams and LMS Assignments",
+      "description": "Educators can provide a Copilot starter prompt from Student AI Guidelines in Teams and LMS Assignments. Students open Copilot with the educator's prompt ready in their chat, helping them begin with instructions tailored to the assignment.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft 365",
+        "Microsoft Teams"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "November CY2026",
+      "preview": "October CY2026",
+      "modified": "2026-11-19T00:53:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577173"
+    },
+    {
+      "id": 420335,
+      "title": "Microsoft Edge: Writing Assistance with Copilot in Edge is being upgraded to include enterprise data protection compliance standards",
+      "description": "Writing Assistance with Copilot in Edge, which lets users edit typed text for tone, format, and length within an open page in Microsoft Edge, is being updated to include enterprise data protection for commercial customers. Once Writing Assistance is available, users signed in with a Microsoft Entra ID will have enterprise data protection when using the feature in Microsoft Edge.",
+      "status": "In development",
+      "products": [
+        "Microsoft Edge"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "January CY2027",
+      "preview": "",
+      "modified": "2026-11-19T00:53:06",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=420335"
+    },
+    {
+      "id": 575277,
+      "title": "Microsoft Contact Center Intelligence: D365 Contact Center Admin Center users can create CCI agents",
+      "description": "Use the customer conversation harness agent builder to create, test, and refine AI-powered customer service agents. Accelerate agent development with built-in tools for conversation design, orchestration, evaluation, and deployment across customer engagement channels.",
+      "status": "In development",
+      "products": [
+        "Microsoft Contact Center Intelligence"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "November CY2026",
+      "preview": "October CY2026",
+      "modified": "2026-11-19T00:35:27",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575277"
+    },
+    {
+      "id": 579968,
+      "title": "Microsoft Copilot Studio: PPAC Reporting API",
+      "description": "The PPAC Reporting API gives customers scalable, programmatic access to Copilot Studio usage data from our lakehouse, replacing older unsupported methods for pulling consumption data. Daily JSON data by environment, user, agent and feature powers dashboards, FinOps reporting and automated cost controls.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot Studio"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "January CY2027",
+      "preview": "November CY2026",
+      "modified": "2026-11-18T18:32:08",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579968"
+    },
     {
       "id": 580449,
       "title": "Microsoft Copilot (Microsoft 365): Use Copilot to make on canvas edits on Pages",
@@ -434,28 +587,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579905"
     },
     {
-      "id": 579889,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot Workspaces updates",
-      "description": "With new Copilot Workspaces updates, Work IQ can suggest relevant workspaces based on current workstreams to help people get started quickly. Once in a workspace, team members can work together on shared documents while Copilot connects the dots across the work, surfacing what changed, what remains unresolved, and which actions need attention so everyone can quickly catch up and keep the work moving.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mobile",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "January CY2027",
-      "preview": "November CY2026",
-      "modified": "2026-11-17T18:36:41",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579889"
-    },
-    {
       "id": 578899,
       "title": "Dynamics 365 Customer Service: Coaching and development",
       "description": "Coaching & development extends the Quality Evaluation Agent from identifying quality gaps to closing them. It turns insights into scorecards, coaching and targeted training, then measures whether representatives improve.",
@@ -773,30 +904,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579977"
     },
     {
-      "id": 566523,
-      "title": "Microsoft Teams: Facilitator follow-up mode",
-      "description": "Chat naturally with Facilitator without tagging it each time.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "December CY2026",
-      "preview": "",
-      "modified": "2026-11-12T01:50:56",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566523"
-    },
-    {
       "id": 569425,
       "title": "Microsoft Copilot (Microsoft M365): Delegated prompt publishing for organization prompts",
       "description": "This release follows the availability of organization prompts, providing admins the ability to upload custom prompts for their organization in the Copilot app home screen. Now, admins can delegate organization prompt publishing to users, AAD security groups, and distribution groups. These delegated users and groups will be able to create, edit and delete organization prompts at the tenant level through the Prompt Lab, without having to access the Microsoft 365 Admin Center. Admins can continue to monitor and provide oversight through the current experience in the Microsoft 365 Admin Center.",
@@ -959,25 +1066,6 @@
       "preview": "",
       "modified": "2026-11-11T00:53:22",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=503767"
-    },
-    {
-      "id": 420335,
-      "title": "Microsoft Edge: Rewrite by Copilot in Edge is being upgraded to include enterprise data protection compliance standards",
-      "description": "Rewrite by Copilot in Edge, which lets users edit typed text for tone, format, and length within an open page in Microsoft Edge, is being updated to include enterprise data protection for commercial customers. Once Rewrite is available, users signed in with a Microsoft Entra ID will have enterprise data protection when using the feature in Microsoft Edge. Updated March 20, 2026: We have paused release of this feature temporarily and will announce new release timelines soon. We apologize for any inconvenience.",
-      "status": "In development",
-      "products": [
-        "Microsoft Edge"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "January CY2027",
-      "preview": "",
-      "modified": "2026-11-11T00:53:22",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=420335"
     },
     {
       "id": 571157,
@@ -1739,30 +1827,6 @@
       "preview": "December CY2026",
       "modified": "2026-11-04T00:02:09",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573602"
-    },
-    {
-      "id": 577399,
-      "title": "Microsoft Teams: Enhanced Copilot and AI controls for meetings",
-      "description": "Teams Meetings offer enhanced AI controls for Copilot and AI experiences. Organizers manage who can enable and access AI, while IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences. These updates provide more predictable administration and greater flexibility for compliance and governance scenarios.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "availability": "December CY2026",
-      "preview": "",
-      "modified": "2026-11-04T00:02:09",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577399"
     },
     {
       "id": 571299,
@@ -2723,30 +2787,6 @@
       "preview": "October CY2026",
       "modified": "2026-10-22T22:58:40",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577405"
-    },
-    {
-      "id": 577173,
-      "title": "Microsoft 365: [Education] Provide a Copilot starter prompt in Teams and LMS Assignments",
-      "description": "Educators can provide a Copilot starter prompt from Student AI Guidelines in Teams and LMS Assignments. Students open Copilot with the educator's prompt ready in their chat, helping them begin with instructions tailored to the assignment.",
-      "status": "In development",
-      "products": [
-        "Microsoft 365",
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-10-22T22:58:40",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577173"
     },
     {
       "id": 575289,
@@ -4081,45 +4121,6 @@
       "preview": "",
       "modified": "2026-10-09T22:04:35",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569930"
-    },
-    {
-      "id": 499898,
-      "title": "Microsoft Copilot (Microsoft 365): Viva Engage - Community Agent",
-      "description": "Community Agent helps members get answers to questions in Viva Engage communities using community knowledge and connected sources. Community admins can choose to require human review before answers are posted or allow automatic posting.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "September CY2025",
-      "modified": "2026-10-09T22:04:35",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=499898"
-    },
-    {
-      "id": 574106,
-      "title": "SharePoint: AI input widget and content preview in Copilot",
-      "description": "With this new capability, users of Copilot in SharePoint will be able to view saved and unsaved preview content side by side with chat. Users will also be able to interact with created HTML forms and confirm responses to send to chat.",
-      "status": "In development",
-      "products": [
-        "SharePoint"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-10-08T23:04:12",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=574106"
     }
   ]
 }

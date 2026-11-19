@@ -1,75 +1,91 @@
 {
-  "generatedAt": "2026-11-18T02:10:02.068Z",
+  "generatedAt": "2026-11-19T01:44:56.405Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-18T02:10:02.068Z"
+      "checkedAt": "2026-11-19T01:44:56.405Z"
     },
     {
       "source": "Microsoft Copilot Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-copilot-blog",
       "itemCount": 20,
-      "checkedAt": "2026-11-18T02:10:02.068Z"
+      "checkedAt": "2026-11-19T01:44:56.405Z"
     },
     {
       "source": "Copilot Studio Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog",
       "itemCount": 18,
-      "checkedAt": "2026-11-18T02:10:02.068Z"
+      "checkedAt": "2026-11-19T01:44:56.405Z"
     },
     {
       "source": "Microsoft Power Platform Blog (Copilot Studio)",
       "url": "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/",
       "itemCount": 10,
-      "checkedAt": "2026-11-18T02:10:02.068Z"
+      "checkedAt": "2026-11-19T01:44:56.405Z"
     },
     {
       "source": "Microsoft AI at Work Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-18T02:10:02.068Z"
+      "checkedAt": "2026-11-19T01:44:56.405Z"
     },
     {
       "source": "Microsoft Copilot Studio Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-18T02:10:02.068Z"
+      "checkedAt": "2026-11-19T01:44:56.405Z"
     },
     {
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SPBlog",
       "itemCount": 14,
-      "checkedAt": "2026-11-18T02:10:02.068Z"
+      "checkedAt": "2026-11-19T01:44:56.405Z"
     },
     {
       "source": "Excel Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ExcelBlog",
       "itemCount": 15,
-      "checkedAt": "2026-11-18T02:10:02.068Z"
+      "checkedAt": "2026-11-19T01:44:56.405Z"
     },
     {
       "source": "Microsoft 365 Insider Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365InsiderBlog",
       "itemCount": 6,
-      "checkedAt": "2026-11-18T02:10:02.068Z"
+      "checkedAt": "2026-11-19T01:44:56.405Z"
     },
     {
       "source": "Microsoft Teams Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog",
       "itemCount": 7,
-      "checkedAt": "2026-11-18T02:10:02.068Z"
+      "checkedAt": "2026-11-19T01:44:56.405Z"
     },
     {
       "source": "Microsoft OneDrive Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=onedriveblog",
       "itemCount": 7,
-      "checkedAt": "2026-11-18T02:10:02.068Z"
+      "checkedAt": "2026-11-19T01:44:56.405Z"
     }
   ],
   "count": 100,
   "items": [
+    {
+      "title": "The End of Starting Over: How Work IQ helps Copilot understand you and your work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/the-end-of-starting-over-how-work-iq-helps-copilot-understand/ba-p/4571169",
+      "description": "As Copilot and agents become part of your everyday work, you increasingly rely on them to help you complete tasks, make decisions, and move work forward. Just as you expect colleagues to understand your preferences, ways of working, and the",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-11-18T16:08:44.000Z"
+    },
+    {
+      "title": "Build and manage business processes with Microsoft Copilot Studio",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/build-and-manage-business-processes-with-microsoft-copilot-studio/",
+      "description": "Learn how Copilot Studio helps organizations connect agents, workflows, and apps to streamline business processes across teams and systems. The post Build and manage business processes with Microsoft Copilot Studio appeared first on Microso",
+      "categories": [],
+      "source": "Microsoft Copilot Studio Blog",
+      "date": "2026-11-18T16:00:00.000Z"
+    },
     {
       "title": "What's new in Copilot Cowork at Ignite 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-copilot-cowork-at-ignite-2026/ba-p/4572242",
@@ -870,22 +886,6 @@
       "categories": [],
       "source": "Microsoft 365 Insider Blog (Tech Community)",
       "date": "2026-07-07T16:21:13.000Z"
-    },
-    {
-      "title": "Leverage prompts created by your organization in Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/leverage-prompts-created-by-your-organization-in-copilot/ba-p/4533162",
-      "description": "We ’ re excited to share that you can now use prompts custom-made by your organization’s admins in Microsoft 365 Copilot Chat to streamline responses. What ’ s new You now can access curated prompts that reflect your organization’s prioriti",
-      "categories": [],
-      "source": "Microsoft 365 Insider Blog (Tech Community)",
-      "date": "2026-07-02T20:23:47.000Z"
-    },
-    {
-      "title": "Choosing the right AI model in Microsoft 365: flexibility, control, and confidence",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/choosing-the-right-ai-model-in-microsoft-365-flexibility-control/ba-p/4530762",
-      "description": "AI innovation is moving fast, and no single model is perfect for every task. Some models excel at deep research and structured reasoning, while others are optimized for speed, summarization, or creative drafting. That’s why Microsoft 365 is",
-      "categories": [],
-      "source": "Microsoft 365 Insider Blog (Tech Community)",
-      "date": "2026-06-25T17:45:00.000Z"
     }
   ]
 }
