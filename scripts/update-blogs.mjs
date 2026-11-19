@@ -30,6 +30,11 @@ const FEEDS = [
     dedicated: false, // broadly AI/Copilot; keep AI + Copilot + agent posts
   },
   {
+    url: "https://www.microsoft.com/en-us/dynamics-365/blog/feed/",
+    source: "Microsoft Dynamics 365 Blog",
+    dedicated: false,
+  },
+  {
     // NOTE: the board was renamed from `Microsoft365CopilotBlog` to
     // `microsoft-copilot-blog`; the old id now returns an empty feed.
     url: TC("microsoft-copilot-blog"),

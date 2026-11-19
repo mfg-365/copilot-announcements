@@ -71,17 +71,19 @@ A GitHub Action keeps the live feeds current with **zero effort**:
   Any change is committed automatically, which rebuilds the Pages site.
 
 ### Monitored blog sources
-`update-blogs.mjs` keeps the **50** most recent Copilot-relevant posts. Boards marked
+`update-blogs.mjs` keeps the **100** most recent Copilot-relevant posts. Boards marked
 *dedicated* are entirely Copilot news and are kept unfiltered; the others are general
 product blogs where a post must mention Copilot, Cowork, Autopilot, Work IQ, or agents.
 
 | Source | Board / feed | Dedicated |
 | --- | --- | --- |
 | Microsoft 365 Blog | `microsoft.com/microsoft-365/blog` | no |
+| Microsoft Dynamics 365 Blog | `microsoft.com/dynamics-365/blog` | no |
 | Microsoft Copilot Blog | `microsoft-copilot-blog` | yes |
 | Copilot Studio Blog | `copilot-studio-blog` | yes |
 | Power Platform Blog (Copilot Studio) | `power-platform/blog/product/copilot-studio` | yes |
 | Microsoft AI at Work Blog | `microsoft.com/copilot/blog` | yes |
+| Microsoft Copilot Studio Blog | `microsoft.com/copilot/blog/copilot-studio` | yes |
 | SharePoint Blog | `SPBlog` | no |
 | Excel Blog | `ExcelBlog` | no |
 | Microsoft 365 Insider Blog | `Microsoft365InsiderBlog` | no |

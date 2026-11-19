@@ -1,75 +1,101 @@
 {
-  "generatedAt": "2026-11-19T14:33:21.463Z",
+  "generatedAt": "2026-11-19T14:59:42.435Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-19T14:33:21.463Z"
+      "checkedAt": "2026-11-19T14:59:42.435Z"
+    },
+    {
+      "source": "Microsoft Dynamics 365 Blog",
+      "url": "https://www.microsoft.com/en-us/dynamics-365/blog/feed/",
+      "itemCount": 9,
+      "checkedAt": "2026-11-19T14:59:42.435Z"
     },
     {
       "source": "Microsoft Copilot Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-copilot-blog",
       "itemCount": 20,
-      "checkedAt": "2026-11-19T14:33:21.463Z"
+      "checkedAt": "2026-11-19T14:59:42.435Z"
     },
     {
       "source": "Copilot Studio Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog",
       "itemCount": 18,
-      "checkedAt": "2026-11-19T14:33:21.463Z"
+      "checkedAt": "2026-11-19T14:59:42.435Z"
     },
     {
       "source": "Microsoft Power Platform Blog (Copilot Studio)",
       "url": "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/",
       "itemCount": 10,
-      "checkedAt": "2026-11-19T14:33:21.463Z"
+      "checkedAt": "2026-11-19T14:59:42.435Z"
     },
     {
       "source": "Microsoft AI at Work Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-19T14:33:21.463Z"
+      "checkedAt": "2026-11-19T14:59:42.435Z"
     },
     {
       "source": "Microsoft Copilot Studio Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-19T14:33:21.463Z"
+      "checkedAt": "2026-11-19T14:59:42.435Z"
     },
     {
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SPBlog",
       "itemCount": 14,
-      "checkedAt": "2026-11-19T14:33:21.463Z"
+      "checkedAt": "2026-11-19T14:59:42.435Z"
     },
     {
       "source": "Excel Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ExcelBlog",
       "itemCount": 15,
-      "checkedAt": "2026-11-19T14:33:21.463Z"
+      "checkedAt": "2026-11-19T14:59:42.435Z"
     },
     {
       "source": "Microsoft 365 Insider Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365InsiderBlog",
       "itemCount": 6,
-      "checkedAt": "2026-11-19T14:33:21.463Z"
+      "checkedAt": "2026-11-19T14:59:42.435Z"
     },
     {
       "source": "Microsoft Teams Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog",
       "itemCount": 7,
-      "checkedAt": "2026-11-19T14:33:21.463Z"
+      "checkedAt": "2026-11-19T14:59:42.435Z"
     },
     {
       "source": "Microsoft OneDrive Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=onedriveblog",
       "itemCount": 7,
-      "checkedAt": "2026-11-19T14:33:21.463Z"
+      "checkedAt": "2026-11-19T14:59:42.435Z"
     }
   ],
   "count": 100,
   "items": [
+    {
+      "title": "Business Applications in Work IQ is now generally available",
+      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/business-applications-work-iq-generally-available/",
+      "description": "Business Applications in Work IQ is now generally available, grounding Microsoft Copilot and agents in Dynamics 365 and Power Platform business data, processes, and permissions. The post Business Applications in Work IQ is now generally ava",
+      "categories": [
+        "AI"
+      ],
+      "source": "Microsoft Dynamics 365 Blog",
+      "date": "2026-11-18T18:00:20.000Z"
+    },
+    {
+      "title": "Microsoft Contact Center Intelligence now generally available: Transform customer interactions",
+      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/microsoft-contact-center-intelligence-now-generally-available-transform-customer-interactions/",
+      "description": "Microsoft Contact Center Intelligence is now generally available, helping organizations bring AI-powered agents, omnichannel experiences, enterprise knowledge, and intelligent automation to the contact centers they already use. The post Mic",
+      "categories": [
+        "AI"
+      ],
+      "source": "Microsoft Dynamics 365 Blog",
+      "date": "2026-11-18T16:30:00.000Z"
+    },
     {
       "title": "The End of Starting Over: How Work IQ helps Copilot understand you and your work",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/the-end-of-starting-over-how-work-iq-helps-copilot-understand/ba-p/4571169",
@@ -109,6 +135,16 @@
       "categories": [],
       "source": "Microsoft Copilot Blog (Tech Community)",
       "date": "2026-11-17T20:17:59.000Z"
+    },
+    {
+      "title": "Microsoft Ignite 2026: Introducing Dynamics 365 in Copilot",
+      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/17/microsoft-ignite-2026-introducing-dynamics-365-in-copilot/",
+      "description": "Discover what's new for Dynamics 365 at Microsoft Ignite 2026, with innovations across Copilot and agents that help businesses work smarter. The post Microsoft Ignite 2026: Introducing Dynamics 365 in Copilot appeared first on Microsoft Dyn",
+      "categories": [
+        "Microsoft Copilot"
+      ],
+      "source": "Microsoft Dynamics 365 Blog",
+      "date": "2026-11-17T18:10:46.000Z"
     },
     {
       "title": "SharePoint and OneDrive at Microsoft Ignite 2026: Putting AI-powered content to work",
@@ -217,6 +253,16 @@
       "date": "2026-11-10T17:37:34.000Z"
     },
     {
+      "title": "Microsoft is named a Leader in 2026 Gartner® Magic Quadrant™ for CRM Customer Engagement Center",
+      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/10/microsoft-is-named-a-leader-in-2026-gartner-magic-quadrant-for-crm-customer-engagement-center/",
+      "description": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for CRM Customer Engagement Center. Explore how Dynamics 365 Customer Service is helping organizations scale agentic service and deliver connected customer experiences. The po",
+      "categories": [
+        "CRM"
+      ],
+      "source": "Microsoft Dynamics 365 Blog",
+      "date": "2026-11-10T16:00:00.000Z"
+    },
+    {
       "title": "Turn Copilot insights into action with connector write capabilities",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/turn-copilot-insights-into-action-with-connector-write/ba-p/4571160",
       "description": "Copilot connectors write actions are now generally available across Copilot Chat and Cowork, helping you turn insights from your conversations into action in connected applications. With hundreds of Microsoft-, partner- and custom-built con",
@@ -239,6 +285,27 @@
       "categories": [],
       "source": "Copilot Studio Blog (Tech Community)",
       "date": "2026-11-07T17:42:49.000Z"
+    },
+    {
+      "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud ERP for Product-Centric Enterprises",
+      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/06/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-erp-for-product-centric-enterprises/",
+      "description": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud ERP for Product-Centric Enterprises. Explore how Dynamics 365 helps manufacturers and distributors adapt operations with connected ERP, Copilot, and agents. The post",
+      "categories": [
+        "ERP"
+      ],
+      "source": "Microsoft Dynamics 365 Blog",
+      "date": "2026-11-06T19:00:00.000Z"
+    },
+    {
+      "title": "Microsoft Dynamics 365 named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud ERP for Service-Centric Enterprises",
+      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/05/microsoft-dynamics-365-named-a-leader-in-the-2026-gartner-magic-quadrant-for-cloud-erp-for-service-centric-enterprises/",
+      "description": "See why Dynamics 365 was named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud ERP for Service-Centric Enterprises. The post Microsoft Dynamics 365 named a Leader in the 2026 Gartner® Magic Quadrant™ for Cloud ERP for Service-Centri",
+      "categories": [
+        "ERP",
+        "Microsoft Copilot"
+      ],
+      "source": "Microsoft Dynamics 365 Blog",
+      "date": "2026-11-05T18:30:00.000Z"
     },
     {
       "title": "Bringing Claude models in Microsoft Copilot into the EU Data Boundary",
@@ -297,12 +364,45 @@
       "date": "2026-11-03T18:59:59.000Z"
     },
     {
+      "title": "Sales Development Agent: Setup Best Practices for Enterprise-Grade Autonomous Prospecting",
+      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/03/sales-development-agent-enterprise-setup-best-practices/",
+      "description": "Learn best practices for setting up Sales Development Agent for enterprise prospecting, including governance, CRM integration, security, testing, and scalable deployment. The post Sales Development Agent: Setup Best Practices for Enterprise",
+      "categories": [
+        "AI"
+      ],
+      "source": "Microsoft Dynamics 365 Blog",
+      "date": "2026-11-03T16:30:00.000Z"
+    },
+    {
+      "title": "Bringing sustainability into the Dynamics 365 ERP portfolio",
+      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/11/03/bringing-sustainability-into-the-dynamics-365-erp-portfolio/",
+      "description": "Introducing Microsoft Dynamics 365 Sustainability, which brings Microsoft Sustainability Manager into the Dynamics 365 ERP portfolio. Explore how connected sustainability and business data can help organizations record environmental impact,",
+      "categories": [
+        "ERP",
+        "Microsoft Copilot",
+        "Power Platform"
+      ],
+      "source": "Microsoft Dynamics 365 Blog",
+      "date": "2026-11-03T16:00:00.000Z"
+    },
+    {
       "title": "What’s New in Microsoft Copilot | October 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-microsoft-copilot-october-2026/ba-p/4568528",
       "description": "Welcome to the October 2026 edition of What's New in Microsoft Copilot! Every month, we highlight new features and enhancements to keep Microsoft 365 customers up to date with Copilot features that help your users be more productive and eff",
       "categories": [],
       "source": "Microsoft Copilot Blog (Tech Community)",
       "date": "2026-10-30T18:46:01.000Z"
+    },
+    {
+      "title": "Dynamics 365 CX MCP Server – Sales: Bringing headless CRM to supported AI experiences",
+      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/10/29/dynamics-365-cx-mcp-server-sales/",
+      "description": "Dynamics 365 CX MCP Server - Sales brings governed CRM capabilities to supported AI agents and seller experiences, helping sellers take action wherever they work. The post Dynamics 365 CX MCP Server – Sales: Bringing headless CRM to support",
+      "categories": [
+        "AI",
+        "Microsoft Dataverse"
+      ],
+      "source": "Microsoft Dynamics 365 Blog",
+      "date": "2026-10-29T15:30:00.000Z"
     },
     {
       "title": "Microsoft Copilot for finance: Purpose-built for the way finance teams work",
@@ -812,80 +912,6 @@
       "categories": [],
       "source": "Excel Blog (Tech Community)",
       "date": "2026-08-06T17:30:08.000Z"
-    },
-    {
-      "title": "What's New in Copilot in SharePoint: August 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/what-s-new-in-copilot-in-sharepoint-august-2026/ba-p/4535421",
-      "description": "Copilot in SharePoint helps you do more with your content — ask questions, run workflows, and create sites, pages, interactive reports, and Office files using natural language. Here's everything that's new in the last month: 📊 Create live ",
-      "categories": [],
-      "source": "Microsoft SharePoint Blog (Tech Community)",
-      "date": "2026-08-06T13:00:00.000Z"
-    },
-    {
-      "title": "The next measure of AI momentum is work transformed",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
-      "description": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI momentum is work transformed appeared first ",
-      "categories": [
-        "AI"
-      ],
-      "source": "Microsoft 365 Blog",
-      "date": "2026-07-30T12:00:00.000Z"
-    },
-    {
-      "title": "SharePoint Showcase: 10 Custom AI Skills Every SharePoint Site Owner Should Build",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-showcase-10-custom-ai-skills-every-sharepoint-site/ba-p/4535414",
-      "description": "Every team has repeatable work they want done the right way, not just once, but every time. Copilot can learn the way your team already works, follow the processes you trust, and help people repeat high-quality outcomes without starting fro",
-      "categories": [],
-      "source": "Microsoft SharePoint Blog (Tech Community)",
-      "date": "2026-07-28T18:34:37.000Z"
-    },
-    {
-      "title": "What's New in Excel (July 2026)",
-      "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-july-2026/ba-p/4523403",
-      "description": "Welcome to the July 2026 update. New this month for Copilot in Excel: inline citations, synced connectors, Power BI grounding, brand and theme design skills, and support for workbooks with AutoSave turned off. Also new this month, two front",
-      "categories": [],
-      "source": "Excel Blog (Tech Community)",
-      "date": "2026-07-28T17:50:50.000Z"
-    },
-    {
-      "title": "Introducing smarter bot protection in Microsoft Teams meetings",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-smarter-bot-protection-in-microsoft-teams-meetings/ba-p/4531375",
-      "description": "AI note-taking has become a familiar part of the meeting experience, helping people keep track of important details while staying present in the conversation. But as AI meeting tools have become more common, new challenges have emerged. Bot",
-      "categories": [],
-      "source": "Microsoft Teams Blog (Tech Community)",
-      "date": "2026-07-24T16:24:35.000Z"
-    },
-    {
-      "title": "Extending agentic Microsoft Dynamics 365 Sales with MCP",
-      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/07/21/extending-agentic-microsoft-dynamics-365-sales-with-mcp/",
-      "description": "MCP extends Dynamics 365 Sales agents with external data, tools, and actions, helping connect sales processes across business systems. The post Extending agentic Microsoft Dynamics 365 Sales with MCP appeared first on Microsoft Copilot Blog",
-      "categories": [],
-      "source": "Microsoft Copilot Studio Blog",
-      "date": "2026-07-21T19:20:00.000Z"
-    },
-    {
-      "title": "Beyond Benchmarks: The Lifecycle of Measuring Agentic Quality in AI Content Management",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/beyond-benchmarks-the-lifecycle-of-measuring-agentic-quality-in/ba-p/4538319",
-      "description": "By Sujay Kumar Jauhar, Spriha Chandrayan, Natasha Gaitonde, Zhen Lei, Reed Pankhurst, Anush Sankaran, Amrit Shandilya, Ryen W. White Organizations put their most important content in OneDrive and SharePoint, trusting us to deliver AI experi",
-      "categories": [],
-      "source": "Microsoft SharePoint Blog (Tech Community)",
-      "date": "2026-07-21T15:56:41.000Z"
-    },
-    {
-      "title": "What’s New in Copilot in SharePoint: July 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/what-s-new-in-copilot-in-sharepoint-july-2026/ba-p/4535420",
-      "description": "Copilot in SharePoint helps you do more with your content — ask questions, run workflows, and create sites, pages, interactive reports, and Office files using natural language. June was a big month: starting June 16 Copilot in SharePoint be",
-      "categories": [],
-      "source": "Microsoft SharePoint Blog (Tech Community)",
-      "date": "2026-07-16T16:05:23.000Z"
-    },
-    {
-      "title": "Co-create documents with Copilot in Word for iPad",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/co-create-documents-with-copilot-in-word-for-ipad/ba-p/4534191",
-      "description": "We’re excited to bring a feature many of you already use on desktop, web, and mobile to Microsoft Word for iPad: the ability to collaborate with Microsoft 365 Copilot directly in your document. What ’ s new You can now work with Copilot as ",
-      "categories": [],
-      "source": "Microsoft 365 Insider Blog (Tech Community)",
-      "date": "2026-07-07T16:21:13.000Z"
     }
   ]
 }
