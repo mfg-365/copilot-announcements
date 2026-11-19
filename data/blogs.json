@@ -1,81 +1,107 @@
 {
-  "generatedAt": "2026-11-19T14:59:42.435Z",
+  "generatedAt": "2026-11-19T18:39:03.885Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-19T14:59:42.435Z"
+      "checkedAt": "2026-11-19T18:39:03.885Z"
     },
     {
       "source": "Microsoft Dynamics 365 Blog",
       "url": "https://www.microsoft.com/en-us/dynamics-365/blog/feed/",
-      "itemCount": 9,
-      "checkedAt": "2026-11-19T14:59:42.435Z"
+      "itemCount": 10,
+      "checkedAt": "2026-11-19T18:39:03.885Z"
     },
     {
       "source": "Microsoft Copilot Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-copilot-blog",
       "itemCount": 20,
-      "checkedAt": "2026-11-19T14:59:42.435Z"
+      "checkedAt": "2026-11-19T18:39:03.885Z"
     },
     {
       "source": "Copilot Studio Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog",
       "itemCount": 18,
-      "checkedAt": "2026-11-19T14:59:42.435Z"
+      "checkedAt": "2026-11-19T18:39:03.885Z"
+    },
+    {
+      "source": "Microsoft Agent 365 Blog (Tech Community)",
+      "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog",
+      "itemCount": 16,
+      "checkedAt": "2026-11-19T18:39:03.885Z"
     },
     {
       "source": "Microsoft Power Platform Blog (Copilot Studio)",
       "url": "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/",
       "itemCount": 10,
-      "checkedAt": "2026-11-19T14:59:42.435Z"
+      "checkedAt": "2026-11-19T18:39:03.885Z"
     },
     {
       "source": "Microsoft AI at Work Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-19T14:59:42.435Z"
+      "checkedAt": "2026-11-19T18:39:03.885Z"
     },
     {
       "source": "Microsoft Copilot Studio Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-19T14:59:42.435Z"
+      "checkedAt": "2026-11-19T18:39:03.885Z"
     },
     {
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SPBlog",
       "itemCount": 14,
-      "checkedAt": "2026-11-19T14:59:42.435Z"
+      "checkedAt": "2026-11-19T18:39:03.885Z"
     },
     {
       "source": "Excel Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ExcelBlog",
       "itemCount": 15,
-      "checkedAt": "2026-11-19T14:59:42.435Z"
+      "checkedAt": "2026-11-19T18:39:03.885Z"
     },
     {
       "source": "Microsoft 365 Insider Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365InsiderBlog",
       "itemCount": 6,
-      "checkedAt": "2026-11-19T14:59:42.435Z"
+      "checkedAt": "2026-11-19T18:39:03.885Z"
     },
     {
       "source": "Microsoft Teams Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog",
       "itemCount": 7,
-      "checkedAt": "2026-11-19T14:59:42.435Z"
+      "checkedAt": "2026-11-19T18:39:03.885Z"
     },
     {
       "source": "Microsoft OneDrive Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=onedriveblog",
       "itemCount": 7,
-      "checkedAt": "2026-11-19T14:59:42.435Z"
+      "checkedAt": "2026-11-19T18:39:03.885Z"
     }
   ],
   "count": 100,
   "items": [
+    {
+      "title": "Move beyond legacy ERP and CRM with Dynamics 365 Activate",
+      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/dynamics-365-activate-erp-crm-migration/",
+      "description": "Learn how Dynamics 365 Activate helps customers and partners move beyond legacy ERP and CRM systems with an agentic approach to discovery, requirements, configuration, and migration. The post Move beyond legacy ERP and CRM with Dynamics 365",
+      "categories": [
+        "AI"
+      ],
+      "source": "Microsoft Dynamics 365 Blog",
+      "date": "2026-11-19T18:08:52.000Z"
+    },
+    {
+      "title": "Unlock new possibilities for Dynamics 365 ERP with Work IQ and business skills",
+      "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/unlock-new-possibilities-for-dynamics-365-erp-with-work-iq-and-business-skills/",
+      "description": "See how Dynamics 365 ERP in Work IQ helps organizations connect Copilot and agents to governed ERP data, actions, and reusable business skills. The post Unlock new possibilities for Dynamics 365 ERP with Work IQ and business skills appeared",
+      "categories": [
+        "AI"
+      ],
+      "source": "Microsoft Dynamics 365 Blog",
+      "date": "2026-11-19T16:00:00.000Z"
+    },
     {
       "title": "Business Applications in Work IQ is now generally available",
       "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/business-applications-work-iq-generally-available/",
@@ -135,6 +161,14 @@
       "categories": [],
       "source": "Microsoft Copilot Blog (Tech Community)",
       "date": "2026-11-17T20:17:59.000Z"
+    },
+    {
+      "title": "What's new in Microsoft Agent 365: Ignite 2026",
+      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-microsoft-agent-365-ignite-2026/ba-p/4571753",
+      "description": "Organizations have registered more than 50 million agents in Microsoft Agent 365 since its May 2026 launch. That scale brings new questions: who owns each agent, what risk do they carry, and what do they cost – and importantly, is it worth ",
+      "categories": [],
+      "source": "Microsoft Agent 365 Blog (Tech Community)",
+      "date": "2026-11-17T19:54:53.000Z"
     },
     {
       "title": "Microsoft Ignite 2026: Introducing Dynamics 365 in Copilot",
@@ -251,6 +285,14 @@
       "categories": [],
       "source": "Microsoft Copilot Blog (Tech Community)",
       "date": "2026-11-10T17:37:34.000Z"
+    },
+    {
+      "title": "Microsoft Ignite 2026: Your Guide to Agent 365",
+      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/microsoft-ignite-2026-your-guide-to-agent-365/ba-p/4571750",
+      "description": "At Microsoft Ignite last year, we introduced Agent 365 with a simple goal: help organizations see, control, and secure their fast-growing agent estate. Over the past year, we have learned a lot from the customers and partners who put it to ",
+      "categories": [],
+      "source": "Microsoft Agent 365 Blog (Tech Community)",
+      "date": "2026-11-10T17:00:00.000Z"
     },
     {
       "title": "Microsoft is named a Leader in 2026 Gartner® Magic Quadrant™ for CRM Customer Engagement Center",
@@ -653,6 +695,14 @@
       "date": "2026-09-30T23:28:22.000Z"
     },
     {
+      "title": "What's new in Agent 365 - September 2026",
+      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-september-2026/ba-p/4560803",
+      "description": "Since launching Agent 365 in May 2026, nearly 50 million agents have been registered across tens of thousands of organizations. As agent adoption accelerates, IT and security teams are looking beyond simple visibility and governance to a ne",
+      "categories": [],
+      "source": "Microsoft Agent 365 Blog (Tech Community)",
+      "date": "2026-09-30T16:00:00.000Z"
+    },
+    {
       "title": "Help your customers get answers and support with Teams Phone Agent",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/help-your-customers-get-answers-and-support-with-teams-phone/ba-p/4560840",
       "description": "Your customers are your number one priority, and you want to be there whenever they call. But customer needs don’t follow a schedule. Questions and appointment changes can come during your busiest periods or after hours, and customers still",
@@ -872,46 +922,6 @@
       "categories": [],
       "source": "Microsoft 365 Insider Blog (Tech Community)",
       "date": "2026-08-13T15:45:00.000Z"
-    },
-    {
-      "title": "Register now for PPCC 2026: Come for the learning, stay for the community",
-      "link": "https://www.microsoft.com/en-us/power-platform/blog/2026/08/13/register-now-for-ppcc-2026-come-for-the-learning-stay-for-the-community/",
-      "description": "Whether you’re exploring AI in your business, building with low code, developing professional solutions, or leading enterprise-wide transformation, PPCC is your best opportunity to return to work on Monday ready to make an impact. The post ",
-      "categories": [],
-      "source": "Microsoft Power Platform Blog (Copilot Studio)",
-      "date": "2026-08-13T12:00:00.000Z"
-    },
-    {
-      "title": "Turn meetings into momentum with Microsoft 365 Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/turn-meetings-into-momentum-with-microsoft-365-copilot/ba-p/4545675",
-      "description": "Most people don't need more meetings—they need meetings that lead to action. At their best, meetings drive decisions and keep work moving forward. But poorly managed meetings can actually slow progress. In fact, our Work Trend Index report ",
-      "categories": [],
-      "source": "Microsoft Teams Blog (Tech Community)",
-      "date": "2026-08-11T15:59:45.000Z"
-    },
-    {
-      "title": "What’s New in Microsoft Teams | July 2026",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-july-2026/ba-p/4542510",
-      "description": "I hope everyone is having a great summer - July has flown by. As we head into the second half of the year, we're continuing to innovate in Teams to help people collaborate with people and AI to get work done more efficiently. This month's u",
-      "categories": [],
-      "source": "Microsoft Teams Blog (Tech Community)",
-      "date": "2026-08-10T16:23:16.000Z"
-    },
-    {
-      "title": "Take back-to-school tasks off your plate with Microsoft Copilot",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/take-back-to-school-tasks-off-your-plate-with-microsoft-copilot/ba-p/4544759",
-      "description": "Back-to-school planning doesn’t stop after the first day of classes. By the second week, your to-do list is already packed with an early dismissal, a practice change, and a form someone forgot to mention until bedtime. The hard part usually",
-      "categories": [],
-      "source": "Microsoft 365 Insider Blog (Tech Community)",
-      "date": "2026-08-06T17:45:00.000Z"
-    },
-    {
-      "title": "Bring your organization’s data into Excel with new Copilot synced connectors",
-      "link": "https://techcommunity.microsoft.com/t5/excel-blog/bring-your-organization-s-data-into-excel-with-new-copilot/ba-p/4544682",
-      "description": "Excel is where people turn data into decisions. But the data you need often lives in other systems, like your engineering backlog, ticketing system, or CRM. Getting that data into Excel usually means exporting files, copying and pasting, or",
-      "categories": [],
-      "source": "Excel Blog (Tech Community)",
-      "date": "2026-08-06T17:30:08.000Z"
     }
   ]
 }

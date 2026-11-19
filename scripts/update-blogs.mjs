@@ -47,6 +47,11 @@ const FEEDS = [
     dedicated: true,
   },
   {
+    url: TC("agent-365-blog"),
+    source: "Microsoft Agent 365 Blog (Tech Community)",
+    dedicated: true,
+  },
+  {
     url: "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/",
     source: "Microsoft Power Platform Blog (Copilot Studio)",
     dedicated: true,

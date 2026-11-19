@@ -81,6 +81,7 @@ product blogs where a post must mention Copilot, Cowork, Autopilot, Work IQ, or 
 | Microsoft Dynamics 365 Blog | `microsoft.com/dynamics-365/blog` | no |
 | Microsoft Copilot Blog | `microsoft-copilot-blog` | yes |
 | Copilot Studio Blog | `copilot-studio-blog` | yes |
+| Microsoft Agent 365 Blog | `agent-365-blog` | yes |
 | Power Platform Blog (Copilot Studio) | `power-platform/blog/product/copilot-studio` | yes |
 | Microsoft AI at Work Blog | `microsoft.com/copilot/blog` | yes |
 | Microsoft Copilot Studio Blog | `microsoft.com/copilot/blog/copilot-studio` | yes |
