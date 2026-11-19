@@ -1,5 +1,5 @@
 {
-    "generatedAt":  "2026-11-17T22:52:53.1480858Z",
+    "generatedAt":  "2026-11-19T20:47:40.584Z",
     "count":  38,
     "counts":  {
                    "upcoming":  14,
@@ -251,7 +251,7 @@
                        "location":  "",
                        "type":  "Webinar",
                        "audience":  "All audiences",
-                       "registrationUrl":  "",
+                       "registrationUrl":  "https://msit.events.teams.microsoft.com/event/msit.cca6a01b-217c-4688-aa17-b3a38c954ba5@72f988bf-86f1-41af-91ab-2d7cd011db47",
                        "recordingUrl":  "",
                        "slidesUrl":  "",
                        "imageUrl":  "",
