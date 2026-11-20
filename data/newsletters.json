@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T01:44:56.459Z",
+  "generatedAt": "2026-11-20T01:40:44.820Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -20,6 +20,40 @@
         "kind": "announcement"
       },
       "stories": [
+        {
+          "title": "Move beyond legacy ERP and CRM with Dynamics 365 Activate",
+          "summary": "Learn how Dynamics 365 Activate helps customers and partners move beyond legacy ERP and CRM systems with an agentic approach to discovery, requirements, configuration, and migration. The post Move beyond legacy ERP and CRM with Dynamics 365",
+          "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/dynamics-365-activate-erp-crm-migration/",
+          "date": "2026-11-19T18:08:52.000Z",
+          "label": "Microsoft Dynamics 365 Blog",
+          "kind": "blog"
+        },
+        {
+          "title": "Unlock new possibilities for Dynamics 365 ERP with Work IQ and business skills",
+          "summary": "See how Dynamics 365 ERP in Work IQ helps organizations connect Copilot and agents to governed ERP data, actions, and reusable business skills. The post Unlock new possibilities for Dynamics 365 ERP with Work IQ and business skills appeared",
+          "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/unlock-new-possibilities-for-dynamics-365-erp-with-work-iq-and-business-skills/",
+          "date": "2026-11-19T16:00:00.000Z",
+          "label": "Microsoft Dynamics 365 Blog",
+          "kind": "blog"
+        },
+        {
+          "title": "Business Applications in Work IQ is now generally available",
+          "summary": "Business Applications in Work IQ is now generally available, grounding Microsoft Copilot and agents in Dynamics 365 and Power Platform business data, processes, and permissions. The post Business Applications in Work IQ is now generally ava",
+          "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/business-applications-work-iq-generally-available/",
+          "date": "2026-11-18T18:00:20.000Z",
+          "label": "Microsoft Dynamics 365 Blog",
+          "kind": "blog"
+        }
+      ],
+      "reads": [
+        {
+          "title": "Microsoft Contact Center Intelligence now generally available: Transform customer interactions",
+          "summary": "Microsoft Contact Center Intelligence is now generally available, helping organizations bring AI-powered agents, omnichannel experiences, enterprise knowledge, and intelligent automation to the contact centers they already use. The post Mic",
+          "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/microsoft-contact-center-intelligence-now-generally-available-transform-customer-interactions/",
+          "date": "2026-11-18T16:30:00.000Z",
+          "label": "Microsoft Dynamics 365 Blog",
+          "kind": "blog"
+        },
         {
           "title": "The End of Starting Over: How Work IQ helps Copilot understand you and your work",
           "summary": "As Copilot and agents become part of your everyday work, you increasingly rely on them to help you complete tasks, make decisions, and move work forward. Just as you expect colleagues to understand your preferences, ways of working, and the",
@@ -45,45 +79,19 @@
           "kind": "blog"
         }
       ],
-      "reads": [
-        {
-          "title": "Home: Your starting place for work in the Microsoft Copilot app",
-          "summary": "Work rarely begins and ends with a single request. A quick question turns into a document, a launch plan grows into a weeks-long project, and some tasks need to keep moving after you step away. As AI takes on more of that work, using it sho",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/home-your-starting-place-for-work-in-the-microsoft-copilot-app/ba-p/4573945",
-          "date": "2026-11-17T21:04:54.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Office at Ignite 2026: From apps to agentic system of work",
-          "summary": "Work no longer happens in a silo. A single project can start as a question in an AI chat, become a Word draft, turn into a PowerPoint deck, and end as a decision in an email thread. People expect their context, and their AI, to come along a",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/office-at-ignite-2026-from-apps-to-agentic-system-of-work/ba-p/4572226",
-          "date": "2026-11-17T20:17:59.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "SharePoint and OneDrive at Microsoft Ignite 2026: Putting AI-powered content to work",
-          "summary": "Microsoft Ignite is officially underway, and this week we’re showing what’s next for SharePoint and OneDrive in the AI era. If you’re joining us at Ignite, check out our SharePoint and OneDrive at Microsoft Ignite 2026 guide for the full li",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-and-onedrive-at-microsoft-ignite-2026-putting-ai/ba-p/4535416",
-          "date": "2026-11-17T18:01:36.000Z",
-          "label": "Microsoft SharePoint Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Learning Agent: Build AI and Copilot skills through everyday work",
-          "summary": "Earlier this year, we introduced Learning Agent in Microsoft 365 Copilot as the enterprise learning front door to help employees build their AI fluency in the flow of work. Since then, we have seen customers roll out Learning Agent alongsid",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/learning-agent-build-ai-and-copilot-skills-through-everyday-work/ba-p/4573000",
-          "date": "2026-11-17T18:00:00.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        }
-      ],
       "prompt": {
         "title": "Plan enablement by audience",
         "text": "Create an enablement plan for executives, end users, champions, makers, and IT based on these updates. Give each audience the message, demo, resource, and call to action they need."
       },
       "roadmap": [
+        {
+          "title": "Microsoft Teams: Enable agents for existing applications in your organization",
+          "description": "For third-party applications already being used in your organization, admins can now discover and enable the corresponding Teams agents from within the Teams Admin Center. Admins receive recommendations for high-value agents and gain…",
+          "status": "Rolling out",
+          "availability": "November CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569608",
+          "product": "Microsoft Teams"
+        },
         {
           "title": "Microsoft 365: [Education] Provide a Copilot starter prompt in Teams and LMS Assignments",
           "description": "Educators can provide a Copilot starter prompt from Student AI Guidelines in Teams and LMS Assignments. Students open Copilot with the educator's prompt ready in their chat, helping them begin with instructions tailored to the assignment.",
@@ -98,14 +106,6 @@
           "status": "Rolling out",
           "availability": "October CY2026",
           "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577396",
-          "product": "Dynamics 365 Contact Center"
-        },
-        {
-          "title": "Dynamics 365 Contact Center: Biometric authentication and fraud detection",
-          "description": "Together, voice biometric authentication and fraud detection deliver business value by reducing fraud and agent operating costs in contact centers (note: these two capabilities can be used independently or together). Voice biometric…",
-          "status": "Rolling out",
-          "availability": "November CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575281",
           "product": "Dynamics 365 Contact Center"
         }
       ]
