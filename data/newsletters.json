@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T01:40:44.820Z",
+  "generatedAt": "2026-11-21T01:07:51.349Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -21,6 +21,14 @@
       },
       "stories": [
         {
+          "title": "Available today: OpenAI's GPT-6.2 Sol and GPT-6.2 Astra in Microsoft Copilot",
+          "summary": "OpenAI's GPT-6.2 Sol and GPT-6.2 Astra are now joining the frontier models available in Microsoft Copilot, giving customers more choice as they delegate more complex tasks to AI. With both models in Copilot, you can match the model to the w",
+          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-2-sol-and-gpt-6-2-astra-in/ba-p/4574229",
+          "date": "2026-11-20T20:07:04.000Z",
+          "label": "Microsoft Copilot Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
           "title": "Move beyond legacy ERP and CRM with Dynamics 365 Activate",
           "summary": "Learn how Dynamics 365 Activate helps customers and partners move beyond legacy ERP and CRM systems with an agentic approach to discovery, requirements, configuration, and migration. The post Move beyond legacy ERP and CRM with Dynamics 365",
           "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/dynamics-365-activate-erp-crm-migration/",
@@ -35,7 +43,9 @@
           "date": "2026-11-19T16:00:00.000Z",
           "label": "Microsoft Dynamics 365 Blog",
           "kind": "blog"
-        },
+        }
+      ],
+      "reads": [
         {
           "title": "Business Applications in Work IQ is now generally available",
           "summary": "Business Applications in Work IQ is now generally available, grounding Microsoft Copilot and agents in Dynamics 365 and Power Platform business data, processes, and permissions. The post Business Applications in Work IQ is now generally ava",
@@ -43,9 +53,7 @@
           "date": "2026-11-18T18:00:20.000Z",
           "label": "Microsoft Dynamics 365 Blog",
           "kind": "blog"
-        }
-      ],
-      "reads": [
+        },
         {
           "title": "Microsoft Contact Center Intelligence now generally available: Transform customer interactions",
           "summary": "Microsoft Contact Center Intelligence is now generally available, helping organizations bring AI-powered agents, omnichannel experiences, enterprise knowledge, and intelligent automation to the contact centers they already use. The post Mic",
@@ -69,14 +77,6 @@
           "date": "2026-11-18T16:00:00.000Z",
           "label": "Microsoft Copilot Studio Blog",
           "kind": "blog"
-        },
-        {
-          "title": "What's new in Copilot Cowork at Ignite 2026",
-          "summary": "Copilot Cowork is changing how work gets done. Sellers turn a quarter of account activity into a business review deck and follow-up plan. Finance teams pull forecasts from several workbooks into a board-ready variance memo. HR and learning",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/what-s-new-in-copilot-cowork-at-ignite-2026/ba-p/4572242",
-          "date": "2026-11-17T22:00:37.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
         }
       ],
       "prompt": {
@@ -85,20 +85,12 @@
       },
       "roadmap": [
         {
-          "title": "Microsoft Teams: Enable agents for existing applications in your organization",
-          "description": "For third-party applications already being used in your organization, admins can now discover and enable the corresponding Teams agents from within the Teams Admin Center. Admins receive recommendations for high-value agents and gain…",
+          "title": "Microsoft Teams: AI-powered notes for in-person meetings with Facilitator in Teams Rooms on Android",
+          "description": "In addition to capturing real-time notes and meeting outcomes during scheduled or hybrid meetings, the Facilitator agent assists you with notes, decisions and actions for in-person meetings in Teams Rooms on Android. Simply invite…",
           "status": "Rolling out",
           "availability": "November CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569608",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560700",
           "product": "Microsoft Teams"
-        },
-        {
-          "title": "Microsoft 365: [Education] Provide a Copilot starter prompt in Teams and LMS Assignments",
-          "description": "Educators can provide a Copilot starter prompt from Student AI Guidelines in Teams and LMS Assignments. Students open Copilot with the educator's prompt ready in their chat, helping them begin with instructions tailored to the assignment.",
-          "status": "Rolling out",
-          "availability": "November CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577173",
-          "product": "Microsoft 365"
         },
         {
           "title": "Dynamics 365 Contact Center: Use after conversation presence status for wrap-up activities",
@@ -106,6 +98,14 @@
           "status": "Rolling out",
           "availability": "October CY2026",
           "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577396",
+          "product": "Dynamics 365 Contact Center"
+        },
+        {
+          "title": "Dynamics 365 Contact Center: Biometric authentication and fraud detection",
+          "description": "Together, voice biometric authentication and fraud detection deliver business value by reducing fraud and agent operating costs in contact centers (note: these two capabilities can be used independently or together). Voice biometric…",
+          "status": "Rolling out",
+          "availability": "November CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575281",
           "product": "Dynamics 365 Contact Center"
         }
       ]

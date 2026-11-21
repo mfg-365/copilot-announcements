@@ -1,87 +1,95 @@
 {
-  "generatedAt": "2026-11-20T01:40:44.781Z",
+  "generatedAt": "2026-11-21T01:07:51.299Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     },
     {
       "source": "Microsoft Dynamics 365 Blog",
       "url": "https://www.microsoft.com/en-us/dynamics-365/blog/feed/",
       "itemCount": 10,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     },
     {
       "source": "Microsoft Copilot Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-copilot-blog",
       "itemCount": 20,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     },
     {
       "source": "Copilot Studio Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog",
       "itemCount": 18,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     },
     {
       "source": "Microsoft Agent 365 Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog",
       "itemCount": 16,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     },
     {
       "source": "Microsoft Power Platform Blog (Copilot Studio)",
       "url": "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/",
       "itemCount": 10,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     },
     {
       "source": "Microsoft AI at Work Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     },
     {
       "source": "Microsoft Copilot Studio Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     },
     {
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SPBlog",
       "itemCount": 14,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     },
     {
       "source": "Excel Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ExcelBlog",
       "itemCount": 15,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     },
     {
       "source": "Microsoft 365 Insider Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365InsiderBlog",
       "itemCount": 6,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     },
     {
       "source": "Microsoft Teams Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog",
       "itemCount": 7,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     },
     {
       "source": "Microsoft OneDrive Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=onedriveblog",
       "itemCount": 7,
-      "checkedAt": "2026-11-20T01:40:44.781Z"
+      "checkedAt": "2026-11-21T01:07:51.299Z"
     }
   ],
   "count": 100,
   "items": [
+    {
+      "title": "Available today: OpenAI's GPT-6.2 Sol and GPT-6.2 Astra in Microsoft Copilot",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-2-sol-and-gpt-6-2-astra-in/ba-p/4574229",
+      "description": "OpenAI's GPT-6.2 Sol and GPT-6.2 Astra are now joining the frontier models available in Microsoft Copilot, giving customers more choice as they delegate more complex tasks to AI. With both models in Copilot, you can match the model to the w",
+      "categories": [],
+      "source": "Microsoft Copilot Blog (Tech Community)",
+      "date": "2026-11-20T20:07:04.000Z"
+    },
     {
       "title": "Move beyond legacy ERP and CRM with Dynamics 365 Activate",
       "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/19/dynamics-365-activate-erp-crm-migration/",
@@ -914,14 +922,6 @@
       "categories": [],
       "source": "Microsoft Teams Blog (Tech Community)",
       "date": "2026-08-21T23:19:49.000Z"
-    },
-    {
-      "title": "Co-create slides with Copilot in PowerPoint for iPad",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/co-create-slides-with-copilot-in-powerpoint-for-ipad/ba-p/4546240",
-      "description": "I’m excited to introduce a feature many of you already use on desktop and the web to PowerPoint for iPad: the ability to co-create with Microsoft 365 Copilot directly in your presentation. What’s new Whether you ’ re building a first draft,",
-      "categories": [],
-      "source": "Microsoft 365 Insider Blog (Tech Community)",
-      "date": "2026-08-13T15:45:00.000Z"
     }
   ]
 }

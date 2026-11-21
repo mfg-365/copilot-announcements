@@ -1,12 +1,138 @@
 {
-  "generatedAt": "2026-11-20T01:40:43.168Z",
+  "generatedAt": "2026-11-21T01:07:49.614Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 903,
+  "totalCopilotFeatures": 905,
   "counts": {
-    "inDevelopment": 166,
-    "rollingOut": 34
+    "inDevelopment": 167,
+    "rollingOut": 33
   },
   "items": [
+    {
+      "id": 581776,
+      "title": "Dynamics 365 Human Resources: Ask HR - conversational HR self-service grounded in your own worker record",
+      "description": "Business value Employees and managers routinely contact HR for answers their HR system already holds — how much leave they have, what their policy allows in their location, where a request has reached. The information exists, but it is spread across separate records, so a generic answer is often wrong for the individual asking. Workforce intelligence answers those questions from the person's own worker record, plan enrolment and jurisdiction, and lets them complete the related transaction in the same conversation, so routine requests are resolved directly and HR teams can focus on work that needs judgment. Capability details Personal information, viewed and maintained: Employees can view their own personal details and submit updates, with the change written back through the standard governed process. Grounded policy and HR answers: Questions are answered from the employee's own plan, grade and jurisdiction rather than a single generic policy response. Leave entitlement and requests: Employees can ask about entitlement and balance, submit a leave request, and check the status of a request they already raised. Manager approvals: Managers can review their pending queue and act on requests for their direct reports. Team availability: Managers can ask about coverage across their direct reports. Governed by design: Requests operate on a bounded context — the individual and their direct relationships — and the agent confirms an action with the user before any record is written. Enablement Enablement details, including administrator setup, prerequisites and rollout behavior, will be confirmed before release.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Human Resources"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "March CY2027",
+      "preview": "February CY2026",
+      "modified": "2026-11-20T23:20:27",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=581776"
+    },
+    {
+      "id": 570867,
+      "title": "Work IQ: Listen",
+      "description": "Enable agents to listen for supported Work IQ events and respond as relevant changes occur.",
+      "status": "In development",
+      "products": [
+        "Work IQ",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "January CY2027",
+      "preview": "November CY2026",
+      "modified": "2026-11-20T23:20:27",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570867"
+    },
+    {
+      "id": 566523,
+      "title": "Microsoft Teams: Facilitator follow-up mode",
+      "description": "Chat naturally with Facilitator without tagging it each time.",
+      "status": "In development",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "January CY2027",
+      "preview": "December CY2026",
+      "modified": "2026-11-20T23:20:27",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566523"
+    },
+    {
+      "id": 560700,
+      "title": "Microsoft Teams: AI-powered notes for in-person meetings with Facilitator in Teams Rooms on Android",
+      "description": "In addition to capturing real-time notes and meeting outcomes during scheduled or hybrid meetings, the Facilitator agent assists you with notes, decisions and actions for in-person meetings in Teams Rooms on Android. Simply invite Facilitator with one tap of the room console. Meeting notes appear on the front of room display or touch board, are available via meeting recap when shared, and deleted if no one selected. Rest assured no data remains in the room. Available with Teams Rooms Pro.",
+      "status": "Rolling out",
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "platforms": [
+        "Teams and Surface Devices"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "November CY2026",
+      "preview": "",
+      "modified": "2026-11-20T23:20:27",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=560700"
+    },
+    {
+      "id": 579968,
+      "title": "Microsoft Copilot Studio: PPAC Reporting API",
+      "description": "Power Platform reporting API for Copilot credits provides customers with access to Copilot Credit usage from Copilot Studio through the Power Platform API, extending the existing reports available in the Power Platform Admin Center. Details of the API methods are available in the Microsoft Power Platform API reference - Power Platform API | Microsoft Learn , providing insights into usage by resource, environment, user, and feature. New reports and capabilities will continue to be released. These reports can be used with Power Platform API credit allocations to monitor and optimize resources and environments that consume Copilot Credits.",
+      "status": "In development",
+      "products": [
+        "Microsoft Copilot Studio"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "January CY2027",
+      "preview": "November CY2026",
+      "modified": "2026-11-20T01:24:53",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579968"
+    },
+    {
+      "id": 564615,
+      "title": "Microsoft Purview: Data Security Triage Agent - Sensitive Data Remediation through Microsoft Teams",
+      "description": "The Data Security Triage Agent in Data Loss Prevention now offers a new sensitive data remediation function, which empowers organizations to proactively identify and remediate sensitive information—such as Social Security Numbers, passwords, and credit card data—across thousands of files stored in SharePoint or OneDrive locations, dramatically increasing the percentage of remediated files with sensitive information, resulting in reduced compliance risk. Seamlessly integrated with Microsoft Purview, this new agent function automatically detects file(s) with a Data Loss Prevention (DLP) policy match “Needs Attention” alerts and pushes a remediation notification to the end user who last modified the file guiding them to remove sensitive data through targeted Microsoft Teams messages. Its’ closed-loop workflow ensures that remediation progress is tracked and confirmed, giving admins real-time visibility and control via the Data Security Posture Management dashboard. By streamlining sensitive data cleanup and automating user engagement, this agent helps organizations achieve their remediation goals at scale. Let the Data Security Triage Agent handle the heavy lifting of pushing remediation requests directly to the end user, so Purview admins don't have to!",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "December CY2027",
+      "preview": "June CY2026",
+      "modified": "2026-11-20T01:24:53",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=564615"
+    },
     {
       "id": 576285,
       "title": "Power Apps: Expand model access and Maker Studio availability for generative pages via GitHub",
@@ -146,30 +272,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579889"
     },
     {
-      "id": 566523,
-      "title": "Microsoft Teams: Facilitator follow-up mode",
-      "description": "Chat naturally with Facilitator without tagging it each time.",
-      "status": "In development",
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "January CY2027",
-      "preview": "",
-      "modified": "2026-11-19T00:53:06",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566523"
-    },
-    {
       "id": 577399,
       "title": "Microsoft Teams: Enhanced Copilot and AI controls for meetings",
       "description": "Teams Meetings offer enhanced AI controls for Copilot and AI experiences. Organizers manage who can enable and access AI, while IT admins get a simpler policy model for governing AI across meetings and post-meeting experiences. These updates provide more predictable administration and greater flexibility for compliance and governance scenarios.",
@@ -192,30 +294,6 @@
       "preview": "",
       "modified": "2026-11-19T00:53:06",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577399"
-    },
-    {
-      "id": 577173,
-      "title": "Microsoft 365: [Education] Provide a Copilot starter prompt in Teams and LMS Assignments",
-      "description": "Educators can provide a Copilot starter prompt from Student AI Guidelines in Teams and LMS Assignments. Students open Copilot with the educator's prompt ready in their chat, helping them begin with instructions tailored to the assignment.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft 365",
-        "Microsoft Teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-11-19T00:53:06",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577173"
     },
     {
       "id": 420335,
@@ -255,26 +333,6 @@
       "preview": "October CY2026",
       "modified": "2026-11-19T00:35:27",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575277"
-    },
-    {
-      "id": 579968,
-      "title": "Microsoft Copilot Studio: PPAC Reporting API",
-      "description": "The PPAC Reporting API gives customers scalable, programmatic access to Copilot Studio usage data from our lakehouse, replacing older unsupported methods for pulling consumption data. Daily JSON data by environment, user, agent and feature powers dashboards, FinOps reporting and automated cost controls.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot Studio"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "January CY2027",
-      "preview": "November CY2026",
-      "modified": "2026-11-18T18:32:08",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=579968"
     },
     {
       "id": 580449,
@@ -4055,66 +4113,6 @@
       "preview": "November CY2026",
       "modified": "2026-10-12T23:01:05",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570871"
-    },
-    {
-      "id": 570850,
-      "title": "Work IQ: Upload",
-      "description": "Enable agents to upload files and content to supported Microsoft 365 destinations.",
-      "status": "In development",
-      "products": [
-        "Work IQ"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "October CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-10-12T23:01:05",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570850"
-    },
-    {
-      "id": 568072,
-      "title": "Microsoft Viva: Copilot Dashboard - Targeted Audience Surveys",
-      "description": "Targeted Audience Surveys let change leaders launch a Copilot Pulse survey directly from the Copilot Dashboard to all licensed or active users. Audiences update automatically using Insights data and respect existing dashboard filters like organization and job function, with privacy protected through population-level reporting only. Pair adoption metrics with employee sentiment in just a few clicks.",
-      "status": "In development",
-      "products": [
-        "Microsoft Viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "September CY2026",
-      "modified": "2026-10-12T23:01:05",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=568072"
-    },
-    {
-      "id": 561485,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot in Forms - US Government clouds",
-      "description": "Copilot in Forms is being enabled for Microsoft Forms in Government Cloud environments, bringing end-to-end AI assistance to forms, from creating a form, to refining and sending to analyzing results. This rollout includes key Copilot features such as: - Draft with Copilot - Distribution and monitoring - Copilot Insights - On-canvas Copilot features such as Rewrite question, Continue writing, Answer explanations, and more.",
-      "status": "Rolling out",
-      "products": [
-        "Forms",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "September CY2026",
-      "preview": "",
-      "modified": "2026-10-12T23:01:05",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561485"
     }
   ]
 }
