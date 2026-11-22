@@ -1,83 +1,83 @@
 {
-  "generatedAt": "2026-11-21T01:07:51.299Z",
+  "generatedAt": "2026-11-22T00:07:36.141Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     },
     {
       "source": "Microsoft Dynamics 365 Blog",
       "url": "https://www.microsoft.com/en-us/dynamics-365/blog/feed/",
       "itemCount": 10,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     },
     {
       "source": "Microsoft Copilot Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-copilot-blog",
       "itemCount": 20,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     },
     {
       "source": "Copilot Studio Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog",
       "itemCount": 18,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     },
     {
       "source": "Microsoft Agent 365 Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog",
       "itemCount": 16,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     },
     {
       "source": "Microsoft Power Platform Blog (Copilot Studio)",
       "url": "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/",
       "itemCount": 10,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     },
     {
       "source": "Microsoft AI at Work Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     },
     {
       "source": "Microsoft Copilot Studio Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     },
     {
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SPBlog",
       "itemCount": 14,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     },
     {
       "source": "Excel Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ExcelBlog",
       "itemCount": 15,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     },
     {
       "source": "Microsoft 365 Insider Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365InsiderBlog",
       "itemCount": 6,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     },
     {
       "source": "Microsoft Teams Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog",
       "itemCount": 7,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     },
     {
       "source": "Microsoft OneDrive Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=onedriveblog",
       "itemCount": 7,
-      "checkedAt": "2026-11-21T01:07:51.299Z"
+      "checkedAt": "2026-11-22T00:07:36.141Z"
     }
   ],
   "count": 100,
