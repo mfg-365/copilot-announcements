@@ -1,12 +1,100 @@
 {
-  "generatedAt": "2026-11-23T00:36:45.567Z",
+  "generatedAt": "2026-11-24T04:38:53.858Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 899,
+  "totalCopilotFeatures": 901,
   "counts": {
-    "inDevelopment": 167,
-    "rollingOut": 33
+    "inDevelopment": 168,
+    "rollingOut": 32
   },
   "items": [
+    {
+      "id": 581790,
+      "title": "Dynamics 365 Sales: Customize how Recommended Actions are prioritized with custom instructions",
+      "description": "Administrators can customize how the Recommended Actions agent prioritizes actions by configuring natural-language instructions for individual source agents. This gives organizations greater flexibility to align AI-generated recommendations with their sales strategies while retaining the built-in intelligence of the Recommended Actions experience. With this capability, administrators can: Define business-specific prioritization criteria : Use natural-language instructions to express the organization's priorities. For example, prioritize opportunities with a high revenue value that have passed their expected close date. **Configure prioritization by source agent: **Define separate instructions for supported source agents, such as Sales Opportunity Agent, Sales Qualification Agent, and custom agents. **- Map instructions to CRM data: **Associate custom prioritization instructions with relevant Dynamics 365 data, including both out-of-the-box and custom fields and entities. **- Combine custom business priorities with AI scoring: **Custom instructions complement the built-in prioritization criteria, which consider urgency, business impact, confidence, and effort when ranking recommended actions.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Sales"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "December CY2026",
+      "preview": "",
+      "modified": "2026-11-24T00:13:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=581790"
+    },
+    {
+      "id": 580889,
+      "title": "Microsoft Copilot (Microsoft 365): The more you use Copilot in Office the better it gets",
+      "description": "Copilot in Word, Excel, PowerPoint, and Workspaces across Copilot App and OneNote will use memory to learn your work patterns and personalize responses. With memory, Copilot can offer more relevant suggestions, hold the pen in a way that represents you, and adapt to your preferences over time",
+      "status": "In development",
+      "products": [
+        "Excel",
+        "Microsoft 365",
+        "OneNote",
+        "PowerPoint",
+        "Word",
+        "Microsoft Copilot (Microsoft 365)",
+        "Work IQ"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "releasePhase": [
+        "Current Channel",
+        "General Availability",
+        "Preview",
+        "Targeted Release"
+      ],
+      "availability": "November CY2026",
+      "preview": "November CY2026",
+      "modified": "2026-11-24T00:13:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=580889"
+    },
+    {
+      "id": 562345,
+      "title": "Microsoft Purview: Archive SharePoint files under retention policies",
+      "description": "With the introduction of file archiving support in SharePoint Online, administrators are looking to seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins want to now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SPO. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "January CY2027",
+      "preview": "",
+      "modified": "2026-11-24T00:13:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562345"
+    },
+    {
+      "id": 561208,
+      "title": "Microsoft Purview: Data Lifecycle Management – Archive SharePoint files under retention",
+      "description": "We are introducing file archiving support in SharePoint Online, utilizing this feature administrators can seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins can now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SharePoint Online. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
+      "status": "In development",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "December CY2026",
+      "preview": "September CY2026",
+      "modified": "2026-11-24T00:13:11",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=561208"
+    },
     {
       "id": 581776,
       "title": "Dynamics 365 Human Resources: Ask HR - conversational HR self-service grounded in your own worker record",
@@ -2472,25 +2560,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575275"
     },
     {
-      "id": 570647,
-      "title": "SharePoint: Changes to the FAQ web part authoring experience",
-      "description": "The SharePoint FAQ web part will provide a standard, non-AI experience for manually creating, editing, and managing FAQs. The AI-assisted FAQ creation and import will move to the Copilot in SharePoint authoring experience, where authors can use natural-language prompts and selected grounding sources to generate FAQ content that is saved to the compatible FAQ web part. Existing FAQ web parts and their content will continue to render without migration.",
-      "status": "Rolling out",
-      "products": [
-        "SharePoint"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-10-27T23:05:02",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570647"
-    },
-    {
       "id": 569214,
       "title": "Microsoft Teams: Copilot Chat for chats, channels, calls, and meetings in GCC, GCC High, and DoD",
       "description": "Copilot Chat will soon be available across chats, channels, calls, and meetings, helping users stay informed and catch up quickly.",
@@ -3317,25 +3386,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=566701"
     },
     {
-      "id": 562345,
-      "title": "Microsoft Purview: Archive SharePoint files under retention policies",
-      "description": "With the introduction of file archiving support in SharePoint Online, administrators are looking to seamlessly include archiving actions within their existing data retention policies. This means that, in addition to keeping or deleting data, admins want to now leverage Purview DLM to archive files according to organizational requirements, ensuring comprehensive governance across all stages of the content lifecycle in SPO. Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
-      "status": "In development",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "December CY2026",
-      "preview": "",
-      "modified": "2026-10-19T23:15:15",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=562345"
-    },
-    {
       "id": 562412,
       "title": "Microsoft Viva: Agent metrics for custom reporting in Insights analyst workbench",
       "description": "Unlock deeper insights into Copilot agent adoption with flexible, self-serve analytics. Insights global and partition analysts can access and combine granular agent usage metrics with agent and organizational attributes to uncover agent adoption trends, export and customize reporting, and drive more informed decisions, without relying on predefined dashboards.",
@@ -4072,47 +4122,6 @@
       "preview": "",
       "modified": "2026-10-12T23:01:05",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=574105"
-    },
-    {
-      "id": 571888,
-      "title": "Power Apps: Model-driven applications in Business Apps in Work IQ",
-      "description": "Power Apps model-driven apps are now available as Business Apps in Work IQ. They can be accessed through the Work IQ (Preview) tool in Copilot Studio or through a natural-language chat experience powered by Work IQ MCP. In either experience, natural-language prompts let users list and read records or create, update, and delete them. For create and update, Work IQ maps supplied values to the appropriate app fields. Before a change is submitted, the proposed values require explicit user confirmation.",
-      "status": "In development",
-      "products": [
-        "Power Apps"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "September CY2026",
-      "modified": "2026-10-12T23:01:05",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=571888"
-    },
-    {
-      "id": 570871,
-      "title": "Work IQ: Updating documents in Office",
-      "description": "Work IQ enables agents to create and edit Microsoft Office documents using organizational context, helping users produce and update content more efficiently.",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Work IQ"
-      ],
-      "platforms": [
-        "Developer"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "January CY2027",
-      "preview": "November CY2026",
-      "modified": "2026-10-12T23:01:05",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570871"
     }
   ]
 }
