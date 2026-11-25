@@ -1,12 +1,52 @@
 {
-  "generatedAt": "2026-11-24T04:38:53.858Z",
+  "generatedAt": "2026-11-25T03:23:48.690Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 901,
+  "totalCopilotFeatures": 899,
   "counts": {
-    "inDevelopment": 168,
-    "rollingOut": 32
+    "inDevelopment": 169,
+    "rollingOut": 31
   },
   "items": [
+    {
+      "id": 581772,
+      "title": "Dynamics 365 Human Resources: Agent onboarding for new employees",
+      "description": "Business value Onboarding in Dynamics 365 Human Resources spans several pages and two people: HR administrators hire the candidate, enroll leave and set compensation, while the new employee completes personal details, address, emergency contacts and identification. Steps are easy to miss. A new agentic onboarding experience will brings the tasks into one guided conversation over live Human Resources data. Every change is previewed and confirmed explicitly, and all reads and writes run under the signed-in user's security roles and legal entities, so teams move faster without giving up control. Capability details Ready-to-start worklist: unprocessed candidates whose estimated start date falls in the configured trigger lead-days window, across the HR manager's legal entities. Guided hire: opens the standard Hire new worker dialog with real lookup values (worker type, employment type, dates, position, personnel number, checklist templates), then creates the worker and re-reads the result. Start date adjustment, leave plan enrollment and fixed compensation, each confirmed and read back, plus a read-only onboarding status view. New employee self-service: own checklist grouped overdue, pending and done, plus personal details, home address, emergency contacts and identification. Identification capture: the employee uploads a passport, license, national ID or work permit image; the agent proposes the type, number, issuing country and dates, masks the number and requires confirmation. The image is not retained. Also included: natural-language address entry, progress summary, an introductory email draft and resource links. Enablement Configured per legal entity in Human resources parameters: the Copilot HR manager toggle and Copilot trigger lead days drive the candidate worklist. Administrator capabilities require the Human resource manager or assistant role; employee capabilities run under self-service access",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Human Resources"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "July CY2027",
+      "preview": "March CY2027",
+      "modified": "2026-11-25T00:10:31",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=581772"
+    },
+    {
+      "id": 578903,
+      "title": "Dynamics 365 Project Operations: Activity Approvals Agent",
+      "description": "The Approvals Agent in Dynamics 365 Project Operations uses AI to perform an initial review of submitted time, expense, and material entries against policy documents written in natural language. It classifies entries as Ready for approval or Needs review, helping project managers prioritize entries that require attention. Organizations can choose between two operating modes. In Classify mode, approvers review the agent’s classifications and manually approve entries. In Classify and auto approve mode, entries classified as Ready for approval are automatically processed for approval, while entries classified as Needs review remain available for human review. Administrators can configure organization-wide policies and project-specific policies for each entry type. A project-specific policy takes precedence over the corresponding organization-wide policy. Project-level controls determine which projects use the agent, with a configurable default for new projects. Approvers can review classified entries, approve or reject them, or return them to the agent for reevaluation after a policy update. If no applicable policy document exists for an entry type, the agent does not classify those entries.",
+      "status": "In development",
+      "products": [
+        "Dynamics 365 Project Operations"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability",
+        "Preview"
+      ],
+      "availability": "March CY2027",
+      "preview": "April CY2025",
+      "modified": "2026-11-25T00:10:31",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=578903"
+    },
     {
       "id": 581790,
       "title": "Dynamics 365 Sales: Customize how Recommended Actions are prioritized with custom instructions",
@@ -4082,46 +4122,6 @@
       "preview": "October CY2026",
       "modified": "2026-10-13T23:01:05",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570673"
-    },
-    {
-      "id": 472030,
-      "title": "Microsoft Purview compliance portal: Data Lifecycle Management - Retention based on Last Accessed for files in OneDrive and SharePoint",
-      "description": "This creates the ability to apply Retention to each SharePoint or OneDrive item based on when it was last accessed by a user. #copilotcontrolsystem",
-      "status": "In development",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "February CY2027",
-      "preview": "January CY2027",
-      "modified": "2026-10-13T23:01:05",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=472030"
-    },
-    {
-      "id": 574105,
-      "title": "Microsoft Copilot (Microsoft 365): Integrate the Sales Development agent with Salesforce",
-      "description": "Sales Development Agent now integrates with Salesforce, enabling organizations to use SDA with their existing Salesforce CRM. SDA can access leads, manage prospect records, log sales activities, and keep engagement actions—including qualification, disqualification, and ownership changes—connected to the CRM workflow. The integration uses Microsoft’s Salesforce Model Context Protocol (MCP) server to connect SDA with Salesforce.",
-      "status": "Rolling out",
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "releasePhase": [
-        "Current Channel"
-      ],
-      "availability": "October CY2026",
-      "preview": "",
-      "modified": "2026-10-12T23:01:05",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=574105"
     }
   ]
 }

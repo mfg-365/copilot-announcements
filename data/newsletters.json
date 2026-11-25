@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T04:38:55.528Z",
+  "generatedAt": "2026-11-25T03:23:50.699Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -21,13 +21,31 @@
       },
       "stories": [
         {
+          "title": "What's New in Excel (November 2026)",
+          "summary": "Finance teams can hand reconciliations and journal entries to new accounting skills, analysts can group PivotTable data just by asking, and anyone who opens a read-only workbook can now ask Copilot about it. You also get more model choices.",
+          "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-november-2026/ba-p/4573867",
+          "date": "2026-11-25T00:31:51.000Z",
+          "label": "Excel Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
+          "title": "How to manage costs for Copilot Studio agents",
+          "summary": "A practical guide to measuring agent consumption, forecasting demand, and managing usage-based costs across maker and admin experiences. The introduction of the Microsoft Copilot harness for Copilot Studio adds to a broader shift toward usa",
+          "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
+          "date": "2026-11-24T20:51:02.000Z",
+          "label": "Copilot Studio Blog (Tech Community)",
+          "kind": "blog"
+        },
+        {
           "title": "Available today: OpenAI's GPT-6.2 Sol and GPT-6.2 Astra in Microsoft Copilot",
           "summary": "OpenAI's GPT-6.2 Sol and GPT-6.2 Astra are now joining the frontier models available in Microsoft Copilot, giving customers more choice as they delegate more complex tasks to AI. With both models in Copilot, you can match the model to the w",
           "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-2-sol-and-gpt-6-2-astra-in/ba-p/4574229",
           "date": "2026-11-20T20:07:04.000Z",
           "label": "Microsoft Copilot Blog (Tech Community)",
           "kind": "blog"
-        },
+        }
+      ],
+      "reads": [
         {
           "title": "Move beyond legacy ERP and CRM with Dynamics 365 Activate",
           "summary": "Learn how Dynamics 365 Activate helps customers and partners move beyond legacy ERP and CRM systems with an agentic approach to discovery, requirements, configuration, and migration. The post Move beyond legacy ERP and CRM with Dynamics 365",
@@ -43,9 +61,7 @@
           "date": "2026-11-19T16:00:00.000Z",
           "label": "Microsoft Dynamics 365 Blog",
           "kind": "blog"
-        }
-      ],
-      "reads": [
+        },
         {
           "title": "Business Applications in Work IQ is now generally available",
           "summary": "Business Applications in Work IQ is now generally available, grounding Microsoft Copilot and agents in Dynamics 365 and Power Platform business data, processes, and permissions. The post Business Applications in Work IQ is now generally ava",
@@ -60,22 +76,6 @@
           "link": "https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2026/11/18/microsoft-contact-center-intelligence-now-generally-available-transform-customer-interactions/",
           "date": "2026-11-18T16:30:00.000Z",
           "label": "Microsoft Dynamics 365 Blog",
-          "kind": "blog"
-        },
-        {
-          "title": "The End of Starting Over: How Work IQ helps Copilot understand you and your work",
-          "summary": "As Copilot and agents become part of your everyday work, you increasingly rely on them to help you complete tasks, make decisions, and move work forward. Just as you expect colleagues to understand your preferences, ways of working, and the",
-          "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/the-end-of-starting-over-how-work-iq-helps-copilot-understand/ba-p/4571169",
-          "date": "2026-11-18T16:08:44.000Z",
-          "label": "Microsoft Copilot Blog (Tech Community)",
-          "kind": "blog"
-        },
-        {
-          "title": "Build and manage business processes with Microsoft Copilot Studio",
-          "summary": "Learn how Copilot Studio helps organizations connect agents, workflows, and apps to streamline business processes across teams and systems. The post Build and manage business processes with Microsoft Copilot Studio appeared first on Microso",
-          "link": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/build-and-manage-business-processes-with-microsoft-copilot-studio/",
-          "date": "2026-11-18T16:00:00.000Z",
-          "label": "Microsoft Copilot Studio Blog",
           "kind": "blog"
         }
       ],

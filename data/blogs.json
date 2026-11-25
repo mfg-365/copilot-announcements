@@ -1,87 +1,103 @@
 {
-  "generatedAt": "2026-11-24T04:38:55.466Z",
+  "generatedAt": "2026-11-25T03:23:50.646Z",
   "sources": [
     {
       "source": "Microsoft 365 Blog",
       "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     },
     {
       "source": "Microsoft Dynamics 365 Blog",
       "url": "https://www.microsoft.com/en-us/dynamics-365/blog/feed/",
       "itemCount": 10,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     },
     {
       "source": "Microsoft Copilot Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=microsoft-copilot-blog",
       "itemCount": 20,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     },
     {
       "source": "Copilot Studio Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=copilot-studio-blog",
-      "itemCount": 18,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "itemCount": 19,
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     },
     {
       "source": "Microsoft Agent 365 Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=agent-365-blog",
       "itemCount": 16,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     },
     {
       "source": "Microsoft Power Platform Blog (Copilot Studio)",
       "url": "https://www.microsoft.com/en-us/power-platform/blog/product/copilot-studio/feed/",
       "itemCount": 10,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     },
     {
       "source": "Microsoft AI at Work Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     },
     {
       "source": "Microsoft Copilot Studio Blog",
       "url": "https://www.microsoft.com/en-us/copilot/blog/copilot-studio/feed/",
       "itemCount": 9,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     },
     {
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SPBlog",
       "itemCount": 14,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     },
     {
       "source": "Excel Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=ExcelBlog",
       "itemCount": 15,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     },
     {
       "source": "Microsoft 365 Insider Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=Microsoft365InsiderBlog",
       "itemCount": 6,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     },
     {
       "source": "Microsoft Teams Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=MicrosoftTeamsBlog",
       "itemCount": 7,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     },
     {
       "source": "Microsoft OneDrive Blog (Tech Community)",
       "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=onedriveblog",
       "itemCount": 7,
-      "checkedAt": "2026-11-24T04:38:55.466Z"
+      "checkedAt": "2026-11-25T03:23:50.646Z"
     }
   ],
   "count": 100,
   "items": [
+    {
+      "title": "What's New in Excel (November 2026)",
+      "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-november-2026/ba-p/4573867",
+      "description": "Finance teams can hand reconciliations and journal entries to new accounting skills, analysts can group PivotTable data just by asking, and anyone who opens a read-only workbook can now ask Copilot about it. You also get more model choices.",
+      "categories": [],
+      "source": "Excel Blog (Tech Community)",
+      "date": "2026-11-25T00:31:51.000Z"
+    },
+    {
+      "title": "How to manage costs for Copilot Studio agents",
+      "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
+      "description": "A practical guide to measuring agent consumption, forecasting demand, and managing usage-based costs across maker and admin experiences. The introduction of the Microsoft Copilot harness for Copilot Studio adds to a broader shift toward usa",
+      "categories": [],
+      "source": "Copilot Studio Blog (Tech Community)",
+      "date": "2026-11-24T20:51:02.000Z"
+    },
     {
       "title": "Available today: OpenAI's GPT-6.2 Sol and GPT-6.2 Astra in Microsoft Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/available-today-openai-s-gpt-6-2-sol-and-gpt-6-2-astra-in/ba-p/4574229",
@@ -906,22 +922,6 @@
       "categories": [],
       "source": "Microsoft SharePoint Blog (Tech Community)",
       "date": "2026-08-27T16:28:53.000Z"
-    },
-    {
-      "title": "What's New in Excel (August 2026)",
-      "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-august-2026/ba-p/4527283",
-      "description": "Welcome to the August 2026 update. New this month for Copilot, chat history, chart/PivotTable skills, Python skill, as well as change history. Excel for Windows, Mac, and web: - Copilot in Excel: change history skill #FIA - Copilot in Excel",
-      "categories": [],
-      "source": "Excel Blog (Tech Community)",
-      "date": "2026-08-26T20:52:44.000Z"
-    },
-    {
-      "title": "Turn conversations into code with GitHub Copilot in Microsoft Teams",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/turn-conversations-into-code-with-github-copilot-in-microsoft/ba-p/4548305",
-      "description": "Coding where context lives and collaboration happens The best prompt may be the conversation your team has already had or is currently having. Until now, using a coding agent often meant paying context and coordination taxes. Developers had",
-      "categories": [],
-      "source": "Microsoft Teams Blog (Tech Community)",
-      "date": "2026-08-21T23:19:49.000Z"
     }
   ]
 }
