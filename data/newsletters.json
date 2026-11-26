@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T03:23:50.699Z",
+  "generatedAt": "2026-11-26T02:40:32.329Z",
   "count": 11,
   "currentEdition": "2026-11",
   "editions": [
@@ -30,7 +30,7 @@
         },
         {
           "title": "How to manage costs for Copilot Studio agents",
-          "summary": "A practical guide to measuring agent consumption, forecasting demand, and managing usage-based costs across maker and admin experiences. The introduction of the Microsoft Copilot harness for Copilot Studio adds to a broader shift toward usa",
+          "summary": "The Microsoft Copilot harness gives agents deeper reasoning: they can plan multistep work and adapt as they go, so an agent can take on a task like researching a customer issue across several systems and drafting the reply, instead of answe",
           "link": "https://techcommunity.microsoft.com/t5/copilot-studio-blog/how-to-manage-costs-for-copilot-studio-agents/ba-p/4576413",
           "date": "2026-11-24T20:51:02.000Z",
           "label": "Copilot Studio Blog (Tech Community)",
@@ -85,6 +85,14 @@
       },
       "roadmap": [
         {
+          "title": "Outlook: Copilot Chat available in shared and delegate mailboxes",
+          "description": "Shared mailbox users and delegates with read and manage (full access) and/or mail folder-level permission will now be able to access Copilot Chat directly from their shared and delegate mailboxes in classic Outlook, when added as a…",
+          "status": "Rolling out",
+          "availability": "November CY2026",
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573698",
+          "product": "Outlook"
+        },
+        {
           "title": "Microsoft Teams: AI-powered notes for in-person meetings with Facilitator in Teams Rooms on Android",
           "description": "In addition to capturing real-time notes and meeting outcomes during scheduled or hybrid meetings, the Facilitator agent assists you with notes, decisions and actions for in-person meetings in Teams Rooms on Android. Simply invite…",
           "status": "Rolling out",
@@ -93,20 +101,12 @@
           "product": "Microsoft Teams"
         },
         {
-          "title": "Dynamics 365 Contact Center: Use after conversation presence status for wrap-up activities",
-          "description": "After conversation work presence is a system-generated status that's automatically set when a customer service representative is finishing tasks after a customer interaction, such as writing notes, updating records, selecting…",
-          "status": "Rolling out",
-          "availability": "October CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=577396",
-          "product": "Dynamics 365 Contact Center"
-        },
-        {
-          "title": "Dynamics 365 Contact Center: Biometric authentication and fraud detection",
-          "description": "Together, voice biometric authentication and fraud detection deliver business value by reducing fraud and agent operating costs in contact centers (note: these two capabilities can be used independently or together). Voice biometric…",
+          "title": "Microsoft Teams: Enable agents for existing applications in your organization",
+          "description": "For third-party applications already being used in your organization, admins can now discover and enable the corresponding Teams agents from within the Teams Admin Center. Admins receive recommendations for high-value agents and gain…",
           "status": "Rolling out",
           "availability": "November CY2026",
-          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=575281",
-          "product": "Dynamics 365 Contact Center"
+          "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=569608",
+          "product": "Microsoft Teams"
         }
       ]
     },

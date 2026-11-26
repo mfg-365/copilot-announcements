@@ -1,12 +1,50 @@
 {
-  "generatedAt": "2026-11-25T03:23:48.690Z",
+  "generatedAt": "2026-11-26T02:40:30.676Z",
   "source": "https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=Copilot",
-  "totalCopilotFeatures": 899,
+  "totalCopilotFeatures": 900,
   "counts": {
-    "inDevelopment": 169,
-    "rollingOut": 31
+    "inDevelopment": 168,
+    "rollingOut": 32
   },
   "items": [
+    {
+      "id": 578862,
+      "title": "Microsoft Viva: Access Management for Copilot Analytics",
+      "description": "Admins can now manage who has access to Viva Insights - Copilot Analytics, and what they can do, directly in the product. The new Access Management experience brings role assignment and permissions into one place for Global administrators, AI administrators and Viva Insights administrators, instead of managing access across Viva Feature Access Management (VFAM) settings in the Microsoft 365 admin center and in-product Manager Settings. Admins create access policies that combine a permission set, which defines what users can do, with a partition, which defines the population and datasets users can see. Policies can be assigned to individual users, Microsoft Entra security groups or, for group managers, organizational attributes. Existing role assignments continue to work, and users are automatically moved to system-defined access policies.",
+      "status": "In development",
+      "products": [
+        "Microsoft Viva"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "January CY2027",
+      "preview": "",
+      "modified": "2026-11-26T00:16:54",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=578862"
+    },
+    {
+      "id": 573698,
+      "title": "Outlook: Copilot Chat available in shared and delegate mailboxes",
+      "description": "Shared mailbox users and delegates with read and manage (full access) and/or mail folder-level permission will now be able to access Copilot Chat directly from their shared and delegate mailboxes in classic Outlook, when added as a resource .",
+      "status": "Rolling out",
+      "products": [
+        "Outlook"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "releasePhase": [
+        "General Availability"
+      ],
+      "availability": "November CY2026",
+      "preview": "",
+      "modified": "2026-11-26T00:16:54",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573698"
+    },
     {
       "id": 581772,
       "title": "Dynamics 365 Human Resources: Agent onboarding for new employees",
@@ -4000,25 +4038,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573705"
     },
     {
-      "id": 573698,
-      "title": "Outlook: Copilot Chat available in shared and delegate mailboxes",
-      "description": "Shared mailbox users and delegates with read and manage (full access) and/or mail folder-level permission will now be able to access Copilot Chat directly from their shared and delegate mailboxes in classic Outlook, when added as a resource .",
-      "status": "In development",
-      "products": [
-        "Outlook"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "releasePhase": [
-        "General Availability"
-      ],
-      "availability": "November CY2026",
-      "preview": "",
-      "modified": "2026-10-13T23:01:05",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=573698"
-    },
-    {
       "id": 570870,
       "title": "Work IQ: Microsoft IQ",
       "description": "Provide a unified intelligence layer that helps agents discover, reason over, and use organizational knowledge.",
@@ -4101,27 +4120,6 @@
       "preview": "October CY2026",
       "modified": "2026-10-13T23:01:05",
       "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570851"
-    },
-    {
-      "id": 570673,
-      "title": "Work IQ: Retrieve",
-      "description": "Enable agents to retrieve relevant Microsoft 365 content and context through Work IQ.",
-      "status": "In development",
-      "products": [
-        "Work IQ",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "platforms": [
-        "Developer"
-      ],
-      "releasePhase": [
-        "General Availability",
-        "Preview"
-      ],
-      "availability": "November CY2026",
-      "preview": "October CY2026",
-      "modified": "2026-10-13T23:01:05",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/roadmap?id=570673"
     }
   ]
 }
